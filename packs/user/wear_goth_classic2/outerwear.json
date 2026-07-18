@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.outerwear.structured_black_coat",
+      "type": "outerwear",
+      "label": "A sharply tailored long black coat",
+      "prompt": "a sharply tailored long black coat",
+      "tags": [
+        "outer"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_classic2.outerwear.leather_corset_jacket",
+      "type": "outerwear",
+      "label": "A fitted black leather jacket",
+      "prompt": "a fitted black leather jacket",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_classic2.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

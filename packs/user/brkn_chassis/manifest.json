@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_chassis",
+  "name": "BRKN Chassis - the doll",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "The doll. Who she is and how she is shot -- characters, faces, figures, poses, gaze, expression, camera, style, light. Ships NO clothes and NO place. Layer a wardrobe pack and a place pack on top: enabled_packs = brkn_chassis, wear_goth, place_home",
+  "content_types": [
+    "characters",
+    "figures",
+    "poses",
+    "head_positions",
+    "gazes",
+    "expressions",
+    "camera_presets",
+    "visual_styles",
+    "lighting_presets",
+    "environments",
+    "locations",
+    "actions"
+  ],
+  "enabled_by_default": false,
+  "priority": 100,
+  "dependencies": [],
+  "tags": [
+    "chassis",
+    "layerable",
+    "doll"
+  ]
+}

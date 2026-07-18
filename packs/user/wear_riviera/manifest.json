@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_riviera",
+  "name": "BRKN Wardrobe - Riviera",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Old-money Mediterranean. Linen, silk, gold, white, bare skin. Nothing logo'd, nothing loud.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "accessories",
+    "face_paints",
+    "outerwear",
+    "headwear",
+    "eyewear",
+    "bags",
+    "body_arts",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "capsule",
+    "layerable"
+  ]
+}

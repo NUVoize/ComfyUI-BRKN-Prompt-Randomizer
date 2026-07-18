@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.headwear.hair_clips",
+      "type": "headwear",
+      "label": "Small heart hair clips holding back her fringe",
+      "prompt": "small heart hair clips holding back her fringe",
+      "tags": [
+        "hat"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_egirl_classic.headwear.bow_black",
+      "type": "headwear",
+      "label": "A large black bow in her hair",
+      "prompt": "a large black bow in her hair",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl_classic.headwear.headphones",
+      "type": "headwear",
+      "label": "Headphones pushed down around her neck",
+      "prompt": "headphones pushed down around her neck",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_egirl_classic.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

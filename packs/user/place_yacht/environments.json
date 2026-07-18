@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_yacht.environment.y_named_monaco",
+      "type": "environment",
+      "label": "A large white superyacht docked in the marina at monte c",
+      "prompt": "a large white superyacht docked in the marina at Monte Carlo, Monaco, the hillside of the principality rising behind it",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_yacht.environment.y_named_monaco_full",
+      "type": "environment",
+      "label": "A modern white superyacht in monte carlo harbour, other ",
+      "prompt": "a modern white superyacht in Monte Carlo harbour, other luxury yachts either side, palm trees and the Monaco hillside beyond",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_yacht.environment.y_desc",
+      "type": "environment",
+      "label": "A large modern superyacht with a long sculpted white hul",
+      "prompt": "a large modern superyacht with a long sculpted white hull, multiple decks, dark panoramic windows and polished chrome railings, docked in an upscale Mediterranean marina",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_yacht.environment.y_desc_full",
+      "type": "environment",
+      "label": "A white superyacht with teak decking and chrome rails, m",
+      "prompt": "a white superyacht with teak decking and chrome rails, moored among other luxury yachts in calm turquoise water, dense hillside architecture and palm trees behind",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_yacht.environment.y_golden",
+      "type": "environment",
+      "label": "A white superyacht in a mediterranean marina at golden h",
+      "prompt": "a white superyacht in a Mediterranean marina at golden hour",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "place_yacht.environment.y_evening",
+      "type": "environment",
+      "label": "A white superyacht lit up in a marina after dark",
+      "prompt": "a white superyacht lit up in a marina after dark",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "place_yacht.environment.y_open_water",
+      "type": "environment",
+      "label": "A white superyacht at anchor off a rocky coast",
+      "prompt": "a white superyacht at anchor off a rocky coast",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.accessory.cameo_choker",
+      "type": "accessory",
+      "label": "A black ribbon choker with a cameo",
+      "prompt": "a black ribbon choker with a cameo",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_romantic.accessory.pearl_drop",
+      "type": "accessory",
+      "label": "A single pearl drop at her throat",
+      "prompt": "a single pearl drop at her throat",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_romantic.accessory.lace_gloves",
+      "type": "accessory",
+      "label": "Black lace gloves to the elbow",
+      "prompt": "black lace gloves to the elbow",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_romantic.accessory.locket",
+      "type": "accessory",
+      "label": "A heavy antique locket",
+      "prompt": "a heavy antique locket",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_romantic.accessory.filigree_ring",
+      "type": "accessory",
+      "label": "A large filigree silver ring",
+      "prompt": "a large filigree silver ring",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_romantic.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

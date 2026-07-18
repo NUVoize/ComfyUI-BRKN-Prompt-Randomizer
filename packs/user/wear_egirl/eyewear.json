@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "wear_egirl.eyewear.blue_light",
+      "type": "eyewear",
+      "label": "Clear blue-light glasses",
+      "prompt": "clear blue-light glasses",
+      "tags": [
+        "glasses",
+        "egirl"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_egirl.eyewear.tiny_tinted",
+      "type": "eyewear",
+      "label": "Tiny tinted sunglasses",
+      "prompt": "tiny tinted sunglasses",
+      "tags": [
+        "sunglasses",
+        "egirl"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_egirl.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 16.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

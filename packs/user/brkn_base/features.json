@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "content_type": "features",
+  "entries": [
+    {
+      "id": "brkn_base.features.high_cheekbones",
+      "type": "features",
+      "label": "High Cheekbones",
+      "prompt": "high cheekbones",
+      "tags": [
+        "cheekbones"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.features.hollow_cheeks",
+      "type": "features",
+      "label": "Hollow Cheeks",
+      "prompt": "hollow cheeks",
+      "tags": [
+        "cheekbones"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.features.strong_features",
+      "type": "features",
+      "label": "Strong Features",
+      "prompt": "strong features",
+      "tags": [
+        "strong"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.features.soft_features",
+      "type": "features",
+      "label": "Soft Features",
+      "prompt": "soft features",
+      "tags": [
+        "soft"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.features.refined_features",
+      "type": "features",
+      "label": "Refined Features",
+      "prompt": "refined features",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.features.geometric_features",
+      "type": "features",
+      "label": "Geometric Features",
+      "prompt": "geometric features",
+      "tags": [
+        "strong",
+        "angular"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.features.symmetrical",
+      "type": "features",
+      "label": "Symmetrical",
+      "prompt": "symmetrical features",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.features.square_jaw",
+      "type": "features",
+      "label": "Square Jaw",
+      "prompt": "a square jaw",
+      "tags": [
+        "jaw",
+        "strong"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.features.sharp_jawline",
+      "type": "features",
+      "label": "Sharp Jawline",
+      "prompt": "a sharp jawline",
+      "tags": [
+        "jaw",
+        "strong"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.features.small_chin",
+      "type": "features",
+      "label": "Small Chin",
+      "prompt": "a small chin",
+      "tags": [
+        "chin"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.features.dimpled_chin",
+      "type": "features",
+      "label": "Dimpled Chin",
+      "prompt": "a dimpled chin",
+      "tags": [
+        "chin"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.features.button_nose",
+      "type": "features",
+      "label": "Button Nose",
+      "prompt": "a button nose",
+      "tags": [
+        "nose"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.features.straight_nose",
+      "type": "features",
+      "label": "Straight Nose",
+      "prompt": "a straight nose",
+      "tags": [
+        "nose"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.features.upturned_nose",
+      "type": "features",
+      "label": "Upturned Nose",
+      "prompt": "a slightly upturned nose",
+      "tags": [
+        "nose"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.features.unspecified",
+      "type": "features",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 15.28,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_riviera.footwear.barefoot_teak",
+      "type": "footwear",
+      "label": "Barefoot on the warm teak",
+      "prompt": "barefoot on the warm teak",
+      "tags": [
+        "flats"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "footwear_category": "flats"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "wear_riviera.footwear.leather_sandals",
+      "type": "footwear",
+      "label": "Flat tan leather sandals",
+      "prompt": "flat tan leather sandals",
+      "tags": [
+        "flats"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_riviera.footwear.espadrilles",
+      "type": "footwear",
+      "label": "Woven espadrilles",
+      "prompt": "woven espadrilles",
+      "tags": [
+        "flats"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_riviera.footwear.gold_slides",
+      "type": "footwear",
+      "label": "Slim gold slides",
+      "prompt": "slim gold slides",
+      "tags": [
+        "flats"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_riviera.footwear.heels_strappy",
+      "type": "footwear",
+      "label": "Fine strappy heels",
+      "prompt": "fine strappy heels",
+      "tags": [
+        "heels"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "footwear_category": "heels"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    }
+  ]
+}

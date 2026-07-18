@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_emo.outerwear.black_hoodie_zip",
+      "type": "outerwear",
+      "label": "A black zip hoodie",
+      "prompt": "a black zip hoodie",
+      "tags": [
+        "emo"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_emo.outerwear.denim_patches",
+      "type": "outerwear",
+      "label": "A denim jacket covered in patches",
+      "prompt": "a denim jacket covered in patches",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_emo.outerwear.leather_studded",
+      "type": "outerwear",
+      "label": "A studded leather jacket",
+      "prompt": "a studded leather jacket",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_emo.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

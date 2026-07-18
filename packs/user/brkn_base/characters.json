@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "content_type": "characters",
+  "entries": [
+    {
+      "id": "brkn_base.character.euro_early20s",
+      "type": "character",
+      "label": "Euro Early20S",
+      "prompt": "a young woman in her early twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "european",
+        "straight_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "early_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.euro_mid20s",
+      "type": "character",
+      "label": "Euro Mid20S",
+      "prompt": "a young woman in her mid twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "european",
+        "straight_texture"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "mid_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.euro_late20s",
+      "type": "character",
+      "label": "Euro Late20S",
+      "prompt": "a young woman in her late twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "european",
+        "straight_texture"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "late_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.euro_early30s",
+      "type": "character",
+      "label": "Euro Early30S",
+      "prompt": "a woman in her early thirties",
+      "tags": [
+        "adult",
+        "woman",
+        "european",
+        "straight_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "early_thirties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.euro_mid30s",
+      "type": "character",
+      "label": "Euro Mid30S",
+      "prompt": "a woman in her mid thirties",
+      "tags": [
+        "adult",
+        "woman",
+        "european",
+        "straight_texture"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "mid_thirties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.east_asian_mid20s",
+      "type": "character",
+      "label": "East Asian Mid20S",
+      "prompt": "a young woman in her mid twenties of East Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "east_asian",
+        "straight_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "east_asian",
+        "age_band": "mid_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.east_asian_late20s",
+      "type": "character",
+      "label": "East Asian Late20S",
+      "prompt": "a young woman in her late twenties of East Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "east_asian",
+        "straight_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "east_asian",
+        "age_band": "late_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.east_asian_early30s",
+      "type": "character",
+      "label": "East Asian Early30S",
+      "prompt": "a woman in her early thirties of East Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "east_asian",
+        "straight_texture"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "adult": true,
+        "descent": "east_asian",
+        "age_band": "early_thirties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.southeast_asian_mid20s",
+      "type": "character",
+      "label": "Southeast Asian Mid20S",
+      "prompt": "a young woman in her mid twenties of Southeast Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "southeast_asian",
+        "straight_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "southeast_asian",
+        "age_band": "mid_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.southeast_asian_late20s",
+      "type": "character",
+      "label": "Southeast Asian Late20S",
+      "prompt": "a young woman in her late twenties of Southeast Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "southeast_asian",
+        "straight_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "southeast_asian",
+        "age_band": "late_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.south_asian_late20s",
+      "type": "character",
+      "label": "South Asian Late20S",
+      "prompt": "a young woman in her late twenties of South Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "south_asian",
+        "wavy_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "south_asian",
+        "age_band": "late_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.south_asian_early30s",
+      "type": "character",
+      "label": "South Asian Early30S",
+      "prompt": "a woman in her early thirties of South Asian descent",
+      "tags": [
+        "adult",
+        "woman",
+        "south_asian",
+        "wavy_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "south_asian",
+        "age_band": "early_thirties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.black_early20s",
+      "type": "character",
+      "label": "Black Early20S",
+      "prompt": "a young Black woman in her early twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "black",
+        "afro_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "black",
+        "age_band": "early_twenties",
+        "hair_texture": "afro_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.black_mid20s",
+      "type": "character",
+      "label": "Black Mid20S",
+      "prompt": "a young Black woman in her mid twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "black",
+        "afro_texture"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "black",
+        "age_band": "mid_twenties",
+        "hair_texture": "afro_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.black_late20s",
+      "type": "character",
+      "label": "Black Late20S",
+      "prompt": "a young Black woman in her late twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "black",
+        "afro_texture"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "black",
+        "age_band": "late_twenties",
+        "hair_texture": "afro_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.black_early30s",
+      "type": "character",
+      "label": "Black Early30S",
+      "prompt": "a Black woman in her early thirties",
+      "tags": [
+        "adult",
+        "woman",
+        "black",
+        "afro_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "black",
+        "age_band": "early_thirties",
+        "hair_texture": "afro_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.latina_mid20s",
+      "type": "character",
+      "label": "Latina Mid20S",
+      "prompt": "a young Latina woman in her mid twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "latina",
+        "wavy_texture"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "latina",
+        "age_band": "mid_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.latina_late20s",
+      "type": "character",
+      "label": "Latina Late20S",
+      "prompt": "a young Latina woman in her late twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "latina",
+        "wavy_texture"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "latina",
+        "age_band": "late_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.latina_early30s",
+      "type": "character",
+      "label": "Latina Early30S",
+      "prompt": "a Latina woman in her early thirties",
+      "tags": [
+        "adult",
+        "woman",
+        "latina",
+        "wavy_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "latina",
+        "age_band": "early_thirties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.middle_eastern_late20s",
+      "type": "character",
+      "label": "Middle Eastern Late20S",
+      "prompt": "a young woman in her late twenties of Middle Eastern descent",
+      "tags": [
+        "adult",
+        "woman",
+        "middle_eastern",
+        "wavy_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "middle_eastern",
+        "age_band": "late_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.middle_eastern_early30s",
+      "type": "character",
+      "label": "Middle Eastern Early30S",
+      "prompt": "a woman in her early thirties of Middle Eastern descent",
+      "tags": [
+        "adult",
+        "woman",
+        "middle_eastern",
+        "wavy_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "middle_eastern",
+        "age_band": "early_thirties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.mixed_mid20s",
+      "type": "character",
+      "label": "Mixed Mid20S",
+      "prompt": "a young woman in her mid twenties of mixed heritage",
+      "tags": [
+        "adult",
+        "woman",
+        "mixed",
+        "wavy_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "mixed",
+        "age_band": "mid_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.mixed_late20s",
+      "type": "character",
+      "label": "Mixed Late20S",
+      "prompt": "a young woman in her late twenties of mixed heritage",
+      "tags": [
+        "adult",
+        "woman",
+        "mixed",
+        "wavy_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "mixed",
+        "age_band": "late_twenties",
+        "hair_texture": "wavy_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.neutral_early_twenties",
+      "type": "character",
+      "label": "Unspecified Early Twenties",
+      "prompt": "a young woman in her early twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "unspecified_descent",
+        "straight_texture"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.neutral_mid_twenties",
+      "type": "character",
+      "label": "Unspecified Mid Twenties",
+      "prompt": "a young woman in her mid twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "unspecified_descent",
+        "straight_texture"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.neutral_late_twenties",
+      "type": "character",
+      "label": "Unspecified Late Twenties",
+      "prompt": "a young woman in her late twenties",
+      "tags": [
+        "adult",
+        "woman",
+        "unspecified_descent",
+        "straight_texture"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "late_twenties",
+        "hair_texture": "straight_texture"
+      }
+    },
+    {
+      "id": "brkn_base.character.neutral_early_thirties",
+      "type": "character",
+      "label": "Unspecified Early Thirties",
+      "prompt": "a woman in her early thirties",
+      "tags": [
+        "adult",
+        "woman",
+        "unspecified_descent",
+        "straight_texture"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_thirties",
+        "hair_texture": "straight_texture"
+      }
+    }
+  ]
+}

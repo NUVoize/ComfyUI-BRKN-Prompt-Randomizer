@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_mall",
+  "selection_role": "modifier",
+  "selection_category": "wardrobe_makeup",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/wardrobe-style",
+  "cover_image": {
+    "path": "wear_goth_mall_cover_thumbnail_512.webp",
+    "label": "wear_goth_mall cover thumbnail",
+    "role": "cover"
+  },
+  "preview_images": [
+    {
+      "path": "wear_goth_mall_close-up_thumbnail_512.webp",
+      "label": "wear_goth_mall preview 1",
+      "role": "detail"
+    }
+  ]
+}

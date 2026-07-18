@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "content_type": "bodies",
+  "entries": [
+    {
+      "id": "brkn_base.body.small_slight",
+      "type": "body",
+      "label": "Small Slight",
+      "prompt": "with a slight, slender build",
+      "tags": [
+        "slim"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.small_slim_waist",
+      "type": "body",
+      "label": "Small Slim Waist",
+      "prompt": "with a slim waist and a fine-boned frame",
+      "tags": [
+        "slim"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.medium_average",
+      "type": "body",
+      "label": "Medium Average",
+      "prompt": "with an average, balanced build",
+      "tags": [
+        "average"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_base.body.medium_slim_waist_long_legs",
+      "type": "body",
+      "label": "Medium Slim Waist Long Legs",
+      "prompt": "with a slim waist and long legs",
+      "tags": [
+        "slim",
+        "long_legs"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.slim_narrow_waist",
+      "type": "body",
+      "label": "Slim Narrow Waist",
+      "prompt": "slim, with a narrow waist and long legs",
+      "tags": [
+        "slim",
+        "long_legs"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.skinny_slight_frame",
+      "type": "body",
+      "label": "Skinny Slight Frame",
+      "prompt": "skinny, with a slight frame and visible collarbones",
+      "tags": [
+        "slim",
+        "skinny"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.body.long_limbed",
+      "type": "body",
+      "label": "Long Limbed",
+      "prompt": "long-limbed and slender",
+      "tags": [
+        "slim",
+        "tall",
+        "long_legs"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.tall_long_legs",
+      "type": "body",
+      "label": "Tall Long Legs",
+      "prompt": "tall with long legs",
+      "tags": [
+        "tall",
+        "long_legs"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.tall_long_neck",
+      "type": "body",
+      "label": "Tall Long Neck",
+      "prompt": "tall with long legs and a long neck",
+      "tags": [
+        "tall",
+        "long_legs",
+        "long_neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.tall_statuesque",
+      "type": "body",
+      "label": "Tall Statuesque",
+      "prompt": "tall and statuesque",
+      "tags": [
+        "tall"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.body.tall_broad_shoulders",
+      "type": "body",
+      "label": "Tall Broad Shoulders",
+      "prompt": "tall with broad shoulders",
+      "tags": [
+        "tall",
+        "broad_shoulders"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.body.hourglass",
+      "type": "body",
+      "label": "Hourglass",
+      "prompt": "an hourglass figure, slim waist and thick hips",
+      "tags": [
+        "curvy",
+        "thick_hips",
+        "slim_waist"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.curvy_thick_hips",
+      "type": "body",
+      "label": "Curvy Thick Hips",
+      "prompt": "curvy, with thick hips and a narrow waist",
+      "tags": [
+        "curvy",
+        "thick_hips",
+        "slim_waist"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.wide_hips",
+      "type": "body",
+      "label": "Wide Hips",
+      "prompt": "wide hips and a narrow waist",
+      "tags": [
+        "curvy",
+        "thick_hips",
+        "slim_waist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.full_soft_curves",
+      "type": "body",
+      "label": "Full Soft Curves",
+      "prompt": "full-figured with soft curves",
+      "tags": [
+        "full_figured",
+        "curvy"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.soft_build",
+      "type": "body",
+      "label": "Soft Build",
+      "prompt": "a soft build with gentle curves",
+      "tags": [
+        "full_figured",
+        "soft"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.athletic_toned",
+      "type": "body",
+      "label": "Athletic Toned",
+      "prompt": "athletic, with a toned body",
+      "tags": [
+        "athletic",
+        "toned"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.body.athletic_toned_thighs",
+      "type": "body",
+      "label": "Athletic Toned Thighs",
+      "prompt": "athletic, with toned thighs and defined arms",
+      "tags": [
+        "athletic",
+        "toned",
+        "muscular_arms"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.muscular_arms_shoulders",
+      "type": "body",
+      "label": "Muscular Arms Shoulders",
+      "prompt": "with muscular arms and broad shoulders",
+      "tags": [
+        "athletic",
+        "muscular_arms",
+        "broad_shoulders"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.body.toned_flat_stomach",
+      "type": "body",
+      "label": "Toned Flat Stomach",
+      "prompt": "a toned body with a flat stomach",
+      "tags": [
+        "athletic",
+        "toned"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.body.swimmer_build",
+      "type": "body",
+      "label": "Swimmer Build",
+      "prompt": "a swimmer's build, broad shoulders and long limbs",
+      "tags": [
+        "athletic",
+        "broad_shoulders",
+        "tall"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.body.compact_strong",
+      "type": "body",
+      "label": "Compact Strong",
+      "prompt": "solidly built and strong",
+      "tags": [
+        "athletic"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.body.short_waisted_long_legs",
+      "type": "body",
+      "label": "Short Waisted Long Legs",
+      "prompt": "short-waisted with long legs",
+      "tags": [
+        "medium_stature",
+        "long_legs"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.body.lean_defined",
+      "type": "body",
+      "label": "Lean Defined",
+      "prompt": "lean and defined",
+      "tags": [
+        "slim",
+        "athletic",
+        "toned"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

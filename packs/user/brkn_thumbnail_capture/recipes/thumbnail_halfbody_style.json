@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_halfbody_style",
+  "label": "Half-Body Style",
+  "purpose": "Upper-body fashion, visual style, and lighting pack thumbnails.",
+  "subject_mode": "abby",
+  "prompt": "Abby, half-body portrait, body slightly angled, face toward camera, relaxed arms, clean catalog pose, light-gray seamless background, controlled studio framing, no props, no selfie angle",
+  "priority": [
+    "upper outfit",
+    "hair",
+    "makeup",
+    "accessories",
+    "lighting treatment"
+  ],
+  "restrictions": [
+    "no visible phone",
+    "no selfie behavior",
+    "no dynamic lifestyle action"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

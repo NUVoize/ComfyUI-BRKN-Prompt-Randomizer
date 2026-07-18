@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local ComfyUI/runtime output
+output/
+temp/
+input/
+
+# Development-only tooling and patch artifacts
+brkn_thumbnail_capture.py
+make_capsule.py
+make_vehicle.py
+apply_v2.ps1
+*.patch

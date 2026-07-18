@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/action.schema.json",
+  "title": "Action",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "action"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "action_family": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "activity_level": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "requires_prop": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

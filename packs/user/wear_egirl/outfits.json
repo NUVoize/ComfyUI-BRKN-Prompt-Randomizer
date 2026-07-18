@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_egirl.outfit.striped_long_sleeve",
+      "type": "outfit",
+      "label": "A black and white striped long-sleeve top",
+      "prompt": "a black and white striped long-sleeve top",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl.outfit.crop_over_stripe",
+      "type": "outfit",
+      "label": "A cropped tee over a striped long-sleeve",
+      "prompt": "a cropped tee over a striped long-sleeve",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl.outfit.pleated_skirt",
+      "type": "outfit",
+      "label": "A pleated plaid mini skirt and a fitted top",
+      "prompt": "a pleated plaid mini skirt and a fitted top",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl.outfit.oversized_hoodie",
+      "type": "outfit",
+      "label": "An oversized hoodie swallowing her hands",
+      "prompt": "an oversized hoodie swallowing her hands",
+      "tags": [
+        "egirl",
+        "lounge"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl.outfit.mesh_over_bra",
+      "type": "outfit",
+      "label": "A sheer mesh top over a black bralette",
+      "prompt": "a sheer mesh top over a black bralette",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.outfit.baggy_jeans_crop",
+      "type": "outfit",
+      "label": "Baggy jeans and a tiny cropped top",
+      "prompt": "baggy jeans and a tiny cropped top",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl.outfit.plaid_shirt_tied",
+      "type": "outfit",
+      "label": "A plaid shirt tied at the waist",
+      "prompt": "a plaid shirt tied at the waist",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.outfit.cargo_pants_tube",
+      "type": "outfit",
+      "label": "Cargo pants and a black tube top",
+      "prompt": "cargo pants and a black tube top",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.5
+    },
+    {
+      "id": "wear_egirl.outfit.chain_belt_skirt",
+      "type": "outfit",
+      "label": "A mini skirt with a chain belt",
+      "prompt": "a mini skirt with a chain belt",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "wear_egirl.outfit.gamer_lounge",
+      "type": "outfit",
+      "label": "An oversized graphic tee and nothing else",
+      "prompt": "an oversized graphic tee and nothing else",
+      "tags": [
+        "egirl",
+        "lounge"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "wear_egirl.outfit.arm_warmers",
+      "type": "outfit",
+      "label": "A crop top and long striped arm warmers",
+      "prompt": "a crop top and long striped arm warmers",
+      "tags": [
+        "egirl",
+        "casual"
+      ],
+      "weight": 1.2
+    }
+  ]
+}

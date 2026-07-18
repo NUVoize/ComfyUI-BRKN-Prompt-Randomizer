@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "place_bike.camera_preset.bike_selfie",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "place_bike.camera_preset.low_hero_bike",
+      "type": "camera_preset",
+      "label": "A low hero shot, the bike filling the frame",
+      "prompt": "a low hero shot, the bike filling the frame",
+      "tags": [
+        "wide",
+        "dramatic"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a low wide shot with the bike filling the frame",
+        "camera_angle": "a low angle"
+      }
+    },
+    {
+      "id": "place_bike.camera_preset.three_quarter_bike",
+      "type": "camera_preset",
+      "label": "A three-quarter shot of her and the bike",
+      "prompt": "a three-quarter shot of her and the bike",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a three-quarter shot of her and the bike",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "place_bike.camera_preset.detail_over_tank",
+      "type": "camera_preset",
+      "label": "Close over the tank",
+      "prompt": "close over the tank",
+      "tags": [
+        "close"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "framing": "a close shot across the tank",
+        "camera_angle": "a low angle"
+      }
+    }
+  ]
+}

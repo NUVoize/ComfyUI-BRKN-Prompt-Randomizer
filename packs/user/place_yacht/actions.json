@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_yacht.action.lying_sunbed",
+      "type": "action",
+      "label": "Lying back on a sunbed",
+      "prompt": "lying back on a sunbed",
+      "tags": [
+        "reclining",
+        "lounge_space"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.sitting_edge_sunbed",
+      "type": "action",
+      "label": "Sitting on the edge of a sunbed",
+      "prompt": "sitting on the edge of a sunbed",
+      "tags": [
+        "seated",
+        "lounge_space"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.sunk_in_sofa",
+      "type": "action",
+      "label": "Sunk into a cream deck sofa",
+      "prompt": "sunk into a cream deck sofa",
+      "tags": [
+        "seated",
+        "lounge_space"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.leaning_on_rail",
+      "type": "action",
+      "label": "Leaning on the chrome rail, looking out",
+      "prompt": "leaning on the chrome rail, looking out",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.looking_over_water",
+      "type": "action",
+      "label": "Looking out across the water",
+      "prompt": "looking out across the water",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.walking_the_deck",
+      "type": "action",
+      "label": "Walking barefoot along the teak",
+      "prompt": "walking barefoot along the teak",
+      "tags": [
+        "moving",
+        "outdoor_space"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.feet_in_water",
+      "type": "action",
+      "label": "Sitting on the platform with her feet in the water",
+      "prompt": "sitting on the platform with her feet in the water",
+      "tags": [
+        "seated",
+        "outdoor_space"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.holding_a_glass",
+      "type": "action",
+      "label": "Holding a glass, not drinking from it",
+      "prompt": "holding a glass, not drinking from it",
+      "tags": [
+        "standing",
+        "outdoor_space",
+        "hands_busy"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.shading_her_eyes",
+      "type": "action",
+      "label": "Shading her eyes against the sun",
+      "prompt": "shading her eyes against the sun",
+      "tags": [
+        "standing",
+        "outdoor_space",
+        "hands_busy"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.stepping_down",
+      "type": "action",
+      "label": "Stepping down toward the water",
+      "prompt": "stepping down toward the water",
+      "tags": [
+        "moving",
+        "outdoor_space"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.hair_off_her_neck",
+      "type": "action",
+      "label": "Lifting her hair off the back of her neck",
+      "prompt": "lifting her hair off the back of her neck",
+      "tags": [
+        "standing",
+        "outdoor_space",
+        "hands_busy"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.stretched_on_teak",
+      "type": "action",
+      "label": "Stretched out on the warm teak",
+      "prompt": "stretched out on the warm teak",
+      "tags": [
+        "reclining",
+        "outdoor_space"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.crouched_at_the_edge",
+      "type": "action",
+      "label": "Crouched at the edge of the deck",
+      "prompt": "crouched at the edge of the deck",
+      "tags": [
+        "crouching",
+        "outdoor_space"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_yacht.action.selfie_marina",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "outdoor_space",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_yacht.action.selfie_sunbed",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "lounge_space",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_yacht.action.stepping_off_passerelle",
+      "type": "action",
+      "label": "Coming down the passerelle",
+      "prompt": "coming down the passerelle",
+      "tags": [
+        "moving",
+        "threshold_space"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth.outerwear.leather_biker",
+      "type": "outerwear",
+      "label": "A black leather biker jacket",
+      "prompt": "a black leather biker jacket",
+      "tags": [
+        "goth"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth.outerwear.long_black_coat",
+      "type": "outerwear",
+      "label": "A long black coat to the ankle",
+      "prompt": "a long black coat to the ankle",
+      "tags": [
+        "goth"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth.outerwear.faux_fur_black",
+      "type": "outerwear",
+      "label": "A black faux-fur coat",
+      "prompt": "a black faux-fur coat",
+      "tags": [
+        "goth"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth.outerwear.oversized_black_blazer",
+      "type": "outerwear",
+      "label": "An oversized black blazer",
+      "prompt": "an oversized black blazer",
+      "tags": [
+        "goth"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

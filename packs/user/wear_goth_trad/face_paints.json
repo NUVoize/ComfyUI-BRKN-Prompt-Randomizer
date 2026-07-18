@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth_trad.face_paint.sharp_wing",
+      "type": "face_paint",
+      "label": "Razor-sharp black winged liner, out past the temple",
+      "prompt": "razor-sharp black winged liner, out past the temple",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_trad.face_paint.black_lip_matte",
+      "type": "face_paint",
+      "label": "A flat matte black lip",
+      "prompt": "a flat matte black lip",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_trad.face_paint.white_base_black_eye",
+      "type": "face_paint",
+      "label": "Chalk-pale skin and a black-rimmed eye",
+      "prompt": "chalk-pale skin and a black-rimmed eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_trad.face_paint.dark_brows_sharp",
+      "type": "face_paint",
+      "label": "Hard drawn brows and a bare mouth",
+      "prompt": "hard drawn brows and a bare mouth",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    }
+  ]
+}

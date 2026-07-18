@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.outerwear.velvet_cape",
+      "type": "outerwear",
+      "label": "A long black velvet cape",
+      "prompt": "a long black velvet cape",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_romantic.outerwear.wool_coat_long",
+      "type": "outerwear",
+      "label": "A long black wool coat",
+      "prompt": "a long black wool coat",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_romantic.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

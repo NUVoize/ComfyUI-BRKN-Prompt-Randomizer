@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.environment.light_gray_studio",
+      "type": "environment",
+      "label": "Light Gray Thumbnail Studio",
+      "prompt": "a very light gray seamless studio",
+      "tags": [
+        "thumbnail",
+        "studio",
+        "catalog",
+        "indoor"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "environment_category": "studio"
+      }
+    }
+  ]
+}

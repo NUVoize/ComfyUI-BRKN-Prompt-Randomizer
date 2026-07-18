@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_egirl.accessory.chain_choker",
+      "type": "accessory",
+      "label": "A chunky chain choker",
+      "prompt": "a chunky chain choker",
+      "tags": [
+        "egirl",
+        "neck"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl.accessory.layered_chains",
+      "type": "accessory",
+      "label": "Layered silver chains",
+      "prompt": "layered silver chains",
+      "tags": [
+        "egirl",
+        "neck"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_egirl.accessory.heart_choker",
+      "type": "accessory",
+      "label": "A black choker with a small heart",
+      "prompt": "a black choker with a small heart",
+      "tags": [
+        "egirl",
+        "neck"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.accessory.clips_pearl",
+      "type": "accessory",
+      "label": "Pearl hair clips holding back her fringe",
+      "prompt": "pearl hair clips holding back her fringe",
+      "tags": [
+        "egirl",
+        "hair"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl.accessory.butterfly_clips",
+      "type": "accessory",
+      "label": "Small butterfly clips in her hair",
+      "prompt": "small butterfly clips in her hair",
+      "tags": [
+        "egirl",
+        "hair"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.accessory.chain_belt",
+      "type": "accessory",
+      "label": "A fine chain belt",
+      "prompt": "a fine chain belt",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_egirl.accessory.arm_warmers_acc",
+      "type": "accessory",
+      "label": "Striped arm warmers pushed up her forearms",
+      "prompt": "striped arm warmers pushed up her forearms",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_egirl.accessory.stacked_rings",
+      "type": "accessory",
+      "label": "Stacked silver rings",
+      "prompt": "stacked silver rings",
+      "tags": [
+        "egirl",
+        "hand"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 4.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

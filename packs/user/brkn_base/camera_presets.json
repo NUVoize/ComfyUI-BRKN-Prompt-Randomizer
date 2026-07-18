@@ -1,0 +1,1011 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "brkn_base.camera_preset.extreme_wide_eye_level",
+      "type": "camera_preset",
+      "label": "An extreme wide shot, an eye-level angle",
+      "prompt": "an extreme wide shot from an eye-level angle",
+      "tags": [
+        "neutral",
+        "wide"
+      ],
+      "weight": 0.96,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme wide shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_wide_low",
+      "type": "camera_preset",
+      "label": "An extreme wide shot, a low angle looking up",
+      "prompt": "an extreme wide shot from a low angle looking up",
+      "tags": [
+        "dramatic",
+        "wide"
+      ],
+      "weight": 0.54,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme wide shot",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_wide_high",
+      "type": "camera_preset",
+      "label": "An extreme wide shot, a high angle looking down",
+      "prompt": "an extreme wide shot from a high angle looking down",
+      "tags": [
+        "dramatic",
+        "wide"
+      ],
+      "weight": 0.54,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme wide shot",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_wide_birds_eye",
+      "type": "camera_preset",
+      "label": "An extreme wide shot, a bird's-eye view from directly above",
+      "prompt": "an extreme wide shot from a bird's-eye view from directly above",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "wide"
+      ],
+      "weight": 0.24,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme wide shot",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_eye_level",
+      "type": "camera_preset",
+      "label": "A wide shot, an eye-level angle",
+      "prompt": "a wide shot from an eye-level angle",
+      "tags": [
+        "neutral",
+        "wide"
+      ],
+      "weight": 1.76,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_low",
+      "type": "camera_preset",
+      "label": "A wide shot, a low angle looking up",
+      "prompt": "a wide shot from a low angle looking up",
+      "tags": [
+        "dramatic",
+        "wide"
+      ],
+      "weight": 0.99,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_high",
+      "type": "camera_preset",
+      "label": "A wide shot, a high angle looking down",
+      "prompt": "a wide shot from a high angle looking down",
+      "tags": [
+        "dramatic",
+        "wide"
+      ],
+      "weight": 0.99,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_dutch",
+      "type": "camera_preset",
+      "label": "A wide shot, a tilted Dutch angle",
+      "prompt": "a wide shot from a tilted Dutch angle",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "wide"
+      ],
+      "weight": 0.44,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_birds_eye",
+      "type": "camera_preset",
+      "label": "A wide shot, a bird's-eye view from directly above",
+      "prompt": "a wide shot from a bird's-eye view from directly above",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "wide"
+      ],
+      "weight": 0.44,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.wide_worms_eye",
+      "type": "camera_preset",
+      "label": "A wide shot, a worm's-eye view from ground level",
+      "prompt": "a wide shot from a worm's-eye view from ground level",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "wide"
+      ],
+      "weight": 0.33,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a wide shot",
+        "camera_angle": "a worm's-eye view from ground level"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_eye_level",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, an eye-level angle",
+      "prompt": "a medium-wide shot from an eye-level angle",
+      "tags": [
+        "medium",
+        "neutral"
+      ],
+      "weight": 1.92,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_low",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, a low angle looking up",
+      "prompt": "a medium-wide shot from a low angle looking up",
+      "tags": [
+        "dramatic",
+        "medium"
+      ],
+      "weight": 1.08,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_high",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, a high angle looking down",
+      "prompt": "a medium-wide shot from a high angle looking down",
+      "tags": [
+        "dramatic",
+        "medium"
+      ],
+      "weight": 1.08,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_dutch",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, a tilted Dutch angle",
+      "prompt": "a medium-wide shot from a tilted Dutch angle",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.48,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_birds_eye",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, a bird's-eye view from directly above",
+      "prompt": "a medium-wide shot from a bird's-eye view from directly above",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.48,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_wide_worms_eye",
+      "type": "camera_preset",
+      "label": "A medium-wide shot, a worm's-eye view from ground level",
+      "prompt": "a medium-wide shot from a worm's-eye view from ground level",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.36,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium-wide shot",
+        "camera_angle": "a worm's-eye view from ground level"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_eye_level",
+      "type": "camera_preset",
+      "label": "A medium shot, an eye-level angle",
+      "prompt": "a medium shot from an eye-level angle",
+      "tags": [
+        "medium",
+        "neutral"
+      ],
+      "weight": 2.24,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_low",
+      "type": "camera_preset",
+      "label": "A medium shot, a low angle looking up",
+      "prompt": "a medium shot from a low angle looking up",
+      "tags": [
+        "dramatic",
+        "medium"
+      ],
+      "weight": 1.26,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_high",
+      "type": "camera_preset",
+      "label": "A medium shot, a high angle looking down",
+      "prompt": "a medium shot from a high angle looking down",
+      "tags": [
+        "dramatic",
+        "medium"
+      ],
+      "weight": 1.26,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_dutch",
+      "type": "camera_preset",
+      "label": "A medium shot, a tilted Dutch angle",
+      "prompt": "a medium shot from a tilted Dutch angle",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.56,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_birds_eye",
+      "type": "camera_preset",
+      "label": "A medium shot, a bird's-eye view from directly above",
+      "prompt": "a medium shot from a bird's-eye view from directly above",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.56,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_worms_eye",
+      "type": "camera_preset",
+      "label": "A medium shot, a worm's-eye view from ground level",
+      "prompt": "a medium shot from a worm's-eye view from ground level",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium"
+      ],
+      "weight": 0.42,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "a worm's-eye view from ground level"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_eye_level",
+      "type": "camera_preset",
+      "label": "A medium close-up, an eye-level angle",
+      "prompt": "a medium close-up from an eye-level angle",
+      "tags": [
+        "close",
+        "neutral",
+        "portrait"
+      ],
+      "weight": 2.08,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_low",
+      "type": "camera_preset",
+      "label": "A medium close-up, a low angle looking up",
+      "prompt": "a medium close-up from a low angle looking up",
+      "tags": [
+        "close",
+        "dramatic",
+        "portrait"
+      ],
+      "weight": 1.17,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_high",
+      "type": "camera_preset",
+      "label": "A medium close-up, a high angle looking down",
+      "prompt": "a medium close-up from a high angle looking down",
+      "tags": [
+        "close",
+        "dramatic",
+        "portrait"
+      ],
+      "weight": 1.17,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_dutch",
+      "type": "camera_preset",
+      "label": "A medium close-up, a tilted Dutch angle",
+      "prompt": "a medium close-up from a tilted Dutch angle",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.52,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_birds_eye",
+      "type": "camera_preset",
+      "label": "A medium close-up, a bird's-eye view from directly above",
+      "prompt": "a medium close-up from a bird's-eye view from directly above",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.52,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.medium_close_worms_eye",
+      "type": "camera_preset",
+      "label": "A medium close-up, a worm's-eye view from ground level",
+      "prompt": "a medium close-up from a worm's-eye view from ground level",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.39,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a medium close-up",
+        "camera_angle": "a worm's-eye view from ground level"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_eye_level",
+      "type": "camera_preset",
+      "label": "A close-up, an eye-level angle",
+      "prompt": "a close-up from an eye-level angle",
+      "tags": [
+        "close",
+        "neutral",
+        "portrait"
+      ],
+      "weight": 1.76,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_low",
+      "type": "camera_preset",
+      "label": "A close-up, a low angle looking up",
+      "prompt": "a close-up from a low angle looking up",
+      "tags": [
+        "close",
+        "dramatic",
+        "portrait"
+      ],
+      "weight": 0.99,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_high",
+      "type": "camera_preset",
+      "label": "A close-up, a high angle looking down",
+      "prompt": "a close-up from a high angle looking down",
+      "tags": [
+        "close",
+        "dramatic",
+        "portrait"
+      ],
+      "weight": 0.99,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_dutch",
+      "type": "camera_preset",
+      "label": "A close-up, a tilted Dutch angle",
+      "prompt": "a close-up from a tilted Dutch angle",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.44,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_birds_eye",
+      "type": "camera_preset",
+      "label": "A close-up, a bird's-eye view from directly above",
+      "prompt": "a close-up from a bird's-eye view from directly above",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.44,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a bird's-eye view from directly above"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.close_worms_eye",
+      "type": "camera_preset",
+      "label": "A close-up, a worm's-eye view from ground level",
+      "prompt": "a close-up from a worm's-eye view from ground level",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial",
+        "portrait"
+      ],
+      "weight": 0.33,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a worm's-eye view from ground level"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_close_eye_level",
+      "type": "camera_preset",
+      "label": "An extreme close-up, an eye-level angle",
+      "prompt": "an extreme close-up from an eye-level angle",
+      "tags": [
+        "close",
+        "editorial",
+        "neutral"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_close_low",
+      "type": "camera_preset",
+      "label": "An extreme close-up, a low angle looking up",
+      "prompt": "an extreme close-up from a low angle looking up",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial"
+      ],
+      "weight": 0.45,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme close-up",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.extreme_close_high",
+      "type": "camera_preset",
+      "label": "An extreme close-up, a high angle looking down",
+      "prompt": "an extreme close-up from a high angle looking down",
+      "tags": [
+        "close",
+        "dramatic",
+        "editorial"
+      ],
+      "weight": 0.45,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an extreme close-up",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.over_shoulder_eye_level",
+      "type": "camera_preset",
+      "label": "An over-the-shoulder shot, an eye-level angle",
+      "prompt": "an over-the-shoulder shot from an eye-level angle",
+      "tags": [
+        "medium",
+        "narrative",
+        "neutral"
+      ],
+      "weight": 1.28,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "an over-the-shoulder shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.over_shoulder_low",
+      "type": "camera_preset",
+      "label": "An over-the-shoulder shot, a low angle looking up",
+      "prompt": "an over-the-shoulder shot from a low angle looking up",
+      "tags": [
+        "dramatic",
+        "medium",
+        "narrative"
+      ],
+      "weight": 0.72,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an over-the-shoulder shot",
+        "camera_angle": "a low angle looking up"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.over_shoulder_high",
+      "type": "camera_preset",
+      "label": "An over-the-shoulder shot, a high angle looking down",
+      "prompt": "an over-the-shoulder shot from a high angle looking down",
+      "tags": [
+        "dramatic",
+        "medium",
+        "narrative"
+      ],
+      "weight": 0.72,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an over-the-shoulder shot",
+        "camera_angle": "a high angle looking down"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.over_shoulder_dutch",
+      "type": "camera_preset",
+      "label": "An over-the-shoulder shot, a tilted Dutch angle",
+      "prompt": "an over-the-shoulder shot from a tilted Dutch angle",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "medium",
+        "narrative"
+      ],
+      "weight": 0.32,
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ],
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      },
+      "metadata": {
+        "framing": "an over-the-shoulder shot",
+        "camera_angle": "a tilted Dutch angle"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.selfie",
+      "type": "camera_preset",
+      "label": "Selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close",
+        "casual"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mirror_selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "brkn_base.camera_preset.mirror_selfie",
+      "type": "camera_preset",
+      "label": "Mirror selfie",
+      "prompt": "a mirror selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "mirror",
+        "medium"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "action_tags_any": [
+          "mirror_selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a mirror selfie"
+      }
+    }
+  ]
+}

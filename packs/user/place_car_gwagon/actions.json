@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_car_gwagon.action.driving_g",
+      "type": "action",
+      "label": "Driving, one hand high on the wheel",
+      "prompt": "driving, one hand high on the wheel",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.looking_down_from_seat",
+      "type": "action",
+      "label": "Looking down out of the high window",
+      "prompt": "looking down out of the high window",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.selfie_g",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.sitting_on_tailgate",
+      "type": "action",
+      "label": "Sitting on the open tailgate, legs hanging",
+      "prompt": "sitting on the open tailgate, legs hanging",
+      "tags": [
+        "seated",
+        "vehicle_exterior"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_tailgate"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.lying_in_boot",
+      "type": "action",
+      "label": "Lying back in the open boot",
+      "prompt": "lying back in the open boot",
+      "tags": [
+        "reclining",
+        "vehicle_exterior"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_boot"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.standing_on_step",
+      "type": "action",
+      "label": "Standing up on the side step",
+      "prompt": "standing up on the side step",
+      "tags": [
+        "standing",
+        "vehicle_exterior"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_step"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.leaning_on_flank",
+      "type": "action",
+      "label": "Leaning back against the flat flank",
+      "prompt": "leaning back against the flat flank",
+      "tags": [
+        "standing",
+        "vehicle_exterior"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_flank"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.hanging_off_door",
+      "type": "action",
+      "label": "Holding the open door frame, one foot on the step",
+      "prompt": "holding the open door frame, one foot on the step",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_door"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.reaching_roof_rack",
+      "type": "action",
+      "label": "Reaching up for the roof rack",
+      "prompt": "reaching up for the roof rack",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_rack",
+          "part_roof"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.crouched_by_wheel_g",
+      "type": "action",
+      "label": "Crouched at the big front wheel",
+      "prompt": "crouched at the big front wheel",
+      "tags": [
+        "crouching",
+        "vehicle_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wheel"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.walking_away_g",
+      "type": "action",
+      "label": "Walking away from it, glancing back",
+      "prompt": "walking away from it, glancing back",
+      "tags": [
+        "moving",
+        "vehicle_exterior"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gwagon.action.selfie_by_g",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

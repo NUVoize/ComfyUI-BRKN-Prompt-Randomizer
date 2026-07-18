@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.outerwear.cropped_puffer",
+      "type": "outerwear",
+      "label": "A cropped black puffer",
+      "prompt": "a cropped black puffer",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.outerwear.oversized_varsity",
+      "type": "outerwear",
+      "label": "An oversized varsity jacket",
+      "prompt": "an oversized varsity jacket",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.outerwear.plaid_shirt_tied",
+      "type": "outerwear",
+      "label": "A plaid shirt tied around her waist",
+      "prompt": "a plaid shirt tied around her waist",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

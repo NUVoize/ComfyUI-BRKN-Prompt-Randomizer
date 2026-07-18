@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_home.action.making_coffee",
+      "type": "action",
+      "label": "Making coffee",
+      "prompt": "making coffee",
+      "tags": [
+        "standing",
+        "cooking_space",
+        "counter_space",
+        "hands_busy"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.drinking_coffee",
+      "type": "action",
+      "label": "Holding a mug in both hands",
+      "prompt": "holding a mug in both hands",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "universal_indoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.just_woken",
+      "type": "action",
+      "label": "Just woken up, her hair loose",
+      "prompt": "just woken up, her hair loose",
+      "tags": [
+        "reclining",
+        "sleep_space"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.lying_in_bed",
+      "type": "action",
+      "label": "Lying back across the bed",
+      "prompt": "lying back across the bed",
+      "tags": [
+        "reclining",
+        "sleep_space"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.sitting_bed_edge",
+      "type": "action",
+      "label": "Sitting on the edge of the bed",
+      "prompt": "sitting on the edge of the bed",
+      "tags": [
+        "seated",
+        "sleep_space"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.mirror_selfie",
+      "type": "action",
+      "label": "Taking a mirror selfie",
+      "prompt": "taking a mirror selfie",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "selfie",
+        "mirror_selfie",
+        "universal_indoor"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "mirror"
+        ]
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_home.action.selfie_home",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "selfie",
+        "universal_indoor"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_home.action.brushing_hair",
+      "type": "action",
+      "label": "Brushing out her hair",
+      "prompt": "brushing out her hair",
+      "tags": [
+        "standing",
+        "wash_space",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.doing_makeup",
+      "type": "action",
+      "label": "Leaning in to the mirror",
+      "prompt": "leaning in to the mirror",
+      "tags": [
+        "standing",
+        "wash_space",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.getting_dressed",
+      "type": "action",
+      "label": "Half-dressed, reaching for something",
+      "prompt": "half-dressed, reaching for something",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "universal_indoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.scrolling",
+      "type": "action",
+      "label": "Scrolling on her phone",
+      "prompt": "scrolling on her phone",
+      "tags": [
+        "seated",
+        "hands_busy",
+        "universal_indoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.curled_on_sofa",
+      "type": "action",
+      "label": "Curled up on the sofa",
+      "prompt": "curled up on the sofa",
+      "tags": [
+        "seated",
+        "lounge_space"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.sprawled_sofa",
+      "type": "action",
+      "label": "Sprawled across the sofa",
+      "prompt": "sprawled across the sofa",
+      "tags": [
+        "reclining",
+        "lounge_space"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.sitting_floor",
+      "type": "action",
+      "label": "Sitting on the floor with her back to the sofa",
+      "prompt": "sitting on the floor with her back to the sofa",
+      "tags": [
+        "seated",
+        "lounge_space"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.at_the_desk",
+      "type": "action",
+      "label": "Working at the desk",
+      "prompt": "working at the desk",
+      "tags": [
+        "seated",
+        "desk_space",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.looking_out",
+      "type": "action",
+      "label": "Looking out of the window",
+      "prompt": "looking out of the window",
+      "tags": [
+        "standing",
+        "universal_indoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.leaning_doorframe",
+      "type": "action",
+      "label": "Leaning in the doorframe",
+      "prompt": "leaning in the doorframe",
+      "tags": [
+        "standing",
+        "threshold_space"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.stretching_up",
+      "type": "action",
+      "label": "Stretching, arms overhead",
+      "prompt": "stretching, arms overhead",
+      "tags": [
+        "standing",
+        "universal_indoor"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.laughing_home",
+      "type": "action",
+      "label": "Laughing at something off-camera",
+      "prompt": "laughing at something off-camera",
+      "tags": [
+        "standing",
+        "universal_indoor"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.dancing_alone",
+      "type": "action",
+      "label": "Dancing on her own",
+      "prompt": "dancing on her own",
+      "tags": [
+        "moving",
+        "universal_indoor"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.padding_through",
+      "type": "action",
+      "label": "Walking through barefoot",
+      "prompt": "walking through barefoot",
+      "tags": [
+        "moving",
+        "universal_indoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.crouched_cupboard",
+      "type": "action",
+      "label": "Crouched at an open cupboard",
+      "prompt": "crouched at an open cupboard",
+      "tags": [
+        "crouching",
+        "cooking_space",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "place_home.action.on_the_balcony",
+      "type": "action",
+      "label": "Leaning on the balcony rail",
+      "prompt": "leaning on the balcony rail",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    }
+  ]
+}

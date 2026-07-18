@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth.outfit.mesh_long_sleeve",
+      "type": "outfit",
+      "label": "A sheer black mesh long-sleeve top",
+      "prompt": "a sheer black mesh long-sleeve top",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth.outfit.corset_top",
+      "type": "outfit",
+      "label": "A structured black corset top",
+      "prompt": "a structured black corset top",
+      "tags": [
+        "goth",
+        "dressy"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth.outfit.black_slip",
+      "type": "outfit",
+      "label": "A long black slip dress",
+      "prompt": "a long black slip dress",
+      "tags": [
+        "goth",
+        "dressy"
+      ],
+      "weight": 1.5
+    },
+    {
+      "id": "wear_goth.outfit.velvet_dress",
+      "type": "outfit",
+      "label": "A black velvet dress",
+      "prompt": "a black velvet dress",
+      "tags": [
+        "goth",
+        "dressy"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth.outfit.band_tee_fishnet",
+      "type": "outfit",
+      "label": "A faded band tee over a fishnet top",
+      "prompt": "a faded band tee over a fishnet top",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth.outfit.leather_skirt",
+      "type": "outfit",
+      "label": "A black leather mini skirt and a cropped top",
+      "prompt": "a black leather mini skirt and a cropped top",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.5
+    },
+    {
+      "id": "wear_goth.outfit.wide_leg_black",
+      "type": "outfit",
+      "label": "Wide-leg black trousers and a fitted black top",
+      "prompt": "wide-leg black trousers and a fitted black top",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth.outfit.layered_lace",
+      "type": "outfit",
+      "label": "Layered black lace",
+      "prompt": "layered black lace",
+      "tags": [
+        "goth",
+        "dressy"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_goth.outfit.harness_tee",
+      "type": "outfit",
+      "label": "A plain black tee under a leather harness",
+      "prompt": "a plain black tee under a leather harness",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth.outfit.torn_tights_shorts",
+      "type": "outfit",
+      "label": "Torn black tights under black shorts",
+      "prompt": "torn black tights under black shorts",
+      "tags": [
+        "goth",
+        "casual"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "wear_goth.outfit.black_lounge",
+      "type": "outfit",
+      "label": "An oversized black hoodie and nothing much else",
+      "prompt": "an oversized black hoodie and nothing much else",
+      "tags": [
+        "goth",
+        "lounge"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.outfit.victorian_blouse",
+      "type": "outfit",
+      "label": "A high-necked victorian blouse in black",
+      "prompt": "a high-necked Victorian blouse in black",
+      "tags": [
+        "goth",
+        "dressy"
+      ],
+      "weight": 0.9
+    }
+  ]
+}

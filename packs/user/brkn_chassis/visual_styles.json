@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "brkn_chassis.visual_style.plain",
+      "type": "visual_style",
+      "label": "A plain photograph",
+      "prompt": "a plain photograph",
+      "tags": [
+        "neutral",
+        "photoreal"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "a clean, sharp digital finish",
+        "color_treatment": "true neutral colour",
+        "camera_behavior": "a steady framing",
+        "aspect_ratio": "4:5"
+      }
+    }
+  ]
+}

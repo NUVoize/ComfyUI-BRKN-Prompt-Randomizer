@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_goth_mall.footwear.skate_shoes_black",
+      "type": "footwear",
+      "label": "Chunky black skate shoes",
+      "prompt": "chunky black skate shoes",
+      "tags": [
+        "trainers"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "footwear_category": "trainers"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_mall.footwear.platform_creepers",
+      "type": "footwear",
+      "label": "Black platform creepers",
+      "prompt": "black platform creepers",
+      "tags": [
+        "flats"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_goth_mall.footwear.combat_scuffed",
+      "type": "footwear",
+      "label": "Scuffed black combat boots",
+      "prompt": "scuffed black combat boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_mall.footwear.striped_socks_only",
+      "type": "footwear",
+      "label": "Striped knee socks and no shoes",
+      "prompt": "striped knee socks and no shoes",
+      "tags": [
+        "flats"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "footwear_category": "flats"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    }
+  ]
+}

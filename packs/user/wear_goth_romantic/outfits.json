@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.outfit.velvet_gown",
+      "type": "outfit",
+      "label": "A long black velvet gown",
+      "prompt": "a long black velvet gown",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_romantic.outfit.high_collar_blouse",
+      "type": "outfit",
+      "label": "A high-necked black blouse with a lace collar",
+      "prompt": "a high-necked black blouse with a lace collar",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_romantic.outfit.corset_over_blouse",
+      "type": "outfit",
+      "label": "A boned corset laced over a white blouse",
+      "prompt": "a boned corset laced over a white blouse",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_romantic.outfit.lace_sleeve_dress",
+      "type": "outfit",
+      "label": "A black dress with long lace sleeves",
+      "prompt": "a black dress with long lace sleeves",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_romantic.outfit.velvet_skirt_long",
+      "type": "outfit",
+      "label": "A floor-length velvet skirt and a fitted bodice",
+      "prompt": "a floor-length velvet skirt and a fitted bodice",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_romantic.outfit.mourning_black",
+      "type": "outfit",
+      "label": "Layered black skirts and a fitted jacket",
+      "prompt": "layered black skirts and a fitted jacket",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_romantic.outfit.burgundy_velvet",
+      "type": "outfit",
+      "label": "A deep burgundy velvet dress",
+      "prompt": "a deep burgundy velvet dress",
+      "tags": [
+        "goth_romantic",
+        "dressy"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_romantic.outfit.nightgown_lace",
+      "type": "outfit",
+      "label": "A long white lace nightgown",
+      "prompt": "a long white lace nightgown",
+      "tags": [
+        "goth_romantic",
+        "lounge"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

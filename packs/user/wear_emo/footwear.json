@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_emo.footwear.converse_black",
+      "type": "footwear",
+      "label": "Black high-top converse, laces loose",
+      "prompt": "black high-top Converse, laces loose",
+      "tags": [
+        "trainers",
+        "emo"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "footwear_category": "trainers"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "wear_emo.footwear.vans_checker",
+      "type": "footwear",
+      "label": "Checkerboard vans",
+      "prompt": "checkerboard Vans",
+      "tags": [
+        "trainers",
+        "emo"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "trainers"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "wear_emo.footwear.combat_boots",
+      "type": "footwear",
+      "label": "Scuffed combat boots",
+      "prompt": "scuffed combat boots",
+      "tags": [
+        "boots",
+        "emo"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_emo.footwear.skate_shoes",
+      "type": "footwear",
+      "label": "Chunky skate shoes",
+      "prompt": "chunky skate shoes",
+      "tags": [
+        "trainers",
+        "emo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "footwear_category": "trainers"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "wear_emo.footwear.socks_only",
+      "type": "footwear",
+      "label": "Black socks, no shoes",
+      "prompt": "black socks, no shoes",
+      "tags": [
+        "flats",
+        "emo"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "footwear_category": "flats"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    }
+  ]
+}

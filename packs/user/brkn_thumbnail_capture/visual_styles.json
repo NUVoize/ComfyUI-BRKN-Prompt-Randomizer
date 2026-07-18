@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.visual_style.catalog_studio",
+      "type": "visual_style",
+      "label": "Thumbnail Catalog Studio",
+      "prompt": "clean catalog studio thumbnail of Abby, very light gray seamless background, controlled studio lighting, readable small-thumbnail composition",
+      "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person",
+      "tags": [
+        "thumbnail",
+        "capture",
+        "studio",
+        "catalog",
+        "abby"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "clean commercial catalog finish with crisp wardrobe readability",
+        "color_treatment": "neutral color, soft skin tones, light gray background",
+        "camera_behavior": "controlled non-selfie studio camera",
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.visual_style.vehicle_catalog",
+      "type": "visual_style",
+      "label": "Thumbnail Vehicle Catalog",
+      "prompt": "clean catalog thumbnail of a single hero vehicle, simple controlled background, readable silhouette",
+      "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person",
+      "tags": [
+        "thumbnail",
+        "capture",
+        "vehicle",
+        "catalog"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "crisp commercial vehicle catalog finish",
+        "color_treatment": "neutral controlled contrast",
+        "camera_behavior": "locked catalog camera, no motion blur",
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.visual_style.destination_catalog",
+      "type": "visual_style",
+      "label": "Thumbnail Destination Catalog",
+      "prompt": "clear destination catalog thumbnail, recognizable architecture or environment, uncluttered bright readable scene",
+      "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person",
+      "tags": [
+        "thumbnail",
+        "capture",
+        "destination",
+        "travel",
+        "catalog"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "clean travel catalog finish with readable location detail",
+        "color_treatment": "bright natural color, neutral contrast",
+        "camera_behavior": "controlled non-selfie destination framing",
+        "aspect_ratio": "1:1"
+      }
+    }
+  ]
+}

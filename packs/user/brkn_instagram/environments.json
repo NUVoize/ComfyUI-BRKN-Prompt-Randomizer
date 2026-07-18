@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "brkn_instagram.environment.her_apartment",
+      "type": "environment",
+      "label": "A bright modern apartment",
+      "prompt": "a bright modern apartment",
+      "tags": [
+        "home",
+        "apartment",
+        "urban"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "brkn_instagram.environment.hotel_suite",
+      "type": "environment",
+      "label": "A hotel suite with floor-to-ceiling glass",
+      "prompt": "a hotel suite with floor-to-ceiling glass",
+      "tags": [
+        "home",
+        "hotel",
+        "luxury"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_instagram.environment.boutique_gym",
+      "type": "environment",
+      "label": "A boutique gym",
+      "prompt": "a boutique gym",
+      "tags": [
+        "gym",
+        "fitness"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_instagram.environment.specialty_cafe",
+      "type": "environment",
+      "label": "A specialty coffee shop",
+      "prompt": "a specialty coffee shop",
+      "tags": [
+        "cafe",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_instagram.environment.city_street",
+      "type": "environment",
+      "label": "A sunlit city street",
+      "prompt": "a sunlit city street",
+      "tags": [
+        "street",
+        "urban",
+        "outdoor_env"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "brkn_instagram.environment.poolside",
+      "type": "environment",
+      "label": "A poolside terrace",
+      "prompt": "a poolside terrace",
+      "tags": [
+        "poolside",
+        "luxury",
+        "summer_env"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_instagram.environment.beach",
+      "type": "environment",
+      "label": "A bright open beach",
+      "prompt": "a bright open beach",
+      "tags": [
+        "beach",
+        "coastal",
+        "summer_env"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_instagram.environment.parked_car",
+      "type": "environment",
+      "label": "A parked car",
+      "prompt": "a parked car",
+      "tags": [
+        "transport",
+        "enclosed"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_instagram.environment.rooftop_bar",
+      "type": "environment",
+      "label": "A rooftop bar at dusk",
+      "prompt": "a rooftop bar at dusk",
+      "tags": [
+        "nightlife",
+        "upscale"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_instagram.environment.boutique_store",
+      "type": "environment",
+      "label": "A small clothing boutique",
+      "prompt": "a small clothing boutique",
+      "tags": [
+        "retail",
+        "upscale"
+      ],
+      "weight": 0.6
+    }
+  ]
+}

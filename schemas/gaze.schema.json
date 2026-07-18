@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/gaze.schema.json",
+  "title": "Gaze",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "gaze"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "eye_state": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "facing": {
+          "type": "string",
+          "maxLength": 32
+        }
+      }
+    }
+  }
+}

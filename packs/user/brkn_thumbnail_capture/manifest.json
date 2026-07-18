@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_thumbnail_capture",
+  "name": "BRKN Thumbnail Capture Pack",
+  "version": "0.1.0",
+  "author": "BRKN",
+  "description": "Controlled thumbnail composition entries for BRKN pack previews. Abby LoRA filename, trigger token, and strength are pending confirmation.",
+  "content_types": [
+    "visual_styles",
+    "environments",
+    "locations",
+    "camera_presets",
+    "lighting_presets",
+    "actions",
+    "poses"
+  ],
+  "enabled_by_default": false,
+  "priority": 900,
+  "dependencies": [],
+  "tags": [
+    "thumbnail",
+    "capture",
+    "utility",
+    "production"
+  ]
+}

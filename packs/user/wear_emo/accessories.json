@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_emo.accessory.studded_bracelet",
+      "type": "accessory",
+      "label": "Studded leather wristbands",
+      "prompt": "studded leather wristbands",
+      "tags": [
+        "emo",
+        "hand"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_emo.accessory.black_rubber_bands",
+      "type": "accessory",
+      "label": "A stack of black rubber bracelets",
+      "prompt": "a stack of black rubber bracelets",
+      "tags": [
+        "emo",
+        "hand"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_emo.accessory.safety_pins",
+      "type": "accessory",
+      "label": "Safety pins through her collar",
+      "prompt": "safety pins through her collar",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_emo.accessory.chain_wallet",
+      "type": "accessory",
+      "label": "A wallet chain at her hip",
+      "prompt": "a wallet chain at her hip",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_emo.accessory.cross_earrings",
+      "type": "accessory",
+      "label": "Small black cross earrings",
+      "prompt": "small black cross earrings",
+      "tags": [
+        "emo",
+        "ear"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_emo.accessory.choker_studded",
+      "type": "accessory",
+      "label": "A studded choker",
+      "prompt": "a studded choker",
+      "tags": [
+        "emo",
+        "neck"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_emo.accessory.guitar_pick",
+      "type": "accessory",
+      "label": "A guitar pick on a chain",
+      "prompt": "a guitar pick on a chain",
+      "tags": [
+        "emo",
+        "neck"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "wear_emo.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 4.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

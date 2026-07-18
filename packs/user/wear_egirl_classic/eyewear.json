@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.eyewear.blue_light",
+      "type": "eyewear",
+      "label": "Clear blue-light glasses",
+      "prompt": "clear blue-light glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl_classic.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 12.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

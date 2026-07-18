@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_riviera.headwear.straw_hat_wide",
+      "type": "headwear",
+      "label": "A wide-brimmed straw hat",
+      "prompt": "a wide-brimmed straw hat",
+      "tags": [
+        "hat"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_riviera.headwear.silk_scarf_hair",
+      "type": "headwear",
+      "label": "A silk scarf tied over her hair",
+      "prompt": "a silk scarf tied over her hair",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_riviera.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

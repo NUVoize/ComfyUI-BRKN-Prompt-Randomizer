@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lips",
+  "entries": [
+    {
+      "id": "brkn_base.lips.plump",
+      "type": "lips",
+      "label": "Plump",
+      "prompt": "plump lips",
+      "tags": [
+        "full"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.lips.full",
+      "type": "lips",
+      "label": "Full",
+      "prompt": "full lips",
+      "tags": [
+        "full"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.lips.small",
+      "type": "lips",
+      "label": "Small",
+      "prompt": "small lips",
+      "tags": [
+        "small"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.lips.thin",
+      "type": "lips",
+      "label": "Thin",
+      "prompt": "thin lips",
+      "tags": [
+        "small"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lips.heart_shaped",
+      "type": "lips",
+      "label": "Heart Shaped",
+      "prompt": "heart-shaped lips",
+      "tags": [
+        "shaped"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.lips.defined_cupids_bow",
+      "type": "lips",
+      "label": "Defined Cupids Bow",
+      "prompt": "a defined cupid's bow",
+      "tags": [
+        "shaped"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lips.unspecified",
+      "type": "lips",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.59,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

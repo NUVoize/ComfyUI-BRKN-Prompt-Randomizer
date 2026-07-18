@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_goth_mall.hair_color.jet_black",
+      "type": "hair_color",
+      "label": "Jet black",
+      "prompt": "jet black",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_mall.hair_color.black_red_streaks",
+      "type": "hair_color",
+      "label": "Black with dyed red streaks",
+      "prompt": "black with dyed red streaks",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_mall.hair_color.black_blonde_chunks",
+      "type": "hair_color",
+      "label": "Black with chunky bleached streaks",
+      "prompt": "black with chunky bleached streaks",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 1.8
+    }
+  ]
+}

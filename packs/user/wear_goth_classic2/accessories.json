@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.accessory.oring_choker",
+      "type": "accessory",
+      "label": "A black choker with a heavy silver o-ring",
+      "prompt": "a black choker with a heavy silver O-ring",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.8
+    },
+    {
+      "id": "wear_goth_classic2.accessory.silver_cross",
+      "type": "accessory",
+      "label": "A silver cross on a fine chain",
+      "prompt": "a silver cross on a fine chain",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic2.accessory.layered_chains_fine",
+      "type": "accessory",
+      "label": "Layered fine silver chains",
+      "prompt": "layered fine silver chains",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic2.accessory.waist_chain",
+      "type": "accessory",
+      "label": "A silver chain at her waist",
+      "prompt": "a silver chain at her waist",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic2.accessory.oring_harness",
+      "type": "accessory",
+      "label": "A strap harness hung with silver o-rings",
+      "prompt": "a strap harness hung with silver O-rings",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic2.accessory.black_nails_glossy",
+      "type": "accessory",
+      "label": "Neat glossy black nails",
+      "prompt": "neat glossy black nails",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic2.accessory.silver_rings_neat",
+      "type": "accessory",
+      "label": "A few plain silver rings",
+      "prompt": "a few plain silver rings",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_classic2.accessory.gothic_belt",
+      "type": "accessory",
+      "label": "A wide black belt with silver hardware",
+      "prompt": "a wide black belt with silver hardware",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic2.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

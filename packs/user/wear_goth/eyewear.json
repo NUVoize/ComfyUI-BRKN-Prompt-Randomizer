@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "wear_goth.eyewear.black_cat_eye",
+      "type": "eyewear",
+      "label": "Small black cat-eye sunglasses",
+      "prompt": "small black cat-eye sunglasses",
+      "tags": [
+        "sunglasses",
+        "goth"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.eyewear.tiny_black",
+      "type": "eyewear",
+      "label": "Tiny black sunglasses",
+      "prompt": "tiny black sunglasses",
+      "tags": [
+        "sunglasses",
+        "goth"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.eyewear.black_frames",
+      "type": "eyewear",
+      "label": "Heavy black-framed glasses",
+      "prompt": "heavy black-framed glasses",
+      "tags": [
+        "glasses",
+        "goth"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_goth.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 16.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

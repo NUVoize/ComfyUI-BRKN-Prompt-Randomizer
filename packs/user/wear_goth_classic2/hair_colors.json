@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.hair_color.jet_black",
+      "type": "hair_color",
+      "label": "Jet black",
+      "prompt": "jet black",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 3.4
+    },
+    {
+      "id": "wear_goth_classic2.hair_color.blue_black",
+      "type": "hair_color",
+      "label": "Blue-black",
+      "prompt": "blue-black",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 1.2
+    }
+  ]
+}

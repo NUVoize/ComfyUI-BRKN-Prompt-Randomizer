@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth_trad.outfit.fishnet_over_bra",
+      "type": "outfit",
+      "label": "A fishnet top over a black bra",
+      "prompt": "a fishnet top over a black bra",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_trad.outfit.leather_skirt_fishnet",
+      "type": "outfit",
+      "label": "A black leather mini skirt over torn fishnets",
+      "prompt": "a black leather mini skirt over torn fishnets",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_trad.outfit.mesh_sleeves_black",
+      "type": "outfit",
+      "label": "A black top with long sheer mesh sleeves",
+      "prompt": "a black top with long sheer mesh sleeves",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_trad.outfit.bat_wing_top",
+      "type": "outfit",
+      "label": "A black top with wide draping sleeves",
+      "prompt": "a black top with wide draping sleeves",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_trad.outfit.pvc_leggings",
+      "type": "outfit",
+      "label": "Black pvc leggings and a cropped black top",
+      "prompt": "black PVC leggings and a cropped black top",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_trad.outfit.ripped_black_jeans",
+      "type": "outfit",
+      "label": "Shredded black jeans and a black vest",
+      "prompt": "shredded black jeans and a black vest",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_trad.outfit.black_bodycon_mesh",
+      "type": "outfit",
+      "label": "A black bodycon dress under a mesh overlay",
+      "prompt": "a black bodycon dress under a mesh overlay",
+      "tags": [
+        "goth_trad",
+        "dressy"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_trad.outfit.torn_tights_shorts",
+      "type": "outfit",
+      "label": "Torn black tights under leather shorts",
+      "prompt": "torn black tights under leather shorts",
+      "tags": [
+        "goth_trad",
+        "casual"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.action.holding_still_catalog",
+      "type": "action",
+      "label": "Holding Still For Catalog Thumbnail",
+      "prompt": "holding still in a clean catalog pose",
+      "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person",
+      "tags": [
+        "thumbnail",
+        "catalog",
+        "still",
+        "low_motion"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "action_family": "working",
+        "activity_level": "low",
+        "requires_prop": false
+      }
+    }
+  ]
+}

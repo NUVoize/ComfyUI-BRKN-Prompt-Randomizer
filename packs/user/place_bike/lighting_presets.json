@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_bike.lighting_preset.streetlight_hard",
+      "type": "lighting_preset",
+      "label": "Hard streetlight from above",
+      "prompt": "hard streetlight from above",
+      "tags": [
+        "hard",
+        "night",
+        "practical"
+      ],
+      "weight": 2.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.lighting_preset.headlight_glow",
+      "type": "lighting_preset",
+      "label": "The bike's headlight throwing light back at her",
+      "prompt": "the bike's headlight throwing light back at her",
+      "tags": [
+        "practical",
+        "dramatic",
+        "night"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.lighting_preset.low_sun_side",
+      "type": "lighting_preset",
+      "label": "Low sun raking across the bodywork",
+      "prompt": "low sun raking across the bodywork",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 2.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.lighting_preset.open_daylight_bike",
+      "type": "lighting_preset",
+      "label": "Flat bright daylight on the paintwork",
+      "prompt": "flat bright daylight on the paintwork",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 2.0,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.lighting_preset.garage_strip_bike",
+      "type": "lighting_preset",
+      "label": "Flat strip light in a concrete garage",
+      "prompt": "flat strip light in a concrete garage",
+      "tags": [
+        "flat",
+        "hard"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.lighting_preset.neon_wash",
+      "type": "lighting_preset",
+      "label": "Coloured neon washing across the fairings",
+      "prompt": "coloured neon washing across the fairings",
+      "tags": [
+        "neon",
+        "night",
+        "dramatic"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    }
+  ]
+}

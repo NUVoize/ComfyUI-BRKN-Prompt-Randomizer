@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "look_y2k.visual_style.digicam_flash",
+      "type": "visual_style",
+      "label": "An early-2000s digital compact photograph",
+      "prompt": "an early-2000s digital compact photograph",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "y2k",
+        "day_ok"
+      ],
+      "weight": 2.8,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash",
+            "hard"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the soft noisy sensor of a 2002 compact camera, detail smeared in the shadows",
+        "color_treatment": "a green-shifted cast and a hot blown flash",
+        "camera_behavior": "a careless snapshot framing",
+        "aspect_ratio": "4:3"
+      }
+    },
+    {
+      "id": "look_y2k.visual_style.digicam_night",
+      "type": "visual_style",
+      "label": "A flash photograph taken at night on a compact camera",
+      "prompt": "a flash photograph taken at night on a compact camera",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "y2k",
+        "night_style"
+      ],
+      "weight": 2.0,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "heavy sensor noise, the background falling to black",
+        "color_treatment": "blown skin, red-eye, everything behind her gone",
+        "camera_behavior": "a snapshot framing",
+        "aspect_ratio": "4:3"
+      }
+    },
+    {
+      "id": "look_y2k.visual_style.camcorder",
+      "type": "visual_style",
+      "label": "A frame from a minidv camcorder",
+      "prompt": "a frame from a MiniDV camcorder",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "y2k",
+        "day_ok"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash",
+            "practical"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "interlaced video softness, smeared motion",
+        "color_treatment": "washed video colour, blacks lifted to grey",
+        "camera_behavior": "a wobbling handheld framing",
+        "aspect_ratio": "4:3"
+      }
+    },
+    {
+      "id": "look_y2k.visual_style.scanned_print",
+      "type": "visual_style",
+      "label": "A scanned 4x6 print from a photo lab",
+      "prompt": "a scanned 4x6 print from a photo lab",
+      "tags": [
+        "photographic",
+        "photoreal",
+        "y2k",
+        "day_ok"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash",
+            "natural"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "the dust and slight blur of a cheap lab print",
+        "color_treatment": "faded warm colour, a white border",
+        "camera_behavior": "a careless framing",
+        "aspect_ratio": "4:3"
+      }
+    }
+  ]
+}

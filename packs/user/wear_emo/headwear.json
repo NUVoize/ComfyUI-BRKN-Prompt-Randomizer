@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_emo.headwear.beanie_black",
+      "type": "headwear",
+      "label": "A black beanie",
+      "prompt": "a black beanie",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_emo.headwear.snapback",
+      "type": "headwear",
+      "label": "A flat-brim snapback, backwards",
+      "prompt": "a flat-brim snapback, backwards",
+      "tags": [
+        "emo"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "wear_emo.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 14.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

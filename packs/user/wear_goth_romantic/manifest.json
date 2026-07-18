@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_romantic",
+  "name": "BRKN Goth - Romantic",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Victorian romantic goth. Velvet, lace, high collars, corsetry, deep red.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "accessories",
+    "face_paints",
+    "outerwear",
+    "headwear",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "capsule",
+    "layerable"
+  ]
+}

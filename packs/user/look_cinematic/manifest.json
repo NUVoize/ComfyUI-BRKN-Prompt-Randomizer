@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "look_cinematic",
+  "name": "BRKN Look - Cinematic",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Anamorphic, wide, patient. Film-grade colour, oval bokeh, 2.39:1.",
+  "content_types": [
+    "visual_styles",
+    "camera_presets",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 500,
+  "dependencies": [],
+  "tags": [
+    "look",
+    "layerable",
+    "set"
+  ]
+}

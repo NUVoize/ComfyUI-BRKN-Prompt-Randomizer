@@ -1,0 +1,2135 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "brkn_base.location.kitchen",
+      "type": "location",
+      "label": "In a kitchen with worn counters and open shelving",
+      "prompt": "in a kitchen with worn counters and open shelving",
+      "tags": [
+        "indoor",
+        "kitchen",
+        "cooking_space",
+        "desk_space"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "cooking_space",
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.living_room",
+      "type": "location",
+      "label": "On a lived-in living room with a deep sofa",
+      "prompt": "on a lived-in living room with a deep sofa",
+      "tags": [
+        "indoor",
+        "living_room",
+        "lounge_space"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.bedroom",
+      "type": "location",
+      "label": "In a bedroom with the sheets not quite straight",
+      "prompt": "in a bedroom with the sheets not quite straight",
+      "tags": [
+        "indoor",
+        "bedroom",
+        "sleep_space"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "sleep_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.bathroom",
+      "type": "location",
+      "label": "In a small bathroom with a fogged mirror",
+      "prompt": "in a small bathroom with a fogged mirror",
+      "tags": [
+        "indoor",
+        "bathroom",
+        "wash_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "wash_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.dining_room",
+      "type": "location",
+      "label": "In a dining room with a table too big for it",
+      "prompt": "in a dining room with a table too big for it",
+      "tags": [
+        "indoor",
+        "dining_room",
+        "table_space",
+        "desk_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.home_office_nook",
+      "type": "location",
+      "label": "In a desk wedged into the corner of a room",
+      "prompt": "in a desk wedged into the corner of a room",
+      "tags": [
+        "indoor",
+        "home_office_nook",
+        "desk_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.laundry_room",
+      "type": "location",
+      "label": "In a laundry room with a basket half unloaded",
+      "prompt": "in a laundry room with a basket half unloaded",
+      "tags": [
+        "indoor",
+        "laundry_room",
+        "wash_space",
+        "utility_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "wash_space",
+          "utility_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.hallway",
+      "type": "location",
+      "label": "In a narrow hallway hung with coats",
+      "prompt": "in a narrow hallway hung with coats",
+      "tags": [
+        "threshold",
+        "hallway",
+        "threshold_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.entryway",
+      "type": "location",
+      "label": "In an entryway with shoes kicked off by the door",
+      "prompt": "in an entryway with shoes kicked off by the door",
+      "tags": [
+        "threshold",
+        "entryway",
+        "threshold_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.garage",
+      "type": "location",
+      "label": "In a garage cluttered with boxes and tools",
+      "prompt": "in a garage cluttered with boxes and tools",
+      "tags": [
+        "indoor",
+        "garage",
+        "utility_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.basement",
+      "type": "location",
+      "label": "In a basement of bare bulbs and stored things",
+      "prompt": "in a basement of bare bulbs and stored things",
+      "tags": [
+        "indoor",
+        "basement",
+        "utility_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.attic",
+      "type": "location",
+      "label": "On an attic under a sloping roof",
+      "prompt": "on an attic under a sloping roof",
+      "tags": [
+        "indoor",
+        "attic",
+        "utility_space"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.backyard",
+      "type": "location",
+      "label": "In a backyard with grass and a washing line",
+      "prompt": "in a backyard with grass and a washing line",
+      "tags": [
+        "outdoor",
+        "backyard",
+        "outdoor_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.front_porch",
+      "type": "location",
+      "label": "On a front porch with a step down to the path",
+      "prompt": "on a front porch with a step down to the path",
+      "tags": [
+        "threshold",
+        "front_porch",
+        "threshold_space",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "outdoor_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.driveway",
+      "type": "location",
+      "label": "In a driveway beside the house",
+      "prompt": "in a driveway beside the house",
+      "tags": [
+        "outdoor",
+        "driveway",
+        "outdoor_space",
+        "vehicle_exterior"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "vehicle_exterior",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.back_deck",
+      "type": "location",
+      "label": "On a wooden back deck with a low table",
+      "prompt": "on a wooden back deck with a low table",
+      "tags": [
+        "outdoor",
+        "back_deck",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.garden",
+      "type": "location",
+      "label": "In a garden of pots and overgrown beds",
+      "prompt": "in a garden of pots and overgrown beds",
+      "tags": [
+        "outdoor",
+        "garden",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "detached"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.balcony",
+      "type": "location",
+      "label": "On a narrow balcony over the street",
+      "prompt": "on a narrow balcony over the street",
+      "tags": [
+        "outdoor",
+        "balcony",
+        "outdoor_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "apartment"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.building_lobby",
+      "type": "location",
+      "label": "In a building lobby of mailboxes and tile",
+      "prompt": "in a building lobby of mailboxes and tile",
+      "tags": [
+        "threshold",
+        "building_lobby",
+        "threshold_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "apartment"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.shared_stairwell",
+      "type": "location",
+      "label": "In a shared stairwell with a painted handrail",
+      "prompt": "in a shared stairwell with a painted handrail",
+      "tags": [
+        "threshold",
+        "shared_stairwell",
+        "threshold_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "apartment"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.fire_escape",
+      "type": "location",
+      "label": "In a fire escape hanging off the brick",
+      "prompt": "in a fire escape hanging off the brick",
+      "tags": [
+        "outdoor",
+        "fire_escape",
+        "outdoor_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "apartment"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.open_plan_floor",
+      "type": "location",
+      "label": "On an open-plan floor of desks and low partitions",
+      "prompt": "on an open-plan floor of desks and low partitions",
+      "tags": [
+        "indoor",
+        "open_plan",
+        "desk_space"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.cubicle_row",
+      "type": "location",
+      "label": "In a row of cubicles under strip lighting",
+      "prompt": "in a row of cubicles under strip lighting",
+      "tags": [
+        "indoor",
+        "cubicle",
+        "desk_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.private_office",
+      "type": "location",
+      "label": "In a private office with the door half shut",
+      "prompt": "in a private office with the door half shut",
+      "tags": [
+        "indoor",
+        "private_office",
+        "desk_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.meeting_room",
+      "type": "location",
+      "label": "In a glass meeting room with a whiteboard",
+      "prompt": "in a glass meeting room with a whiteboard",
+      "tags": [
+        "indoor",
+        "meeting_room",
+        "desk_space",
+        "table_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "table_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.reception_desk",
+      "type": "location",
+      "label": "In a reception desk in a quiet lobby",
+      "prompt": "in a reception desk in a quiet lobby",
+      "tags": [
+        "indoor",
+        "reception",
+        "counter_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.break_room_kitchenette",
+      "type": "location",
+      "label": "In an office kitchenette with a kettle and a sink",
+      "prompt": "in an office kitchenette with a kettle and a sink",
+      "tags": [
+        "indoor",
+        "break_room",
+        "cooking_space",
+        "lounge_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "cooking_space",
+          "lounge_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.supply_room",
+      "type": "location",
+      "label": "In a supply room of shelves and boxes",
+      "prompt": "in a supply room of shelves and boxes",
+      "tags": [
+        "indoor",
+        "supply_room",
+        "utility_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.rooftop_terrace",
+      "type": "location",
+      "label": "On a rooftop terrace above the offices",
+      "prompt": "on a rooftop terrace above the offices",
+      "tags": [
+        "outdoor",
+        "rooftop",
+        "outdoor_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.office_stairwell",
+      "type": "location",
+      "label": "In a concrete office stairwell",
+      "prompt": "in a concrete office stairwell",
+      "tags": [
+        "threshold",
+        "office_stairwell",
+        "threshold_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.elevator",
+      "type": "location",
+      "label": "In a mirrored elevator",
+      "prompt": "in a mirrored elevator",
+      "tags": [
+        "threshold",
+        "elevator",
+        "threshold_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.underground_parking",
+      "type": "location",
+      "label": "In an underground parking level",
+      "prompt": "in an underground parking level",
+      "tags": [
+        "indoor",
+        "underground_parking",
+        "utility_space",
+        "vehicle_exterior"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "work"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "vehicle_exterior",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.counter_queue",
+      "type": "location",
+      "label": "On the queue at the caf\u00e9 counter",
+      "prompt": "on the queue at the caf\u00e9 counter",
+      "tags": [
+        "indoor",
+        "counter_queue",
+        "counter_space"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.barista_station",
+      "type": "location",
+      "label": "In the barista station behind the machine",
+      "prompt": "in the barista station behind the machine",
+      "tags": [
+        "indoor",
+        "barista_station",
+        "counter_space",
+        "cooking_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "cooking_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.cafe_window_seat",
+      "type": "location",
+      "label": "On a window seat with the street beyond the glass",
+      "prompt": "on a window seat with the street beyond the glass",
+      "tags": [
+        "indoor",
+        "window_seat",
+        "table_space",
+        "desk_space"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.corner_table",
+      "type": "location",
+      "label": "In a corner table half in shadow",
+      "prompt": "in a corner table half in shadow",
+      "tags": [
+        "indoor",
+        "corner_table",
+        "table_space",
+        "desk_space"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.communal_table",
+      "type": "location",
+      "label": "In a long communal table shared with strangers",
+      "prompt": "in a long communal table shared with strangers",
+      "tags": [
+        "indoor",
+        "communal_table",
+        "table_space",
+        "desk_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "desk_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.cafe_outdoor_terrace",
+      "type": "location",
+      "label": "On a pavement terrace of small round tables",
+      "prompt": "on a pavement terrace of small round tables",
+      "tags": [
+        "outdoor",
+        "outdoor_terrace",
+        "outdoor_space",
+        "table_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "table_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.back_lounge",
+      "type": "location",
+      "label": "In a back lounge of low armchairs",
+      "prompt": "in a back lounge of low armchairs",
+      "tags": [
+        "indoor",
+        "back_lounge",
+        "lounge_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.dining_floor",
+      "type": "location",
+      "label": "On the dining floor between set tables",
+      "prompt": "on the dining floor between set tables",
+      "tags": [
+        "indoor",
+        "dining_floor",
+        "table_space"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.bar_counter",
+      "type": "location",
+      "label": "On the bar counter with stools pulled up",
+      "prompt": "on the bar counter with stools pulled up",
+      "tags": [
+        "indoor",
+        "bar_counter",
+        "counter_space"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.booth",
+      "type": "location",
+      "label": "In a booth against the wall",
+      "prompt": "in a booth against the wall",
+      "tags": [
+        "indoor",
+        "booth",
+        "table_space"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.restaurant_patio",
+      "type": "location",
+      "label": "In a patio strung with lights",
+      "prompt": "in a patio strung with lights",
+      "tags": [
+        "outdoor",
+        "patio",
+        "outdoor_space",
+        "table_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "table_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.kitchen_pass",
+      "type": "location",
+      "label": "In the kitchen pass where plates come up",
+      "prompt": "in the kitchen pass where plates come up",
+      "tags": [
+        "indoor",
+        "kitchen_pass",
+        "cooking_space",
+        "counter_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "cooking_space",
+          "counter_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.private_dining_room",
+      "type": "location",
+      "label": "In a private dining room behind a curtain",
+      "prompt": "in a private dining room behind a curtain",
+      "tags": [
+        "indoor",
+        "private_dining",
+        "table_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.host_stand",
+      "type": "location",
+      "label": "In the host stand by the door",
+      "prompt": "in the host stand by the door",
+      "tags": [
+        "threshold",
+        "host_stand",
+        "counter_space",
+        "threshold_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "restaurant"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.sidewalk",
+      "type": "location",
+      "label": "In the sidewalk alongside the traffic",
+      "prompt": "in the sidewalk alongside the traffic",
+      "tags": [
+        "outdoor",
+        "sidewalk",
+        "transit_space"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.crosswalk",
+      "type": "location",
+      "label": "On the crosswalk mid-crossing",
+      "prompt": "on the crosswalk mid-crossing",
+      "tags": [
+        "outdoor",
+        "crosswalk",
+        "transit_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.bus_stop",
+      "type": "location",
+      "label": "In a bus stop shelter",
+      "prompt": "in a bus stop shelter",
+      "tags": [
+        "outdoor",
+        "bus_stop",
+        "transit_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.storefront_window",
+      "type": "location",
+      "label": "On the pavement in front of a lit storefront window",
+      "prompt": "on the pavement in front of a lit storefront window",
+      "tags": [
+        "outdoor",
+        "storefront",
+        "transit_space",
+        "retail_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "retail_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.park_bench",
+      "type": "location",
+      "label": "On a bench at the edge of a small park",
+      "prompt": "on a bench at the edge of a small park",
+      "tags": [
+        "outdoor",
+        "park_bench",
+        "outdoor_space"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.alley_doorway",
+      "type": "location",
+      "label": "In a doorway set back in an alley",
+      "prompt": "in a doorway set back in an alley",
+      "tags": [
+        "outdoor",
+        "alley_doorway",
+        "transit_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.subway_entrance",
+      "type": "location",
+      "label": "On the steps down to a subway entrance",
+      "prompt": "on the steps down to a subway entrance",
+      "tags": [
+        "threshold",
+        "subway_entrance",
+        "transit_space",
+        "threshold_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "threshold_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.loading_dock",
+      "type": "location",
+      "label": "On a loading dock behind the buildings",
+      "prompt": "on a loading dock behind the buildings",
+      "tags": [
+        "outdoor",
+        "loading_dock",
+        "utility_space",
+        "transit_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "utility_space",
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.shop_floor",
+      "type": "location",
+      "label": "On the shop floor between the rails",
+      "prompt": "on the shop floor between the rails",
+      "tags": [
+        "indoor",
+        "shop_floor",
+        "retail_space"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "retail_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.changing_room",
+      "type": "location",
+      "label": "In a changing room with a heavy curtain",
+      "prompt": "in a changing room with a heavy curtain",
+      "tags": [
+        "indoor",
+        "changing_room",
+        "retail_space",
+        "wash_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "retail_space",
+          "wash_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.checkout_counter",
+      "type": "location",
+      "label": "On the checkout counter with a queue behind",
+      "prompt": "on the checkout counter with a queue behind",
+      "tags": [
+        "indoor",
+        "checkout",
+        "retail_space",
+        "counter_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "retail_space",
+          "counter_space",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.driver_seat",
+      "type": "location",
+      "label": "In the driver's seat, hands at the wheel",
+      "prompt": "in the driver's seat, hands at the wheel",
+      "tags": [
+        "indoor",
+        "driver_seat",
+        "vehicle_seat"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.passenger_seat",
+      "type": "location",
+      "label": "In the passenger seat, window down",
+      "prompt": "in the passenger seat, window down",
+      "tags": [
+        "indoor",
+        "passenger_seat",
+        "vehicle_seat"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.back_seat",
+      "type": "location",
+      "label": "In the back seat, bags on the floor",
+      "prompt": "in the back seat, bags on the floor",
+      "tags": [
+        "indoor",
+        "back_seat",
+        "vehicle_seat"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.leaning_on_the_hood",
+      "type": "location",
+      "label": "In the front of the car, hood still warm",
+      "prompt": "in the front of the car, hood still warm",
+      "tags": [
+        "outdoor",
+        "hood",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.open_trunk",
+      "type": "location",
+      "label": "In the open trunk at the kerb",
+      "prompt": "in the open trunk at the kerb",
+      "tags": [
+        "outdoor",
+        "trunk",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.gas_station_pump",
+      "type": "location",
+      "label": "In a gas station pump under the canopy",
+      "prompt": "in a gas station pump under the canopy",
+      "tags": [
+        "outdoor",
+        "gas_pump",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "enclosed"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.astride_the_saddle",
+      "type": "location",
+      "label": "In astride the saddle at a standstill",
+      "prompt": "in astride the saddle at a standstill",
+      "tags": [
+        "outdoor",
+        "saddle",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "open_vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.walking_it_along",
+      "type": "location",
+      "label": "In walking it along the kerb",
+      "prompt": "in walking it along the kerb",
+      "tags": [
+        "outdoor",
+        "walking_it",
+        "vehicle_exterior",
+        "transit_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "open_vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.parked_at_the_kerb",
+      "type": "location",
+      "label": "In parked at the kerb",
+      "prompt": "in parked at the kerb",
+      "tags": [
+        "outdoor",
+        "kerb",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "open_vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.roadside_stop",
+      "type": "location",
+      "label": "On a roadside stop on an empty road",
+      "prompt": "on a roadside stop on an empty road",
+      "tags": [
+        "outdoor",
+        "roadside",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "open_vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.transit_window_seat",
+      "type": "location",
+      "label": "In a window seat as the city slides past",
+      "prompt": "in a window seat as the city slides past",
+      "tags": [
+        "indoor",
+        "transit_seat",
+        "vehicle_seat"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "transit"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.standing_by_the_pole",
+      "type": "location",
+      "label": "In standing, one hand on the pole",
+      "prompt": "in standing, one hand on the pole",
+      "tags": [
+        "indoor",
+        "standing_pole",
+        "vehicle_seat"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "transit"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.platform_edge",
+      "type": "location",
+      "label": "On the platform edge, train not yet in",
+      "prompt": "on the platform edge, train not yet in",
+      "tags": [
+        "outdoor",
+        "platform",
+        "transit_space"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "transit"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "transit_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.station_stairs",
+      "type": "location",
+      "label": "On the station stairs, crowd moving both ways",
+      "prompt": "on the station stairs, crowd moving both ways",
+      "tags": [
+        "threshold",
+        "station_stairs",
+        "threshold_space",
+        "transit_space"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "transit"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "transit_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.turnstiles",
+      "type": "location",
+      "label": "At the turnstiles at the gate line",
+      "prompt": "at the turnstiles at the gate line",
+      "tags": [
+        "threshold",
+        "turnstiles",
+        "threshold_space",
+        "transit_space"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "transit"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "transit_space",
+          "universal_indoor",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "threshold"
+      }
+    },
+    {
+      "id": "brkn_base.location.race_driver_seat",
+      "type": "location",
+      "label": "In strapped into the race seat, helmet on",
+      "prompt": "in strapped into the race seat, helmet on",
+      "tags": [
+        "indoor",
+        "race_seat",
+        "vehicle_seat"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "motorsport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.pit_lane",
+      "type": "location",
+      "label": "In the pit lane, crew waiting",
+      "prompt": "in the pit lane, crew waiting",
+      "tags": [
+        "outdoor",
+        "pit_lane",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "motorsport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.paddock",
+      "type": "location",
+      "label": "On the paddock behind the garages",
+      "prompt": "on the paddock behind the garages",
+      "tags": [
+        "outdoor",
+        "paddock",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "motorsport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    },
+    {
+      "id": "brkn_base.location.starting_grid",
+      "type": "location",
+      "label": "In the starting grid before the lights",
+      "prompt": "in the starting grid before the lights",
+      "tags": [
+        "outdoor",
+        "grid",
+        "vehicle_exterior",
+        "outdoor_space"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "environment_tags_any": [
+          "motorsport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space",
+          "universal_outdoor",
+          "universal"
+        ]
+      },
+      "metadata": {
+        "structural": "outdoor"
+      }
+    }
+  ]
+}

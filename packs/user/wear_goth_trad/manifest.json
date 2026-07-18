@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_trad",
+  "name": "BRKN Goth - Trad",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "1980s trad goth. Fishnet, leather, silver, sharp angles, sharper liner.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "accessories",
+    "face_paints",
+    "outerwear",
+    "body_arts",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "capsule",
+    "layerable"
+  ]
+}

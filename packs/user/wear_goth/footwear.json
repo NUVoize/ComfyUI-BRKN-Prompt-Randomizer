@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_goth.footwear.combat_boots",
+      "type": "footwear",
+      "label": "Chunky black combat boots",
+      "prompt": "chunky black combat boots",
+      "tags": [
+        "boots",
+        "goth"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.footwear.platform_boots",
+      "type": "footwear",
+      "label": "Towering platform boots",
+      "prompt": "towering platform boots",
+      "tags": [
+        "boots",
+        "goth"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.footwear.creepers",
+      "type": "footwear",
+      "label": "Black creepers",
+      "prompt": "black creepers",
+      "tags": [
+        "flats",
+        "goth"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_goth.footwear.pointed_heels",
+      "type": "footwear",
+      "label": "Sharp black pointed heels",
+      "prompt": "sharp black pointed heels",
+      "tags": [
+        "heels",
+        "goth"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "heels"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth.footwear.mary_janes",
+      "type": "footwear",
+      "label": "Black platform mary janes",
+      "prompt": "black platform Mary Janes",
+      "tags": [
+        "flats",
+        "goth"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_goth.footwear.barefoot",
+      "type": "footwear",
+      "label": "Barefoot, black nails",
+      "prompt": "barefoot, black nails",
+      "tags": [
+        "flats",
+        "goth"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "footwear_category": "flats"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

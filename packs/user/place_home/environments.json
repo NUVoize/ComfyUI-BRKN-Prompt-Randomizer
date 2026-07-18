@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_home.environment.apartment",
+      "type": "environment",
+      "label": "A bright modern apartment",
+      "prompt": "a bright modern apartment",
+      "tags": [
+        "home",
+        "indoor_env"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "place_home.environment.old_flat",
+      "type": "environment",
+      "label": "An old flat with high ceilings",
+      "prompt": "an old flat with high ceilings",
+      "tags": [
+        "home",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_home.environment.balcony_env",
+      "type": "environment",
+      "label": "A flat with a small balcony",
+      "prompt": "a flat with a small balcony",
+      "tags": [
+        "home",
+        "outdoor_env"
+      ],
+      "weight": 0.9
+    }
+  ]
+}

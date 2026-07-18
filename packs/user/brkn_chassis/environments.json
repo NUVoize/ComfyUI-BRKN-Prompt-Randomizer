@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "brkn_chassis.environment.somewhere",
+      "type": "environment",
+      "label": "Somewhere",
+      "prompt": "an unremarkable room",
+      "tags": [
+        "neutral",
+        "indoor_env"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_chassis.environment.outside",
+      "type": "environment",
+      "label": "Outside",
+      "prompt": "somewhere outdoors",
+      "tags": [
+        "neutral",
+        "outdoor_env"
+      ],
+      "weight": 0.4
+    }
+  ]
+}

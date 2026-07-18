@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/bag.schema.json",
+  "title": "Bag",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "bag"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "carry": {
+          "type": "string",
+          "maxLength": 32
+        }
+      }
+    }
+  }
+}

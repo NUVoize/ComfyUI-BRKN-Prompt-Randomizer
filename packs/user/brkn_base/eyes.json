@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyes",
+  "entries": [
+    {
+      "id": "brkn_base.eyes.blue",
+      "type": "eyes",
+      "label": "Blue",
+      "prompt": "blue eyes",
+      "tags": [
+        "blue"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.eyes.pale_blue",
+      "type": "eyes",
+      "label": "Pale Blue",
+      "prompt": "pale blue eyes",
+      "tags": [
+        "blue"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyes.piercing_blue",
+      "type": "eyes",
+      "label": "Piercing Blue",
+      "prompt": "piercing blue eyes",
+      "tags": [
+        "blue",
+        "piercing"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.green",
+      "type": "eyes",
+      "label": "Green",
+      "prompt": "green eyes",
+      "tags": [
+        "green"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.pale_green",
+      "type": "eyes",
+      "label": "Pale Green",
+      "prompt": "pale green eyes",
+      "tags": [
+        "green"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.eyes.dark_green",
+      "type": "eyes",
+      "label": "Dark Green",
+      "prompt": "dark green eyes",
+      "tags": [
+        "green"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.eyes.piercing_green",
+      "type": "eyes",
+      "label": "Piercing Green",
+      "prompt": "piercing green eyes",
+      "tags": [
+        "green",
+        "piercing"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.hazel",
+      "type": "eyes",
+      "label": "Hazel",
+      "prompt": "hazel eyes",
+      "tags": [
+        "hazel"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.amber",
+      "type": "eyes",
+      "label": "Amber",
+      "prompt": "amber eyes",
+      "tags": [
+        "amber"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.eyes.light_brown",
+      "type": "eyes",
+      "label": "Light Brown",
+      "prompt": "light brown eyes",
+      "tags": [
+        "brown"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.eyes.brown",
+      "type": "eyes",
+      "label": "Brown",
+      "prompt": "brown eyes",
+      "tags": [
+        "brown"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_base.eyes.piercing_brown",
+      "type": "eyes",
+      "label": "Piercing Brown",
+      "prompt": "piercing brown eyes",
+      "tags": [
+        "brown",
+        "piercing"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.almost_black",
+      "type": "eyes",
+      "label": "Almost Black",
+      "prompt": "eyes so dark they read almost black",
+      "tags": [
+        "dark"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.eyes.maroon",
+      "type": "eyes",
+      "label": "Maroon",
+      "prompt": "maroon eyes",
+      "tags": [
+        "maroon"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_base.eyes.light_maroon",
+      "type": "eyes",
+      "label": "Light Maroon",
+      "prompt": "light maroon eyes",
+      "tags": [
+        "maroon"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "brkn_base.eyes.piercing_maroon",
+      "type": "eyes",
+      "label": "Piercing Maroon",
+      "prompt": "piercing maroon eyes",
+      "tags": [
+        "maroon",
+        "piercing"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "brkn_base.eyes.grey",
+      "type": "eyes",
+      "label": "Grey",
+      "prompt": "grey eyes",
+      "tags": [
+        "grey"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.eyes.mysterious",
+      "type": "eyes",
+      "label": "Mysterious",
+      "prompt": "mysterious eyes",
+      "tags": [
+        "mood"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.eyes.unspecified",
+      "type": "eyes",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.81,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "brkn_base.visual_style.candid_iphone",
+      "type": "visual_style",
+      "label": "A candid iphone photograph",
+      "prompt": "a candid iPhone photograph",
+      "tags": [
+        "social_media",
+        "phone"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the lightly compressed look of a modern phone camera",
+        "color_treatment": "punchy contrast with slightly crushed shadows",
+        "camera_behavior": "a loose handheld framing",
+        "aspect_ratio": "4:5"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium",
+            "selfie"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "flash",
+            "social_media"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.phone_flash_night",
+      "type": "visual_style",
+      "label": "A phone photograph taken with the flash on",
+      "prompt": "a phone photograph taken with the flash on",
+      "tags": [
+        "social_media",
+        "phone"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "a harsh direct flash falling off fast into darkness",
+        "color_treatment": "blown highlights and deep black surroundings",
+        "camera_behavior": "a snapshot framing",
+        "aspect_ratio": "4:5"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "flash"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.early_2000s_digicam",
+      "type": "visual_style",
+      "label": "An early-2000s digital compact photograph",
+      "prompt": "an early-2000s digital compact photograph",
+      "tags": [
+        "social_media",
+        "phone"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the soft noisy sensor of a mid-2000s compact camera",
+        "color_treatment": "slightly green-shifted colour and a hot flash",
+        "camera_behavior": "a careless snapshot framing",
+        "aspect_ratio": "4:3"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "flash"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.clean_lifestyle",
+      "type": "visual_style",
+      "label": "A clean lifestyle photograph",
+      "prompt": "a clean lifestyle photograph",
+      "tags": [
+        "commercial"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "a crisp, lightly retouched digital finish",
+        "color_treatment": "warm neutral colour, nothing pushed",
+        "camera_behavior": "a steady tripod framing",
+        "aspect_ratio": "4:5"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "soft",
+            "natural",
+            "commercial"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.polished_commercial",
+      "type": "visual_style",
+      "label": "A polished commercial photograph",
+      "prompt": "a polished commercial photograph",
+      "tags": [
+        "commercial"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "a clean retouched commercial finish",
+        "color_treatment": "bright even colour, skin softly cleaned up",
+        "camera_behavior": "a locked-off framing",
+        "aspect_ratio": "1:1"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "portrait"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "commercial",
+            "clean",
+            "high_key",
+            "studio"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.editorial_fashion",
+      "type": "visual_style",
+      "label": "An editorial fashion photograph",
+      "prompt": "an editorial fashion photograph",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "visual_category": "editorial",
+        "finish": "a high-resolution medium-format finish",
+        "color_treatment": "controlled colour with deliberate contrast",
+        "camera_behavior": "a considered, composed framing",
+        "aspect_ratio": "4:5"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "editorial",
+            "wide",
+            "portrait"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "hard",
+            "editorial",
+            "studio",
+            "rim"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.documentary",
+      "type": "visual_style",
+      "label": "A documentary photograph",
+      "prompt": "a documentary photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "an unretouched reportage finish",
+        "color_treatment": "honest colour, nothing corrected",
+        "camera_behavior": "a reactive handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "wide",
+            "narrative"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.street_photography",
+      "type": "visual_style",
+      "label": "A street photograph",
+      "prompt": "a street photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "a grainy 35mm reportage finish",
+        "color_treatment": "high contrast, deep blacks",
+        "camera_behavior": "a snatched handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "wide",
+            "medium",
+            "narrative"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "hard"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.cinematic_photo",
+      "type": "visual_style",
+      "label": "A cinematic photograph",
+      "prompt": "a cinematic photograph",
+      "tags": [
+        "cinematic"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "a wide-gamut digital cinema finish",
+        "color_treatment": "teal shadows against warm skin",
+        "camera_behavior": "a slow, deliberate framing",
+        "aspect_ratio": "16:9"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "wide",
+            "medium",
+            "narrative"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "dramatic",
+            "rim",
+            "atmospheric",
+            "low_key"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.anamorphic_cinema",
+      "type": "visual_style",
+      "label": "An anamorphic cinema frame",
+      "prompt": "an anamorphic cinema frame",
+      "tags": [
+        "cinematic"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "the oval bokeh and horizontal flares of anamorphic glass",
+        "color_treatment": "rich filmic colour with lifted blacks",
+        "camera_behavior": "a wide, patient framing",
+        "aspect_ratio": "16:9"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "wide",
+            "editorial"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "dramatic",
+            "rim",
+            "backlit",
+            "atmospheric"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.film_noir",
+      "type": "visual_style",
+      "label": "A film-noir frame",
+      "prompt": "a film-noir frame",
+      "tags": [
+        "cinematic"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "high-contrast black and white",
+        "color_treatment": "no colour at all, only light and shadow",
+        "camera_behavior": "a static, composed framing",
+        "aspect_ratio": "16:9"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium",
+            "editorial"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "low_key",
+            "hard",
+            "dramatic"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.kodak_gold",
+      "type": "visual_style",
+      "label": "A warm 35mm film photograph",
+      "prompt": "a warm 35mm film photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "the warm grain of Kodak Gold 200",
+        "color_treatment": "golden highlights and soft creamy skin",
+        "camera_behavior": "a relaxed handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "warm",
+            "soft"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.fuji_superia",
+      "type": "visual_style",
+      "label": "A cool 35mm film photograph",
+      "prompt": "a cool 35mm film photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "the cooler grain of Fuji Superia 400",
+        "color_treatment": "green-leaning shadows and restrained colour",
+        "camera_behavior": "a relaxed handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "soft"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.ilford_bw",
+      "type": "visual_style",
+      "label": "A black and white film photograph",
+      "prompt": "a black and white film photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "the coarse grain of Ilford HP5",
+        "color_treatment": "black and white, no colour",
+        "camera_behavior": "a handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium",
+            "portrait"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "hard",
+            "natural",
+            "dramatic"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.hasselblad_medium",
+      "type": "visual_style",
+      "label": "A medium-format portrait",
+      "prompt": "a medium-format portrait",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "visual_category": "editorial",
+        "finish": "the deep tonal range of a Hasselblad medium-format back",
+        "color_treatment": "smooth gradation and true colour",
+        "camera_behavior": "a still, tripod framing",
+        "aspect_ratio": "1:1"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "portrait",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "soft",
+            "studio",
+            "beauty",
+            "commercial"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.polaroid",
+      "type": "visual_style",
+      "label": "An instant film photograph",
+      "prompt": "an instant film photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "the soft warm bloom of Polaroid SX-70 film",
+        "color_treatment": "washed pastel colour with a heavy vignette",
+        "camera_behavior": "a careless snapshot framing",
+        "aspect_ratio": "1:1"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "flash"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.super8",
+      "type": "visual_style",
+      "label": "A super 8 film frame",
+      "prompt": "a Super 8 film frame",
+      "tags": [
+        "cinematic"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "the heavy grain and gate weave of Super 8",
+        "color_treatment": "faded warm colour, halated highlights",
+        "camera_behavior": "a wobbling handheld framing",
+        "aspect_ratio": "4:3"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "wide"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "warm"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.overexposed_leak",
+      "type": "visual_style",
+      "label": "An overexposed photograph with a light leak",
+      "prompt": "an overexposed photograph with a light leak",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "blown highlights and an orange light leak across one edge",
+        "color_treatment": "washed, faded colour",
+        "camera_behavior": "a careless framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "backlit"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.hdr_hyperreal",
+      "type": "visual_style",
+      "label": "A hyper-detailed photograph",
+      "prompt": "a hyper-detailed photograph",
+      "tags": [
+        "commercial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "an extremely sharp high-detail finish",
+        "color_treatment": "every tone held, nothing clipped",
+        "camera_behavior": "a locked-off framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "wide",
+            "medium"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "clean",
+            "commercial",
+            "high_key"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.night_low_light",
+      "type": "visual_style",
+      "label": "A low-light night photograph",
+      "prompt": "a low-light night photograph",
+      "tags": [
+        "photographic"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "visible sensor noise in the shadows",
+        "color_treatment": "colour holding only where the light falls",
+        "camera_behavior": "a braced handheld framing",
+        "aspect_ratio": "3:2"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "neon",
+            "practical",
+            "low_key",
+            "night"
+          ],
+          "bonus": 1.6
+        }
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.neutral_hyper_real",
+      "type": "visual_style",
+      "label": "A neutral hyper-realistic photograph",
+      "prompt": "a neutral hyper-realistic photograph",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.8,
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close",
+            "portrait",
+            "wide"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "soft",
+            "clean"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "an extremely sharp, high-detail finish",
+        "color_treatment": "true neutral colour, nothing graded",
+        "camera_behavior": "a still, locked-off framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.skin_detail_realism",
+      "type": "visual_style",
+      "label": "A hyper-detailed realistic photograph",
+      "prompt": "a hyper-detailed realistic photograph",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "portrait",
+            "medium"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "soft",
+            "natural",
+            "clean",
+            "commercial"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "visible skin texture and fine detail held throughout",
+        "color_treatment": "accurate skin tone, no colour cast",
+        "camera_behavior": "a steady framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_base.visual_style.daylight_realism",
+      "type": "visual_style",
+      "label": "A naturalistic photograph in available light",
+      "prompt": "a naturalistic photograph in available light",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "wide",
+            "close"
+          ],
+          "bonus": 1.6
+        },
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "soft"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "a clean unretouched digital finish",
+        "color_treatment": "the colour of the light as it actually fell",
+        "camera_behavior": "an unobtrusive framing",
+        "aspect_ratio": "3:2"
+      }
+    }
+  ]
+}

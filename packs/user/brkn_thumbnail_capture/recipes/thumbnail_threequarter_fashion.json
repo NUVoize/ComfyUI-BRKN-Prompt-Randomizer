@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_threequarter_fashion",
+  "label": "Three-Quarter Fashion",
+  "purpose": "Default fashion and wardrobe pack thumbnail.",
+  "subject_mode": "abby",
+  "prompt": "Abby, three-quarter body fashion portrait, neutral standing pose, slight body angle, complete outfit clearly visible, clean studio composition, light-gray seamless background, no props, no selfie behavior",
+  "priority": [
+    "wardrobe silhouette",
+    "hair",
+    "makeup",
+    "accessories",
+    "footwear when visible"
+  ],
+  "restrictions": [
+    "no action pose",
+    "no busy background",
+    "no cropped outfit"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

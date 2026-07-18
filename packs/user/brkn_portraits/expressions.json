@@ -1,0 +1,3356 @@
+{
+  "schema_version": "1.0",
+  "content_type": "expressions",
+  "entries": [
+    {
+      "id": "brkn_portraits.expression.neutral_facial_expression",
+      "type": "expression",
+      "label": "A neutral facial expression",
+      "prompt": "a neutral facial expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.relaxed_facial_expression",
+      "type": "expression",
+      "label": "A relaxed facial expression",
+      "prompt": "a relaxed facial expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.calm_composed_expression",
+      "type": "expression",
+      "label": "A calm composed expression",
+      "prompt": "a calm composed expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.soft_neutral_expression",
+      "type": "expression",
+      "label": "A soft neutral expression",
+      "prompt": "a soft neutral expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.natural_resting_expression",
+      "type": "expression",
+      "label": "A natural resting expression",
+      "prompt": "a natural resting expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.expressionless_face",
+      "type": "expression",
+      "label": "An expressionless face",
+      "prompt": "an expressionless face",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.composed_editorial_expression",
+      "type": "expression",
+      "label": "A composed editorial expression",
+      "prompt": "a composed editorial expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.serene_expression",
+      "type": "expression",
+      "label": "A serene expression",
+      "prompt": "a serene expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.peaceful_expression",
+      "type": "expression",
+      "label": "A peaceful expression",
+      "prompt": "a peaceful expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quiet_reserved_expression",
+      "type": "expression",
+      "label": "A quiet reserved expression",
+      "prompt": "a quiet reserved expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.relaxed_face_with_softened_features",
+      "type": "expression",
+      "label": "A relaxed face with softened features",
+      "prompt": "a relaxed face with softened features",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.blank_distant_expression",
+      "type": "expression",
+      "label": "A blank distant expression",
+      "prompt": "a blank distant expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.controlled_understated_expression",
+      "type": "expression",
+      "label": "A controlled understated expression",
+      "prompt": "a controlled understated expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtle_introspective_expression",
+      "type": "expression",
+      "label": "A subtle introspective expression",
+      "prompt": "a subtle introspective expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.emotionally_restrained_expression",
+      "type": "expression",
+      "label": "An emotionally restrained expression",
+      "prompt": "an emotionally restrained expression",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtle_closed_mouth_smile",
+      "type": "expression",
+      "label": "A subtle closed-mouth smile",
+      "prompt": "a subtle closed-mouth smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.faint_closed_mouth_smile",
+      "type": "expression",
+      "label": "A faint closed-mouth smile",
+      "prompt": "a faint closed-mouth smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.gentle_relaxed_smile",
+      "type": "expression",
+      "label": "A gentle relaxed smile",
+      "prompt": "a gentle relaxed smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.soft_natural_smile",
+      "type": "expression",
+      "label": "A soft natural smile",
+      "prompt": "a soft natural smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.slight_smile_at_the_corners_of_her_mouth",
+      "type": "expression",
+      "label": "A slight smile at the corners of her mouth",
+      "prompt": "a slight smile at the corners of her mouth",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.barely_noticeable_smile",
+      "type": "expression",
+      "label": "A barely noticeable smile",
+      "prompt": "a barely noticeable smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.restrained_smile",
+      "type": "expression",
+      "label": "A restrained smile",
+      "prompt": "a restrained smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quiet_contented_smile",
+      "type": "expression",
+      "label": "A quiet contented smile",
+      "prompt": "a quiet contented smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.warm_subtle_smile",
+      "type": "expression",
+      "label": "A warm subtle smile",
+      "prompt": "a warm subtle smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.calm_reassuring_smile",
+      "type": "expression",
+      "label": "A calm reassuring smile",
+      "prompt": "a calm reassuring smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.shy_smile",
+      "type": "expression",
+      "label": "A shy smile",
+      "prompt": "a shy smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.delicate_smile",
+      "type": "expression",
+      "label": "A delicate smile",
+      "prompt": "a delicate smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.knowing_half_smile",
+      "type": "expression",
+      "label": "A knowing half-smile",
+      "prompt": "a knowing half-smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtle_asymmetrical_smile",
+      "type": "expression",
+      "label": "A subtle asymmetrical smile",
+      "prompt": "a subtle asymmetrical smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.soft_smile_with_relaxed_lips",
+      "type": "expression",
+      "label": "A soft smile with relaxed lips",
+      "prompt": "a soft smile with relaxed lips",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.small_polite_smile",
+      "type": "expression",
+      "label": "A small polite smile",
+      "prompt": "a small polite smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.private_amused_smile",
+      "type": "expression",
+      "label": "A private amused smile",
+      "prompt": "a private amused smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.smile_beginning_to_form",
+      "type": "expression",
+      "label": "A smile beginning to form",
+      "prompt": "a smile beginning to form",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.smile_fading_naturally",
+      "type": "expression",
+      "label": "A smile fading naturally",
+      "prompt": "a smile fading naturally",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.softly_pleased_expression",
+      "type": "expression",
+      "label": "A softly pleased expression",
+      "prompt": "a softly pleased expression",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.bright_natural_smile",
+      "type": "expression",
+      "label": "A bright natural smile",
+      "prompt": "a bright natural smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.broad_open_smile",
+      "type": "expression",
+      "label": "A broad open smile",
+      "prompt": "a broad open smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cheerful_smile",
+      "type": "expression",
+      "label": "A cheerful smile",
+      "prompt": "a cheerful smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.warm_joyful_smile",
+      "type": "expression",
+      "label": "A warm joyful smile",
+      "prompt": "a warm joyful smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.genuine_happy_smile",
+      "type": "expression",
+      "label": "A genuine happy smile",
+      "prompt": "a genuine happy smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.radiant_smile",
+      "type": "expression",
+      "label": "A radiant smile",
+      "prompt": "a radiant smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.playful_grin",
+      "type": "expression",
+      "label": "A playful grin",
+      "prompt": "a playful grin",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.wide_grin",
+      "type": "expression",
+      "label": "A wide grin",
+      "prompt": "a wide grin",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.toothy_smile",
+      "type": "expression",
+      "label": "A toothy smile",
+      "prompt": "a toothy smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.laughing_smile",
+      "type": "expression",
+      "label": "A wide laughing smile",
+      "prompt": "a wide laughing smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.smiling_with_slightly_parted_lips",
+      "type": "expression",
+      "label": "A face smiling with slightly parted lips",
+      "prompt": "a face smiling with slightly parted lips",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.delighted_expression",
+      "type": "expression",
+      "label": "A delighted expression",
+      "prompt": "a delighted expression",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.visibly_excited_smile",
+      "type": "expression",
+      "label": "A visibly excited smile",
+      "prompt": "a visibly excited smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.joyful_expression_with_lifted_cheeks",
+      "type": "expression",
+      "label": "A joyful expression with lifted cheeks",
+      "prompt": "a joyful expression with lifted cheeks",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.carefree_happy_expression",
+      "type": "expression",
+      "label": "A carefree happy expression",
+      "prompt": "a carefree happy expression",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.spontaneous_candid_smile",
+      "type": "expression",
+      "label": "A spontaneous candid smile",
+      "prompt": "a spontaneous candid smile",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mid_laugh_expression",
+      "type": "expression",
+      "label": "A mid-laugh expression",
+      "prompt": "a mid-laugh expression",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.laughing_with_her_mouth_slightly_open",
+      "type": "expression",
+      "label": "A face laughing with her mouth slightly open",
+      "prompt": "a face laughing with her mouth slightly open",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.laughing_while_looking_away",
+      "type": "expression",
+      "label": "A face laughing while looking away",
+      "prompt": "a face laughing while looking away",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.surprised_laughter",
+      "type": "expression",
+      "label": "A surprised laughter",
+      "prompt": "a surprised laughter",
+      "tags": [
+        "smile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "mood": "smile"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.confident_expression",
+      "type": "expression",
+      "label": "A confident expression",
+      "prompt": "a confident expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.self_assured_expression",
+      "type": "expression",
+      "label": "A self-assured expression",
+      "prompt": "a self-assured expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.bold_direct_expression",
+      "type": "expression",
+      "label": "A bold direct expression",
+      "prompt": "a bold direct expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.proud_expression",
+      "type": "expression",
+      "label": "A proud expression",
+      "prompt": "a proud expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.commanding_expression",
+      "type": "expression",
+      "label": "A commanding expression",
+      "prompt": "a commanding expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.determined_expression",
+      "type": "expression",
+      "label": "A determined expression",
+      "prompt": "a determined expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.focused_expression",
+      "type": "expression",
+      "label": "A focused expression",
+      "prompt": "a focused expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.strong_composed_expression",
+      "type": "expression",
+      "label": "A strong composed expression",
+      "prompt": "a strong composed expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.fearless_expression",
+      "type": "expression",
+      "label": "A fearless expression",
+      "prompt": "a fearless expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.assertive_expression",
+      "type": "expression",
+      "label": "An assertive expression",
+      "prompt": "an assertive expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cool_controlled_expression",
+      "type": "expression",
+      "label": "A cool controlled expression",
+      "prompt": "a cool controlled expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.confident_half_smile",
+      "type": "expression",
+      "label": "A confident half-smile",
+      "prompt": "a confident half-smile",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.knowing_confident_smile",
+      "type": "expression",
+      "label": "A knowing confident smile",
+      "prompt": "a knowing confident smile",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtly_challenging_expression",
+      "type": "expression",
+      "label": "A subtly challenging expression",
+      "prompt": "a subtly challenging expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.unbothered_expression",
+      "type": "expression",
+      "label": "An unbothered expression",
+      "prompt": "an unbothered expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.dignified_expression",
+      "type": "expression",
+      "label": "A dignified expression",
+      "prompt": "a dignified expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.triumphant_expression",
+      "type": "expression",
+      "label": "A triumphant expression",
+      "prompt": "a triumphant expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.competitive_expression",
+      "type": "expression",
+      "label": "A competitive expression",
+      "prompt": "a competitive expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.intense_focused_stare",
+      "type": "expression",
+      "label": "An intense focused stare",
+      "prompt": "an intense focused stare",
+      "tags": [
+        "confident",
+        "mentions_eyes"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "gaze_tags_any": [
+          "eyes_closed"
+        ],
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.powerful_editorial_expression",
+      "type": "expression",
+      "label": "A powerful editorial expression",
+      "prompt": "a powerful editorial expression",
+      "tags": [
+        "confident"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "confident"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.playful_expression",
+      "type": "expression",
+      "label": "A playful expression",
+      "prompt": "a playful expression",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mischievous_smile",
+      "type": "expression",
+      "label": "A mischievous smile",
+      "prompt": "a mischievous smile",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cheeky_grin",
+      "type": "expression",
+      "label": "A cheeky grin",
+      "prompt": "a cheeky grin",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.teasing_half_smile",
+      "type": "expression",
+      "label": "A teasing half-smile",
+      "prompt": "a teasing half-smile",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.sly_smile",
+      "type": "expression",
+      "label": "A sly smile",
+      "prompt": "a sly smile",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.knowing_smirk",
+      "type": "expression",
+      "label": "A knowing smirk",
+      "prompt": "a knowing smirk",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtle_smirk",
+      "type": "expression",
+      "label": "A subtle smirk",
+      "prompt": "a subtle smirk",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.exaggerated_smirk",
+      "type": "expression",
+      "label": "An exaggerated smirk",
+      "prompt": "an exaggerated smirk",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.amused_sideways_smile",
+      "type": "expression",
+      "label": "An amused sideways smile",
+      "prompt": "an amused sideways smile",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.playful_raised_eyebrow",
+      "type": "expression",
+      "label": "A playful raised eyebrow",
+      "prompt": "a playful raised eyebrow",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.conspiratorial_expression",
+      "type": "expression",
+      "label": "A conspiratorial expression",
+      "prompt": "a conspiratorial expression",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.curious_playful_look",
+      "type": "expression",
+      "label": "A curious playful look",
+      "prompt": "a curious playful look",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mock_serious_expression",
+      "type": "expression",
+      "label": "A mock-serious expression",
+      "prompt": "a mock-serious expression",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.playfully_unimpressed_expression",
+      "type": "expression",
+      "label": "A playfully unimpressed expression",
+      "prompt": "a playfully unimpressed expression",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.pretending_to_look_innocent",
+      "type": "expression",
+      "label": "A face pretending to look innocent",
+      "prompt": "a face pretending to look innocent",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.lighthearted_expression",
+      "type": "expression",
+      "label": "A lighthearted expression",
+      "prompt": "a lighthearted expression",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.impish_grin",
+      "type": "expression",
+      "label": "An impish grin",
+      "prompt": "an impish grin",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.amused_expression_with_pursed_lips",
+      "type": "expression",
+      "label": "An amused expression with pursed lips",
+      "prompt": "an amused expression with pursed lips",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.suppressing_a_laugh",
+      "type": "expression",
+      "label": "A face suppressing a laugh",
+      "prompt": "a face suppressing a laugh",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.playful_wink",
+      "type": "expression",
+      "label": "A playful wink",
+      "prompt": "a playful wink",
+      "tags": [
+        "playful"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "playful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.thoughtful_expression",
+      "type": "expression",
+      "label": "A thoughtful expression",
+      "prompt": "a thoughtful expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.contemplative_expression",
+      "type": "expression",
+      "label": "A contemplative expression",
+      "prompt": "a contemplative expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.introspective_expression",
+      "type": "expression",
+      "label": "An introspective expression",
+      "prompt": "an introspective expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.distant_thoughtful_gaze",
+      "type": "expression",
+      "label": "A distant thoughtful gaze",
+      "prompt": "a distant thoughtful gaze",
+      "tags": [
+        "thoughtful",
+        "mentions_eyes"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "gaze_tags_any": [
+          "eyes_closed"
+        ],
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.reflective_expression",
+      "type": "expression",
+      "label": "A reflective expression",
+      "prompt": "a reflective expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quietly_curious_expression",
+      "type": "expression",
+      "label": "A quietly curious expression",
+      "prompt": "a quietly curious expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.pensive_expression",
+      "type": "expression",
+      "label": "A pensive expression",
+      "prompt": "a pensive expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.absorbed_expression",
+      "type": "expression",
+      "label": "An absorbed expression",
+      "prompt": "an absorbed expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mentally_distracted_expression",
+      "type": "expression",
+      "label": "A mentally distracted expression",
+      "prompt": "a mentally distracted expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.dreamy_expression",
+      "type": "expression",
+      "label": "A dreamy expression",
+      "prompt": "a dreamy expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.wistful_expression",
+      "type": "expression",
+      "label": "A wistful expression",
+      "prompt": "a wistful expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.nostalgic_expression",
+      "type": "expression",
+      "label": "A nostalgic expression",
+      "prompt": "a nostalgic expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.uncertain_thoughtful_expression",
+      "type": "expression",
+      "label": "An uncertain thoughtful expression",
+      "prompt": "an uncertain thoughtful expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.searching_expression",
+      "type": "expression",
+      "label": "A searching expression",
+      "prompt": "a searching expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quietly_observant_expression",
+      "type": "expression",
+      "label": "A quietly observant expression",
+      "prompt": "a quietly observant expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.expression_of_mild_concentration",
+      "type": "expression",
+      "label": "An expression of mild concentration",
+      "prompt": "an expression of mild concentration",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.deeply_focused_expression",
+      "type": "expression",
+      "label": "A deeply focused expression",
+      "prompt": "a deeply focused expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.calm_meditative_expression",
+      "type": "expression",
+      "label": "A calm meditative expression",
+      "prompt": "a calm meditative expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.lost_in_thought_expression",
+      "type": "expression",
+      "label": "A lost-in-thought expression",
+      "prompt": "a lost-in-thought expression",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.thoughtful_expression_with_gently_pursed_lips",
+      "type": "expression",
+      "label": "A thoughtful expression with gently pursed lips",
+      "prompt": "a thoughtful expression with gently pursed lips",
+      "tags": [
+        "thoughtful"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "mood": "thoughtful"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.serious_expression",
+      "type": "expression",
+      "label": "A serious expression",
+      "prompt": "a serious expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.stern_expression",
+      "type": "expression",
+      "label": "A stern expression",
+      "prompt": "a stern expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.intense_expression",
+      "type": "expression",
+      "label": "An intense expression",
+      "prompt": "an intense expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.dramatic_focused_expression",
+      "type": "expression",
+      "label": "A dramatic focused expression",
+      "prompt": "a dramatic focused expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.guarded_expression",
+      "type": "expression",
+      "label": "A guarded expression",
+      "prompt": "a guarded expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.emotionally_distant_expression",
+      "type": "expression",
+      "label": "An emotionally distant expression",
+      "prompt": "an emotionally distant expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cold_composed_expression",
+      "type": "expression",
+      "label": "A cold composed expression",
+      "prompt": "a cold composed expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.firm_expression",
+      "type": "expression",
+      "label": "A firm expression",
+      "prompt": "a firm expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.suspicious_expression",
+      "type": "expression",
+      "label": "A suspicious expression",
+      "prompt": "a suspicious expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.skeptical_expression",
+      "type": "expression",
+      "label": "A skeptical expression",
+      "prompt": "a skeptical expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.disapproving_expression",
+      "type": "expression",
+      "label": "A disapproving expression",
+      "prompt": "a disapproving expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.unimpressed_expression",
+      "type": "expression",
+      "label": "An unimpressed expression",
+      "prompt": "an unimpressed expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subtly_irritated_expression",
+      "type": "expression",
+      "label": "A subtly irritated expression",
+      "prompt": "a subtly irritated expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.impatient_expression",
+      "type": "expression",
+      "label": "An impatient expression",
+      "prompt": "an impatient expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.defiant_expression",
+      "type": "expression",
+      "label": "A defiant expression",
+      "prompt": "a defiant expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.challenging_stare",
+      "type": "expression",
+      "label": "A challenging stare",
+      "prompt": "a challenging stare",
+      "tags": [
+        "serious",
+        "mentions_eyes"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "gaze_tags_any": [
+          "eyes_closed"
+        ],
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.confrontational_expression",
+      "type": "expression",
+      "label": "A confrontational expression",
+      "prompt": "a confrontational expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.tense_controlled_expression",
+      "type": "expression",
+      "label": "A tense controlled expression",
+      "prompt": "a tense controlled expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.brooding_expression",
+      "type": "expression",
+      "label": "A brooding expression",
+      "prompt": "a brooding expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.severe_editorial_expression",
+      "type": "expression",
+      "label": "A severe editorial expression",
+      "prompt": "a severe editorial expression",
+      "tags": [
+        "serious"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "mood": "serious"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.curious_expression",
+      "type": "expression",
+      "label": "A curious expression",
+      "prompt": "a curious expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mildly_surprised_expression",
+      "type": "expression",
+      "label": "A mildly surprised expression",
+      "prompt": "a mildly surprised expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.visibly_surprised_expression",
+      "type": "expression",
+      "label": "A visibly surprised expression",
+      "prompt": "a visibly surprised expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.wide_eyed_expression",
+      "type": "expression",
+      "label": "A wide-eyed expression",
+      "prompt": "a wide-eyed expression",
+      "tags": [
+        "surprised",
+        "mentions_eyes"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "gaze_tags_any": [
+          "eyes_closed"
+        ],
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.raised_eyebrow_expression",
+      "type": "expression",
+      "label": "A raised-eyebrow expression",
+      "prompt": "a raised-eyebrow expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.one_eyebrow_raised",
+      "type": "expression",
+      "label": "One eyebrow raised",
+      "prompt": "one eyebrow raised",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.both_eyebrows_raised",
+      "type": "expression",
+      "label": "A both eyebrows raised",
+      "prompt": "a both eyebrows raised",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.questioning_expression",
+      "type": "expression",
+      "label": "A questioning expression",
+      "prompt": "a questioning expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.confused_expression",
+      "type": "expression",
+      "label": "A confused expression",
+      "prompt": "a confused expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.puzzled_expression",
+      "type": "expression",
+      "label": "A puzzled expression",
+      "prompt": "a puzzled expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.intrigued_expression",
+      "type": "expression",
+      "label": "An intrigued expression",
+      "prompt": "an intrigued expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.fascinated_expression",
+      "type": "expression",
+      "label": "A fascinated expression",
+      "prompt": "a fascinated expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.startled_expression",
+      "type": "expression",
+      "label": "A startled expression",
+      "prompt": "a startled expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_off_guard_expression",
+      "type": "expression",
+      "label": "A caught-off-guard expression",
+      "prompt": "a caught-off-guard expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.sudden_realization",
+      "type": "expression",
+      "label": "A sudden realization",
+      "prompt": "a sudden realization",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.pleasantly_surprised_expression",
+      "type": "expression",
+      "label": "A pleasantly surprised expression",
+      "prompt": "a pleasantly surprised expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.doubtful_curious_expression",
+      "type": "expression",
+      "label": "A doubtful curious expression",
+      "prompt": "a doubtful curious expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cautiously_interested_expression",
+      "type": "expression",
+      "label": "A cautiously interested expression",
+      "prompt": "a cautiously interested expression",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.curious_sideways_glance",
+      "type": "expression",
+      "label": "A curious sideways glance",
+      "prompt": "a curious sideways glance",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.surprised_expression_with_parted_lips",
+      "type": "expression",
+      "label": "A surprised expression with parted lips",
+      "prompt": "a surprised expression with parted lips",
+      "tags": [
+        "surprised"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "surprised"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mood_amused",
+          "mood_inward"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.vulnerable_expression",
+      "type": "expression",
+      "label": "A vulnerable expression",
+      "prompt": "a vulnerable expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.tender_expression",
+      "type": "expression",
+      "label": "A tender expression",
+      "prompt": "a tender expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.gentle_affectionate_expression",
+      "type": "expression",
+      "label": "A gentle affectionate expression",
+      "prompt": "a gentle affectionate expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.soft_emotional_expression",
+      "type": "expression",
+      "label": "A soft emotional expression",
+      "prompt": "a soft emotional expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quietly_hopeful_expression",
+      "type": "expression",
+      "label": "A quietly hopeful expression",
+      "prompt": "a quietly hopeful expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.bittersweet_smile",
+      "type": "expression",
+      "label": "A bittersweet smile",
+      "prompt": "a bittersweet smile",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.restrained_emotional_smile",
+      "type": "expression",
+      "label": "A restrained emotional smile",
+      "prompt": "a restrained emotional smile",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.melancholy_expression",
+      "type": "expression",
+      "label": "A melancholy expression",
+      "prompt": "a melancholy expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.wistful_half_smile",
+      "type": "expression",
+      "label": "A wistful half-smile",
+      "prompt": "a wistful half-smile",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.solemn_expression",
+      "type": "expression",
+      "label": "A solemn expression",
+      "prompt": "a solemn expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.subdued_expression",
+      "type": "expression",
+      "label": "A subdued expression",
+      "prompt": "a subdued expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.tired_expression",
+      "type": "expression",
+      "label": "A tired expression",
+      "prompt": "a tired expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.weary_expression",
+      "type": "expression",
+      "label": "A weary expression",
+      "prompt": "a weary expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.concerned_expression",
+      "type": "expression",
+      "label": "A concerned expression",
+      "prompt": "a concerned expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.anxious_expression",
+      "type": "expression",
+      "label": "An anxious expression",
+      "prompt": "an anxious expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.hesitant_expression",
+      "type": "expression",
+      "label": "A hesitant expression",
+      "prompt": "a hesitant expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.uncertain_expression",
+      "type": "expression",
+      "label": "An uncertain expression",
+      "prompt": "an uncertain expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.disappointed_expression",
+      "type": "expression",
+      "label": "A disappointed expression",
+      "prompt": "a disappointed expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.quietly_sad_expression",
+      "type": "expression",
+      "label": "A quietly sad expression",
+      "prompt": "a quietly sad expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.emotionally_overwhelmed_expression",
+      "type": "expression",
+      "label": "An emotionally overwhelmed expression",
+      "prompt": "an emotionally overwhelmed expression",
+      "tags": [
+        "soft"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "mood": "soft"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.relaxed_lips_slightly_parted",
+      "type": "expression",
+      "label": "A relaxed lips slightly parted",
+      "prompt": "a relaxed lips slightly parted",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.softly_parted_lips",
+      "type": "expression",
+      "label": "A softly parted lips",
+      "prompt": "a softly parted lips",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.lips_gently_closed",
+      "type": "expression",
+      "label": "A lips gently closed",
+      "prompt": "a lips gently closed",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.lips_subtly_pursed",
+      "type": "expression",
+      "label": "A lips subtly pursed",
+      "prompt": "a lips subtly pursed",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.lips_pressed_together",
+      "type": "expression",
+      "label": "A lips pressed together",
+      "prompt": "a lips pressed together",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.slight_pout",
+      "type": "expression",
+      "label": "A slight pout",
+      "prompt": "a slight pout",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.pronounced_fashion_pout",
+      "type": "expression",
+      "label": "A pronounced fashion pout",
+      "prompt": "a pronounced fashion pout",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.relaxed_editorial_pout",
+      "type": "expression",
+      "label": "A relaxed editorial pout",
+      "prompt": "a relaxed editorial pout",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.softly_rounded_lips",
+      "type": "expression",
+      "label": "A softly rounded lips",
+      "prompt": "a softly rounded lips",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.mouth_slightly_open",
+      "type": "expression",
+      "label": "A mouth slightly open",
+      "prompt": "a mouth slightly open",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.jaw_relaxed_with_lips_parted",
+      "type": "expression",
+      "label": "A jaw relaxed with lips parted",
+      "prompt": "a jaw relaxed with lips parted",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.controlled_beauty_expression",
+      "type": "expression",
+      "label": "A controlled beauty expression",
+      "prompt": "a controlled beauty expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.polished_commercial_expression",
+      "type": "expression",
+      "label": "A polished commercial expression",
+      "prompt": "a polished commercial expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.clean_neutral_beauty_expression",
+      "type": "expression",
+      "label": "A clean neutral beauty expression",
+      "prompt": "a clean neutral beauty expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.distant_high_fashion_expression",
+      "type": "expression",
+      "label": "A distant high-fashion expression",
+      "prompt": "a distant high-fashion expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.cool_detached_expression",
+      "type": "expression",
+      "label": "A cool detached expression",
+      "prompt": "a cool detached expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.dramatic_beauty_expression",
+      "type": "expression",
+      "label": "A dramatic beauty expression",
+      "prompt": "a dramatic beauty expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.statuesque_expression",
+      "type": "expression",
+      "label": "A statuesque expression",
+      "prompt": "a statuesque expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.elegant_restrained_expression",
+      "type": "expression",
+      "label": "An elegant restrained expression",
+      "prompt": "an elegant restrained expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.refined_editorial_expression",
+      "type": "expression",
+      "label": "A refined editorial expression",
+      "prompt": "a refined editorial expression",
+      "tags": [
+        "editorial"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "mood": "editorial"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_just_before_smiling",
+      "type": "expression",
+      "label": "A face caught just before smiling",
+      "prompt": "a face caught just before smiling",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_just_after_smiling",
+      "type": "expression",
+      "label": "A face caught just after smiling",
+      "prompt": "a face caught just after smiling",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.smile_forming_naturally",
+      "type": "expression",
+      "label": "A smile forming naturally",
+      "prompt": "a smile forming naturally",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.expression_changing_from_serious_to_amused",
+      "type": "expression",
+      "label": "An expression changing from serious to amused",
+      "prompt": "an expression changing from serious to amused",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.expression_changing_from_surprised_to_relaxed",
+      "type": "expression",
+      "label": "An expression changing from surprised to relaxed",
+      "prompt": "an expression changing from surprised to relaxed",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_mid_laugh",
+      "type": "expression",
+      "label": "A face caught mid-laugh",
+      "prompt": "a face caught mid-laugh",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_while_reacting_to_something_off_camera",
+      "type": "expression",
+      "label": "A face caught while reacting to something off-camera",
+      "prompt": "a face caught while reacting to something off-camera",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.distracted_candid_expression",
+      "type": "expression",
+      "label": "A distracted candid expression",
+      "prompt": "a distracted candid expression",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.spontaneous_surprised_expression",
+      "type": "expression",
+      "label": "A spontaneous surprised expression",
+      "prompt": "a spontaneous surprised expression",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.momentarily_confused_expression",
+      "type": "expression",
+      "label": "A momentarily confused expression",
+      "prompt": "a momentarily confused expression",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.blinking_naturally",
+      "type": "expression",
+      "label": "A face blinking naturally",
+      "prompt": "a face blinking naturally",
+      "tags": [
+        "candid",
+        "mentions_eyes"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      },
+      "excludes": {
+        "gaze_tags_any": [
+          "eyes_closed"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.taking_a_quiet_breath",
+      "type": "expression",
+      "label": "A face taking a quiet breath",
+      "prompt": "a face taking a quiet breath",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.briefly_pressing_her_lips_together",
+      "type": "expression",
+      "label": "A briefly pressing her lips together",
+      "prompt": "a briefly pressing her lips together",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.suppressing_a_smile",
+      "type": "expression",
+      "label": "A face suppressing a smile",
+      "prompt": "a face suppressing a smile",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.relaxing_after_laughter",
+      "type": "expression",
+      "label": "A face relaxing after laughter",
+      "prompt": "a face relaxing after laughter",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.listening_attentively",
+      "type": "expression",
+      "label": "A face listening attentively",
+      "prompt": "a face listening attentively",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.reacting_with_mild_disbelief",
+      "type": "expression",
+      "label": "A face reacting with mild disbelief",
+      "prompt": "a face reacting with mild disbelief",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.acknowledging_something_with_a_small_smile",
+      "type": "expression",
+      "label": "A face acknowledging something with a small smile",
+      "prompt": "a face acknowledging something with a small smile",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.caught_between_concentration_and_amusement",
+      "type": "expression",
+      "label": "A face caught between concentration and amusement",
+      "prompt": "a face caught between concentration and amusement",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.natural_unposed_expression",
+      "type": "expression",
+      "label": "A natural unposed expression",
+      "prompt": "a natural unposed expression",
+      "tags": [
+        "candid"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "mood": "candid"
+      }
+    },
+    {
+      "id": "brkn_portraits.expression.unspecified",
+      "type": "expression",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 18.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

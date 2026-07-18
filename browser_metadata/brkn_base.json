@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_base",
+  "selection_role": "base",
+  "selection_category": "base_pack",
+  "is_complete_pack": true,
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "brkn_base_set__thumbnail_512.webp",
+    "label": "BRKN Base Pack thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

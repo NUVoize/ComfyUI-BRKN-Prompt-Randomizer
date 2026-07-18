@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/location.schema.json",
+  "title": "Sublocation",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "location"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "indoor": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

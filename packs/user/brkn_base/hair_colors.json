@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "brkn_base.hair_color.platinum_blonde",
+      "type": "hair_color",
+      "label": "Platinum Blonde",
+      "prompt": "platinum blonde",
+      "tags": [
+        "blonde",
+        "light",
+        "natural_color"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.golden_blonde",
+      "type": "hair_color",
+      "label": "Golden Blonde",
+      "prompt": "golden blonde",
+      "tags": [
+        "blonde",
+        "warm",
+        "natural_color"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.ash_blonde",
+      "type": "hair_color",
+      "label": "Ash Blonde",
+      "prompt": "ash blonde",
+      "tags": [
+        "blonde",
+        "cool",
+        "natural_color"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.strawberry_blonde",
+      "type": "hair_color",
+      "label": "Strawberry Blonde",
+      "prompt": "strawberry blonde",
+      "tags": [
+        "blonde",
+        "red",
+        "warm",
+        "natural_color"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.bleached_blonde",
+      "type": "hair_color",
+      "label": "Bleached Blonde",
+      "prompt": "bleached blonde",
+      "tags": [
+        "blonde",
+        "light",
+        "processed"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.bleached_with_dark_roots",
+      "type": "hair_color",
+      "label": "Bleached, Dark Roots",
+      "prompt": "grown-out bleached blonde",
+      "tags": [
+        "blonde",
+        "processed",
+        "edgy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "color_family": "blonde",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.light_brown",
+      "type": "hair_color",
+      "label": "Light Brown",
+      "prompt": "light brown",
+      "tags": [
+        "brunette",
+        "natural_color"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "color_family": "brown",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.warm_brown",
+      "type": "hair_color",
+      "label": "Warm Brown",
+      "prompt": "warm brown",
+      "tags": [
+        "brunette",
+        "warm",
+        "natural_color"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "color_family": "brown",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.dark_brown",
+      "type": "hair_color",
+      "label": "Dark Brown",
+      "prompt": "dark brown",
+      "tags": [
+        "brunette",
+        "dark",
+        "natural_color"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "color_family": "brown",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.ash_brown",
+      "type": "hair_color",
+      "label": "Ash Brown",
+      "prompt": "ash brown",
+      "tags": [
+        "brunette",
+        "cool",
+        "natural_color"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "color_family": "brown",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.brown_balayage",
+      "type": "hair_color",
+      "label": "Brown Balayage",
+      "prompt": "light brown balayage",
+      "tags": [
+        "brunette",
+        "processed",
+        "dimensional"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "color_family": "brown",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.jet_black",
+      "type": "hair_color",
+      "label": "Jet Black",
+      "prompt": "jet black",
+      "tags": [
+        "black_hair",
+        "dark",
+        "natural_color"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "color_family": "black",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.soft_black",
+      "type": "hair_color",
+      "label": "Soft Black",
+      "prompt": "soft black",
+      "tags": [
+        "black_hair",
+        "dark",
+        "natural_color"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "color_family": "black",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.black_with_bleached_streak",
+      "type": "hair_color",
+      "label": "Black, Bleached Face Streak",
+      "prompt": "bleached-streaked black",
+      "tags": [
+        "black_hair",
+        "processed",
+        "street"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "color_family": "black",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.auburn",
+      "type": "hair_color",
+      "label": "Auburn",
+      "prompt": "auburn",
+      "tags": [
+        "redhead",
+        "warm",
+        "natural_color"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "color_family": "red",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.ginger",
+      "type": "hair_color",
+      "label": "Ginger",
+      "prompt": "bright ginger",
+      "tags": [
+        "redhead",
+        "warm",
+        "natural_color"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "color_family": "red",
+        "natural": true
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.deep_red",
+      "type": "hair_color",
+      "label": "Deep Red",
+      "prompt": "deep red",
+      "tags": [
+        "redhead",
+        "processed",
+        "edgy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "color_family": "red",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.burgundy",
+      "type": "hair_color",
+      "label": "Burgundy",
+      "prompt": "burgundy",
+      "tags": [
+        "dyed",
+        "dark",
+        "edgy"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.pink_blonde",
+      "type": "hair_color",
+      "label": "Pink Blonde",
+      "prompt": "soft pink-blonde",
+      "tags": [
+        "dyed",
+        "light",
+        "alt"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.violet",
+      "type": "hair_color",
+      "label": "Violet",
+      "prompt": "violet",
+      "tags": [
+        "dyed",
+        "alt"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.electric_blue",
+      "type": "hair_color",
+      "label": "Electric Blue",
+      "prompt": "electric blue",
+      "tags": [
+        "dyed",
+        "alt"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.blue_green",
+      "type": "hair_color",
+      "label": "Blue-Green",
+      "prompt": "blue-green",
+      "tags": [
+        "dyed",
+        "alt"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    },
+    {
+      "id": "brkn_base.hair_color.bright_green",
+      "type": "hair_color",
+      "label": "Bright Green",
+      "prompt": "bright green",
+      "tags": [
+        "dyed",
+        "alt"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "color_family": "dyed",
+        "natural": false
+      }
+    }
+  ]
+}

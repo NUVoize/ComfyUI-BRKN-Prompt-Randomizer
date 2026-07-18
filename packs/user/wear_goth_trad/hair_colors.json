@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_goth_trad.hair_color.jet_black",
+      "type": "hair_color",
+      "label": "Jet black",
+      "prompt": "jet black",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_trad.hair_color.blue_black",
+      "type": "hair_color",
+      "label": "Blue-black",
+      "prompt": "blue-black",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_trad.hair_color.bleached_black_roots",
+      "type": "hair_color",
+      "label": "Bleached white with black roots",
+      "prompt": "bleached white with black roots",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

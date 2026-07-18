@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "look_cinematic.camera_preset.wide_frame",
+      "type": "camera_preset",
+      "label": "A wide framing with air around her",
+      "prompt": "a wide framing with air around her",
+      "tags": [
+        "wide"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a wide framing with air around her",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "look_cinematic.camera_preset.medium_cine",
+      "type": "camera_preset",
+      "label": "A considered medium shot",
+      "prompt": "a considered medium shot",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "framing": "a considered medium shot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "look_cinematic.camera_preset.close_cine",
+      "type": "camera_preset",
+      "label": "A slow close-up",
+      "prompt": "a slow close-up",
+      "tags": [
+        "close"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "framing": "a slow close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "look_cinematic.camera_preset.low_hero_cine",
+      "type": "camera_preset",
+      "label": "A low hero framing",
+      "prompt": "a low hero framing",
+      "tags": [
+        "medium",
+        "dramatic"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "a low framing looking up at her",
+        "camera_angle": "a low angle"
+      }
+    }
+  ]
+}

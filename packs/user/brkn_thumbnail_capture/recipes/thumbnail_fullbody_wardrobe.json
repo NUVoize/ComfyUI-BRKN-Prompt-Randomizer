@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_fullbody_wardrobe",
+  "label": "Full-Body Wardrobe",
+  "purpose": "Full outfit, shoes, and silhouette thumbnails.",
+  "subject_mode": "abby",
+  "prompt": "Abby, full-body front or slight three-quarter catalog portrait, standing naturally, arms relaxed, complete outfit and footwear visible, light-gray seamless studio background, even clean lighting, no action pose",
+  "priority": [
+    "full silhouette",
+    "shoes",
+    "layering",
+    "accessories",
+    "wardrobe proportions"
+  ],
+  "restrictions": [
+    "no cropped feet",
+    "no movement-heavy pose",
+    "no selfie angle"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

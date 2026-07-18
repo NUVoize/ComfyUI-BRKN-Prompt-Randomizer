@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "look_cinematic.visual_style.anamorphic",
+      "type": "visual_style",
+      "label": "An anamorphic cinema frame",
+      "prompt": "an anamorphic cinema frame",
+      "tags": [
+        "cinematic",
+        "photoreal",
+        "day_ok"
+      ],
+      "weight": 2.6,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "dramatic",
+            "rim",
+            "backlit",
+            "practical"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "wide",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "oval bokeh and long horizontal flares from anamorphic glass",
+        "color_treatment": "rich filmic colour, blacks lifted, teal in the shadows",
+        "camera_behavior": "a slow, patient framing",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "look_cinematic.visual_style.digital_cinema",
+      "type": "visual_style",
+      "label": "A digital cinema frame",
+      "prompt": "a digital cinema frame",
+      "tags": [
+        "cinematic",
+        "photoreal",
+        "day_ok"
+      ],
+      "weight": 2.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "dramatic",
+            "soft",
+            "rim"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "medium",
+            "close"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "a wide-gamut cinema finish, every tone held",
+        "color_treatment": "teal shadows against warm skin",
+        "camera_behavior": "a deliberate framing",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "look_cinematic.visual_style.noir_bw",
+      "type": "visual_style",
+      "label": "A black and white cinema frame",
+      "prompt": "a black and white cinema frame",
+      "tags": [
+        "cinematic",
+        "photoreal",
+        "day_ok"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "hard",
+            "dramatic"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "high-contrast monochrome, deep crushed blacks",
+        "color_treatment": "no colour, only light and shadow",
+        "camera_behavior": "a static composed framing",
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}

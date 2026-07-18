@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/face_paint.schema.json",
+  "title": "Face Paint",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "face_paint"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "coverage": {
+          "type": "string",
+          "maxLength": 32
+        }
+      }
+    }
+  }
+}

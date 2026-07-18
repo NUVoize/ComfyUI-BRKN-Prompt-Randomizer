@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.face_paint.black_lip_sharp",
+      "type": "face_paint",
+      "label": "A deep black lip, sharp brows, and a very pale face",
+      "prompt": "a deep black lip, sharp brows, and a very pale face",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic2.face_paint.black_lip_smoke",
+      "type": "face_paint",
+      "label": "Heavy black eyeliner, dark shadow, and a black lip",
+      "prompt": "heavy black eyeliner, dark shadow, and a black lip",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic2.face_paint.liner_severe",
+      "type": "face_paint",
+      "label": "Razor-sharp black liner and a pale mouth",
+      "prompt": "razor-sharp black liner and a pale mouth",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "coverage": "glam"
+      }
+    }
+  ]
+}

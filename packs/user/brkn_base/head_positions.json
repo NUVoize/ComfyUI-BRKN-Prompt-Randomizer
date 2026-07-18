@@ -1,0 +1,1563 @@
+{
+  "schema_version": "1.0",
+  "content_type": "head_positions",
+  "entries": [
+    {
+      "id": "brkn_base.head_position.head_facing_directly_forward",
+      "type": "head_position",
+      "label": "Head facing directly forward",
+      "prompt": "head facing directly forward",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_held_naturally_upright",
+      "type": "head_position",
+      "label": "Head held naturally upright",
+      "prompt": "head held naturally upright",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_centered_above_the_shoulders",
+      "type": "head_position",
+      "label": "Head centered above the shoulders",
+      "prompt": "head centered above the shoulders",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_facing_the_camera_with_a_neutral_position",
+      "type": "head_position",
+      "label": "Head facing the camera with a neutral position",
+      "prompt": "head facing the camera with a neutral position",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_straight_with_the_chin_level",
+      "type": "head_position",
+      "label": "Head positioned straight with the chin level",
+      "prompt": "head positioned straight with the chin level",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_held_still_and_square_to_the_camera",
+      "type": "head_position",
+      "label": "Head held still and square to the camera",
+      "prompt": "head held still and square to the camera",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_facing_forward_while_the_body_is_angled",
+      "type": "head_position",
+      "label": "Head facing forward while the body is angled",
+      "prompt": "head facing forward while the body is angled",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_toward_the_camera_while_the_shoulder",
+      "type": "head_position",
+      "label": "Head turned toward the camera while the shoulders face a",
+      "prompt": "head turned toward the camera while the shoulders face away",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_aligned_with_the_torso",
+      "type": "head_position",
+      "label": "Head aligned with the torso",
+      "prompt": "head aligned with the torso",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_held_upright_with_relaxed_posture",
+      "type": "head_position",
+      "label": "Head held upright with relaxed posture",
+      "prompt": "head held upright with relaxed posture",
+      "tags": [
+        "neutral",
+        "forward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_slightly_to_the_right",
+      "type": "head_position",
+      "label": "Head turned slightly to the right",
+      "prompt": "head turned slightly to the right",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_slightly_to_the_left",
+      "type": "head_position",
+      "label": "Head turned slightly to the left",
+      "prompt": "head turned slightly to the left",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_halfway_to_the_right",
+      "type": "head_position",
+      "label": "Head turned halfway to the right",
+      "prompt": "head turned halfway to the right",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_halfway_to_the_left",
+      "type": "head_position",
+      "label": "Head turned halfway to the left",
+      "prompt": "head turned halfway to the left",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_fully_to_the_right",
+      "type": "head_position",
+      "label": "Head turned fully to the right",
+      "prompt": "head turned fully to the right",
+      "tags": [
+        "turned",
+        "angled",
+        "full_profile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_fully_to_the_left",
+      "type": "head_position",
+      "label": "Head turned fully to the left",
+      "prompt": "head turned fully to the left",
+      "tags": [
+        "turned",
+        "angled",
+        "full_profile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_shown_in_a_three_quarter_position",
+      "type": "head_position",
+      "label": "Head shown in a three-quarter position",
+      "prompt": "head shown in a three-quarter position",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_shown_in_a_soft_three_quarter_position",
+      "type": "head_position",
+      "label": "Head shown in a soft three-quarter position",
+      "prompt": "head shown in a soft three-quarter position",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_to_the_side_while_the_shoulders_rema",
+      "type": "head_position",
+      "label": "Head turned to the side while the shoulders remain forwa",
+      "prompt": "head turned to the side while the shoulders remain forward",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_toward_one_shoulder",
+      "type": "head_position",
+      "label": "Head turned toward one shoulder",
+      "prompt": "head turned toward one shoulder",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_away_from_the_camera",
+      "type": "head_position",
+      "label": "Head turned away from the camera",
+      "prompt": "head turned away from the camera",
+      "tags": [
+        "turned",
+        "angled",
+        "full_profile"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_away_while_the_body_faces_the_camera",
+      "type": "head_position",
+      "label": "Head turned away while the body faces the camera",
+      "prompt": "head turned away while the body faces the camera",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_back_toward_the_camera",
+      "type": "head_position",
+      "label": "Head turned back toward the camera",
+      "prompt": "head turned back toward the camera",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_looking_back_over_one_shoulder",
+      "type": "head_position",
+      "label": "Head looking back over one shoulder",
+      "prompt": "head looking back over one shoulder",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_sharply_toward_the_camera",
+      "type": "head_position",
+      "label": "Head turned sharply toward the camera",
+      "prompt": "head turned sharply toward the camera",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_rotated_slightly_farther_than_the_shoulders",
+      "type": "head_position",
+      "label": "Head rotated slightly farther than the shoulders",
+      "prompt": "head rotated slightly farther than the shoulders",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_sideways_with_the_chin_kept_level",
+      "type": "head_position",
+      "label": "Head turned sideways with the chin kept level",
+      "prompt": "head turned sideways with the chin kept level",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_sideways_with_the_chin_slightly_lowe",
+      "type": "head_position",
+      "label": "Head turned sideways with the chin slightly lowered",
+      "prompt": "head turned sideways with the chin slightly lowered",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_sideways_with_the_chin_slightly_rais",
+      "type": "head_position",
+      "label": "Head turned sideways with the chin slightly raised",
+      "prompt": "head turned sideways with the chin slightly raised",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_in_a_clean_profile_view",
+      "type": "head_position",
+      "label": "Head positioned in a clean profile view",
+      "prompt": "head positioned in a clean profile view",
+      "tags": [
+        "turned",
+        "angled"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_slightly_to_the_right",
+      "type": "head_position",
+      "label": "Head tilted slightly to the right",
+      "prompt": "head tilted slightly to the right",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_slightly_to_the_left",
+      "type": "head_position",
+      "label": "Head tilted slightly to the left",
+      "prompt": "head tilted slightly to the left",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_gently_toward_one_shoulder",
+      "type": "head_position",
+      "label": "Head tilted gently toward one shoulder",
+      "prompt": "head tilted gently toward one shoulder",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_strongly_toward_one_shoulder",
+      "type": "head_position",
+      "label": "Head tilted strongly toward one shoulder",
+      "prompt": "head tilted strongly toward one shoulder",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_while_facing_directly_forward",
+      "type": "head_position",
+      "label": "Head tilted while facing directly forward",
+      "prompt": "head tilted while facing directly forward",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_while_turned_slightly_away",
+      "type": "head_position",
+      "label": "Head tilted while turned slightly away",
+      "prompt": "head tilted while turned slightly away",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_while_looking_back_toward_the_camera",
+      "type": "head_position",
+      "label": "Head tilted while looking back toward the camera",
+      "prompt": "head tilted while looking back toward the camera",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_diagonally_with_the_chin_lowered",
+      "type": "head_position",
+      "label": "Head tilted diagonally with the chin lowered",
+      "prompt": "head tilted diagonally with the chin lowered",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_diagonally_with_the_chin_raised",
+      "type": "head_position",
+      "label": "Head tilted diagonally with the chin raised",
+      "prompt": "head tilted diagonally with the chin raised",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_resting_visually_toward_one_shoulder",
+      "type": "head_position",
+      "label": "Head resting visually toward one shoulder",
+      "prompt": "head resting visually toward one shoulder",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_held_at_a_subtle_playful_angle",
+      "type": "head_position",
+      "label": "Head held at a subtle playful angle",
+      "prompt": "head held at a subtle playful angle",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_with_one_ear_moving_closer_to_the_sh",
+      "type": "head_position",
+      "label": "Head tilted with one ear moving closer to the shoulder",
+      "prompt": "head tilted with one ear moving closer to the shoulder",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_while_the_shoulders_remain_level",
+      "type": "head_position",
+      "label": "Head tilted while the shoulders remain level",
+      "prompt": "head tilted while the shoulders remain level",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_in_the_opposite_direction_of_the_sho",
+      "type": "head_position",
+      "label": "Head tilted in the opposite direction of the shoulders",
+      "prompt": "head tilted in the opposite direction of the shoulders",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_angled_asymmetrically_above_the_torso",
+      "type": "head_position",
+      "label": "Head angled asymmetrically above the torso",
+      "prompt": "head angled asymmetrically above the torso",
+      "tags": [
+        "tilted",
+        "angled"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lowered_slightly",
+      "type": "head_position",
+      "label": "Chin lowered slightly",
+      "prompt": "chin lowered slightly",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lowered_toward_the_chest",
+      "type": "head_position",
+      "label": "Chin lowered toward the chest",
+      "prompt": "chin lowered toward the chest",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_tucked_gently_inward",
+      "type": "head_position",
+      "label": "Chin tucked gently inward",
+      "prompt": "chin tucked gently inward",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_tucked_deeply_downward",
+      "type": "head_position",
+      "label": "Chin tucked deeply downward",
+      "prompt": "chin tucked deeply downward",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_bowed_slightly_forward",
+      "type": "head_position",
+      "label": "Head bowed slightly forward",
+      "prompt": "head bowed slightly forward",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_while_the_eyes_remain_raised",
+      "type": "head_position",
+      "label": "Head lowered while the eyes remain raised",
+      "prompt": "head lowered while the eyes remain raised",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_while_looking_toward_the_floor",
+      "type": "head_position",
+      "label": "Head lowered while looking toward the floor",
+      "prompt": "head lowered while looking toward the floor",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_while_turned_slightly_to_one_side",
+      "type": "head_position",
+      "label": "Head lowered while turned slightly to one side",
+      "prompt": "head lowered while turned slightly to one side",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_bowed_with_the_neck_extended_forward",
+      "type": "head_position",
+      "label": "Head bowed with the neck extended forward",
+      "prompt": "head bowed with the neck extended forward",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lowered_while_the_face_remains_directed_tow",
+      "type": "head_position",
+      "label": "Chin lowered while the face remains directed toward the ",
+      "prompt": "chin lowered while the face remains directed toward the camera",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_tucked_while_the_body_remains_upright",
+      "type": "head_position",
+      "label": "Chin tucked while the body remains upright",
+      "prompt": "chin tucked while the body remains upright",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_forward_from_the_neck",
+      "type": "head_position",
+      "label": "Head tilted forward from the neck",
+      "prompt": "head tilted forward from the neck",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_in_a_quiet_contemplative_position",
+      "type": "head_position",
+      "label": "Head lowered in a quiet contemplative position",
+      "prompt": "head lowered in a quiet contemplative position",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.forehead_angled_subtly_toward_the_camera",
+      "type": "head_position",
+      "label": "Forehead angled subtly toward the camera",
+      "prompt": "forehead angled subtly toward the camera",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_dipped_slightly_to_one_side",
+      "type": "head_position",
+      "label": "Head dipped slightly to one side",
+      "prompt": "head dipped slightly to one side",
+      "tags": [
+        "chin_down",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_raised_slightly",
+      "type": "head_position",
+      "label": "Chin raised slightly",
+      "prompt": "chin raised slightly",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lifted_above_its_neutral_position",
+      "type": "head_position",
+      "label": "Chin lifted above its neutral position",
+      "prompt": "chin lifted above its neutral position",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_raised_while_facing_forward",
+      "type": "head_position",
+      "label": "Chin raised while facing forward",
+      "prompt": "chin raised while facing forward",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_raised_while_the_head_is_turned_sideways",
+      "type": "head_position",
+      "label": "Chin raised while the head is turned sideways",
+      "prompt": "chin raised while the head is turned sideways",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lifted_with_the_neck_elongated",
+      "type": "head_position",
+      "label": "Chin lifted with the neck elongated",
+      "prompt": "chin lifted with the neck elongated",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_slightly_backward",
+      "type": "head_position",
+      "label": "Head tilted slightly backward",
+      "prompt": "head tilted slightly backward",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_far_backward",
+      "type": "head_position",
+      "label": "Head tilted far backward",
+      "prompt": "head tilted far backward",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.face_angled_upward",
+      "type": "head_position",
+      "label": "Face angled upward",
+      "prompt": "face angled upward",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.face_turned_upward_toward_the_ceiling",
+      "type": "head_position",
+      "label": "Face turned upward toward the ceiling",
+      "prompt": "face turned upward toward the ceiling",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_raised_while_the_eyes_look_downward",
+      "type": "head_position",
+      "label": "Head raised while the eyes look downward",
+      "prompt": "head raised while the eyes look downward",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_lifted_while_looking_directly_at_the_camera",
+      "type": "head_position",
+      "label": "Chin lifted while looking directly at the camera",
+      "prompt": "chin lifted while looking directly at the camera",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_raised_while_looking_past_the_camera",
+      "type": "head_position",
+      "label": "Chin raised while looking past the camera",
+      "prompt": "chin raised while looking past the camera",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.chin_raised_with_the_head_in_a_three_quarter_pos",
+      "type": "head_position",
+      "label": "Chin raised with the head in a three-quarter position",
+      "prompt": "chin raised with the head in a three-quarter position",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_leaning_backward_while_the_shoulders_remain",
+      "type": "head_position",
+      "label": "Head leaning backward while the shoulders remain still",
+      "prompt": "head leaning backward while the shoulders remain still",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lifted_in_a_proud_upright_position",
+      "type": "head_position",
+      "label": "Head lifted in a proud upright position",
+      "prompt": "head lifted in a proud upright position",
+      "tags": [
+        "chin_up",
+        "forward"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "facing": "forward"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_shown_in_complete_right_profile",
+      "type": "head_position",
+      "label": "Head shown in complete right profile",
+      "prompt": "head shown in complete right profile",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_shown_in_complete_left_profile",
+      "type": "head_position",
+      "label": "Head shown in complete left profile",
+      "prompt": "head shown in complete left profile",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_in_a_near_profile_angle",
+      "type": "head_position",
+      "label": "Head positioned in a near-profile angle",
+      "prompt": "head positioned in a near-profile angle",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_between_profile_and_three_quarte",
+      "type": "head_position",
+      "label": "Head positioned between profile and three-quarter view",
+      "prompt": "head positioned between profile and three-quarter view",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_away_with_only_part_of_the_face_visi",
+      "type": "head_position",
+      "label": "Head turned away with only part of the face visible",
+      "prompt": "head turned away with only part of the face visible",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_looking_over_the_right_shoulder",
+      "type": "head_position",
+      "label": "Head looking over the right shoulder",
+      "prompt": "head looking over the right shoulder",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_looking_over_the_left_shoulder",
+      "type": "head_position",
+      "label": "Head looking over the left shoulder",
+      "prompt": "head looking over the left shoulder",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_back_sharply_over_one_shoulder",
+      "type": "head_position",
+      "label": "Head turned back sharply over one shoulder",
+      "prompt": "head turned back sharply over one shoulder",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_back_gently_over_one_shoulder",
+      "type": "head_position",
+      "label": "Head turned back gently over one shoulder",
+      "prompt": "head turned back gently over one shoulder",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_facing_away_with_the_chin_near_the_shoulder",
+      "type": "head_position",
+      "label": "Head facing away with the chin near the shoulder",
+      "prompt": "head facing away with the chin near the shoulder",
+      "tags": [
+        "profile",
+        "away",
+        "full_profile"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_toward_the_camera_from_behind",
+      "type": "head_position",
+      "label": "Head turned toward the camera from behind",
+      "prompt": "head turned toward the camera from behind",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_over_the_shoulder_with_the_chin_lowe",
+      "type": "head_position",
+      "label": "Head turned over the shoulder with the chin lowered",
+      "prompt": "head turned over the shoulder with the chin lowered",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_over_the_shoulder_with_the_chin_rais",
+      "type": "head_position",
+      "label": "Head turned over the shoulder with the chin raised",
+      "prompt": "head turned over the shoulder with the chin raised",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_away_while_the_eyes_return_toward_th",
+      "type": "head_position",
+      "label": "Head turned away while the eyes return toward the camera",
+      "prompt": "head turned away while the eyes return toward the camera",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_shown_in_profile_with_the_face_angled_upwar",
+      "type": "head_position",
+      "label": "Head shown in profile with the face angled upward",
+      "prompt": "head shown in profile with the face angled upward",
+      "tags": [
+        "profile",
+        "away"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "facing": "away"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_backward_and_turned_to_one_side",
+      "type": "head_position",
+      "label": "Head tilted backward and turned to one side",
+      "prompt": "head tilted backward and turned to one side",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_and_rotated_diagonally",
+      "type": "head_position",
+      "label": "Head lowered and rotated diagonally",
+      "prompt": "head lowered and rotated diagonally",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_sharply_tilted_to_one_side",
+      "type": "head_position",
+      "label": "Head sharply tilted to one side",
+      "prompt": "head sharply tilted to one side",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_at_an_exaggerated_diagonal",
+      "type": "head_position",
+      "label": "Head positioned at an exaggerated diagonal",
+      "prompt": "head positioned at an exaggerated diagonal",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_in_the_opposite_direction_of_the_tor",
+      "type": "head_position",
+      "label": "Head turned in the opposite direction of the torso",
+      "prompt": "head turned in the opposite direction of the torso",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_caught_in_the_middle_of_turning",
+      "type": "head_position",
+      "label": "Head caught in the middle of turning",
+      "prompt": "head caught in the middle of turning",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_angled_as_though_responding_to_something_of",
+      "type": "head_position",
+      "label": "Head angled as though responding to something off-camera",
+      "prompt": "head angled as though responding to something off-camera",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_forward_while_the_neck_remains_elong",
+      "type": "head_position",
+      "label": "Head tilted forward while the neck remains elongated",
+      "prompt": "head tilted forward while the neck remains elongated",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_pulled_slightly_backward_from_the_camera",
+      "type": "head_position",
+      "label": "Head pulled slightly backward from the camera",
+      "prompt": "head pulled slightly backward from the camera",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_extended_subtly_toward_the_camera",
+      "type": "head_position",
+      "label": "Head extended subtly toward the camera",
+      "prompt": "head extended subtly toward the camera",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_leaning_toward_one_shoulder_while_looking_u",
+      "type": "head_position",
+      "label": "Head leaning toward one shoulder while looking upward",
+      "prompt": "head leaning toward one shoulder while looking upward",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_sideways_while_leaning_backward",
+      "type": "head_position",
+      "label": "Head turned sideways while leaning backward",
+      "prompt": "head turned sideways while leaning backward",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_angled_downward_over_one_shoulder",
+      "type": "head_position",
+      "label": "Head angled downward over one shoulder",
+      "prompt": "head angled downward over one shoulder",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_upward_over_one_shoulder",
+      "type": "head_position",
+      "label": "Head tilted upward over one shoulder",
+      "prompt": "head tilted upward over one shoulder",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_positioned_in_a_dramatic_asymmetrical_angle",
+      "type": "head_position",
+      "label": "Head positioned in a dramatic asymmetrical angle",
+      "prompt": "head positioned in a dramatic asymmetrical angle",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_slightly_rotated_with_the_jaw_pushed_forwar",
+      "type": "head_position",
+      "label": "Head slightly rotated with the jaw pushed forward",
+      "prompt": "head slightly rotated with the jaw pushed forward",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_angled_with_one_side_of_the_face_closer_to",
+      "type": "head_position",
+      "label": "Head angled with one side of the face closer to the came",
+      "prompt": "head angled with one side of the face closer to the camera",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_turned_so_the_jawline_faces_the_camera",
+      "type": "head_position",
+      "label": "Head turned so the jawline faces the camera",
+      "prompt": "head turned so the jawline faces the camera",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_lowered_while_the_neck_twists_sideways",
+      "type": "head_position",
+      "label": "Head lowered while the neck twists sideways",
+      "prompt": "head lowered while the neck twists sideways",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.head_tilted_backward_with_the_face_turned_away",
+      "type": "head_position",
+      "label": "Head tilted backward with the face turned away",
+      "prompt": "head tilted backward with the face turned away",
+      "tags": [
+        "editorial",
+        "angled"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "facing": "angled"
+      }
+    },
+    {
+      "id": "brkn_base.head_position.unspecified",
+      "type": "head_position",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 40.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

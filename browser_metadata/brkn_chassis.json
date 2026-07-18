@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_chassis",
+  "selection_role": "base",
+  "selection_category": "base_pack",
+  "is_complete_pack": true,
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "chassis__thumbnail_512.webp",
+    "label": "BRKN Chassis thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

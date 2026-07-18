@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "wear_emo.eyewear.black_frames_thick",
+      "type": "eyewear",
+      "label": "Thick black-framed glasses",
+      "prompt": "thick black-framed glasses",
+      "tags": [
+        "glasses",
+        "emo"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_emo.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 16.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

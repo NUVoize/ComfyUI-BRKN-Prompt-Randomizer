@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "brkn_instagram.visual_style.hyper_real_phone",
+      "type": "visual_style",
+      "label": "A hyper-realistic photograph",
+      "prompt": "a hyper-realistic photograph",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 2.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "soft",
+            "clean",
+            "flash"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "an extremely sharp, high-detail finish",
+        "color_treatment": "true neutral colour, nothing graded",
+        "camera_behavior": "a steady framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_instagram.visual_style.candid_iphone",
+      "type": "visual_style",
+      "label": "A candid iphone photograph",
+      "prompt": "a candid iPhone photograph",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 2.0,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "flash",
+            "social_media"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the lightly compressed look of a modern phone camera",
+        "color_treatment": "punchy contrast with slightly crushed shadows",
+        "camera_behavior": "a loose handheld framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_instagram.visual_style.phone_flash",
+      "type": "visual_style",
+      "label": "A phone photograph taken with the flash on",
+      "prompt": "a phone photograph taken with the flash on",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "a harsh direct flash falling off fast into darkness",
+        "color_treatment": "blown highlights and deep black surroundings",
+        "camera_behavior": "a snapshot framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_instagram.visual_style.ring_light_glam",
+      "type": "visual_style",
+      "label": "A polished phone photograph",
+      "prompt": "a polished phone photograph",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "social_media",
+            "clean",
+            "soft"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "a clean, lightly retouched phone finish",
+        "color_treatment": "bright even colour, skin softly cleaned up",
+        "camera_behavior": "a steady framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_instagram.visual_style.golden_lifestyle",
+      "type": "visual_style",
+      "label": "A warm lifestyle photograph",
+      "prompt": "a warm lifestyle photograph",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "warm",
+            "soft"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "a crisp digital finish with warm highlights",
+        "color_treatment": "golden, sunlit colour",
+        "camera_behavior": "a relaxed framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_instagram.visual_style.early_2000s_digicam",
+      "type": "visual_style",
+      "label": "An early-2000s digital compact photograph",
+      "prompt": "an early-2000s digital compact photograph",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "lora_safe"
+      ],
+      "weight": 0.8,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "flash"
+          ],
+          "bonus": 1.8
+        },
+        "camera_tags_any": {
+          "values": [
+            "selfie",
+            "close",
+            "medium"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the soft noisy sensor of a mid-2000s compact camera",
+        "color_treatment": "slightly green-shifted colour and a hot flash",
+        "camera_behavior": "a careless snapshot framing",
+        "aspect_ratio": "4:3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "brkn_instagram.action.selfie",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "selfie",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 6.24,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.action.selfie_seated",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "hands_busy",
+        "selfie",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 3.36,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.action.mirror_selfie",
+      "type": "action",
+      "label": "Taking a mirror selfie",
+      "prompt": "taking a mirror selfie",
+      "tags": [
+        "standing",
+        "universal_indoor",
+        "hands_busy",
+        "selfie",
+        "mirror_selfie"
+      ],
+      "weight": 6.72,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      },
+      "requires": {
+        "location_tags_any": [
+          "mirror"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.selfie_lying",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "reclining",
+        "universal_indoor",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.action.holding_iced_coffee",
+      "type": "action",
+      "label": "Holding an iced coffee",
+      "prompt": "holding an iced coffee",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "cafe",
+          "street",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.sipping_coffee",
+      "type": "action",
+      "label": "Sipping a coffee",
+      "prompt": "sipping a coffee",
+      "tags": [
+        "seated",
+        "table_space",
+        "counter_space",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "cafe",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.scrolling_phone",
+      "type": "action",
+      "label": "Scrolling on her phone",
+      "prompt": "scrolling on her phone",
+      "tags": [
+        "seated",
+        "hands_busy",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.laughing_off_camera",
+      "type": "action",
+      "label": "Laughing at something off-camera",
+      "prompt": "laughing at something off-camera",
+      "tags": [
+        "standing",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.looking_over_shoulder",
+      "type": "action",
+      "label": "Glancing back over her shoulder",
+      "prompt": "glancing back over her shoulder",
+      "tags": [
+        "standing",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.walking_away",
+      "type": "action",
+      "label": "Walking away from the camera",
+      "prompt": "walking away from the camera",
+      "tags": [
+        "moving",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.mid_stride",
+      "type": "action",
+      "label": "Mid-stride",
+      "prompt": "mid-stride",
+      "tags": [
+        "moving",
+        "outdoor_space"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.fixing_her_hair",
+      "type": "action",
+      "label": "Fixing her hair",
+      "prompt": "fixing her hair",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.checking_her_look",
+      "type": "action",
+      "label": "Checking her look",
+      "prompt": "checking her look",
+      "tags": [
+        "standing",
+        "universal_indoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.stretching",
+      "type": "action",
+      "label": "Stretching before a workout",
+      "prompt": "stretching before a workout",
+      "tags": [
+        "standing",
+        "universal_indoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "gym"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.lifting_weights",
+      "type": "action",
+      "label": "Lifting a dumbbell",
+      "prompt": "lifting a dumbbell",
+      "tags": [
+        "standing",
+        "universal_indoor",
+        "hands_busy",
+        "exercising"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "gym"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.sitting_on_counter",
+      "type": "action",
+      "label": "Sitting up on a counter",
+      "prompt": "sitting up on a counter",
+      "tags": [
+        "seated",
+        "counter_space",
+        "cooking_space"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.lounging_back",
+      "type": "action",
+      "label": "Lounging back with her legs out",
+      "prompt": "lounging back with her legs out",
+      "tags": [
+        "reclining",
+        "lounge_space"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.just_woken",
+      "type": "action",
+      "label": "Just woken up, hair loose",
+      "prompt": "just woken up, hair loose",
+      "tags": [
+        "reclining",
+        "sleep_space"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.getting_dressed",
+      "type": "action",
+      "label": "Half-dressed, reaching for a jacket",
+      "prompt": "half-dressed, reaching for a jacket",
+      "tags": [
+        "standing",
+        "universal_indoor",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.leaning_on_rail",
+      "type": "action",
+      "label": "Leaning on a rail",
+      "prompt": "leaning on a rail",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.sunglasses_down",
+      "type": "action",
+      "label": "Looking over the top of her sunglasses",
+      "prompt": "looking over the top of her sunglasses",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.stepping_into_pool",
+      "type": "action",
+      "label": "Stepping into the water",
+      "prompt": "stepping into the water",
+      "tags": [
+        "standing",
+        "outdoor_space"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "poolside",
+          "beach"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.lying_on_lounger",
+      "type": "action",
+      "label": "Lying back on a lounger",
+      "prompt": "lying back on a lounger",
+      "tags": [
+        "reclining",
+        "lounge_space",
+        "outdoor_space"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "poolside",
+          "beach"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.browsing_a_rail",
+      "type": "action",
+      "label": "Browsing a rail of clothes",
+      "prompt": "browsing a rail of clothes",
+      "tags": [
+        "standing",
+        "retail_space",
+        "hands_busy",
+        "shopping"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.driving",
+      "type": "action",
+      "label": "At the wheel, about to pull away",
+      "prompt": "at the wheel, about to pull away",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "transport"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.dancing",
+      "type": "action",
+      "label": "Dancing, caught mid-turn",
+      "prompt": "dancing, caught mid-turn",
+      "tags": [
+        "moving",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_instagram.action.crouching_selfie",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "crouching",
+        "hands_busy",
+        "selfie",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.action.tying_laces",
+      "type": "action",
+      "label": "Crouched down tying her laces",
+      "prompt": "crouched down tying her laces",
+      "tags": [
+        "crouching",
+        "hands_busy",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "gym",
+          "home",
+          "street"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.crouched_by_the_pool",
+      "type": "action",
+      "label": "Crouched at the water's edge",
+      "prompt": "crouched at the water's edge",
+      "tags": [
+        "crouching",
+        "outdoor_space",
+        "universal_outdoor"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "poolside",
+          "beach"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.action.kneeling_on_the_bed",
+      "type": "action",
+      "label": "Kneeling back on a bed",
+      "prompt": "kneeling back on a bed",
+      "tags": [
+        "crouching",
+        "sleep_space",
+        "universal_indoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      }
+    }
+  ]
+}

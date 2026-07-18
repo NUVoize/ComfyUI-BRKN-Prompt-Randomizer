@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_home.lighting_preset.window_home",
+      "type": "lighting_preset",
+      "label": "Soft daylight through the window",
+      "prompt": "soft daylight through the window",
+      "tags": [
+        "soft",
+        "natural",
+        "window"
+      ],
+      "weight": 2.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_home.lighting_preset.lamp_warm",
+      "type": "lighting_preset",
+      "label": "Warm light from a lamp beside her",
+      "prompt": "warm light from a lamp beside her",
+      "tags": [
+        "warm",
+        "soft",
+        "practical"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.lighting_preset.bathroom_cold",
+      "type": "lighting_preset",
+      "label": "Cold even light from above",
+      "prompt": "cold even light from above",
+      "tags": [
+        "hard",
+        "flat"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.lighting_preset.morning_low",
+      "type": "lighting_preset",
+      "label": "Low morning sun across the bed",
+      "prompt": "low morning sun across the bed",
+      "tags": [
+        "warm",
+        "soft",
+        "natural"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_home.lighting_preset.screen_glow",
+      "type": "lighting_preset",
+      "label": "The blue glow of a screen on her face",
+      "prompt": "the blue glow of a screen on her face",
+      "tags": [
+        "cool",
+        "practical"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

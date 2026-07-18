@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "brkn_portraits.camera_preset.close_up",
+      "type": "camera_preset",
+      "label": "A close-up",
+      "prompt": "a close-up",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.extreme_close",
+      "type": "camera_preset",
+      "label": "An extreme close-up on her eyes",
+      "prompt": "an extreme close-up on her eyes",
+      "tags": [
+        "extreme_close",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "an extreme close-up on her eyes",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.beauty_close",
+      "type": "camera_preset",
+      "label": "A tight beauty framing, the face filling the frame",
+      "prompt": "a tight beauty framing, the face filling the frame",
+      "tags": [
+        "close",
+        "portrait",
+        "beauty"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "framing": "a tight beauty framing, the face filling the frame",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.medium_close",
+      "type": "camera_preset",
+      "label": "A medium close-up from the shoulders",
+      "prompt": "a medium close-up from the shoulders",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a medium close-up from the shoulders",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.head_shoulders",
+      "type": "camera_preset",
+      "label": "A head-and-shoulders portrait",
+      "prompt": "a head-and-shoulders portrait",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "framing": "a head-and-shoulders portrait",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.slight_low",
+      "type": "camera_preset",
+      "label": "A close-up from just below her eyeline",
+      "prompt": "a close-up from just below her eyeline",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a slightly low angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.slight_high",
+      "type": "camera_preset",
+      "label": "A close-up from just above her eyeline",
+      "prompt": "a close-up from just above her eyeline",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "a slightly high angle"
+      }
+    },
+    {
+      "id": "brkn_portraits.camera_preset.profile_close",
+      "type": "camera_preset",
+      "label": "A close profile",
+      "prompt": "a close profile",
+      "tags": [
+        "close",
+        "portrait",
+        "profile"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "framing": "a close profile",
+        "camera_angle": "an eye-level angle"
+      }
+    }
+  ]
+}

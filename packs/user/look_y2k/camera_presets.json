@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "look_y2k.camera_preset.snapshot_medium",
+      "type": "camera_preset",
+      "label": "A straight-on snapshot",
+      "prompt": "a straight-on snapshot",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a straight-on snapshot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "look_y2k.camera_preset.snapshot_close",
+      "type": "camera_preset",
+      "label": "A close snapshot",
+      "prompt": "a close snapshot",
+      "tags": [
+        "close"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "framing": "a close snapshot",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "look_y2k.camera_preset.arms_length",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "close",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "look_y2k.camera_preset.bad_angle",
+      "type": "camera_preset",
+      "label": "A badly framed snapshot",
+      "prompt": "a badly framed snapshot",
+      "tags": [
+        "medium"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "a badly framed snapshot",
+        "camera_angle": "a crooked low angle"
+      }
+    }
+  ]
+}

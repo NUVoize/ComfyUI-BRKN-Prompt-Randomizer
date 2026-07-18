@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_bike.location.astride",
+      "type": "location",
+      "label": "On the seat of the bike, the tank between her knees",
+      "prompt": "on the seat of the bike, the tank between her knees",
+      "tags": [
+        "outdoor",
+        "bike",
+        "part_seat"
+      ],
+      "weight": 2.6,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.astride_forward",
+      "type": "location",
+      "label": "At the tank of the bike, her chest low over it",
+      "prompt": "at the tank of the bike, her chest low over it",
+      "tags": [
+        "outdoor",
+        "bike",
+        "part_seat"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.sidesaddle",
+      "type": "location",
+      "label": "On the seat of the bike, sideways on",
+      "prompt": "on the seat of the bike, sideways on",
+      "tags": [
+        "outdoor",
+        "bike",
+        "part_seat"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.beside_bike",
+      "type": "location",
+      "label": "In the side of the bike",
+      "prompt": "in the side of the bike",
+      "tags": [
+        "outdoor",
+        "bike"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.leaning_on_tank",
+      "type": "location",
+      "label": "At the tank of the bike",
+      "prompt": "at the tank of the bike",
+      "tags": [
+        "outdoor",
+        "bike",
+        "part_seat"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.behind_bike",
+      "type": "location",
+      "label": "In the space behind the bike",
+      "prompt": "in the space behind the bike",
+      "tags": [
+        "outdoor",
+        "bike"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.crouched_by_wheel",
+      "type": "location",
+      "label": "At the front wheel of the bike",
+      "prompt": "at the front wheel of the bike",
+      "tags": [
+        "outdoor",
+        "bike",
+        "part_wheel",
+        "part_seat"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "bike_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.location.garage_floor",
+      "type": "location",
+      "label": "On the concrete floor of a garage, the bike beside her",
+      "prompt": "on the concrete floor of a garage, the bike beside her",
+      "tags": [
+        "indoor",
+        "bike",
+        "garage"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "bike"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "bike_exterior"
+        ]
+      }
+    }
+  ]
+}

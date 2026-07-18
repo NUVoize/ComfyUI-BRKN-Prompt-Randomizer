@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "content_type": "skins",
+  "entries": [
+    {
+      "id": "brkn_base.skin.pale_complexion",
+      "type": "skin",
+      "label": "Pale Complexion",
+      "prompt": "a pale complexion",
+      "tags": [
+        "pale",
+        "fair"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.porcelain",
+      "type": "skin",
+      "label": "Porcelain",
+      "prompt": "porcelain skin",
+      "tags": [
+        "pale",
+        "fair"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.skin.milk_white",
+      "type": "skin",
+      "label": "Milk White",
+      "prompt": "milk-white skin",
+      "tags": [
+        "pale",
+        "fair"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.skin.fair_flush",
+      "type": "skin",
+      "label": "Fair Flush",
+      "prompt": "fair skin with a faint flush",
+      "tags": [
+        "fair"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.light_even",
+      "type": "skin",
+      "label": "Light Even",
+      "prompt": "light, even skin",
+      "tags": [
+        "fair"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.slight_freckles",
+      "type": "skin",
+      "label": "Slight Freckles",
+      "prompt": "slight freckles across the nose",
+      "tags": [
+        "freckled",
+        "fair"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.skin.freckled",
+      "type": "skin",
+      "label": "Freckled",
+      "prompt": "freckled skin",
+      "tags": [
+        "freckled",
+        "fair"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.skin.olive_complexion",
+      "type": "skin",
+      "label": "Olive Complexion",
+      "prompt": "an olive complexion",
+      "tags": [
+        "olive"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.skin.latin_complexion",
+      "type": "skin",
+      "label": "Latin Complexion",
+      "prompt": "a Latin complexion",
+      "tags": [
+        "olive",
+        "warm"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.skin.sun_kissed",
+      "type": "skin",
+      "label": "Sun Kissed",
+      "prompt": "sun-kissed skin",
+      "tags": [
+        "tan",
+        "warm"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.sun_kissed_tan_lines",
+      "type": "skin",
+      "label": "Sun Kissed Tan Lines",
+      "prompt": "sun-kissed skin with faint tan lines",
+      "tags": [
+        "tan",
+        "warm",
+        "tan_lines"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.skin.tanned",
+      "type": "skin",
+      "label": "Tanned",
+      "prompt": "tanned skin",
+      "tags": [
+        "tan",
+        "warm"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.caramel_complexion",
+      "type": "skin",
+      "label": "Caramel Complexion",
+      "prompt": "a caramel complexion",
+      "tags": [
+        "brown",
+        "warm"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.golden_brown",
+      "type": "skin",
+      "label": "Golden Brown",
+      "prompt": "golden brown skin",
+      "tags": [
+        "brown",
+        "warm"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.warm_brown",
+      "type": "skin",
+      "label": "Warm Brown",
+      "prompt": "warm brown skin",
+      "tags": [
+        "brown",
+        "warm"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.skin.dark_complexion",
+      "type": "skin",
+      "label": "Dark Complexion",
+      "prompt": "a dark complexion",
+      "tags": [
+        "dark",
+        "deep"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_base.skin.deep_dark_glow",
+      "type": "skin",
+      "label": "Deep Dark Glow",
+      "prompt": "rich dark skin with a natural glow",
+      "tags": [
+        "dark",
+        "deep"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.skin.clear_glowing",
+      "type": "skin",
+      "label": "Clear Glowing",
+      "prompt": "clear glowing skin",
+      "tags": [
+        "neutral"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.skin.unspecified",
+      "type": "skin",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 2.12,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

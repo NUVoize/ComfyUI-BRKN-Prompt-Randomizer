@@ -1,0 +1,504 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "brkn_base.outerwear.denim_jacket",
+      "type": "outerwear",
+      "label": "Denim Jacket",
+      "prompt": "a faded denim jacket",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.leather_biker_jacket",
+      "type": "outerwear",
+      "label": "Leather Biker Jacket",
+      "prompt": "a black leather biker jacket",
+      "tags": [
+        "edgy",
+        "street",
+        "alt"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.brown_suede_jacket",
+      "type": "outerwear",
+      "label": "Brown Suede Jacket",
+      "prompt": "a brown suede jacket",
+      "tags": [
+        "casual",
+        "bohemian"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.tan_wool_overcoat",
+      "type": "outerwear",
+      "label": "Tan Wool Overcoat",
+      "prompt": "a tan wool overcoat",
+      "tags": [
+        "polished",
+        "formal"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.charcoal_wool_coat",
+      "type": "outerwear",
+      "label": "Charcoal Wool Coat",
+      "prompt": "a charcoal wool coat",
+      "tags": [
+        "polished",
+        "formal",
+        "minimal"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.beige_trench",
+      "type": "outerwear",
+      "label": "Beige Trench",
+      "prompt": "a beige trench coat",
+      "tags": [
+        "polished",
+        "smart_casual"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.quilted_puffer",
+      "type": "outerwear",
+      "label": "Quilted Puffer",
+      "prompt": "a quilted puffer jacket",
+      "tags": [
+        "casual",
+        "winter_ok"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.shearling_denim",
+      "type": "outerwear",
+      "label": "Shearling Denim",
+      "prompt": "a shearling-lined denim jacket",
+      "tags": [
+        "casual",
+        "street",
+        "winter_ok"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.cropped_bomber",
+      "type": "outerwear",
+      "label": "Cropped Bomber",
+      "prompt": "a cropped bomber jacket",
+      "tags": [
+        "street",
+        "casual"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.oversized_blazer",
+      "type": "outerwear",
+      "label": "Oversized Blazer",
+      "prompt": "an oversized blazer worn as a jacket",
+      "tags": [
+        "smart_casual",
+        "polished"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.striped_blazer",
+      "type": "outerwear",
+      "label": "Striped Blazer",
+      "prompt": "a striped blazer",
+      "tags": [
+        "polished",
+        "office"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.navy_blazer_pins",
+      "type": "outerwear",
+      "label": "Navy Blazer Pins",
+      "prompt": "a navy blazer with bespoke lapel pins",
+      "tags": [
+        "polished",
+        "office",
+        "formal"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.canvas_work_jacket",
+      "type": "outerwear",
+      "label": "Canvas Work Jacket",
+      "prompt": "a canvas work jacket",
+      "tags": [
+        "utility",
+        "casual"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.waterproof_shell",
+      "type": "outerwear",
+      "label": "Waterproof Shell",
+      "prompt": "a waterproof shell jacket",
+      "tags": [
+        "utility",
+        "sporty"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "weather_tags_any": {
+          "values": [
+            "rain"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.raincoat",
+      "type": "outerwear",
+      "label": "Raincoat",
+      "prompt": "a belted raincoat",
+      "tags": [
+        "polished",
+        "utility"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "weather_tags_any": {
+          "values": [
+            "rain"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.fleece_zip_up",
+      "type": "outerwear",
+      "label": "Fleece Zip Up",
+      "prompt": "a fleece zip-up",
+      "tags": [
+        "sporty",
+        "casual"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.varsity_jacket",
+      "type": "outerwear",
+      "label": "Varsity Jacket",
+      "prompt": "a cropped varsity jacket",
+      "tags": [
+        "street",
+        "casual"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.fur_collar_coat",
+      "type": "outerwear",
+      "label": "Fur Collar Coat",
+      "prompt": "a coat with a thick fur collar",
+      "tags": [
+        "glam",
+        "winter_ok"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "outerwear_category": "coat"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.long_knit_cardigan",
+      "type": "outerwear",
+      "label": "Long Knit Cardigan",
+      "prompt": "a long knit cardigan",
+      "tags": [
+        "soft",
+        "loungewear",
+        "indoor_ok"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "outerwear_category": "layer"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.flannel_overshirt",
+      "type": "outerwear",
+      "label": "Flannel Overshirt",
+      "prompt": "an oversized flannel overshirt",
+      "tags": [
+        "casual",
+        "alt",
+        "indoor_ok"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "outerwear_category": "layer"
+      }
+    },
+    {
+      "id": "brkn_base.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

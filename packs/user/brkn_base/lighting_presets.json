@@ -1,0 +1,579 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "brkn_base.lighting_preset.golden_hour",
+      "type": "lighting_preset",
+      "label": "Warm low golden-hour sun raking across her",
+      "prompt": "warm low golden-hour sun raking across her",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "time_tags_any": {
+          "values": [
+            "late_afternoon",
+            "evening"
+          ],
+          "bonus": 2.5
+        }
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.blue_hour",
+      "type": "lighting_preset",
+      "label": "The cool blue light of twilight",
+      "prompt": "the cool blue light of twilight",
+      "tags": [
+        "cool",
+        "natural",
+        "soft"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.bright_daylight",
+      "type": "lighting_preset",
+      "label": "Bright open daylight",
+      "prompt": "bright open daylight",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.overcast_diffused",
+      "type": "lighting_preset",
+      "label": "Flat, even light from an overcast sky",
+      "prompt": "flat, even light from an overcast sky",
+      "tags": [
+        "natural",
+        "soft",
+        "flat"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.cloudy_soft",
+      "type": "lighting_preset",
+      "label": "Soft shadowless light on a cloudy day",
+      "prompt": "soft shadowless light on a cloudy day",
+      "tags": [
+        "natural",
+        "soft"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.dappled_sunlight",
+      "type": "lighting_preset",
+      "label": "Dappled sunlight falling through leaves",
+      "prompt": "dappled sunlight falling through leaves",
+      "tags": [
+        "natural",
+        "soft",
+        "textured"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.moonlight",
+      "type": "lighting_preset",
+      "label": "Cold moonlight",
+      "prompt": "cold moonlight",
+      "tags": [
+        "cool",
+        "natural",
+        "low_key"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "time_tags_any": {
+          "values": [
+            "night",
+            "evening"
+          ],
+          "bonus": 2.5
+        }
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.window_light",
+      "type": "lighting_preset",
+      "label": "Soft daylight through a window",
+      "prompt": "soft daylight through a window",
+      "tags": [
+        "natural",
+        "soft"
+      ],
+      "weight": 1.5,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.practical_lamps",
+      "type": "lighting_preset",
+      "label": "Warm light from practical lamps in the room",
+      "prompt": "warm light from practical lamps in the room",
+      "tags": [
+        "warm",
+        "practical",
+        "soft"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.candlelight",
+      "type": "lighting_preset",
+      "label": "Flickering candlelight",
+      "prompt": "flickering candlelight",
+      "tags": [
+        "warm",
+        "practical",
+        "low_key"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.firelight",
+      "type": "lighting_preset",
+      "label": "The warm glow of a fire",
+      "prompt": "the warm glow of a fire",
+      "tags": [
+        "warm",
+        "practical",
+        "low_key"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.neon",
+      "type": "lighting_preset",
+      "label": "Coloured neon light spilling across her",
+      "prompt": "coloured neon light spilling across her",
+      "tags": [
+        "neon",
+        "saturated",
+        "night"
+      ],
+      "weight": 0.7,
+      "prefers": {
+        "time_tags_any": {
+          "values": [
+            "night",
+            "evening"
+          ],
+          "bonus": 2.5
+        }
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.dramatic_shadows",
+      "type": "lighting_preset",
+      "label": "Hard light throwing dramatic shadows",
+      "prompt": "hard light throwing dramatic shadows",
+      "tags": [
+        "hard",
+        "dramatic",
+        "low_key"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lighting_preset.chiaroscuro",
+      "type": "lighting_preset",
+      "label": "Deep chiaroscuro, most of the frame in shadow",
+      "prompt": "deep chiaroscuro, most of the frame in shadow",
+      "tags": [
+        "hard",
+        "dramatic",
+        "low_key",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.lighting_preset.low_key",
+      "type": "lighting_preset",
+      "label": "Low-key lighting, the background falling to black",
+      "prompt": "low-key lighting, the background falling to black",
+      "tags": [
+        "dramatic",
+        "low_key",
+        "editorial"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "brkn_base.lighting_preset.high_key",
+      "type": "lighting_preset",
+      "label": "Bright high-key lighting, almost shadowless",
+      "prompt": "bright high-key lighting, almost shadowless",
+      "tags": [
+        "high_key",
+        "clean",
+        "commercial"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.volumetric",
+      "type": "lighting_preset",
+      "label": "Visible beams of light through haze",
+      "prompt": "visible beams of light through haze",
+      "tags": [
+        "dramatic",
+        "atmospheric"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.lighting_preset.rim_light",
+      "type": "lighting_preset",
+      "label": "A bright rim of light separating her from the background",
+      "prompt": "a bright rim of light separating her from the background",
+      "tags": [
+        "rim",
+        "dramatic"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lighting_preset.backlight",
+      "type": "lighting_preset",
+      "label": "Strong backlight behind her",
+      "prompt": "strong backlight behind her",
+      "tags": [
+        "backlit",
+        "dramatic"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lighting_preset.silhouette",
+      "type": "lighting_preset",
+      "label": "She reads almost as a silhouette against the light",
+      "prompt": "she reads almost as a silhouette against the light",
+      "tags": [
+        "backlit",
+        "dramatic",
+        "editorial"
+      ],
+      "weight": 0.3
+    },
+    {
+      "id": "brkn_base.lighting_preset.soft_key",
+      "type": "lighting_preset",
+      "label": "A soft key light close to her face",
+      "prompt": "a soft key light close to her face",
+      "tags": [
+        "soft",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.hard_light",
+      "type": "lighting_preset",
+      "label": "Hard, direct light with crisp shadow edges",
+      "prompt": "hard, direct light with crisp shadow edges",
+      "tags": [
+        "hard",
+        "editorial"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.lighting_preset.top_light",
+      "type": "lighting_preset",
+      "label": "Light falling from directly overhead",
+      "prompt": "light falling from directly overhead",
+      "tags": [
+        "hard",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.butterfly",
+      "type": "lighting_preset",
+      "label": "Butterfly lighting, a small shadow under the nose",
+      "prompt": "butterfly lighting, a small shadow under the nose",
+      "tags": [
+        "portrait",
+        "beauty",
+        "soft"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.rembrandt",
+      "type": "lighting_preset",
+      "label": "Rembrandt lighting, a small triangle of light on one che",
+      "prompt": "Rembrandt lighting, a small triangle of light on one cheek",
+      "tags": [
+        "portrait",
+        "dramatic"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.split_light",
+      "type": "lighting_preset",
+      "label": "Split lighting, half her face in shadow",
+      "prompt": "split lighting, half her face in shadow",
+      "tags": [
+        "portrait",
+        "dramatic",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.clamshell",
+      "type": "lighting_preset",
+      "label": "Clamshell beauty lighting, soft and even from the front",
+      "prompt": "clamshell beauty lighting, soft and even from the front",
+      "tags": [
+        "portrait",
+        "beauty",
+        "commercial"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.three_point",
+      "type": "lighting_preset",
+      "label": "Clean three-point studio lighting",
+      "prompt": "clean three-point studio lighting",
+      "tags": [
+        "studio",
+        "commercial",
+        "clean"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.ring_light",
+      "type": "lighting_preset",
+      "label": "The flat even glow of a ring light",
+      "prompt": "the flat even glow of a ring light",
+      "tags": [
+        "social_media",
+        "flat",
+        "clean"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.on_camera_flash",
+      "type": "lighting_preset",
+      "label": "Harsh direct on-camera flash",
+      "prompt": "harsh direct on-camera flash",
+      "tags": [
+        "flash",
+        "social_media",
+        "hard"
+      ],
+      "weight": 1.1,
+      "excludes": {
+        "visual_style_tags_any": [
+          "editorial",
+          "cinematic"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.bounced_fill",
+      "type": "lighting_preset",
+      "label": "Soft bounced fill, shadows opened up",
+      "prompt": "soft bounced fill, shadows opened up",
+      "tags": [
+        "soft",
+        "commercial"
+      ],
+      "weight": 0.9,
+      "excludes": {
+        "visual_style_tags_any": [
+          "social_media"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.lighting_preset.spotlight",
+      "type": "lighting_preset",
+      "label": "A single spotlight isolating her",
+      "prompt": "a single spotlight isolating her",
+      "tags": [
+        "dramatic",
+        "editorial",
+        "low_key"
+      ],
+      "weight": 0.3,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    }
+  ]
+}

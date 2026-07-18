@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/atmosphere.schema.json",
+  "title": "Atmosphere",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "atmosphere"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "season": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "weather": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "scope": {
+          "type": "string",
+          "maxLength": 32
+        }
+      }
+    }
+  }
+}

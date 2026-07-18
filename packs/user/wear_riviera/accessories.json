@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_riviera.accessory.fine_gold_chain",
+      "type": "accessory",
+      "label": "A single fine gold chain at her throat",
+      "prompt": "a single fine gold chain at her throat",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.8
+    },
+    {
+      "id": "wear_riviera.accessory.gold_hoops_small",
+      "type": "accessory",
+      "label": "Small gold hoops",
+      "prompt": "small gold hoops",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_riviera.accessory.gold_bangles",
+      "type": "accessory",
+      "label": "A few thin gold bangles",
+      "prompt": "a few thin gold bangles",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_riviera.accessory.signet_ring",
+      "type": "accessory",
+      "label": "A heavy gold signet ring",
+      "prompt": "a heavy gold signet ring",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_riviera.accessory.anklet_gold",
+      "type": "accessory",
+      "label": "A fine gold anklet",
+      "prompt": "a fine gold anklet",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_riviera.accessory.pearl_studs",
+      "type": "accessory",
+      "label": "Pearl studs",
+      "prompt": "pearl studs",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_riviera.accessory.watch_gold",
+      "type": "accessory",
+      "label": "A slim gold watch",
+      "prompt": "a slim gold watch",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_riviera.accessory.bare_gold",
+      "type": "accessory",
+      "label": "No jewellery at all, only a tan line",
+      "prompt": "no jewellery at all, only a tan line",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

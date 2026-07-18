@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth_trad.accessory.ankh",
+      "type": "accessory",
+      "label": "A large silver ankh at her throat",
+      "prompt": "a large silver ankh at her throat",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_trad.accessory.spiderweb_choker",
+      "type": "accessory",
+      "label": "A black spiderweb lace choker",
+      "prompt": "a black spiderweb lace choker",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_trad.accessory.silver_bat",
+      "type": "accessory",
+      "label": "A silver bat pendant",
+      "prompt": "a silver bat pendant",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_trad.accessory.heavy_silver_rings",
+      "type": "accessory",
+      "label": "Heavy silver rings on every finger",
+      "prompt": "heavy silver rings on every finger",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_trad.accessory.studded_cuffs",
+      "type": "accessory",
+      "label": "Wide studded leather cuffs",
+      "prompt": "wide studded leather cuffs",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_trad.accessory.safety_pin_ear",
+      "type": "accessory",
+      "label": "A safety pin through one ear",
+      "prompt": "a safety pin through one ear",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_goth_trad.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

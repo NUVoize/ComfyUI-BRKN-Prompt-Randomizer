@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_vehicle_hero",
+  "label": "Vehicle Hero",
+  "purpose": "Vehicle pack thumbnails.",
+  "subject_mode": "none",
+  "prompt": "single hero vehicle, clean front three-quarter view, readable silhouette, simple controlled background, no people unless explicitly requested, no motion blur, no crowded scene",
+  "priority": [
+    "vehicle identity",
+    "shape",
+    "wheels",
+    "lighting",
+    "category readability"
+  ],
+  "restrictions": [
+    "no people by default",
+    "no motion blur",
+    "no crowded scene"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

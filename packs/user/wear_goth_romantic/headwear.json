@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.headwear.veil_short",
+      "type": "headwear",
+      "label": "A short black lace veil",
+      "prompt": "a short black lace veil",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth_romantic.headwear.hair_comb",
+      "type": "headwear",
+      "label": "A jet hair comb",
+      "prompt": "a jet hair comb",
+      "tags": [
+        "hat"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "wear_goth_romantic.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

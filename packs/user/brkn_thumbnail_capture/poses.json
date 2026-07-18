@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "content_type": "poses",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.pose.neutral_standing_catalog",
+      "type": "pose",
+      "label": "Neutral Standing Catalog Pose",
+      "prompt": "neutral standing catalog pose, slight body angle, arms relaxed",
+      "tags": ["thumbnail", "standing", "catalog", "wardrobe"],
+      "weight": 5.0,
+      "metadata": {
+        "orientation": "front_or_slight_threequarter"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.pose.relaxed_halfbody_catalog",
+      "type": "pose",
+      "label": "Relaxed Half-Body Catalog Pose",
+      "prompt": "relaxed half-body catalog pose, shoulders open, arms calm",
+      "tags": ["thumbnail", "halfbody", "catalog"],
+      "weight": 3.0,
+      "metadata": {
+        "orientation": "front_or_slight_threequarter"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.pose.neutral_face_catalog",
+      "type": "pose",
+      "label": "Neutral Face Catalog Pose",
+      "prompt": "neutral close-up face pose, calm head position, face toward camera",
+      "tags": ["thumbnail", "face", "beauty", "hair", "makeup"],
+      "weight": 2.0,
+      "metadata": {
+        "orientation": "front_or_slight_threequarter"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.pose.no_person_vehicle",
+      "type": "pose",
+      "label": "No Person Vehicle Thumbnail",
+      "prompt": "",
+      "tags": ["thumbnail", "vehicle", "no_person"],
+      "weight": 1.0,
+      "metadata": {
+        "orientation": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "wear_riviera.eyewear.black_oversized",
+      "type": "eyewear",
+      "label": "Oversized black sunglasses",
+      "prompt": "oversized black sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 2.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_riviera.eyewear.tortoiseshell",
+      "type": "eyewear",
+      "label": "Tortoiseshell sunglasses",
+      "prompt": "tortoiseshell sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_riviera.eyewear.gold_aviators",
+      "type": "eyewear",
+      "label": "Gold-framed aviators",
+      "prompt": "gold-framed aviators",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "wear_riviera.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 12.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

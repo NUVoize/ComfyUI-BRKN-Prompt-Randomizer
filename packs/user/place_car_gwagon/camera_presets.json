@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "place_car_gwagon.camera_preset.selfie_g",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "place_car_gwagon.camera_preset.low_hero_g",
+      "type": "camera_preset",
+      "label": "A low hero shot, the suv towering",
+      "prompt": "a low hero shot, the SUV towering",
+      "tags": [
+        "wide",
+        "dramatic"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "framing": "a low wide shot with the SUV towering behind her",
+        "camera_angle": "a low angle"
+      }
+    },
+    {
+      "id": "place_car_gwagon.camera_preset.three_quarter_g",
+      "type": "camera_preset",
+      "label": "A three-quarter shot of her and the suv",
+      "prompt": "a three-quarter shot of her and the SUV",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a three-quarter shot of her and the SUV",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "place_car_gwagon.camera_preset.tailgate_frame",
+      "type": "camera_preset",
+      "label": "Framed in the open tailgate",
+      "prompt": "framed in the open tailgate",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "framing": "a medium shot framed in the open tailgate",
+        "camera_angle": "an eye-level angle"
+      }
+    }
+  ]
+}

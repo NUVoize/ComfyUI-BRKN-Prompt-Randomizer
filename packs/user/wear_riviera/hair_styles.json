@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_riviera.hair_style.wet_back",
+      "type": "hair_style",
+      "label": "Slicked wet and pushed straight back",
+      "prompt": "slicked wet and pushed straight back",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_riviera.hair_style.salt_waves",
+      "type": "hair_style",
+      "label": "In loose salt-dried waves",
+      "prompt": "in loose salt-dried waves",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.8
+    },
+    {
+      "id": "wear_riviera.hair_style.low_bun",
+      "type": "hair_style",
+      "label": "Twisted into a low bun",
+      "prompt": "twisted into a low bun",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.hair_style.long_loose_wind",
+      "type": "hair_style",
+      "label": "Worn long and loose, moving in the wind",
+      "prompt": "worn long and loose, moving in the wind",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_riviera.hair_style.high_ponytail_sleek",
+      "type": "hair_style",
+      "label": "In a sleek high ponytail",
+      "prompt": "in a sleek high ponytail",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

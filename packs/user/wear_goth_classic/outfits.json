@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth_classic.outfit.lace_up_skirt_fishnets",
+      "type": "outfit",
+      "label": "A black lace-up top and a leather mini skirt over ripped",
+      "prompt": "a black lace-up top and a leather mini skirt over ripped fishnets",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic.outfit.cutout_top_shorts",
+      "type": "outfit",
+      "label": "A fitted black top with cutouts and straps, and black fi",
+      "prompt": "a fitted black top with cutouts and straps, and black fitted shorts",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.outfit.buckle_dress_thighs",
+      "type": "outfit",
+      "label": "A short black dress with buckles and metal eyelets, over",
+      "prompt": "a short black dress with buckles and metal eyelets, over black thigh-highs",
+      "tags": [
+        "goth_classic",
+        "dressy"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.outfit.crop_longsleeve_skirt",
+      "type": "outfit",
+      "label": "A cropped black long-sleeve and a faux-leather mini skir",
+      "prompt": "a cropped black long-sleeve and a faux-leather mini skirt over torn tights",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.outfit.off_shoulder_fishnets",
+      "type": "outfit",
+      "label": "An off-shoulder black top and a fitted skirt over fishne",
+      "prompt": "an off-shoulder black top and a fitted skirt over fishnet stockings",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic.outfit.asymmetric_dress",
+      "type": "outfit",
+      "label": "An asymmetric black dress with safety-pinned seams",
+      "prompt": "an asymmetric black dress with safety-pinned seams",
+      "tags": [
+        "goth_classic",
+        "dressy"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic.outfit.harness_skirt",
+      "type": "outfit",
+      "label": "A plain black top under a strap harness, with a leather ",
+      "prompt": "a plain black top under a strap harness, with a leather mini skirt",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic.outfit.chain_skirt_garters",
+      "type": "outfit",
+      "label": "A black skirt hung with chains, over garter-strapped sto",
+      "prompt": "a black skirt hung with chains, over garter-strapped stockings",
+      "tags": [
+        "goth_classic",
+        "dressy"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_classic.outfit.mesh_top_shorts",
+      "type": "outfit",
+      "label": "A sheer black mesh top over a bra, with high-waisted bla",
+      "prompt": "a sheer black mesh top over a bra, with high-waisted black shorts",
+      "tags": [
+        "goth_classic",
+        "casual"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

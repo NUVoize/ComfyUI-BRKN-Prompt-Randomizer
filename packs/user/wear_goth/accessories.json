@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth.accessory.choker_lace",
+      "type": "accessory",
+      "label": "A black lace choker",
+      "prompt": "a black lace choker",
+      "tags": [
+        "goth",
+        "neck"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth.accessory.choker_leather",
+      "type": "accessory",
+      "label": "A black leather choker",
+      "prompt": "a black leather choker",
+      "tags": [
+        "goth",
+        "neck"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth.accessory.silver_cross",
+      "type": "accessory",
+      "label": "A heavy silver cross on a chain",
+      "prompt": "a heavy silver cross on a chain",
+      "tags": [
+        "goth",
+        "neck"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth.accessory.stacked_silver",
+      "type": "accessory",
+      "label": "Stacked silver rings",
+      "prompt": "stacked silver rings",
+      "tags": [
+        "goth",
+        "hand"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth.accessory.silver_hoops_small",
+      "type": "accessory",
+      "label": "Small silver hoops",
+      "prompt": "small silver hoops",
+      "tags": [
+        "goth",
+        "ear"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth.accessory.ear_cuffs",
+      "type": "accessory",
+      "label": "Silver ear cuffs",
+      "prompt": "silver ear cuffs",
+      "tags": [
+        "goth",
+        "ear"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_goth.accessory.studded_belt",
+      "type": "accessory",
+      "label": "A studded black belt",
+      "prompt": "a studded black belt",
+      "tags": [
+        "goth"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth.accessory.fingerless_gloves",
+      "type": "accessory",
+      "label": "Fingerless black gloves",
+      "prompt": "fingerless black gloves",
+      "tags": [
+        "goth"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "wear_goth.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 4.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

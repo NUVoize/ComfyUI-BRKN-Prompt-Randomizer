@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "brkn_instagram.lighting_preset.window_light",
+      "type": "lighting_preset",
+      "label": "Soft daylight through a window",
+      "prompt": "soft daylight through a window",
+      "tags": [
+        "natural",
+        "soft"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "home",
+          "hotel",
+          "cafe",
+          "retail"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.ring_light",
+      "type": "lighting_preset",
+      "label": "The flat even glow of a ring light",
+      "prompt": "the flat even glow of a ring light",
+      "tags": [
+        "social_media",
+        "clean"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.phone_flash",
+      "type": "lighting_preset",
+      "label": "Harsh direct on-camera flash",
+      "prompt": "harsh direct on-camera flash",
+      "tags": [
+        "flash",
+        "hard"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.bright_daylight",
+      "type": "lighting_preset",
+      "label": "Bright open daylight",
+      "prompt": "bright open daylight",
+      "tags": [
+        "natural"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "nightlife"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.golden_hour",
+      "type": "lighting_preset",
+      "label": "Warm low golden-hour sun",
+      "prompt": "warm low golden-hour sun",
+      "tags": [
+        "natural",
+        "warm",
+        "soft"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "nightlife"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.overcast",
+      "type": "lighting_preset",
+      "label": "Flat, even light from an overcast sky",
+      "prompt": "flat, even light from an overcast sky",
+      "tags": [
+        "natural",
+        "soft"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "nightlife"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.practical_lamps",
+      "type": "lighting_preset",
+      "label": "Warm light from lamps in the room",
+      "prompt": "warm light from lamps in the room",
+      "tags": [
+        "warm",
+        "soft"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.gym_overhead",
+      "type": "lighting_preset",
+      "label": "Flat overhead gym lighting",
+      "prompt": "flat overhead gym lighting",
+      "tags": [
+        "hard",
+        "clean"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "gym"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.poolside_sun",
+      "type": "lighting_preset",
+      "label": "Hard midday sun off the water",
+      "prompt": "hard midday sun off the water",
+      "tags": [
+        "hard",
+        "natural"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "poolside",
+          "beach"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.lighting_preset.night_neon",
+      "type": "lighting_preset",
+      "label": "Neon spill and city light",
+      "prompt": "neon spill and city light",
+      "tags": [
+        "neon",
+        "night"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ],
+        "environment_tags_any": [
+          "nightlife"
+        ]
+      }
+    }
+  ]
+}

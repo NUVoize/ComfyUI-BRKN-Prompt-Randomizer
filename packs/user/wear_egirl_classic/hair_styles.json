@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.hair_style.straight_blunt_bangs",
+      "type": "hair_style",
+      "label": "Worn long, glossy and dead straight, with blunt bangs",
+      "prompt": "worn long, glossy and dead straight, with blunt bangs",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 3.2
+    },
+    {
+      "id": "wear_egirl_classic.hair_style.big_curls_bangs",
+      "type": "hair_style",
+      "label": "In soft oversized curls with blunt bangs",
+      "prompt": "in soft oversized curls with blunt bangs",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_egirl_classic.hair_style.straight_low_pigtails",
+      "type": "hair_style",
+      "label": "Worn long and straight with blunt bangs and two low pigtails",
+      "prompt": "worn long and straight with blunt bangs and two low pigtails",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl_classic.hair_style.half_up_bangs",
+      "type": "hair_style",
+      "label": "Worn long with blunt bangs and the top half tied up",
+      "prompt": "worn long with blunt bangs and the top half tied up",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_egirl_classic.hair_style.pink_front_curtains",
+      "type": "hair_style",
+      "label": "Pink at the front",
+      "prompt": "worn long and straight with blunt bangs, pastel pink framing her face",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 2.2
+    }
+  ]
+}

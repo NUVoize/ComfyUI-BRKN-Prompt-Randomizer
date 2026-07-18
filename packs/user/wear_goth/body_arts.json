@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "wear_goth.body_art.none",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "none"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "wear_goth.body_art.fine_line_arms",
+      "type": "body_art",
+      "label": "Fine black linework down both arms",
+      "prompt": "fine black linework down both arms",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth.body_art.hand_tattoos",
+      "type": "body_art",
+      "label": "Small black tattoos across her hands",
+      "prompt": "small black tattoos across her hands",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth.body_art.neck_piece",
+      "type": "body_art",
+      "label": "A dark tattoo on the side of her neck",
+      "prompt": "a dark tattoo on the side of her neck",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth.body_art.heavy_black",
+      "type": "body_art",
+      "label": "Heavy black tattoo coverage on her arms",
+      "prompt": "heavy black tattoo coverage on her arms",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

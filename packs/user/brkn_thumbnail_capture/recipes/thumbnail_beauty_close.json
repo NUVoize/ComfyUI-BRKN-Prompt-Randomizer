@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_beauty_close",
+  "label": "Beauty Close-Up",
+  "purpose": "Makeup, hair, and face-focused pack thumbnails.",
+  "subject_mode": "abby",
+  "prompt": "Abby, close-up face portrait, front or slight three-quarter view, shoulders visible, neutral expression, clean studio lighting, light-gray seamless background, no props, no selfie angle, no visible phone",
+  "priority": [
+    "face",
+    "makeup",
+    "hair",
+    "small accessories"
+  ],
+  "restrictions": [
+    "no full-body",
+    "no dramatic head tilt",
+    "no hands covering face",
+    "no heavy perspective distortion"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

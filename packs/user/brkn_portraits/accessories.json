@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "brkn_portraits.accessory.small_hoops",
+      "type": "accessory",
+      "label": "Small gold hoops",
+      "prompt": "small gold hoops",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "brkn_portraits.accessory.studs",
+      "type": "accessory",
+      "label": "Tiny stud earrings",
+      "prompt": "tiny stud earrings",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_portraits.accessory.chunky_hoops",
+      "type": "accessory",
+      "label": "Chunky gold hoops",
+      "prompt": "chunky gold hoops",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.accessory.fine_chain",
+      "type": "accessory",
+      "label": "A fine chain at her throat",
+      "prompt": "a fine chain at her throat",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "brkn_portraits.accessory.pearl_studs",
+      "type": "accessory",
+      "label": "Pearl studs",
+      "prompt": "pearl studs",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.accessory.statement_earring",
+      "type": "accessory",
+      "label": "A single sculptural earring",
+      "prompt": "a single sculptural earring",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_portraits.accessory.bare",
+      "type": "accessory",
+      "label": "No jewellery at all",
+      "prompt": "no jewellery at all",
+      "tags": [
+        "portrait"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "brkn_portraits.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 4.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "place_yacht.camera_preset.selfie_y",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "place_yacht.camera_preset.wide_yacht",
+      "type": "camera_preset",
+      "label": "A wide shot, the yacht and the marina behind her",
+      "prompt": "a wide shot, the yacht and the marina behind her",
+      "tags": [
+        "wide"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "framing": "a wide shot with the yacht and the marina behind her",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "place_yacht.camera_preset.medium_deck",
+      "type": "camera_preset",
+      "label": "A medium shot on the deck",
+      "prompt": "a medium shot on the deck",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a medium shot on the deck",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "place_yacht.camera_preset.low_from_dock",
+      "type": "camera_preset",
+      "label": "Low, from the dock, looking up at the hull",
+      "prompt": "low, from the dock, looking up at the hull",
+      "tags": [
+        "wide",
+        "dramatic"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "framing": "a low wide shot from the dock",
+        "camera_angle": "a low angle"
+      }
+    },
+    {
+      "id": "place_yacht.camera_preset.close_deck",
+      "type": "camera_preset",
+      "label": "A close-up on the deck",
+      "prompt": "a close-up on the deck",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "an eye-level angle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_yacht.lighting_preset.hard_med_sun",
+      "type": "lighting_preset",
+      "label": "Hard bright mediterranean sun",
+      "prompt": "hard bright Mediterranean sun",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 2.8,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.lighting_preset.water_bounce",
+      "type": "lighting_preset",
+      "label": "Light bouncing up off the water onto her",
+      "prompt": "light bouncing up off the water onto her",
+      "tags": [
+        "natural",
+        "soft"
+      ],
+      "weight": 2.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.lighting_preset.awning_shade",
+      "type": "lighting_preset",
+      "label": "Soft open shade under the awning",
+      "prompt": "soft open shade under the awning",
+      "tags": [
+        "soft",
+        "natural"
+      ],
+      "weight": 2.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.lighting_preset.golden_low",
+      "type": "lighting_preset",
+      "label": "Low golden sun raking down the deck",
+      "prompt": "low golden sun raking down the deck",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 2.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.lighting_preset.marina_practical",
+      "type": "lighting_preset",
+      "label": "Warm deck lights and the marina glowing behind",
+      "prompt": "warm deck lights and the marina glowing behind",
+      "tags": [
+        "warm",
+        "practical",
+        "night"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ]
+      }
+    }
+  ]
+}

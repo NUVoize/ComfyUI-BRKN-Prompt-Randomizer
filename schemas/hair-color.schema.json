@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/hair-color.schema.json",
+  "title": "Hair Colour",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "hair_color"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "color_family": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "natural": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

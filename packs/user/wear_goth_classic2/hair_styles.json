@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.hair_style.long_flat_micro_bangs",
+      "type": "hair_style",
+      "label": "Worn long, dead straight and sleek, with blunt micro bangs",
+      "prompt": "worn long, dead straight and sleek, with blunt micro bangs",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 3.0
+    },
+    {
+      "id": "wear_goth_classic2.hair_style.long_flat_bangs",
+      "type": "hair_style",
+      "label": "Worn long and flat with a short straight-across fringe",
+      "prompt": "worn long and flat with a short straight-across fringe",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_classic2.hair_style.mini_pigtails",
+      "type": "hair_style",
+      "label": "Worn long and straight with two small sections tied at the crown",
+      "prompt": "worn long and straight with two small sections tied at the crown",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic2.hair_style.sleek_parted",
+      "type": "hair_style",
+      "label": "Worn long, sleek and centre-parted",
+      "prompt": "worn long, sleek and centre-parted",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_classic2.hair_style.streaked_sleek",
+      "type": "hair_style",
+      "label": "Sleek, thin red streaks",
+      "prompt": "worn long and sleek with blunt micro bangs, thin red streaks running through it",
+      "tags": [
+        "goth_classic2"
+      ],
+      "weight": 2.2
+    }
+  ]
+}

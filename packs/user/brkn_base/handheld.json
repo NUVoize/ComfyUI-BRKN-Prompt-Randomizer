@@ -1,0 +1,908 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "brkn_base.handheld.stainless_steel_water_bottle",
+      "type": "handheld",
+      "label": "Stainless steel water bottle",
+      "prompt": "stainless steel water bottle",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.clear_water_bottle",
+      "type": "handheld",
+      "label": "Clear water bottle",
+      "prompt": "clear water bottle",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.insulated_tumbler",
+      "type": "handheld",
+      "label": "Insulated tumbler",
+      "prompt": "insulated tumbler",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.coffee_cup",
+      "type": "handheld",
+      "label": "Coffee cup",
+      "prompt": "coffee cup",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "cafe",
+          "street",
+          "work",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.iced_coffee_cup",
+      "type": "handheld",
+      "label": "Iced coffee cup",
+      "prompt": "iced coffee cup",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "cafe",
+          "street",
+          "work",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.takeaway_cup",
+      "type": "handheld",
+      "label": "Takeaway cup",
+      "prompt": "takeaway cup",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "cafe",
+          "street",
+          "work",
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.reusable_shopping_bag",
+      "type": "handheld",
+      "label": "Reusable shopping bag",
+      "prompt": "reusable shopping bag",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "retail",
+          "street",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.folded_newspaper",
+      "type": "handheld",
+      "label": "Folded newspaper",
+      "prompt": "folded newspaper",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.fashion_magazine",
+      "type": "handheld",
+      "label": "Fashion magazine",
+      "prompt": "fashion magazine",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.notebook",
+      "type": "handheld",
+      "label": "Notebook",
+      "prompt": "notebook",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.hardcover_book",
+      "type": "handheld",
+      "label": "Hardcover book",
+      "prompt": "hardcover book",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.smartphone_in_hand",
+      "type": "handheld",
+      "label": "Smartphone in hand",
+      "prompt": "smartphone in hand",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.smartphone_with_case",
+      "type": "handheld",
+      "label": "Smartphone with case",
+      "prompt": "smartphone with case",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.earbuds_case",
+      "type": "handheld",
+      "label": "Earbuds case",
+      "prompt": "earbuds case",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.handheld_mirror",
+      "type": "handheld",
+      "label": "Handheld mirror",
+      "prompt": "handheld mirror",
+      "tags": [
+        "handheld",
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.lipstick_tube",
+      "type": "handheld",
+      "label": "Lipstick tube",
+      "prompt": "lipstick tube",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.compact_mirror",
+      "type": "handheld",
+      "label": "Compact mirror",
+      "prompt": "compact mirror",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.makeup_brush",
+      "type": "handheld",
+      "label": "Makeup brush",
+      "prompt": "makeup brush",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.perfume_bottle",
+      "type": "handheld",
+      "label": "Perfume bottle",
+      "prompt": "perfume bottle",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.hairbrush",
+      "type": "handheld",
+      "label": "Hairbrush",
+      "prompt": "hairbrush",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.folded_hand_fan",
+      "type": "handheld",
+      "label": "Folded hand fan",
+      "prompt": "folded hand fan",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "restaurant",
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.lace_fan",
+      "type": "handheld",
+      "label": "Lace fan",
+      "prompt": "lace fan",
+      "tags": [
+        "handheld",
+        "beauty",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "restaurant",
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.silk_fan",
+      "type": "handheld",
+      "label": "Silk fan",
+      "prompt": "silk fan",
+      "tags": [
+        "handheld",
+        "beauty",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "restaurant",
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.opera_gloves_carried_in_one_hand",
+      "type": "handheld",
+      "label": "Opera gloves carried in one hand",
+      "prompt": "opera gloves carried in one hand",
+      "tags": [
+        "handheld",
+        "beauty",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "restaurant",
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.folded_silk_scarf",
+      "type": "handheld",
+      "label": "Folded silk scarf",
+      "prompt": "folded silk scarf",
+      "tags": [
+        "handheld",
+        "beauty"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "restaurant",
+          "work"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.bouquet_of_flowers",
+      "type": "handheld",
+      "label": "Bouquet of flowers",
+      "prompt": "bouquet of flowers",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "street",
+          "retail",
+          "home",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.single_rose",
+      "type": "handheld",
+      "label": "Single rose",
+      "prompt": "single rose",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "street",
+          "retail",
+          "home",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.small_gift_box",
+      "type": "handheld",
+      "label": "Small gift box",
+      "prompt": "small gift box",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "street",
+          "retail",
+          "home",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.shopping_bags",
+      "type": "handheld",
+      "label": "Shopping bags",
+      "prompt": "shopping bags",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "retail",
+          "street",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.takeaway_food_bag",
+      "type": "handheld",
+      "label": "Takeaway food bag",
+      "prompt": "takeaway food bag",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "retail",
+          "street",
+          "restaurant",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.car_keys",
+      "type": "handheld",
+      "label": "Car keys",
+      "prompt": "car keys",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "transport",
+          "street",
+          "work",
+          "retail",
+          "cafe",
+          "restaurant"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.sunglasses_held_in_hand",
+      "type": "handheld",
+      "label": "Sunglasses held in hand",
+      "prompt": "sunglasses held in hand",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.polaroid_camera",
+      "type": "handheld",
+      "label": "Polaroid camera",
+      "prompt": "polaroid camera",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold",
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.compact_film_camera",
+      "type": "handheld",
+      "label": "Compact film camera",
+      "prompt": "compact film camera",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold",
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.headphones_in_hand",
+      "type": "handheld",
+      "label": "Headphones in hand",
+      "prompt": "headphones in hand",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.tablet_device",
+      "type": "handheld",
+      "label": "Tablet device",
+      "prompt": "tablet device",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.passport",
+      "type": "handheld",
+      "label": "Passport",
+      "prompt": "passport",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "transport",
+          "street"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.boarding_pass",
+      "type": "handheld",
+      "label": "Boarding pass",
+      "prompt": "boarding pass",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "environment_tags_any": [
+          "transport",
+          "street"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.handheld.small_umbrella",
+      "type": "handheld",
+      "label": "Small umbrella",
+      "prompt": "small umbrella",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "weather_tags_any": {
+          "values": [
+            "light_rain",
+            "heavy_rain"
+          ],
+          "bonus": 2.5
+        }
+      }
+    },
+    {
+      "id": "brkn_base.handheld.closed_parasol",
+      "type": "handheld",
+      "label": "Closed parasol",
+      "prompt": "closed parasol",
+      "tags": [
+        "handheld",
+        "lifestyle"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "weather_tags_any": {
+          "values": [
+            "light_rain",
+            "heavy_rain"
+          ],
+          "bonus": 2.5
+        }
+      }
+    },
+    {
+      "id": "brkn_base.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 30.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

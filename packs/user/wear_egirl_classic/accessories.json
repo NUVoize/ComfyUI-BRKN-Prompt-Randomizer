@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.accessory.heart_choker_chains",
+      "type": "accessory",
+      "label": "A heart-shaped choker and layered silver chains",
+      "prompt": "a heart-shaped choker and layered silver chains",
+      "tags": [
+        "signature"
+      ],
+      "weight": 3.0
+    },
+    {
+      "id": "wear_egirl_classic.accessory.heart_garters",
+      "type": "accessory",
+      "label": "Heart-shaped garters strapped over her thigh-highs",
+      "prompt": "heart-shaped garters strapped over her thigh-highs",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.8
+    },
+    {
+      "id": "wear_egirl_classic.accessory.fishnet_gloves_rings",
+      "type": "accessory",
+      "label": "Fishnet gloves and layered silver rings",
+      "prompt": "fishnet gloves and layered silver rings",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_egirl_classic.accessory.heart_belt_chains",
+      "type": "accessory",
+      "label": "A heart-buckle belt hung with fine chains",
+      "prompt": "a heart-buckle belt hung with fine chains",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_egirl_classic.accessory.arm_warmers_striped",
+      "type": "accessory",
+      "label": "Striped arm warmers pushed up her forearms",
+      "prompt": "striped arm warmers pushed up her forearms",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_egirl_classic.accessory.ribbon_bows",
+      "type": "accessory",
+      "label": "Black ribbon bows tied at her wrists",
+      "prompt": "black ribbon bows tied at her wrists",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl_classic.accessory.charm_necklace",
+      "type": "accessory",
+      "label": "A charm necklace of small silver hearts",
+      "prompt": "a charm necklace of small silver hearts",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl_classic.accessory.safety_pin_hoops",
+      "type": "accessory",
+      "label": "Safety-pin earrings and small silver hoops",
+      "prompt": "safety-pin earrings and small silver hoops",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl_classic.accessory.black_pink_nails",
+      "type": "accessory",
+      "label": "Alternating glossy black and pastel pink nails",
+      "prompt": "alternating glossy black and pastel pink nails",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_egirl_classic.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

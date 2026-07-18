@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.face_paint.winged_pink_blush",
+      "type": "face_paint",
+      "label": "Dramatic winged eyeliner, long lashes, pink under the lo",
+      "prompt": "dramatic winged eyeliner, long lashes, pink under the lower lash line, and heavy blush across the cheeks and nose",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.face_paint.hearts_under_eye",
+      "type": "face_paint",
+      "label": "Sharp winged liner, heavy blush, and small drawn hearts ",
+      "prompt": "sharp winged liner, heavy blush, and small drawn hearts under one eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.face_paint.faux_freckles_gloss",
+      "type": "face_paint",
+      "label": "Drawn-on freckles, heavy blush, and a glossy pink lip",
+      "prompt": "drawn-on freckles, heavy blush, and a glossy pink lip",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.face_paint.anime_lash_gloss",
+      "type": "face_paint",
+      "label": "Huge dark lashes, dark shadow, and a glossy nude-pink mo",
+      "prompt": "huge dark lashes, dark shadow, and a glossy nude-pink mouth",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.face_paint.stars_under_eye",
+      "type": "face_paint",
+      "label": "Winged liner with tiny drawn stars beneath one eye",
+      "prompt": "winged liner with tiny drawn stars beneath one eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    }
+  ]
+}

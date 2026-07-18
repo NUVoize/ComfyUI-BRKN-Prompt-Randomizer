@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_car_gwagon.environment.g_named",
+      "type": "environment",
+      "label": "A mercedes g-wagon in sand metallic",
+      "prompt": "a Mercedes G-Wagon in sand metallic",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gwagon.environment.g_named_black",
+      "type": "environment",
+      "label": "A mercedes g-wagon with a black grille, black roof rack ",
+      "prompt": "a Mercedes G-Wagon with a black grille, black roof rack and black alloy wheels",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gwagon.environment.g_desc",
+      "type": "environment",
+      "label": "A boxy luxury off-road suv in champagne beige, black gri",
+      "prompt": "a boxy luxury off-road SUV in champagne beige, black grille, round headlights, black roof rack and squared fenders",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gwagon.environment.g_desc_rugged",
+      "type": "environment",
+      "label": "A tall square-bodied luxury suv with a black brush guard",
+      "prompt": "a tall square-bodied luxury SUV with a black brush guard, side steps, wide road tyres and an upright windscreen",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gwagon.environment.g_city",
+      "type": "environment",
+      "label": "A boxy luxury suv on a city street",
+      "prompt": "a boxy luxury SUV on a city street",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "place_car_gwagon.environment.g_desert",
+      "type": "environment",
+      "label": "A boxy luxury suv on an open desert road",
+      "prompt": "a boxy luxury SUV on an open desert road",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_car_gwagon.environment.g_night",
+      "type": "environment",
+      "label": "A boxy luxury suv under streetlights",
+      "prompt": "a boxy luxury SUV under streetlights",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

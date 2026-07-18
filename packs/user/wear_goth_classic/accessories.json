@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth_classic.accessory.cross_necklace",
+      "type": "accessory",
+      "label": "A heavy silver cross on a chain",
+      "prompt": "a heavy silver cross on a chain",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic.accessory.ankh_necklace",
+      "type": "accessory",
+      "label": "A large silver ankh at her throat",
+      "prompt": "a large silver ankh at her throat",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.accessory.spike_choker",
+      "type": "accessory",
+      "label": "A spiked silver choker",
+      "prompt": "a spiked silver choker",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic.accessory.black_choker",
+      "type": "accessory",
+      "label": "A plain black leather choker",
+      "prompt": "a plain black leather choker",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic.accessory.layered_chains",
+      "type": "accessory",
+      "label": "Layered silver chains at her throat",
+      "prompt": "layered silver chains at her throat",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic.accessory.fingerless_gloves",
+      "type": "accessory",
+      "label": "Black fingerless gloves",
+      "prompt": "black fingerless gloves",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.accessory.lace_gloves",
+      "type": "accessory",
+      "label": "Black lace gloves",
+      "prompt": "black lace gloves",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_classic.accessory.chain_belt",
+      "type": "accessory",
+      "label": "A silver chain belt hung at her hip",
+      "prompt": "a silver chain belt hung at her hip",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic.accessory.silver_rings",
+      "type": "accessory",
+      "label": "Heavy silver rings on every finger",
+      "prompt": "heavy silver rings on every finger",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic.accessory.black_nails",
+      "type": "accessory",
+      "label": "Chipped black nail polish, nails long and pointed",
+      "prompt": "chipped black nail polish, nails long and pointed",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.accessory.metal_bracelets",
+      "type": "accessory",
+      "label": "Stacked metal bracelets",
+      "prompt": "stacked metal bracelets",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_classic.accessory.safety_pins",
+      "type": "accessory",
+      "label": "Safety pins through her collar",
+      "prompt": "safety pins through her collar",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth_classic.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

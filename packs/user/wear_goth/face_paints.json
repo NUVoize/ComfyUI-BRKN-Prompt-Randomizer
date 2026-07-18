@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth.face_paint.heavy_liner",
+      "type": "face_paint",
+      "label": "Heavy black eyeliner, winged sharp",
+      "prompt": "heavy black eyeliner, winged sharp",
+      "tags": [
+        "glam",
+        "goth"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth.face_paint.smoky_black",
+      "type": "face_paint",
+      "label": "A smudged black smoky eye",
+      "prompt": "a smudged black smoky eye",
+      "tags": [
+        "glam",
+        "goth"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth.face_paint.dark_lip",
+      "type": "face_paint",
+      "label": "A deep black-red lip",
+      "prompt": "a deep black-red lip",
+      "tags": [
+        "glam",
+        "goth"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth.face_paint.pale_dark_lip",
+      "type": "face_paint",
+      "label": "Pale skin and a near-black lip",
+      "prompt": "pale skin and a near-black lip",
+      "tags": [
+        "glam",
+        "goth"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth.face_paint.liner_only",
+      "type": "face_paint",
+      "label": "Black liner and nothing else",
+      "prompt": "black liner and nothing else",
+      "tags": [
+        "natural",
+        "goth"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_goth.face_paint.bare_goth",
+      "type": "face_paint",
+      "label": "Bare skin, dark brows",
+      "prompt": "bare skin, dark brows",
+      "tags": [
+        "bare",
+        "goth"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "bare"
+      }
+    }
+  ]
+}

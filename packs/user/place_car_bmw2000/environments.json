@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_car_bmw2000.environment.bmw_named",
+      "type": "environment",
+      "label": "A classic bmw 2000s coupe in deep burgundy",
+      "prompt": "a classic BMW 2000S coupe in deep burgundy",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_named_red",
+      "type": "environment",
+      "label": "A late-1960s bmw 2000s in deep red, chrome bumpers and t",
+      "prompt": "a late-1960s BMW 2000S in deep red, chrome bumpers and the twin kidney grille",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_desc",
+      "type": "environment",
+      "label": "A late-1960s european two-door coupe in deep burgundy, r",
+      "prompt": "a late-1960s European two-door coupe in deep burgundy, rectangular headlights, a twin kidney grille, slim chrome bumpers and silver steel wheels",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_desc_lines",
+      "type": "environment",
+      "label": "A compact vintage coupe with a long hood, a short rear d",
+      "prompt": "a compact vintage coupe with a long hood, a short rear deck, crisp straight panels, chrome window trim and narrow vintage tyres",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_street",
+      "type": "environment",
+      "label": "A burgundy vintage coupe on an old european street",
+      "prompt": "a burgundy vintage coupe on an old European street",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_night",
+      "type": "environment",
+      "label": "A vintage coupe under streetlights",
+      "prompt": "a vintage coupe under streetlights",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "place_car_bmw2000.environment.bmw_garage",
+      "type": "environment",
+      "label": "A vintage coupe in a clean garage",
+      "prompt": "a vintage coupe in a clean garage",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

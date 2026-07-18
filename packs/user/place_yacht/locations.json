@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_yacht.location.foredeck_sunbeds",
+      "type": "location",
+      "label": "On the foredeck of a superyacht, sunbeds laid out on tea",
+      "prompt": "on the foredeck of a superyacht, sunbeds laid out on teak",
+      "tags": [
+        "outdoor",
+        "yacht",
+        "sun"
+      ],
+      "weight": 2.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "lounge_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.shaded_lounge",
+      "type": "location",
+      "label": "On a shaded upper deck, cream sofas under a canvas awnin",
+      "prompt": "on a shaded upper deck, cream sofas under a canvas awning",
+      "tags": [
+        "outdoor",
+        "yacht",
+        "shade"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "lounge_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.beach_club",
+      "type": "location",
+      "label": "On the wide rear terrace of a superyacht, open to the wa",
+      "prompt": "on the wide rear terrace of a superyacht, open to the water",
+      "tags": [
+        "outdoor",
+        "yacht"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "lounge_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.swim_platform",
+      "type": "location",
+      "label": "On the swim platform at the stern, level with the water",
+      "prompt": "on the swim platform at the stern, level with the water",
+      "tags": [
+        "outdoor",
+        "yacht",
+        "water"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.chrome_rail",
+      "type": "location",
+      "label": "At the chrome rail on the side deck, the marina beyond",
+      "prompt": "at the chrome rail on the side deck, the marina beyond",
+      "tags": [
+        "outdoor",
+        "yacht",
+        "view"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.side_deck",
+      "type": "location",
+      "label": "On a narrow teak side deck running the length of the hul",
+      "prompt": "on a narrow teak side deck running the length of the hull",
+      "tags": [
+        "outdoor",
+        "yacht"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.passerelle",
+      "type": "location",
+      "label": "On the passerelle down to the dock",
+      "prompt": "on the passerelle down to the dock",
+      "tags": [
+        "threshold",
+        "yacht"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.dock_beside_hull",
+      "type": "location",
+      "label": "On the polished dock beside the white hull",
+      "prompt": "on the polished dock beside the white hull",
+      "tags": [
+        "outdoor",
+        "marina"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.tender",
+      "type": "location",
+      "label": "In the small tender secured alongside",
+      "prompt": "in the small tender secured alongside",
+      "tags": [
+        "outdoor",
+        "yacht",
+        "water"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.location.low_table",
+      "type": "location",
+      "label": "On a low table on the aft deck",
+      "prompt": "on a low table on the aft deck",
+      "tags": [
+        "outdoor",
+        "yacht"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "lounge_space",
+          "universal_outdoor"
+        ]
+      }
+    }
+  ]
+}

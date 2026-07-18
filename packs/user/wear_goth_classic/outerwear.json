@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth_classic.outerwear.leather_biker",
+      "type": "outerwear",
+      "label": "A studded black leather biker jacket",
+      "prompt": "a studded black leather biker jacket",
+      "tags": [
+        "outer"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_classic.outerwear.long_black_coat",
+      "type": "outerwear",
+      "label": "A long black coat to the ankle",
+      "prompt": "a long black coat to the ankle",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_classic.outerwear.mesh_shrug",
+      "type": "outerwear",
+      "label": "A torn black mesh shrug",
+      "prompt": "a torn black mesh shrug",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_classic.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

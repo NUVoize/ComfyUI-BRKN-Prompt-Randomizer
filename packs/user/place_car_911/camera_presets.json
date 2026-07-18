@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "place_car_911.camera_preset.selfie_911",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a selfie"
+      }
+    },
+    {
+      "id": "place_car_911.camera_preset.low_profile",
+      "type": "camera_preset",
+      "label": "A low shot along the car's profile",
+      "prompt": "a low shot along the car's profile",
+      "tags": [
+        "wide",
+        "dramatic"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a low wide shot along the car's profile",
+        "camera_angle": "a low angle"
+      }
+    },
+    {
+      "id": "place_car_911.camera_preset.three_quarter_911",
+      "type": "camera_preset",
+      "label": "A three-quarter shot of her and the car",
+      "prompt": "a three-quarter shot of her and the car",
+      "tags": [
+        "medium"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "framing": "a three-quarter shot of her and the car",
+        "camera_angle": "an eye-level angle"
+      }
+    },
+    {
+      "id": "place_car_911.camera_preset.through_side_window",
+      "type": "camera_preset",
+      "label": "In through the side window",
+      "prompt": "in through the side window",
+      "tags": [
+        "close",
+        "medium"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "framing": "shot in through the side window",
+        "camera_angle": "an eye-level angle"
+      }
+    }
+  ]
+}

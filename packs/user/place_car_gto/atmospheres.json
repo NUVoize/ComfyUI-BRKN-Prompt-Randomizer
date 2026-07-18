@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_car_gto.atmosphere.golden_cruise",
+      "type": "atmosphere",
+      "label": "The last of the sun going gold down the road",
+      "prompt": "the last of the sun going gold down the road",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.atmosphere.hard_summer_gto",
+      "type": "atmosphere",
+      "label": "Hard summer sun, short black shadows",
+      "prompt": "hard summer sun, short black shadows",
+      "tags": [
+        "weather_clear",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.atmosphere.heat_haze_gto",
+      "type": "atmosphere",
+      "label": "Heat shimmering off the road ahead",
+      "prompt": "heat shimmering off the road ahead",
+      "tags": [
+        "weather_hot",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "weather": "hot",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.atmosphere.wind_in_hair",
+      "type": "atmosphere",
+      "label": "Wind pulling her hair back",
+      "prompt": "wind pulling her hair back",
+      "tags": [
+        "weather_wind",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "weather": "wind",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.atmosphere.night_gto",
+      "type": "atmosphere",
+      "label": "Full dark, only the streetlights",
+      "prompt": "full dark, only the streetlights",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "night"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_mall",
+  "name": "BRKN Goth - Mall",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "2002 mall goth. Baggy black, band tees, studded belts, arm warmers, chains.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "accessories",
+    "face_paints",
+    "outerwear",
+    "headwear",
+    "body_arts",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "capsule",
+    "layerable"
+  ]
+}

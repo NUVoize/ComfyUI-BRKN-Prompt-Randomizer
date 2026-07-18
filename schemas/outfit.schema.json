@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/outfit.schema.json",
+  "title": "Complete Outfit Kit",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "outfit"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "fashion_category": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "coverage": {
+          "enum": [
+            "light",
+            "standard",
+            "heavy"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_portraits",
+  "name": "BRKN Portraits - Close, Still, Skin",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Close-up portrait pack. Emotion, skin texture, face detail. Ships no footwear, no bags, no wide shots -- they are not in frame. Camera is close-only. face_paint carries makeup, weighted to bare skin. Closed world: enabled_packs=brkn_portraits, alone.",
+  "content_types": [
+    "characters",
+    "face_paints",
+    "environments",
+    "locations",
+    "actions",
+    "poses",
+    "outfits",
+    "accessories",
+    "head_positions",
+    "gazes",
+    "expressions",
+    "visual_styles",
+    "camera_presets",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 250,
+  "dependencies": [],
+  "tags": [
+    "portrait",
+    "beauty",
+    "skin",
+    "closeup",
+    "closed_world"
+  ]
+}

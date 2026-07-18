@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_riviera.face_paint.bare_sun",
+      "type": "face_paint",
+      "label": "Bare skin, sun-flushed, nothing on it",
+      "prompt": "bare skin, sun-flushed, nothing on it",
+      "tags": [
+        "bare"
+      ],
+      "weight": 3.4,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "wear_riviera.face_paint.gloss_only",
+      "type": "face_paint",
+      "label": "Clear gloss and sun on her face",
+      "prompt": "clear gloss and sun on her face",
+      "tags": [
+        "bare"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "wear_riviera.face_paint.bronzed_natural",
+      "type": "face_paint",
+      "label": "Bronzed skin and a nude lip",
+      "prompt": "bronzed skin and a nude lip",
+      "tags": [
+        "natural"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_riviera.face_paint.soft_liner_gold",
+      "type": "face_paint",
+      "label": "Soft liner and a gold sheen on the lids",
+      "prompt": "soft liner and a gold sheen on the lids",
+      "tags": [
+        "natural"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_riviera.face_paint.red_lip_evening",
+      "type": "face_paint",
+      "label": "A red lip against a deep tan",
+      "prompt": "a red lip against a deep tan",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    }
+  ]
+}

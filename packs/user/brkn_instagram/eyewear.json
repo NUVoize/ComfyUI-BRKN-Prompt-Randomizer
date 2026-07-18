@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "brkn_instagram.eyewear.black_sunglasses",
+      "type": "eyewear",
+      "label": "Black sunglasses",
+      "prompt": "black sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.eyewear.aviators",
+      "type": "eyewear",
+      "label": "Aviator sunglasses",
+      "prompt": "aviator sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.eyewear.tiny_retro",
+      "type": "eyewear",
+      "label": "Tiny retro sunglasses",
+      "prompt": "tiny retro sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 0.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.eyewear.oversized_square",
+      "type": "eyewear",
+      "label": "Oversized square sunglasses",
+      "prompt": "oversized square sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

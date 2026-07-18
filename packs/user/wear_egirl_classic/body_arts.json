@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.body_art.none",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "none"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.body_art.small_heart",
+      "type": "body_art",
+      "label": "A tiny heart tattooed on one hand",
+      "prompt": "a tiny heart tattooed on one hand",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 5.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

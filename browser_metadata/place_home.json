@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_home",
+  "selection_role": "modifier",
+  "selection_category": "location",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "hom__thumbnail_512.webp",
+    "label": "Home location thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

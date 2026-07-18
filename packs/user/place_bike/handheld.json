@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "place_bike.handheld.helmet_held",
+      "type": "handheld",
+      "label": "A black full-face helmet held in one hand",
+      "prompt": "a black full-face helmet held in one hand",
+      "tags": [
+        "helmet"
+      ],
+      "weight": 2.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.handheld.helmet_visor",
+      "type": "handheld",
+      "label": "A black helmet with a tinted visor, held",
+      "prompt": "a black helmet with a tinted visor, held",
+      "tags": [
+        "helmet"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.handheld.gloves_held",
+      "type": "handheld",
+      "label": "Riding gloves held in one hand",
+      "prompt": "riding gloves held in one hand",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.handheld.keys_bike",
+      "type": "handheld",
+      "label": "The bike key spun on one finger",
+      "prompt": "the bike key spun on one finger",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

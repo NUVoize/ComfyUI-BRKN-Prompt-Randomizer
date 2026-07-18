@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_bike.atmosphere.wet_road_neon",
+      "type": "atmosphere",
+      "label": "Wet asphalt throwing the streetlights back up",
+      "prompt": "wet asphalt throwing the streetlights back up",
+      "tags": [
+        "scope_outdoor",
+        "weather_rain",
+        "night"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "outdoor",
+        "weather": "rain",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.atmosphere.heat_off_tarmac",
+      "type": "atmosphere",
+      "label": "Heat coming up off the tarmac",
+      "prompt": "heat coming up off the tarmac",
+      "tags": [
+        "scope_outdoor",
+        "weather_hot",
+        "daylit"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "outdoor",
+        "weather": "hot",
+        "season": "summer"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.atmosphere.low_sun_road",
+      "type": "atmosphere",
+      "label": "Low sun raking down the road",
+      "prompt": "low sun raking down the road",
+      "tags": [
+        "scope_any",
+        "weather_clear",
+        "daylit"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "scope": "any",
+        "weather": "clear",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.atmosphere.night_full",
+      "type": "atmosphere",
+      "label": "Full dark, only the streetlights",
+      "prompt": "full dark, only the streetlights",
+      "tags": [
+        "scope_any",
+        "weather_clear",
+        "night"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "scope": "any",
+        "weather": "clear",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

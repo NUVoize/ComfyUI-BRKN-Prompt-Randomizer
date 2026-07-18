@@ -1,0 +1,751 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "brkn_base.headwear.classic_baseball_cap",
+      "type": "headwear",
+      "label": "Classic baseball cap",
+      "prompt": "classic baseball cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.curved_brim_baseball_cap",
+      "type": "headwear",
+      "label": "Curved-brim baseball cap",
+      "prompt": "curved-brim baseball cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.flat_brim_cap",
+      "type": "headwear",
+      "label": "Flat-brim cap",
+      "prompt": "flat-brim cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.fitted_baseball_cap",
+      "type": "headwear",
+      "label": "Fitted baseball cap",
+      "prompt": "fitted baseball cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.dad_cap",
+      "type": "headwear",
+      "label": "Dad cap",
+      "prompt": "dad cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.snapback_cap",
+      "type": "headwear",
+      "label": "Snapback cap",
+      "prompt": "snapback cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.trucker_cap",
+      "type": "headwear",
+      "label": "Trucker cap",
+      "prompt": "trucker cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.sporty_visor_cap",
+      "type": "headwear",
+      "label": "Sporty visor cap",
+      "prompt": "sporty visor cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.tennis_visor",
+      "type": "headwear",
+      "label": "Tennis visor",
+      "prompt": "tennis visor",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.minimalist_monochrome_cap",
+      "type": "headwear",
+      "label": "Minimalist monochrome cap",
+      "prompt": "minimalist monochrome cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.luxury_logo_cap",
+      "type": "headwear",
+      "label": "Luxury logo cap",
+      "prompt": "luxury logo cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.washed_cotton_baseball_cap",
+      "type": "headwear",
+      "label": "Washed cotton baseball cap",
+      "prompt": "washed cotton baseball cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.suede_baseball_cap",
+      "type": "headwear",
+      "label": "Suede baseball cap",
+      "prompt": "suede baseball cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.leather_cap",
+      "type": "headwear",
+      "label": "Leather cap",
+      "prompt": "leather cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.denim_cap",
+      "type": "headwear",
+      "label": "Denim cap",
+      "prompt": "denim cap",
+      "tags": [
+        "cap",
+        "casual"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.headwear.wide_brim_felt_hat",
+      "type": "headwear",
+      "label": "Wide-brim felt hat",
+      "prompt": "wide-brim felt hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.floppy_wide_brim_hat",
+      "type": "headwear",
+      "label": "Floppy wide-brim hat",
+      "prompt": "floppy wide-brim hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.structured_wide_brim_hat",
+      "type": "headwear",
+      "label": "Structured wide-brim hat",
+      "prompt": "structured wide-brim hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.straw_sun_hat",
+      "type": "headwear",
+      "label": "Straw sun hat",
+      "prompt": "straw sun hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.woven_summer_hat",
+      "type": "headwear",
+      "label": "Woven summer hat",
+      "prompt": "woven summer hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.boater_hat",
+      "type": "headwear",
+      "label": "Boater hat",
+      "prompt": "boater hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.fedora",
+      "type": "headwear",
+      "label": "Fedora",
+      "prompt": "fedora",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.trilby_hat",
+      "type": "headwear",
+      "label": "Trilby hat",
+      "prompt": "trilby hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.pork_pie_hat",
+      "type": "headwear",
+      "label": "Pork pie hat",
+      "prompt": "pork pie hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.cloche_hat",
+      "type": "headwear",
+      "label": "Cloche hat",
+      "prompt": "cloche hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.beret",
+      "type": "headwear",
+      "label": "Beret",
+      "prompt": "beret",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.leather_beret",
+      "type": "headwear",
+      "label": "Leather beret",
+      "prompt": "leather beret",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.wool_beret",
+      "type": "headwear",
+      "label": "Wool beret",
+      "prompt": "wool beret",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.bucket_hat",
+      "type": "headwear",
+      "label": "Bucket hat",
+      "prompt": "bucket hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.fuzzy_bucket_hat",
+      "type": "headwear",
+      "label": "Fuzzy bucket hat",
+      "prompt": "fuzzy bucket hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.denim_bucket_hat",
+      "type": "headwear",
+      "label": "Denim bucket hat",
+      "prompt": "denim bucket hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.fisherman_hat",
+      "type": "headwear",
+      "label": "Fisherman hat",
+      "prompt": "fisherman hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.newsboy_cap",
+      "type": "headwear",
+      "label": "Newsboy cap",
+      "prompt": "newsboy cap",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.baker_boy_cap",
+      "type": "headwear",
+      "label": "Baker boy cap",
+      "prompt": "baker boy cap",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.pillbox_hat",
+      "type": "headwear",
+      "label": "Pillbox hat",
+      "prompt": "pillbox hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.fascinator",
+      "type": "headwear",
+      "label": "Fascinator",
+      "prompt": "fascinator",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.runway_sculptural_hat",
+      "type": "headwear",
+      "label": "Runway sculptural hat",
+      "prompt": "runway sculptural hat",
+      "tags": [
+        "hat",
+        "editorial"
+      ],
+      "weight": 0.3
+    },
+    {
+      "id": "brkn_base.headwear.oversized_statement_hat",
+      "type": "headwear",
+      "label": "Oversized statement hat",
+      "prompt": "oversized statement hat",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.dramatic_couture_headpiece",
+      "type": "headwear",
+      "label": "Dramatic couture headpiece",
+      "prompt": "dramatic couture headpiece",
+      "tags": [
+        "hat",
+        "editorial"
+      ],
+      "weight": 0.3
+    },
+    {
+      "id": "brkn_base.headwear.turban_style_headwrap",
+      "type": "headwear",
+      "label": "Turban-style headwrap",
+      "prompt": "turban-style headwrap",
+      "tags": [
+        "hat",
+        "fashion"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.headwear.knit_beanie",
+      "type": "headwear",
+      "label": "Knit beanie",
+      "prompt": "knit beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.ribbed_beanie",
+      "type": "headwear",
+      "label": "Ribbed beanie",
+      "prompt": "ribbed beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.slouchy_beanie",
+      "type": "headwear",
+      "label": "Slouchy beanie",
+      "prompt": "slouchy beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.cuffed_beanie",
+      "type": "headwear",
+      "label": "Cuffed beanie",
+      "prompt": "cuffed beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.cashmere_beanie",
+      "type": "headwear",
+      "label": "Cashmere beanie",
+      "prompt": "cashmere beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.pom_pom_beanie",
+      "type": "headwear",
+      "label": "Pom-pom beanie",
+      "prompt": "pom-pom beanie",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.faux_fur_hat",
+      "type": "headwear",
+      "label": "Faux fur hat",
+      "prompt": "faux fur hat",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.trapper_hat",
+      "type": "headwear",
+      "label": "Trapper hat",
+      "prompt": "trapper hat",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.shearling_lined_winter_hat",
+      "type": "headwear",
+      "label": "Shearling-lined winter hat",
+      "prompt": "shearling-lined winter hat",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.knitted_headband",
+      "type": "headwear",
+      "label": "Knitted headband",
+      "prompt": "knitted headband",
+      "tags": [
+        "beanie",
+        "winter_ok"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.4
+        }
+      }
+    },
+    {
+      "id": "brkn_base.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 48.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

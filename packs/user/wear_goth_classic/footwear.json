@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_goth_classic.footwear.platform_boots",
+      "type": "footwear",
+      "label": "Heavy black platform boots",
+      "prompt": "heavy black platform boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic.footwear.combat_boots",
+      "type": "footwear",
+      "label": "Scuffed black combat boots",
+      "prompt": "scuffed black combat boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic.footwear.chunky_mary_janes",
+      "type": "footwear",
+      "label": "Chunky black mary janes",
+      "prompt": "chunky black Mary Janes",
+      "tags": [
+        "flats"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "wear_goth_classic.footwear.gothic_ankle_boots",
+      "type": "footwear",
+      "label": "Heavy black gothic ankle boots",
+      "prompt": "heavy black gothic ankle boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic.footwear.spike_heel_boots",
+      "type": "footwear",
+      "label": "Spike-heeled black ankle boots",
+      "prompt": "spike-heeled black ankle boots",
+      "tags": [
+        "heels"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "heels"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/visual-style.schema.json",
+  "title": "Visual Style",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "visual_style"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "visual_category": {
+          "enum": [
+            "social_media",
+            "commercial",
+            "editorial",
+            "photographic",
+            "cinematic",
+            "hyper_realistic",
+            "illustration"
+          ]
+        },
+        "finish": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "color_treatment": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "camera_behavior": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "pattern": "^\\d+:\\d+$"
+        }
+      },
+      "required": [
+        "visual_category",
+        "finish",
+        "color_treatment",
+        "camera_behavior",
+        "aspect_ratio"
+      ]
+    }
+  }
+}

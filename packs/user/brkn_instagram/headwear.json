@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "brkn_instagram.headwear.baseball_cap",
+      "type": "headwear",
+      "label": "A baseball cap",
+      "prompt": "a baseball cap",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_instagram.headwear.bucket_hat",
+      "type": "headwear",
+      "label": "A bucket hat",
+      "prompt": "a bucket hat",
+      "tags": [
+        "hat"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_instagram.headwear.straw_hat",
+      "type": "headwear",
+      "label": "A straw sun hat",
+      "prompt": "a straw sun hat",
+      "tags": [
+        "hat"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_instagram.headwear.beanie",
+      "type": "headwear",
+      "label": "A knit beanie",
+      "prompt": "a knit beanie",
+      "tags": [
+        "hat"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_instagram.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 22.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

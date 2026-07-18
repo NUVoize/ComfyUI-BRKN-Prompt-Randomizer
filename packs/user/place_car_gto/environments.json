@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_car_gto.environment.gto_named",
+      "type": "environment",
+      "label": "A classic pontiac gto convertible in glossy white, top d",
+      "prompt": "a classic Pontiac GTO convertible in glossy white, top down",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gto.environment.gto_named_tan",
+      "type": "environment",
+      "label": "A late-1960s pontiac gto convertible, white with a tan l",
+      "prompt": "a late-1960s Pontiac GTO convertible, white with a tan leather interior and the soft top folded down",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gto.environment.gto_desc",
+      "type": "environment",
+      "label": "A long white american muscle convertible with the top fo",
+      "prompt": "a long white American muscle convertible with the top folded down, a tan leather interior, a split grille and quad headlights",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gto.environment.gto_desc_stance",
+      "type": "environment",
+      "label": "A wide low vintage american convertible in glossy white,",
+      "prompt": "a wide low vintage American convertible in glossy white, long sculpted hood, chrome wheels, raised white-letter tyres and a planted muscular stance",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_gto.environment.gto_coast",
+      "type": "environment",
+      "label": "A white convertible on an open coast road",
+      "prompt": "a white convertible on an open coast road",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "place_car_gto.environment.gto_desert",
+      "type": "environment",
+      "label": "A white convertible on a long desert road",
+      "prompt": "a white convertible on a long desert road",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_car_gto.environment.gto_night",
+      "type": "environment",
+      "label": "A white convertible under streetlights",
+      "prompt": "a white convertible under streetlights",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "brkn_portraits.environment.studio",
+      "type": "environment",
+      "label": "A photographic studio",
+      "prompt": "a photographic studio",
+      "tags": [
+        "studio",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "brkn_portraits.environment.her_place",
+      "type": "environment",
+      "label": "A quiet room at home",
+      "prompt": "a quiet room at home",
+      "tags": [
+        "home",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "brkn_portraits.environment.outside",
+      "type": "environment",
+      "label": "Somewhere outdoors, the background thrown far out of foc",
+      "prompt": "somewhere outdoors, the background thrown far out of focus",
+      "tags": [
+        "outside"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

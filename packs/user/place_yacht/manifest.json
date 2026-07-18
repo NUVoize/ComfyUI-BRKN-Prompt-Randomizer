@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_yacht",
+  "name": "BRKN Place - Monaco Superyacht",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Superyacht docked in Monte Carlo. Teak decks, chrome rails, swim platform, turquoise water, the hillside behind. Named and described at equal weight.",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "handhelds",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "vehicle",
+    "layerable",
+    "set"
+  ]
+}

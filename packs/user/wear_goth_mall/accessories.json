@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "wear_goth_mall.accessory.spiked_collar",
+      "type": "accessory",
+      "label": "A spiked black collar",
+      "prompt": "a spiked black collar",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_mall.accessory.rubber_bracelets",
+      "type": "accessory",
+      "label": "A thick stack of black rubber bracelets",
+      "prompt": "a thick stack of black rubber bracelets",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_mall.accessory.wallet_chain",
+      "type": "accessory",
+      "label": "A heavy wallet chain at her hip",
+      "prompt": "a heavy wallet chain at her hip",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_mall.accessory.arm_warmers_striped",
+      "type": "accessory",
+      "label": "Striped arm warmers pushed up her forearms",
+      "prompt": "striped arm warmers pushed up her forearms",
+      "tags": [
+        "signature"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_mall.accessory.pentagram_necklace",
+      "type": "accessory",
+      "label": "A pentagram on a cheap chain",
+      "prompt": "a pentagram on a cheap chain",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_mall.accessory.safety_pins_collar",
+      "type": "accessory",
+      "label": "Safety pins through her collar",
+      "prompt": "safety pins through her collar",
+      "tags": [
+        "signature"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth_mall.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

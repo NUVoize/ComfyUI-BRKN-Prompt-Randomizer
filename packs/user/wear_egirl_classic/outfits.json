@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.outfit.vest_blouse_plaid",
+      "type": "outfit",
+      "label": "A black sweater vest over a white collared blouse, and a",
+      "prompt": "a black sweater vest over a white collared blouse, and a short pink and black plaid pleated skirt over black thigh-high stockings",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_egirl_classic.outfit.fishnet_sleeves_plaid",
+      "type": "outfit",
+      "label": "A cropped black top with fishnet sleeves and a lavender ",
+      "prompt": "a cropped black top with fishnet sleeves and a lavender plaid pleated skirt over fishnet tights",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_egirl_classic.outfit.white_collar_black_top",
+      "type": "outfit",
+      "label": "A fitted black top with a contrasting white collar, and ",
+      "prompt": "a fitted black top with a contrasting white collar, and a pleated plaid mini skirt over thigh-highs",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_egirl_classic.outfit.layered_lace_trim",
+      "type": "outfit",
+      "label": "A layered black and white top with lace trim, and a shor",
+      "prompt": "a layered black and white top with lace trim, and a short pink pleated skirt with ribbon at the hem, over patterned tights",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_egirl_classic.outfit.cutout_top_plaid",
+      "type": "outfit",
+      "label": "A black top with cutouts and straps, and a black plaid p",
+      "prompt": "a black top with cutouts and straps, and a black plaid pleated skirt over mismatched legwear",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl_classic.outfit.oversized_cuffs_skirt",
+      "type": "outfit",
+      "label": "A black top with oversized cuffs over a white shirt, and",
+      "prompt": "a black top with oversized cuffs over a white shirt, and a high-waisted pleated skirt over black thigh-highs",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_egirl_classic.outfit.graphic_crop_plaid",
+      "type": "outfit",
+      "label": "A cropped graphic tee and a lavender pleated skirt over ",
+      "prompt": "a cropped graphic tee and a lavender pleated skirt over fishnets",
+      "tags": [
+        "egirl_classic",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_egirl_classic.outfit.hoodie_plaid_lounge",
+      "type": "outfit",
+      "label": "An oversized black hoodie and thigh-high socks",
+      "prompt": "an oversized black hoodie and thigh-high socks",
+      "tags": [
+        "egirl_classic",
+        "lounge"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

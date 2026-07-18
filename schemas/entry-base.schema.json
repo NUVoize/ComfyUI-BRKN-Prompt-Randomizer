@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/entry-base.schema.json",
+  "title": "Universal Entry Shape",
+  "type": "object",
+  "required": ["id", "type", "label"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*\\.[a-z][a-z0-9_]*$",
+      "description": "pack_id.type.entry_name"
+    },
+    "type": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "label": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "enabled": { "type": "boolean", "default": true },
+    "is_fallback": {
+      "type": "boolean",
+      "default": false,
+      "description": "Excluded from normal weighted selection; used only at fallback step 4."
+    },
+    "weight": { "type": "number", "minimum": 0, "maximum": 100, "default": 1.0 },
+    "prompt": { "type": "string", "maxLength": 2048 },
+    "negative_prompt": { "type": "string", "maxLength": 2048 },
+    "tags": { "$ref": "entry-base.schema.json#/$defs/tagList" },
+    "requires": { "$ref": "entry-base.schema.json#/$defs/hardRuleBlock" },
+    "allows": { "$ref": "entry-base.schema.json#/$defs/hardRuleBlock" },
+    "excludes": { "$ref": "entry-base.schema.json#/$defs/hardRuleBlock" },
+    "prefers": { "$ref": "entry-base.schema.json#/$defs/softRuleBlock" },
+    "avoids": { "$ref": "entry-base.schema.json#/$defs/softRuleBlock" },
+    "model_prompts": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "maxLength": 2048 }
+    },
+    "metadata": { "type": "object" }
+  },
+  "$defs": {
+    "tagList": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 64,
+      "items": { "type": "string", "pattern": "^[a-z0-9_]+$", "maxLength": 48 }
+    },
+    "valueList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 128,
+      "items": { "type": "string", "minLength": 1, "maxLength": 128 }
+    },
+    "hardRuleValue": {
+      "description": "Bare list, or an object wrapper. Both normalise to the same shape.",
+      "oneOf": [
+        { "$ref": "entry-base.schema.json#/$defs/valueList" },
+        {
+          "type": "object",
+          "required": ["values"],
+          "additionalProperties": false,
+          "properties": {
+            "values": { "$ref": "entry-base.schema.json#/$defs/valueList" }
+          }
+        }
+      ]
+    },
+    "softRuleValue": {
+      "oneOf": [
+        { "$ref": "entry-base.schema.json#/$defs/valueList" },
+        {
+          "type": "object",
+          "required": ["values"],
+          "additionalProperties": false,
+          "properties": {
+            "values": { "$ref": "entry-base.schema.json#/$defs/valueList" },
+            "bonus": { "type": "number", "minimum": 0, "maximum": 100 },
+            "penalty": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      ]
+    },
+    "hardRuleBlock": {
+      "type": "object",
+      "additionalProperties": { "$ref": "entry-base.schema.json#/$defs/hardRuleValue" }
+    },
+    "softRuleBlock": {
+      "type": "object",
+      "additionalProperties": { "$ref": "entry-base.schema.json#/$defs/softRuleValue" }
+    }
+  }
+}

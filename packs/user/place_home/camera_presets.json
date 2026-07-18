@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "place_home.camera_preset.mirror_selfie",
+      "type": "camera_preset",
+      "label": "A mirror selfie",
+      "prompt": "a mirror selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "mirror"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "action_tags_any": [
+          "mirror_selfie"
+        ]
+      },
+      "metadata": {
+        "framing": "a mirror selfie"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_car_gwagon",
+  "name": "BRKN Place - G-Wagon",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Mercedes G-Wagon. Tall, boxy, luxurious. Tailgate, side step, roof rack. Named and described at equal weight.",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "handhelds",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "vehicle",
+    "layerable",
+    "set"
+  ]
+}

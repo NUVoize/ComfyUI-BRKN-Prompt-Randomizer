@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_car_gwagon.location.drivers_seat_g",
+      "type": "location",
+      "label": "In the high driver's seat of a boxy suv",
+      "prompt": "in the high driver's seat of a boxy SUV",
+      "tags": [
+        "indoor",
+        "car",
+        "mirror",
+        "part_seat"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.passenger_seat_g",
+      "type": "location",
+      "label": "In the passenger seat of a tall suv",
+      "prompt": "in the passenger seat of a tall SUV",
+      "tags": [
+        "indoor",
+        "car",
+        "part_seat"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.open_tailgate",
+      "type": "location",
+      "label": "On the open tailgate of a boxy suv",
+      "prompt": "on the open tailgate of a boxy SUV",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_tailgate"
+      ],
+      "weight": 2.8,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.side_step",
+      "type": "location",
+      "label": "On the side step of a tall suv",
+      "prompt": "on the side step of a tall SUV",
+      "tags": [
+        "threshold",
+        "car",
+        "part_step"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "threshold_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.flat_flank",
+      "type": "location",
+      "label": "On the flat flank of a boxy suv",
+      "prompt": "on the flat flank of a boxy SUV",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_flank"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.open_door_g",
+      "type": "location",
+      "label": "At the open door of a tall suv, high above the ground",
+      "prompt": "at the open door of a tall SUV, high above the ground",
+      "tags": [
+        "threshold",
+        "car",
+        "part_door"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "threshold_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.front_brush_guard",
+      "type": "location",
+      "label": "In the black brush guard at the front of an suv",
+      "prompt": "in the black brush guard at the front of an SUV",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wheel",
+        "part_brush"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.roof_rack_side",
+      "type": "location",
+      "label": "On the side of an suv beneath the roof rack",
+      "prompt": "on the side of an SUV beneath the roof rack",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_roof",
+        "part_rack"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.location.open_boot_g",
+      "type": "location",
+      "label": "In the open boot of a boxy suv",
+      "prompt": "in the open boot of a boxy SUV",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_boot",
+        "part_tailgate"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    }
+  ]
+}

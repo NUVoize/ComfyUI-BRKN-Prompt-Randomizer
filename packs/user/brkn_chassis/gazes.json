@@ -1,0 +1,1779 @@
+{
+  "schema_version": "1.0",
+  "content_type": "gazes",
+  "entries": [
+    {
+      "id": "brkn_chassis.gaze.looking_directly_into_the_camera",
+      "type": "gaze",
+      "label": "Looking directly into the camera",
+      "prompt": "looking directly into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.maintaining_direct_eye_contact_with_the_camera",
+      "type": "gaze",
+      "label": "Maintaining direct eye contact with the camera",
+      "prompt": "maintaining direct eye contact with the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.staring_straight_into_the_lens",
+      "type": "gaze",
+      "label": "Staring straight into the lens",
+      "prompt": "staring straight into the lens",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_softly_into_the_camera",
+      "type": "gaze",
+      "label": "Looking softly into the camera",
+      "prompt": "looking softly into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_intensely_into_the_camera",
+      "type": "gaze",
+      "label": "Looking intensely into the camera",
+      "prompt": "looking intensely into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_calmly_into_the_camera",
+      "type": "gaze",
+      "label": "Looking calmly into the camera",
+      "prompt": "looking calmly into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_confidently_into_the_camera",
+      "type": "gaze",
+      "label": "Looking confidently into the camera",
+      "prompt": "looking confidently into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_curiously_into_the_camera",
+      "type": "gaze",
+      "label": "Looking curiously into the camera",
+      "prompt": "looking curiously into the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_directly_at_the_viewer",
+      "type": "gaze",
+      "label": "Looking directly at the viewer",
+      "prompt": "looking directly at the viewer",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.holding_steady_eye_contact",
+      "type": "gaze",
+      "label": "Holding steady eye contact",
+      "prompt": "holding steady eye contact",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_camera_from_beneath_lowered_bro",
+      "type": "gaze",
+      "label": "Looking into the camera from beneath lowered brows",
+      "prompt": "looking into the camera from beneath lowered brows",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_camera_with_the_chin_lowered",
+      "type": "gaze",
+      "label": "Looking into the camera with the chin lowered",
+      "prompt": "looking into the camera with the chin lowered",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_camera_with_the_chin_raised",
+      "type": "gaze",
+      "label": "Looking into the camera with the chin raised",
+      "prompt": "looking into the camera with the chin raised",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_camera_from_a_three_quarter_hea",
+      "type": "gaze",
+      "label": "Looking into the camera from a three-quarter head positi",
+      "prompt": "looking into the camera from a three-quarter head position",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_back_into_the_camera_over_one_shoulder",
+      "type": "gaze",
+      "label": "Looking back into the camera over one shoulder",
+      "prompt": "looking back into the camera over one shoulder",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_camera_while_the_face_is_turned",
+      "type": "gaze",
+      "label": "Looking into the camera while the face is turned sideway",
+      "prompt": "looking into the camera while the face is turned sideways",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.glancing_directly_toward_the_camera",
+      "type": "gaze",
+      "label": "Glancing directly toward the camera",
+      "prompt": "glancing directly toward the camera",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.shifting_her_eyes_toward_the_lens_without_moving",
+      "type": "gaze",
+      "label": "Shifting her eyes toward the lens without moving her hea",
+      "prompt": "shifting her eyes toward the lens without moving her head",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_straight_ahead_with_focused_eyes",
+      "type": "gaze",
+      "label": "Looking straight ahead with focused eyes",
+      "prompt": "looking straight ahead with focused eyes",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_lens_with_a_distant_gaze",
+      "type": "gaze",
+      "label": "Looking into the lens with a distant gaze",
+      "prompt": "looking into the lens with a distant gaze",
+      "tags": [
+        "at_camera",
+        "eyes_open"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "eye_state": "open",
+        "target": "at_camera"
+      },
+      "excludes": {
+        "head_position_tags_any": [
+          "full_profile"
+        ]
+      },
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 4.0
+        }
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_away_from_the_camera",
+      "type": "gaze",
+      "label": "Looking away from the camera",
+      "prompt": "looking away from the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_past_the_camera",
+      "type": "gaze",
+      "label": "Looking past the camera",
+      "prompt": "looking past the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_beside_the_camera",
+      "type": "gaze",
+      "label": "Looking beside the camera",
+      "prompt": "looking beside the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_slightly_to_the_right_of_the_camera",
+      "type": "gaze",
+      "label": "Looking slightly to the right of the camera",
+      "prompt": "looking slightly to the right of the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_slightly_to_the_left_of_the_camera",
+      "type": "gaze",
+      "label": "Looking slightly to the left of the camera",
+      "prompt": "looking slightly to the left of the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_far_to_the_right",
+      "type": "gaze",
+      "label": "Looking far to the right",
+      "prompt": "looking far to the right",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_far_to_the_left",
+      "type": "gaze",
+      "label": "Looking far to the left",
+      "prompt": "looking far to the left",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_something_outside_the_frame",
+      "type": "gaze",
+      "label": "Looking toward something outside the frame",
+      "prompt": "looking toward something outside the frame",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_into_the_distance",
+      "type": "gaze",
+      "label": "Looking into the distance",
+      "prompt": "looking into the distance",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_beyond_the_edge_of_the_frame",
+      "type": "gaze",
+      "label": "Looking beyond the edge of the frame",
+      "prompt": "looking beyond the edge of the frame",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_away_while_keeping_her_face_toward_the_c",
+      "type": "gaze",
+      "label": "Looking away while keeping her face toward the camera",
+      "prompt": "looking away while keeping her face toward the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_sideways_with_only_her_eyes",
+      "type": "gaze",
+      "label": "Looking sideways with only her eyes",
+      "prompt": "looking sideways with only her eyes",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.glancing_out_of_the_corner_of_her_eyes",
+      "type": "gaze",
+      "label": "Glancing out of the corner of her eyes",
+      "prompt": "glancing out of the corner of her eyes",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_over_one_shoulder",
+      "type": "gaze",
+      "label": "Looking over one shoulder",
+      "prompt": "looking over one shoulder",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_behind_herself",
+      "type": "gaze",
+      "label": "Looking behind herself",
+      "prompt": "looking behind herself",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_someone_off_camera",
+      "type": "gaze",
+      "label": "Looking toward someone off-camera",
+      "prompt": "looking toward someone off-camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_at_an_unseen_point_beside_the_photograph",
+      "type": "gaze",
+      "label": "Looking at an unseen point beside the photographer",
+      "prompt": "looking at an unseen point beside the photographer",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_through_the_scene_rather_than_at_the_cam",
+      "type": "gaze",
+      "label": "Looking through the scene rather than at the camera",
+      "prompt": "looking through the scene rather than at the camera",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_past_the_viewer",
+      "type": "gaze",
+      "label": "Looking past the viewer",
+      "prompt": "looking past the viewer",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_the_edge_of_the_studio",
+      "type": "gaze",
+      "label": "Looking toward the edge of the studio",
+      "prompt": "looking toward the edge of the studio",
+      "tags": [
+        "away",
+        "eyes_open"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "eye_state": "open",
+        "target": "away"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_slightly_upward",
+      "type": "gaze",
+      "label": "Looking slightly upward",
+      "prompt": "looking slightly upward",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_directly_upward",
+      "type": "gaze",
+      "label": "Looking directly upward",
+      "prompt": "looking directly upward",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_the_ceiling",
+      "type": "gaze",
+      "label": "Looking toward the ceiling",
+      "prompt": "looking toward the ceiling",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_and_to_the_right",
+      "type": "gaze",
+      "label": "Looking upward and to the right",
+      "prompt": "looking upward and to the right",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_and_to_the_left",
+      "type": "gaze",
+      "label": "Looking upward and to the left",
+      "prompt": "looking upward and to the left",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_with_her_head_held_level",
+      "type": "gaze",
+      "label": "Looking upward with her head held level",
+      "prompt": "looking upward with her head held level",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_while_her_chin_is_lowered",
+      "type": "gaze",
+      "label": "Looking upward while her chin is lowered",
+      "prompt": "looking upward while her chin is lowered",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_while_her_head_is_turned_sideways",
+      "type": "gaze",
+      "label": "Looking upward while her head is turned sideways",
+      "prompt": "looking upward while her head is turned sideways",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.raising_only_her_eyes_toward_the_camera",
+      "type": "gaze",
+      "label": "Raising only her eyes toward the camera",
+      "prompt": "raising only her eyes toward the camera",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_something_above_the_camera",
+      "type": "gaze",
+      "label": "Looking toward something above the camera",
+      "prompt": "looking toward something above the camera",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_above_and_beyond_the_camera",
+      "type": "gaze",
+      "label": "Looking above and beyond the camera",
+      "prompt": "looking above and beyond the camera",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_with_a_distant_gaze",
+      "type": "gaze",
+      "label": "Looking upward with a distant gaze",
+      "prompt": "looking upward with a distant gaze",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.glancing_upward_from_beneath_lowered_brows",
+      "type": "gaze",
+      "label": "Glancing upward from beneath lowered brows",
+      "prompt": "glancing upward from beneath lowered brows",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_upward_over_one_shoulder",
+      "type": "gaze",
+      "label": "Looking upward over one shoulder",
+      "prompt": "looking upward over one shoulder",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_a_light_source_above_her",
+      "type": "gaze",
+      "label": "Looking toward a light source above her",
+      "prompt": "looking toward a light source above her",
+      "tags": [
+        "up",
+        "eyes_open"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "eye_state": "open",
+        "target": "up"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_slightly_downward",
+      "type": "gaze",
+      "label": "Looking slightly downward",
+      "prompt": "looking slightly downward",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_directly_downward",
+      "type": "gaze",
+      "label": "Looking directly downward",
+      "prompt": "looking directly downward",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_the_floor",
+      "type": "gaze",
+      "label": "Looking toward the floor",
+      "prompt": "looking toward the floor",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_down_and_to_the_right",
+      "type": "gaze",
+      "label": "Looking down and to the right",
+      "prompt": "looking down and to the right",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_down_and_to_the_left",
+      "type": "gaze",
+      "label": "Looking down and to the left",
+      "prompt": "looking down and to the left",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_downward_while_her_head_remains_level",
+      "type": "gaze",
+      "label": "Looking downward while her head remains level",
+      "prompt": "looking downward while her head remains level",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.lowering_only_her_eyes",
+      "type": "gaze",
+      "label": "Lowering only her eyes",
+      "prompt": "lowering only her eyes",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_her_hands",
+      "type": "gaze",
+      "label": "Looking toward her hands",
+      "prompt": "looking toward her hands",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_her_shoulder",
+      "type": "gaze",
+      "label": "Looking toward her shoulder",
+      "prompt": "looking toward her shoulder",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_her_chest",
+      "type": "gaze",
+      "label": "Looking toward her chest",
+      "prompt": "looking toward her chest",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_down_over_one_shoulder",
+      "type": "gaze",
+      "label": "Looking down over one shoulder",
+      "prompt": "looking down over one shoulder",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_downward_with_her_face_turned_sideways",
+      "type": "gaze",
+      "label": "Looking downward with her face turned sideways",
+      "prompt": "looking downward with her face turned sideways",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_something_below_the_frame",
+      "type": "gaze",
+      "label": "Looking toward something below the frame",
+      "prompt": "looking toward something below the frame",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_downward_with_a_distant_expression",
+      "type": "gaze",
+      "label": "Looking downward with a distant expression",
+      "prompt": "looking downward with a distant expression",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_down_while_her_chin_remains_raised",
+      "type": "gaze",
+      "label": "Looking down while her chin remains raised",
+      "prompt": "looking down while her chin remains raised",
+      "tags": [
+        "down",
+        "eyes_open"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "eye_state": "open",
+        "target": "down"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_gently_closed",
+      "type": "gaze",
+      "label": "Eyes gently closed",
+      "prompt": "eyes gently closed",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_fully_closed",
+      "type": "gaze",
+      "label": "Eyes fully closed",
+      "prompt": "eyes fully closed",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_softly_closed_in_a_relaxed_manner",
+      "type": "gaze",
+      "label": "Eyes softly closed in a relaxed manner",
+      "prompt": "eyes softly closed in a relaxed manner",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_closed_while_facing_the_camera",
+      "type": "gaze",
+      "label": "Eyes closed while facing the camera",
+      "prompt": "eyes closed while facing the camera",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_closed_with_the_head_tilted_upward",
+      "type": "gaze",
+      "label": "Eyes closed with the head tilted upward",
+      "prompt": "eyes closed with the head tilted upward",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_closed_with_the_head_tilted_downward",
+      "type": "gaze",
+      "label": "Eyes closed with the head tilted downward",
+      "prompt": "eyes closed with the head tilted downward",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_closed_while_the_head_is_turned_sideways",
+      "type": "gaze",
+      "label": "Eyes closed while the head is turned sideways",
+      "prompt": "eyes closed while the head is turned sideways",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyelids_partially_lowered",
+      "type": "gaze",
+      "label": "Eyelids partially lowered",
+      "prompt": "eyelids partially lowered",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_half_closed",
+      "type": "gaze",
+      "label": "Eyes half closed",
+      "prompt": "eyes half closed",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_nearly_closed",
+      "type": "gaze",
+      "label": "Eyes nearly closed",
+      "prompt": "eyes nearly closed",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_narrowed_slightly",
+      "type": "gaze",
+      "label": "Eyes narrowed slightly",
+      "prompt": "eyes narrowed slightly",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_narrowed_toward_the_camera",
+      "type": "gaze",
+      "label": "Eyes narrowed toward the camera",
+      "prompt": "eyes narrowed toward the camera",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.one_eye_partially_closed",
+      "type": "gaze",
+      "label": "One eye partially closed",
+      "prompt": "one eye partially closed",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.one_eye_closed_in_a_wink",
+      "type": "gaze",
+      "label": "One eye closed in a wink",
+      "prompt": "one eye closed in a wink",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_closing_as_though_caught_between_moments",
+      "type": "gaze",
+      "label": "Eyes closing as though caught between moments",
+      "prompt": "eyes closing as though caught between moments",
+      "tags": [
+        "closed",
+        "eyes_closed"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "eye_state": "closed",
+        "target": "closed"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.gaze_shifting_away_from_the_camera",
+      "type": "gaze",
+      "label": "Gaze shifting away from the camera",
+      "prompt": "gaze shifting away from the camera",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.gaze_returning_toward_the_camera",
+      "type": "gaze",
+      "label": "Gaze returning toward the camera",
+      "prompt": "gaze returning toward the camera",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_caught_in_the_middle_of_looking_sideways",
+      "type": "gaze",
+      "label": "Eyes caught in the middle of looking sideways",
+      "prompt": "eyes caught in the middle of looking sideways",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_something_that_just_caught_her_at",
+      "type": "gaze",
+      "label": "Looking toward something that just caught her attention",
+      "prompt": "looking toward something that just caught her attention",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.glancing_quickly_toward_the_camera",
+      "type": "gaze",
+      "label": "Glancing quickly toward the camera",
+      "prompt": "glancing quickly toward the camera",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.glancing_quickly_away_from_the_camera",
+      "type": "gaze",
+      "label": "Glancing quickly away from the camera",
+      "prompt": "glancing quickly away from the camera",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.eyes_following_something_outside_the_frame",
+      "type": "gaze",
+      "label": "Eyes following something outside the frame",
+      "prompt": "eyes following something outside the frame",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.gaze_drifting_downward",
+      "type": "gaze",
+      "label": "Gaze drifting downward",
+      "prompt": "gaze drifting downward",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.gaze_drifting_upward",
+      "type": "gaze",
+      "label": "Gaze drifting upward",
+      "prompt": "gaze drifting upward",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_distractedly_into_the_distance",
+      "type": "gaze",
+      "label": "Looking distractedly into the distance",
+      "prompt": "looking distractedly into the distance",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_thoughtfully_beyond_the_frame",
+      "type": "gaze",
+      "label": "Looking thoughtfully beyond the frame",
+      "prompt": "looking thoughtfully beyond the frame",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_toward_an_unseen_person",
+      "type": "gaze",
+      "label": "Looking toward an unseen person",
+      "prompt": "looking toward an unseen person",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_sideways_as_though_listening",
+      "type": "gaze",
+      "label": "Looking sideways as though listening",
+      "prompt": "looking sideways as though listening",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_back_as_though_someone_called_her_name",
+      "type": "gaze",
+      "label": "Looking back as though someone called her name",
+      "prompt": "looking back as though someone called her name",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.looking_around_with_an_observant_gaze",
+      "type": "gaze",
+      "label": "Looking around with an observant gaze",
+      "prompt": "looking around with an observant gaze",
+      "tags": [
+        "candid",
+        "eyes_open"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "eye_state": "open",
+        "target": "candid"
+      }
+    },
+    {
+      "id": "brkn_chassis.gaze.unspecified",
+      "type": "gaze",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 26.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

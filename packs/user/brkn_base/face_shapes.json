@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_shapes",
+  "entries": [
+    {
+      "id": "brkn_base.face_shape.oval",
+      "type": "face_shape",
+      "label": "Oval",
+      "prompt": "an oval face",
+      "tags": [
+        "oval"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.face_shape.heart",
+      "type": "face_shape",
+      "label": "Heart",
+      "prompt": "a heart-shaped face",
+      "tags": [
+        "heart"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.face_shape.square",
+      "type": "face_shape",
+      "label": "Square",
+      "prompt": "a square face",
+      "tags": [
+        "square"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.face_shape.diamond",
+      "type": "face_shape",
+      "label": "Diamond",
+      "prompt": "a diamond-shaped face",
+      "tags": [
+        "diamond"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.face_shape.round",
+      "type": "face_shape",
+      "label": "Round",
+      "prompt": "a round face",
+      "tags": [
+        "round"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.face_shape.long",
+      "type": "face_shape",
+      "label": "Long",
+      "prompt": "a long face",
+      "tags": [
+        "long"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.face_shape.unspecified",
+      "type": "face_shape",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.84,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

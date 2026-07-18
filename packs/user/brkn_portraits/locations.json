@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "brkn_portraits.location.seamless_white",
+      "type": "location",
+      "label": "In front of a plain white backdrop",
+      "prompt": "in front of a plain white backdrop",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "studio"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.seamless_grey",
+      "type": "location",
+      "label": "In front of a plain grey backdrop",
+      "prompt": "in front of a plain grey backdrop",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "studio"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.seamless_black",
+      "type": "location",
+      "label": "In front of a black backdrop",
+      "prompt": "in front of a black backdrop",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "studio"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.seamless_colour",
+      "type": "location",
+      "label": "In front of a saturated coloured backdrop",
+      "prompt": "in front of a saturated coloured backdrop",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "studio"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.by_a_window",
+      "type": "location",
+      "label": "In front of a window",
+      "prompt": "in front of a window",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.dim_room",
+      "type": "location",
+      "label": "In a dim room",
+      "prompt": "in a dim room",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.plain_wall",
+      "type": "location",
+      "label": "In front of a plain wall at home",
+      "prompt": "in front of a plain wall at home",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.bedside",
+      "type": "location",
+      "label": "On the edge of an unmade bed",
+      "prompt": "on the edge of an unmade bed",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.bathroom_light",
+      "type": "location",
+      "label": "In a bathroom",
+      "prompt": "in a bathroom",
+      "tags": [
+        "indoor",
+        "portrait"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.open_shade",
+      "type": "location",
+      "label": "In outdoors, the background dissolved to nothing",
+      "prompt": "in outdoors, the background dissolved to nothing",
+      "tags": [
+        "outdoor",
+        "portrait"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "outside"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_outdoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.hard_sun",
+      "type": "location",
+      "label": "In outdoors in the open",
+      "prompt": "in outdoors in the open",
+      "tags": [
+        "outdoor",
+        "portrait"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "outside"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_outdoor",
+          "still"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.location.street_bokeh",
+      "type": "location",
+      "label": "On a street at night, the lights behind her dissolved to",
+      "prompt": "on a street at night, the lights behind her dissolved to circles",
+      "tags": [
+        "outdoor",
+        "portrait"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "outside"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_outdoor",
+          "still"
+        ]
+      }
+    }
+  ]
+}

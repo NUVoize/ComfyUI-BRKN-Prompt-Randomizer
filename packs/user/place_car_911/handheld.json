@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "place_car_911.handheld.keys_911",
+      "type": "handheld",
+      "label": "A small chrome key on a leather fob",
+      "prompt": "a small chrome key on a leather fob",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.handheld.driving_gloves",
+      "type": "handheld",
+      "label": "Leather driving gloves held in one hand",
+      "prompt": "leather driving gloves held in one hand",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 7.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

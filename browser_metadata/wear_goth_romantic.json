@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_romantic",
+  "selection_role": "modifier",
+  "selection_category": "wardrobe_makeup",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/wardrobe-style",
+  "cover_image": {
+    "path": "wear_goth_romantic_cover_thumbnail_512.webp",
+    "label": "wear_goth_romantic cover thumbnail",
+    "role": "cover"
+  },
+  "preview_images": [
+    {
+      "path": "wear_goth_romantic_close-up_thumbnail_512.webp",
+      "label": "wear_goth_romantic preview 1",
+      "role": "detail"
+    }
+  ]
+}

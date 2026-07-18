@@ -1,0 +1,527 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "brkn_base.accessory.small_hoop_earrings",
+      "type": "accessory",
+      "label": "Small hoop earrings",
+      "prompt": "small hoop earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.large_hoop_earrings",
+      "type": "accessory",
+      "label": "Large hoop earrings",
+      "prompt": "large hoop earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.chunky_hoop_earrings",
+      "type": "accessory",
+      "label": "Chunky hoop earrings",
+      "prompt": "chunky hoop earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.delicate_stud_earrings",
+      "type": "accessory",
+      "label": "Delicate stud earrings",
+      "prompt": "delicate stud earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.pearl_stud_earrings",
+      "type": "accessory",
+      "label": "Pearl stud earrings",
+      "prompt": "pearl stud earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.drop_earrings",
+      "type": "accessory",
+      "label": "Drop earrings",
+      "prompt": "drop earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.crystal_drop_earrings",
+      "type": "accessory",
+      "label": "Crystal drop earrings",
+      "prompt": "crystal drop earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.chandelier_earrings",
+      "type": "accessory",
+      "label": "Chandelier earrings",
+      "prompt": "chandelier earrings",
+      "tags": [
+        "jewellery",
+        "earrings",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.accessory.geometric_earrings",
+      "type": "accessory",
+      "label": "Geometric earrings",
+      "prompt": "geometric earrings",
+      "tags": [
+        "jewellery",
+        "earrings"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.sculptural_statement_earrings",
+      "type": "accessory",
+      "label": "Sculptural statement earrings",
+      "prompt": "sculptural statement earrings",
+      "tags": [
+        "jewellery",
+        "earrings",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.accessory.delicate_chain_necklace",
+      "type": "accessory",
+      "label": "Delicate chain necklace",
+      "prompt": "delicate chain necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.layered_necklaces",
+      "type": "accessory",
+      "label": "Layered necklaces",
+      "prompt": "layered necklaces",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.pendant_necklace",
+      "type": "accessory",
+      "label": "Pendant necklace",
+      "prompt": "pendant necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.pearl_necklace",
+      "type": "accessory",
+      "label": "Pearl necklace",
+      "prompt": "pearl necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.chunky_chain_necklace",
+      "type": "accessory",
+      "label": "Chunky chain necklace",
+      "prompt": "chunky chain necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.choker_necklace",
+      "type": "accessory",
+      "label": "Choker necklace",
+      "prompt": "choker necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.velvet_choker",
+      "type": "accessory",
+      "label": "Velvet choker",
+      "prompt": "velvet choker",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.ribbon_choker",
+      "type": "accessory",
+      "label": "Ribbon choker",
+      "prompt": "ribbon choker",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.collar_necklace",
+      "type": "accessory",
+      "label": "Collar necklace",
+      "prompt": "collar necklace",
+      "tags": [
+        "jewellery",
+        "neck"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.statement_bib_necklace",
+      "type": "accessory",
+      "label": "Statement bib necklace",
+      "prompt": "statement bib necklace",
+      "tags": [
+        "jewellery",
+        "neck",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.accessory.slim_bracelet",
+      "type": "accessory",
+      "label": "Slim bracelet",
+      "prompt": "slim bracelet",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.stacked_bracelets",
+      "type": "accessory",
+      "label": "Stacked bracelets",
+      "prompt": "stacked bracelets",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.cuff_bracelet",
+      "type": "accessory",
+      "label": "Cuff bracelet",
+      "prompt": "cuff bracelet",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.tennis_bracelet",
+      "type": "accessory",
+      "label": "Tennis bracelet",
+      "prompt": "tennis bracelet",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.charm_bracelet",
+      "type": "accessory",
+      "label": "Charm bracelet",
+      "prompt": "charm bracelet",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.chunky_bangle",
+      "type": "accessory",
+      "label": "Chunky bangle",
+      "prompt": "chunky bangle",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.watch",
+      "type": "accessory",
+      "label": "Watch",
+      "prompt": "watch",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.luxury_wristwatch",
+      "type": "accessory",
+      "label": "Luxury wristwatch",
+      "prompt": "luxury wristwatch",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.cocktail_ring",
+      "type": "accessory",
+      "label": "Cocktail ring",
+      "prompt": "cocktail ring",
+      "tags": [
+        "jewellery",
+        "wrist",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.accessory.stacked_rings",
+      "type": "accessory",
+      "label": "Stacked rings",
+      "prompt": "stacked rings",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.delicate_rings",
+      "type": "accessory",
+      "label": "Delicate rings",
+      "prompt": "delicate rings",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.statement_ring",
+      "type": "accessory",
+      "label": "Statement ring",
+      "prompt": "statement ring",
+      "tags": [
+        "jewellery",
+        "wrist"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_base.accessory.slim_leather_belt",
+      "type": "accessory",
+      "label": "Slim leather belt",
+      "prompt": "slim leather belt",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.wide_waist_belt",
+      "type": "accessory",
+      "label": "Wide waist belt",
+      "prompt": "wide waist belt",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.chain_belt",
+      "type": "accessory",
+      "label": "Chain belt",
+      "prompt": "chain belt",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.corset_style_belt",
+      "type": "accessory",
+      "label": "Corset-style belt",
+      "prompt": "corset-style belt",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.silk_scarf_tied_at_the_neck",
+      "type": "accessory",
+      "label": "Silk scarf tied at the neck",
+      "prompt": "silk scarf tied at the neck",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.silk_scarf_tied_in_the_hair",
+      "type": "accessory",
+      "label": "Silk scarf tied in the hair",
+      "prompt": "silk scarf tied in the hair",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.scarf_tied_to_a_handbag",
+      "type": "accessory",
+      "label": "Scarf tied to a handbag",
+      "prompt": "scarf tied to a handbag",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.leather_gloves",
+      "type": "accessory",
+      "label": "Leather gloves",
+      "prompt": "leather gloves",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.accessory.satin_gloves",
+      "type": "accessory",
+      "label": "Satin gloves",
+      "prompt": "satin gloves",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.opera_gloves",
+      "type": "accessory",
+      "label": "Opera gloves",
+      "prompt": "opera gloves",
+      "tags": [
+        "styling",
+        "editorial"
+      ],
+      "weight": 0.4
+    },
+    {
+      "id": "brkn_base.accessory.fingerless_gloves",
+      "type": "accessory",
+      "label": "Fingerless gloves",
+      "prompt": "fingerless gloves",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8,
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.accessory.lace_gloves",
+      "type": "accessory",
+      "label": "Lace gloves",
+      "prompt": "lace gloves",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.anklet",
+      "type": "accessory",
+      "label": "Anklet",
+      "prompt": "anklet",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.accessory.no_jewellery_bare_wrists",
+      "type": "accessory",
+      "label": "No jewellery, bare wrists",
+      "prompt": "no jewellery, bare wrists",
+      "tags": [
+        "minimal",
+        "clean"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_base.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 26.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

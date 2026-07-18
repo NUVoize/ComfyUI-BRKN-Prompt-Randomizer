@@ -1,0 +1,509 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "brkn_instagram.location.bedroom",
+      "type": "location",
+      "label": "In a bright bedroom with unmade linen",
+      "prompt": "in a bright bedroom with unmade linen",
+      "tags": [
+        "indoor",
+        "mirror",
+        "bedroom",
+        "sleep",
+        "lounge"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "sleep_space",
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.bathroom_mirror",
+      "type": "location",
+      "label": "In a bright bathroom",
+      "prompt": "in a bright bathroom",
+      "tags": [
+        "indoor",
+        "mirror",
+        "bathroom",
+        "wash"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "wash_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.walk_in_closet",
+      "type": "location",
+      "label": "In a walk-in closet lined with clothes",
+      "prompt": "in a walk-in closet lined with clothes",
+      "tags": [
+        "indoor",
+        "mirror",
+        "closet"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.living_room",
+      "type": "location",
+      "label": "On a sunlit living room with a low sofa",
+      "prompt": "on a sunlit living room with a low sofa",
+      "tags": [
+        "indoor",
+        "lounge"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.kitchen_counter",
+      "type": "location",
+      "label": "In a bright kitchen",
+      "prompt": "in a bright kitchen",
+      "tags": [
+        "indoor",
+        "cooking",
+        "counter"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "cooking_space",
+          "counter_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.balcony",
+      "type": "location",
+      "label": "On a small balcony above the street",
+      "prompt": "on a small balcony above the street",
+      "tags": [
+        "outdoor",
+        "golden"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.hallway_mirror",
+      "type": "location",
+      "label": "In a hallway with a full-length mirror",
+      "prompt": "in a hallway with a full-length mirror",
+      "tags": [
+        "indoor",
+        "mirror",
+        "threshold"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home",
+          "hotel"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.gym_floor",
+      "type": "location",
+      "label": "On a gym floor between the machines",
+      "prompt": "on a gym floor between the machines",
+      "tags": [
+        "indoor",
+        "gym"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "gym"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.gym_mirror",
+      "type": "location",
+      "label": "In a gym by the mirror wall",
+      "prompt": "in a gym by the mirror wall",
+      "tags": [
+        "indoor",
+        "mirror",
+        "gym"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "gym"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.cafe_table",
+      "type": "location",
+      "label": "In a cafe table by the window",
+      "prompt": "in a cafe table by the window",
+      "tags": [
+        "indoor",
+        "table"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "table_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.cafe_counter",
+      "type": "location",
+      "label": "On a cafe counter",
+      "prompt": "on a cafe counter",
+      "tags": [
+        "indoor",
+        "counter"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "cafe"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "counter_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.sunlit_pavement",
+      "type": "location",
+      "label": "On a sunlit street",
+      "prompt": "on a sunlit street",
+      "tags": [
+        "outdoor"
+      ],
+      "weight": 1.3,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.crosswalk",
+      "type": "location",
+      "label": "On a city crosswalk",
+      "prompt": "on a city crosswalk",
+      "tags": [
+        "outdoor"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "street"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.shop_window",
+      "type": "location",
+      "label": "On a street outside a lit shop window",
+      "prompt": "on a street outside a lit shop window",
+      "tags": [
+        "outdoor",
+        "mirror"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "street",
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.poolside_lounger",
+      "type": "location",
+      "label": "On a poolside lounger",
+      "prompt": "on a poolside lounger",
+      "tags": [
+        "outdoor",
+        "summer",
+        "lounge"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "poolside"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.pool_edge",
+      "type": "location",
+      "label": "On a tiled pool edge",
+      "prompt": "on a tiled pool edge",
+      "tags": [
+        "outdoor",
+        "summer"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "poolside"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.beach_sand",
+      "type": "location",
+      "label": "On open sand near the water",
+      "prompt": "on open sand near the water",
+      "tags": [
+        "outdoor",
+        "summer"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "beach"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.car_seat",
+      "type": "location",
+      "label": "In the driver's seat of a car",
+      "prompt": "in the driver's seat of a car",
+      "tags": [
+        "indoor",
+        "mirror",
+        "car"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "environment_tags_any": [
+          "transport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.car_door",
+      "type": "location",
+      "label": "At the open door of a car",
+      "prompt": "at the open door of a car",
+      "tags": [
+        "threshold",
+        "car"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "transport"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "vehicle_exterior",
+          "universal_indoor",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.rooftop_rail",
+      "type": "location",
+      "label": "In a rooftop above the city lights",
+      "prompt": "in a rooftop above the city lights",
+      "tags": [
+        "outdoor",
+        "night"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "nightlife"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.fitting_room",
+      "type": "location",
+      "label": "In a boutique fitting room",
+      "prompt": "in a boutique fitting room",
+      "tags": [
+        "indoor",
+        "mirror",
+        "retail"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "retail_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.location.boutique_floor",
+      "type": "location",
+      "label": "On the floor of a small boutique",
+      "prompt": "on the floor of a small boutique",
+      "tags": [
+        "indoor",
+        "retail"
+      ],
+      "weight": 0.7,
+      "requires": {
+        "environment_tags_any": [
+          "retail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "retail_space",
+          "universal_indoor"
+        ]
+      }
+    }
+  ]
+}

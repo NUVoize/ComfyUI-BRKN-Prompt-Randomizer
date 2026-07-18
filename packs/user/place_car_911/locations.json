@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_car_911.location.drivers_seat",
+      "type": "location",
+      "label": "In the driver's seat of a small vintage coupe",
+      "prompt": "in the driver's seat of a small vintage coupe",
+      "tags": [
+        "indoor",
+        "car",
+        "mirror",
+        "part_seat"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.passenger_seat",
+      "type": "location",
+      "label": "In the passenger seat of a vintage coupe",
+      "prompt": "in the passenger seat of a vintage coupe",
+      "tags": [
+        "indoor",
+        "car",
+        "part_seat"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.open_door",
+      "type": "location",
+      "label": "At the open door of a small coupe",
+      "prompt": "at the open door of a small coupe",
+      "tags": [
+        "threshold",
+        "car",
+        "part_door"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "threshold_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.on_the_bonnet",
+      "type": "location",
+      "label": "On the low bonnet of a vintage coupe",
+      "prompt": "on the low bonnet of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_hood"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.against_the_wing",
+      "type": "location",
+      "label": "In the front wing of a vintage coupe",
+      "prompt": "in the front wing of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wing"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.over_the_roof",
+      "type": "location",
+      "label": "On the roof of a low coupe, at her waist",
+      "prompt": "on the roof of a low coupe, at her waist",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_roof"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.rear_engine_lid",
+      "type": "location",
+      "label": "In the rear engine cover of a vintage coupe",
+      "prompt": "in the rear engine cover of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.garage_floor",
+      "type": "location",
+      "label": "In an old garage, the coupe beside her",
+      "prompt": "in an old garage, the coupe beside her",
+      "tags": [
+        "indoor",
+        "car"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "vehicle_exterior"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.location.front_wheel_911",
+      "type": "location",
+      "label": "At the front wheel of a vintage coupe",
+      "prompt": "at the front wheel of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wheel"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    }
+  ]
+}

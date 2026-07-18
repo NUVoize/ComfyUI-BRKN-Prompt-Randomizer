@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_car_bmw2000.location.drivers_seat_bmw",
+      "type": "location",
+      "label": "In the driver's seat of a vintage coupe",
+      "prompt": "in the driver's seat of a vintage coupe",
+      "tags": [
+        "indoor",
+        "car",
+        "mirror",
+        "part_seat"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.passenger_seat_bmw",
+      "type": "location",
+      "label": "In the passenger seat of a vintage coupe",
+      "prompt": "in the passenger seat of a vintage coupe",
+      "tags": [
+        "indoor",
+        "car",
+        "part_seat"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.open_door_bmw",
+      "type": "location",
+      "label": "At the open door of a vintage coupe",
+      "prompt": "at the open door of a vintage coupe",
+      "tags": [
+        "threshold",
+        "car",
+        "part_door"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "threshold_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.long_hood",
+      "type": "location",
+      "label": "In the long hood of a vintage coupe",
+      "prompt": "in the long hood of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_hood"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.front_wing_bmw",
+      "type": "location",
+      "label": "In the front wing beside the chrome grille",
+      "prompt": "in the front wing beside the chrome grille",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wing",
+        "part_wheel",
+        "part_grille"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.chrome_roofline",
+      "type": "location",
+      "label": "In the slim roofline of a vintage coupe",
+      "prompt": "in the slim roofline of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.rear_deck",
+      "type": "location",
+      "label": "On the short rear deck of a vintage coupe",
+      "prompt": "on the short rear deck of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.garage_bmw",
+      "type": "location",
+      "label": "In a clean garage, the coupe beside her",
+      "prompt": "in a clean garage, the coupe beside her",
+      "tags": [
+        "indoor",
+        "car"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "vehicle_exterior"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.location.roof_bmw",
+      "type": "location",
+      "label": "On the roof of a vintage coupe",
+      "prompt": "on the roof of a vintage coupe",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_roof"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    }
+  ]
+}

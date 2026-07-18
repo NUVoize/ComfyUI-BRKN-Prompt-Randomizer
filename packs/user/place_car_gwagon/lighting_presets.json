@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_car_gwagon.lighting_preset.hard_sun_paint",
+      "type": "lighting_preset",
+      "label": "Hard sun on the flat paintwork",
+      "prompt": "hard sun on the flat paintwork",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 2.6,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.lighting_preset.golden_g",
+      "type": "lighting_preset",
+      "label": "Low golden sun down the side of it",
+      "prompt": "low golden sun down the side of it",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 2.2,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.lighting_preset.streetlight_g",
+      "type": "lighting_preset",
+      "label": "Hard streetlight from above",
+      "prompt": "hard streetlight from above",
+      "tags": [
+        "hard",
+        "night",
+        "practical"
+      ],
+      "weight": 2.0,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.lighting_preset.headlights_g",
+      "type": "lighting_preset",
+      "label": "Its own headlights throwing light back at her",
+      "prompt": "its own headlights throwing light back at her",
+      "tags": [
+        "practical",
+        "dramatic",
+        "night"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.lighting_preset.open_shade_g",
+      "type": "lighting_preset",
+      "label": "Open shade beside the car",
+      "prompt": "open shade beside the car",
+      "tags": [
+        "soft",
+        "natural"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    }
+  ]
+}

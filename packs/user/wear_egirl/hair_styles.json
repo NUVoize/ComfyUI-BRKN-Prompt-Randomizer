@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_egirl.hair_style.blunt_fringe",
+      "type": "hair_style",
+      "label": "With a blunt fringe and long straight lengths",
+      "prompt": "with a blunt fringe and long straight lengths",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_egirl.hair_style.space_buns",
+      "type": "hair_style",
+      "label": "In two high buns",
+      "prompt": "in two high buns",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.hair_style.straight_middle",
+      "type": "hair_style",
+      "label": "Straight with a middle parting",
+      "prompt": "straight with a middle parting",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 2.0
+    }
+  ]
+}

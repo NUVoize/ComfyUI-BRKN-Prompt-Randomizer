@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.lighting_preset.clean_studio",
+      "type": "lighting_preset",
+      "label": "Clean Thumbnail Studio Lighting",
+      "prompt": "even clean studio lighting with soft commercial clarity",
+      "tags": [
+        "thumbnail",
+        "studio",
+        "commercial",
+        "soft"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "intensity": "soft"
+      }
+    }
+  ]
+}

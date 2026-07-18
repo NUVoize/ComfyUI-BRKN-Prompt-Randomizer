@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/content-file.schema.json",
+  "title": "Content File Wrapper",
+  "type": "object",
+  "required": ["schema_version", "content_type", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "content_type": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "entries": { "type": "array", "minItems": 1, "items": { "type": "object" } }
+  }
+}

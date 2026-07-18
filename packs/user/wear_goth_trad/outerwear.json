@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth_trad.outerwear.leather_biker_studs",
+      "type": "outerwear",
+      "label": "A studded black leather biker jacket",
+      "prompt": "a studded black leather biker jacket",
+      "tags": [
+        "outer"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_trad.outerwear.long_leather_coat",
+      "type": "outerwear",
+      "label": "A long black leather coat",
+      "prompt": "a long black leather coat",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_trad.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

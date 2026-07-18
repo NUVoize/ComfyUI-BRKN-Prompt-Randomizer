@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "brkn_portraits.outfit.plain_tee",
+      "type": "outfit",
+      "label": "A plain cotton tee",
+      "prompt": "a plain cotton tee",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "brkn_portraits.outfit.white_shirt",
+      "type": "outfit",
+      "label": "An open white shirt",
+      "prompt": "an open white shirt",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "brkn_portraits.outfit.black_tank",
+      "type": "outfit",
+      "label": "A black tank top",
+      "prompt": "a black tank top",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "brkn_portraits.outfit.knit_crew",
+      "type": "outfit",
+      "label": "A soft knit crew neck",
+      "prompt": "a soft knit crew neck",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "brkn_portraits.outfit.bare_shoulders",
+      "type": "outfit",
+      "label": "Bare shoulders",
+      "prompt": "bare shoulders",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_portraits.outfit.slip_strap",
+      "type": "outfit",
+      "label": "A thin satin strap",
+      "prompt": "a thin satin strap",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_portraits.outfit.hoodie",
+      "type": "outfit",
+      "label": "An oversized hoodie",
+      "prompt": "an oversized hoodie",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_portraits.outfit.blazer_collar",
+      "type": "outfit",
+      "label": "A sharp blazer collar",
+      "prompt": "a sharp blazer collar",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.outfit.turtleneck",
+      "type": "outfit",
+      "label": "A black turtleneck",
+      "prompt": "a black turtleneck",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_portraits.outfit.denim_collar",
+      "type": "outfit",
+      "label": "A denim collar",
+      "prompt": "a denim collar",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.outfit.linen_shirt",
+      "type": "outfit",
+      "label": "A crumpled linen shirt",
+      "prompt": "a crumpled linen shirt",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_portraits.outfit.towel",
+      "type": "outfit",
+      "label": "A towel wrapped around her",
+      "prompt": "a towel wrapped around her",
+      "tags": [
+        "neckline",
+        "casual"
+      ],
+      "weight": 0.6
+    }
+  ]
+}

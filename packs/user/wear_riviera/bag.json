@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "content_type": "bags",
+  "entries": [
+    {
+      "id": "wear_riviera.bag.raffia_tote",
+      "type": "bag",
+      "label": "A woven raffia tote",
+      "prompt": "a woven raffia tote",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.8,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "wear_riviera.bag.unspecified",
+      "type": "bag",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

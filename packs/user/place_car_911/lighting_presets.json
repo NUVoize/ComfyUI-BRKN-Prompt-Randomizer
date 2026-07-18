@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_car_911.lighting_preset.chrome_sun",
+      "type": "lighting_preset",
+      "label": "Low sun raking across the chrome",
+      "prompt": "low sun raking across the chrome",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 2.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.lighting_preset.flat_daylight_911",
+      "type": "lighting_preset",
+      "label": "Flat bright daylight on the paintwork",
+      "prompt": "flat bright daylight on the paintwork",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 2.0,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.lighting_preset.streetlight_911",
+      "type": "lighting_preset",
+      "label": "Hard streetlight from above",
+      "prompt": "hard streetlight from above",
+      "tags": [
+        "hard",
+        "night",
+        "practical"
+      ],
+      "weight": 1.8,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.lighting_preset.garage_bulb",
+      "type": "lighting_preset",
+      "label": "A single bulb in an old garage",
+      "prompt": "a single bulb in an old garage",
+      "tags": [
+        "warm",
+        "practical",
+        "low_key"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.lighting_preset.dash_glow_911",
+      "type": "lighting_preset",
+      "label": "The warm glow of the dials on her face",
+      "prompt": "the warm glow of the dials on her face",
+      "tags": [
+        "practical",
+        "warm"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ]
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

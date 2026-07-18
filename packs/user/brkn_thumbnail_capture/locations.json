@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.location.seamless_backdrop",
+      "type": "location",
+      "label": "Seamless Thumbnail Backdrop",
+      "prompt": "against a very light gray seamless backdrop",
+      "tags": [
+        "thumbnail",
+        "studio",
+        "catalog",
+        "backdrop",
+        "threshold"
+      ],
+      "requires": {
+        "environment_tags_any": [
+          "studio",
+          "thumbnail"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "thumbnail",
+          "catalog",
+          "still",
+          "low_motion"
+        ]
+      },
+      "weight": 10.0,
+      "metadata": {
+        "indoor": true
+      }
+    }
+  ]
+}

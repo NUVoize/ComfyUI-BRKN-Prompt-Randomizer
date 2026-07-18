@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_bike",
+  "name": "BRKN Place - The Hayabusa",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "The superbike. Astride, beside, over the tank. The environment ships the bike NAMED and DESCRIBED at equal weight so you can see which one the model renders better. Ships NO clothes.",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "handhelds",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "vehicle",
+    "bike",
+    "layerable",
+    "set"
+  ]
+}

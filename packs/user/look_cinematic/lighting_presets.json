@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "look_cinematic.lighting_preset.practical_night",
+      "type": "lighting_preset",
+      "label": "Practical lights doing all the work",
+      "prompt": "practical lights doing all the work",
+      "tags": [
+        "practical",
+        "dramatic"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "look_cinematic.lighting_preset.rim_separation",
+      "type": "lighting_preset",
+      "label": "A hard rim separating her from the dark",
+      "prompt": "a hard rim separating her from the dark",
+      "tags": [
+        "rim",
+        "dramatic"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "look_cinematic.lighting_preset.motivated_window",
+      "type": "lighting_preset",
+      "label": "One motivated source, everything else falling away",
+      "prompt": "one motivated source, everything else falling away",
+      "tags": [
+        "soft",
+        "dramatic"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "look_cinematic.lighting_preset.backlit_haze",
+      "type": "lighting_preset",
+      "label": "Backlight blowing out behind her through haze",
+      "prompt": "backlight blowing out behind her through haze",
+      "tags": [
+        "backlit",
+        "dramatic"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "brkn_base.atmosphere.spring_low_sun",
+      "type": "atmosphere",
+      "label": "Early spring, low sun and bare branches",
+      "prompt": "early spring, low sun and bare branches",
+      "tags": [
+        "season_spring",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "spring",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.spring_green",
+      "type": "atmosphere",
+      "label": "Late spring, new green everywhere",
+      "prompt": "late spring, new green everywhere",
+      "tags": [
+        "season_spring",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "season": "spring",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.spring_shower",
+      "type": "atmosphere",
+      "label": "A spring shower, the pavement dark with rain",
+      "prompt": "a spring shower, the pavement dark with rain",
+      "tags": [
+        "season_spring",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "season": "spring",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.spring_window",
+      "type": "atmosphere",
+      "label": "Spring light coming pale through the window",
+      "prompt": "spring light coming pale through the window",
+      "tags": [
+        "season_spring",
+        "weather_clear",
+        "scope_visible"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "spring",
+        "weather": "clear",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_hard",
+      "type": "atmosphere",
+      "label": "High summer, hard light and short black shadows",
+      "prompt": "high summer, hard light and short black shadows",
+      "tags": [
+        "season_summer",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "season": "summer",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_haze",
+      "type": "atmosphere",
+      "label": "A hot hazy afternoon, the air thick",
+      "prompt": "a hot hazy afternoon, the air thick",
+      "tags": [
+        "season_summer",
+        "weather_haze",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "summer",
+        "weather": "haze",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_heat_shimmer",
+      "type": "atmosphere",
+      "label": "Heat shimmering off the ground",
+      "prompt": "heat shimmering off the ground",
+      "tags": [
+        "season_summer",
+        "weather_hot",
+        "scope_outdoor"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "season": "summer",
+        "weather": "hot",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_evening",
+      "type": "atmosphere",
+      "label": "A warm summer evening, the light going gold",
+      "prompt": "a warm summer evening, the light going gold",
+      "tags": [
+        "season_summer",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "season": "summer",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_storm_break",
+      "type": "atmosphere",
+      "label": "The sky bruising before a summer storm",
+      "prompt": "the sky bruising before a summer storm",
+      "tags": [
+        "season_summer",
+        "weather_storm",
+        "scope_outdoor"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "season": "summer",
+        "weather": "storm",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.summer_window",
+      "type": "atmosphere",
+      "label": "Hot summer light falling in through the glass",
+      "prompt": "hot summer light falling in through the glass",
+      "tags": [
+        "season_summer",
+        "weather_clear",
+        "scope_visible"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "summer",
+        "weather": "clear",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.autumn_gold",
+      "type": "atmosphere",
+      "label": "Autumn, the light low and gold",
+      "prompt": "autumn, the light low and gold",
+      "tags": [
+        "season_autumn",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "season": "autumn",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.autumn_wet_leaves",
+      "type": "atmosphere",
+      "label": "Autumn, wet leaves flattened to the pavement",
+      "prompt": "autumn, wet leaves flattened to the pavement",
+      "tags": [
+        "season_autumn",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "autumn",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.autumn_grey",
+      "type": "atmosphere",
+      "label": "A flat grey autumn day",
+      "prompt": "a flat grey autumn day",
+      "tags": [
+        "season_autumn",
+        "weather_overcast",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "autumn",
+        "weather": "overcast",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.autumn_mist",
+      "type": "atmosphere",
+      "label": "Morning mist still hanging in the air",
+      "prompt": "morning mist still hanging in the air",
+      "tags": [
+        "season_autumn",
+        "weather_fog",
+        "scope_outdoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "season": "autumn",
+        "weather": "fog",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.autumn_window",
+      "type": "atmosphere",
+      "label": "Grey autumn light through the window",
+      "prompt": "grey autumn light through the window",
+      "tags": [
+        "season_autumn",
+        "weather_overcast",
+        "scope_visible"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "autumn",
+        "weather": "overcast",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_bare",
+      "type": "atmosphere",
+      "label": "Winter, bare branches against a white sky",
+      "prompt": "winter, bare branches against a white sky",
+      "tags": [
+        "season_winter",
+        "weather_overcast",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "winter",
+        "weather": "overcast",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_cold_breath",
+      "type": "atmosphere",
+      "label": "Cold enough to see her breath",
+      "prompt": "cold enough to see her breath",
+      "tags": [
+        "season_winter",
+        "weather_cold",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "winter",
+        "weather": "cold",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_snow_falling",
+      "type": "atmosphere",
+      "label": "Snow falling in slow flakes",
+      "prompt": "snow falling in slow flakes",
+      "tags": [
+        "season_winter",
+        "weather_snow",
+        "scope_outdoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "season": "winter",
+        "weather": "snow",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_snow_lying",
+      "type": "atmosphere",
+      "label": "Old snow lying grey at the kerb",
+      "prompt": "old snow lying grey at the kerb",
+      "tags": [
+        "season_winter",
+        "weather_snow",
+        "scope_outdoor"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "season": "winter",
+        "weather": "snow",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_low_sun",
+      "type": "atmosphere",
+      "label": "A low hard winter sun, long shadows",
+      "prompt": "a low hard winter sun, long shadows",
+      "tags": [
+        "season_winter",
+        "weather_clear",
+        "scope_outdoor"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "season": "winter",
+        "weather": "clear",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.winter_window",
+      "type": "atmosphere",
+      "label": "Cold white winter light through the glass",
+      "prompt": "cold white winter light through the glass",
+      "tags": [
+        "season_winter",
+        "weather_overcast",
+        "scope_visible"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "winter",
+        "weather": "overcast",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_light",
+      "type": "atmosphere",
+      "label": "Light rain, the ground just darkening",
+      "prompt": "light rain, the ground just darkening",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_heavy",
+      "type": "atmosphere",
+      "label": "Heavy rain hammering down",
+      "prompt": "heavy rain hammering down",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_after",
+      "type": "atmosphere",
+      "label": "Just after rain, everything still wet and shining",
+      "prompt": "just after rain, everything still wet and shining",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_neon",
+      "type": "atmosphere",
+      "label": "Wet asphalt throwing the neon back up",
+      "prompt": "wet asphalt throwing the neon back up",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_outdoor"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_window",
+      "type": "atmosphere",
+      "label": "Rain streaking the window behind her",
+      "prompt": "rain streaking the window behind her",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_visible"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.rain_window_night",
+      "type": "atmosphere",
+      "label": "Rain on the dark glass, the lights outside smeared",
+      "prompt": "rain on the dark glass, the lights outside smeared",
+      "tags": [
+        "season_any",
+        "weather_rain",
+        "scope_visible"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "any",
+        "weather": "rain",
+        "scope": "visible"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.fog_dense",
+      "type": "atmosphere",
+      "label": "Dense fog swallowing the distance",
+      "prompt": "dense fog swallowing the distance",
+      "tags": [
+        "season_any",
+        "weather_fog",
+        "scope_outdoor"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "season": "any",
+        "weather": "fog",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.fog_thin",
+      "type": "atmosphere",
+      "label": "A thin haze softening everything behind her",
+      "prompt": "a thin haze softening everything behind her",
+      "tags": [
+        "season_any",
+        "weather_fog",
+        "scope_outdoor"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "season": "any",
+        "weather": "fog",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.wind_hair",
+      "type": "atmosphere",
+      "label": "Wind pulling at her hair",
+      "prompt": "wind pulling at her hair",
+      "tags": [
+        "season_any",
+        "weather_wind",
+        "scope_outdoor"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "season": "any",
+        "weather": "wind",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.wind_hard",
+      "type": "atmosphere",
+      "label": "A hard wind, everything moving",
+      "prompt": "a hard wind, everything moving",
+      "tags": [
+        "season_any",
+        "weather_wind",
+        "scope_outdoor"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "season": "any",
+        "weather": "wind",
+        "scope": "outdoor"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.overcast_flat",
+      "type": "atmosphere",
+      "label": "The flat even light of an overcast day",
+      "prompt": "the flat even light of an overcast day",
+      "tags": [
+        "season_any",
+        "weather_overcast",
+        "scope_any"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "season": "any",
+        "weather": "overcast",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.clear_bright",
+      "type": "atmosphere",
+      "label": "A bright clear day",
+      "prompt": "a bright clear day",
+      "tags": [
+        "season_any",
+        "weather_clear",
+        "scope_any"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "season": "any",
+        "weather": "clear",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.golden_dusk",
+      "type": "atmosphere",
+      "label": "The last of the light, everything warm",
+      "prompt": "the last of the light, everything warm",
+      "tags": [
+        "season_any",
+        "weather_clear",
+        "scope_any"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "season": "any",
+        "weather": "clear",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.blue_hour",
+      "type": "atmosphere",
+      "label": "The cool blue quiet after sunset",
+      "prompt": "the cool blue quiet after sunset",
+      "tags": [
+        "season_any",
+        "weather_clear",
+        "scope_any"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "season": "any",
+        "weather": "clear",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.night_dark",
+      "type": "atmosphere",
+      "label": "Full night, only the artificial light left",
+      "prompt": "full night, only the artificial light left",
+      "tags": [
+        "season_any",
+        "weather_clear",
+        "scope_any"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "season": "any",
+        "weather": "clear",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.stormlight",
+      "type": "atmosphere",
+      "label": "The strange bright grey of a coming storm",
+      "prompt": "the strange bright grey of a coming storm",
+      "tags": [
+        "season_any",
+        "weather_storm",
+        "scope_any"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "season": "any",
+        "weather": "storm",
+        "scope": "any"
+      }
+    },
+    {
+      "id": "brkn_base.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 26.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

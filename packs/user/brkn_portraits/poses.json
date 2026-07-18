@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "content_type": "poses",
+  "entries": [
+    {
+      "id": "brkn_portraits.pose.square_on",
+      "type": "pose",
+      "label": "Shoulders squared to the camera",
+      "prompt": "shoulders squared to the camera",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.one_shoulder_dropped",
+      "type": "pose",
+      "label": "One shoulder dropped, the other lifted",
+      "prompt": "one shoulder dropped, the other lifted",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.three_quarter",
+      "type": "pose",
+      "label": "Her body turned three-quarters away, head back toward th",
+      "prompt": "her body turned three-quarters away, head back toward the lens",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.over_shoulder",
+      "type": "pose",
+      "label": "Turned away, looking back over her shoulder",
+      "prompt": "turned away, looking back over her shoulder",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.leaning_in",
+      "type": "pose",
+      "label": "Leaning slightly toward the camera",
+      "prompt": "leaning slightly toward the camera",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.leaning_back",
+      "type": "pose",
+      "label": "Leaning back, chin lifted",
+      "prompt": "leaning back, chin lifted",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.neck_long",
+      "type": "pose",
+      "label": "Her neck long, shoulders low",
+      "prompt": "her neck long, shoulders low",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.shoulders_hunched",
+      "type": "pose",
+      "label": "Shoulders drawn up toward her ears",
+      "prompt": "shoulders drawn up toward her ears",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.head_on_arm",
+      "type": "pose",
+      "label": "Her head resting against her own arm",
+      "prompt": "her head resting against her own arm",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.pose.profile_still",
+      "type": "pose",
+      "label": "Held in near-profile, quite still",
+      "prompt": "held in near-profile, quite still",
+      "tags": [
+        "portrait",
+        "standing"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "action_tags_any": [
+          "standing"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "brkn_chassis.action.standing_for_camera",
+      "type": "action",
+      "label": "Standing for the camera",
+      "prompt": "standing for the camera",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.holding_still",
+      "type": "action",
+      "label": "Holding still",
+      "prompt": "holding still",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.shifting_weight",
+      "type": "action",
+      "label": "Shifting her weight",
+      "prompt": "shifting her weight",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.seated_still",
+      "type": "action",
+      "label": "Sitting, quite still",
+      "prompt": "sitting, quite still",
+      "tags": [
+        "seated",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.seated_forward",
+      "type": "action",
+      "label": "Sitting, leaning forward",
+      "prompt": "sitting, leaning forward",
+      "tags": [
+        "seated",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.reclining_still",
+      "type": "action",
+      "label": "Lying back",
+      "prompt": "lying back",
+      "tags": [
+        "reclining",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.crouched_still",
+      "type": "action",
+      "label": "Crouched down",
+      "prompt": "crouched down",
+      "tags": [
+        "crouching",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.walking_slow",
+      "type": "action",
+      "label": "Walking slowly",
+      "prompt": "walking slowly",
+      "tags": [
+        "moving",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_chassis.action.taking_selfie",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "action_family": "resting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

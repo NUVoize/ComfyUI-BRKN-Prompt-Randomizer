@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_thumbnail_capture",
+  "selection_role": "base",
+  "selection_category": "base_pack",
+  "is_complete_pack": true,
+  "default_pinned_entry_ids": [
+    "brkn_thumbnail_capture.visual_style.catalog_studio",
+    "brkn_thumbnail_capture.environment.light_gray_studio",
+    "brkn_thumbnail_capture.location.seamless_backdrop",
+    "brkn_thumbnail_capture.camera_preset.thumbnail_threequarter_fashion",
+    "brkn_thumbnail_capture.lighting_preset.clean_studio",
+    "brkn_thumbnail_capture.action.holding_still_catalog",
+    "brkn_thumbnail_capture.pose.neutral_standing_catalog"
+  ],
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "thumbnail_capture__thumbnail_512.webp",
+    "label": "BRKN Thumbnail Capture Pack thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

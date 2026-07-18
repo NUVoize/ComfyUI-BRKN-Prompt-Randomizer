@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "brkn_base.body_art.none_visible",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "tattoo",
+        "none"
+      ],
+      "weight": 4.0,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.small_wrist",
+      "type": "body_art",
+      "label": "A small tattoo on her wrist",
+      "prompt": "a small tattoo on her wrist",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.fine_line_forearm",
+      "type": "body_art",
+      "label": "Fine-line tattoos along one forearm",
+      "prompt": "fine-line tattoos along one forearm",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.half_sleeve",
+      "type": "body_art",
+      "label": "A half sleeve of dark tattoos",
+      "prompt": "a half sleeve of dark tattoos",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.full_sleeve",
+      "type": "body_art",
+      "label": "A full sleeve of dense black tattoos",
+      "prompt": "a full sleeve of dense black tattoos",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.collarbone_script",
+      "type": "body_art",
+      "label": "Small script across her collarbone",
+      "prompt": "small script across her collarbone",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.behind_ear",
+      "type": "body_art",
+      "label": "A tiny tattoo behind her ear",
+      "prompt": "a tiny tattoo behind her ear",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.hand_fingers",
+      "type": "body_art",
+      "label": "Small tattoos on her fingers",
+      "prompt": "small tattoos on her fingers",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.ribs_side",
+      "type": "body_art",
+      "label": "A long tattoo down her ribs",
+      "prompt": "a long tattoo down her ribs",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.neck_small",
+      "type": "body_art",
+      "label": "A small tattoo on the side of her neck",
+      "prompt": "a small tattoo on the side of her neck",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.shoulder_piece",
+      "type": "body_art",
+      "label": "A dark piece across one shoulder",
+      "prompt": "a dark piece across one shoulder",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.lower_back",
+      "type": "body_art",
+      "label": "A tattoo at the small of her back",
+      "prompt": "a tattoo at the small of her back",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.stomach_fine",
+      "type": "body_art",
+      "label": "Fine linework across her stomach",
+      "prompt": "fine linework across her stomach",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.scattered_small",
+      "type": "body_art",
+      "label": "Small tattoos scattered over her arms",
+      "prompt": "small tattoos scattered over her arms",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.heavy_coverage",
+      "type": "body_art",
+      "label": "Heavily tattooed arms, shoulders and torso",
+      "prompt": "heavily tattooed arms, shoulders and torso",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "brkn_base.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 14.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2258 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "brkn_base.action.making_coffee",
+      "type": "action",
+      "label": "Making Coffee",
+      "prompt": "making coffee",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.pouring_from_moka",
+      "type": "action",
+      "label": "Pouring From Moka",
+      "prompt": "pouring coffee from a moka pot",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.slicing_vegetables",
+      "type": "action",
+      "label": "Slicing Vegetables",
+      "prompt": "slicing vegetables on a board",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.stirring_a_pot",
+      "type": "action",
+      "label": "Stirring A Pot",
+      "prompt": "stirring a pot on the stove",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.kneading_dough",
+      "type": "action",
+      "label": "Kneading Dough",
+      "prompt": "kneading dough",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.plating_food",
+      "type": "action",
+      "label": "Plating Food",
+      "prompt": "plating food",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.reaching_into_the_fridge",
+      "type": "action",
+      "label": "Reaching Into The Fridge",
+      "prompt": "reaching into an open fridge",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.pouring_cereal",
+      "type": "action",
+      "label": "Pouring Cereal",
+      "prompt": "pouring cereal into a bowl",
+      "tags": [
+        "cooking_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.washing_dishes",
+      "type": "action",
+      "label": "Washing Dishes",
+      "prompt": "washing dishes at the sink",
+      "tags": [
+        "cooking_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.wiping_the_counter",
+      "type": "action",
+      "label": "Wiping The Counter",
+      "prompt": "wiping down the counter",
+      "tags": [
+        "cooking_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.unpacking_groceries",
+      "type": "action",
+      "label": "Unpacking Groceries",
+      "prompt": "unpacking groceries",
+      "tags": [
+        "cooking_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.eating_toast_standing",
+      "type": "action",
+      "label": "Eating Toast Standing",
+      "prompt": "eating toast standing up",
+      "tags": [
+        "cooking_space",
+        "eating",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "eating",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.leaning_on_the_counter",
+      "type": "action",
+      "label": "Leaning On The Counter",
+      "prompt": "leaning against the counter with a mug",
+      "tags": [
+        "cooking_space",
+        "counter_space",
+        "resting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.slow_breakfast",
+      "type": "action",
+      "label": "Slow Breakfast",
+      "prompt": "eating a slow breakfast",
+      "tags": [
+        "table_space",
+        "eating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "action_family": "eating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sharing_a_meal",
+      "type": "action",
+      "label": "Sharing A Meal",
+      "prompt": "sharing a meal across the table",
+      "tags": [
+        "table_space",
+        "socializing",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.lingering_over_wine",
+      "type": "action",
+      "label": "Lingering Over Wine",
+      "prompt": "lingering over the last of the wine",
+      "tags": [
+        "table_space",
+        "socializing",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.reading_a_paperback",
+      "type": "action",
+      "label": "Reading A Paperback",
+      "prompt": "reading a paperback while her coffee goes cold",
+      "tags": [
+        "table_space",
+        "lounge_space",
+        "resting",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.writing_in_a_notebook",
+      "type": "action",
+      "label": "Writing In A Notebook",
+      "prompt": "writing in a notebook",
+      "tags": [
+        "table_space",
+        "desk_space",
+        "creating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.scrolling_over_a_plate",
+      "type": "action",
+      "label": "Scrolling Over A Plate",
+      "prompt": "scrolling on her phone over a half-eaten plate",
+      "tags": [
+        "table_space",
+        "browsing",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "browsing",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.laughing_mid_conversation",
+      "type": "action",
+      "label": "Laughing Mid Conversation",
+      "prompt": "laughing mid-conversation",
+      "tags": [
+        "table_space",
+        "lounge_space",
+        "counter_space",
+        "socializing",
+        "seated"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "seated",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.setting_the_table",
+      "type": "action",
+      "label": "Setting The Table",
+      "prompt": "setting the table",
+      "tags": [
+        "table_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.picking_at_a_shared_plate",
+      "type": "action",
+      "label": "Picking At A Shared Plate",
+      "prompt": "picking at a shared plate",
+      "tags": [
+        "table_space",
+        "eating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "eating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.reading_a_menu",
+      "type": "action",
+      "label": "Reading A Menu",
+      "prompt": "reading a menu",
+      "tags": [
+        "table_space",
+        "counter_space",
+        "eating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "eating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.curled_on_the_sofa",
+      "type": "action",
+      "label": "Curled On The Sofa",
+      "prompt": "curled up on the sofa under a blanket",
+      "tags": [
+        "lounge_space",
+        "resting",
+        "reclining"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.stretched_out_reading",
+      "type": "action",
+      "label": "Stretched Out Reading",
+      "prompt": "stretched out reading",
+      "tags": [
+        "lounge_space",
+        "resting",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.dozing_with_a_book",
+      "type": "action",
+      "label": "Dozing With A Book",
+      "prompt": "dozing off with a book on her chest",
+      "tags": [
+        "lounge_space",
+        "resting",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.cross_legged_with_a_laptop",
+      "type": "action",
+      "label": "Cross Legged With A Laptop",
+      "prompt": "sitting cross-legged with a laptop",
+      "tags": [
+        "lounge_space",
+        "desk_space",
+        "working",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "working",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.tidying_cushions",
+      "type": "action",
+      "label": "Tidying Cushions",
+      "prompt": "tidying cushions",
+      "tags": [
+        "lounge_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.pacing_on_the_phone",
+      "type": "action",
+      "label": "Pacing On The Phone",
+      "prompt": "pacing while talking on the phone",
+      "tags": [
+        "lounge_space",
+        "threshold_space",
+        "desk_space",
+        "socializing",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.watering_a_houseplant",
+      "type": "action",
+      "label": "Watering A Houseplant",
+      "prompt": "watering a houseplant",
+      "tags": [
+        "lounge_space",
+        "outdoor_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.edge_of_the_bed",
+      "type": "action",
+      "label": "Edge Of The Bed",
+      "prompt": "sitting on the edge of the bed",
+      "tags": [
+        "sleep_space",
+        "resting",
+        "seated"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "seated",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.just_woken_up",
+      "type": "action",
+      "label": "Just Woken Up",
+      "prompt": "just woken up, sheets still tangled",
+      "tags": [
+        "sleep_space",
+        "resting",
+        "reclining"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.making_the_bed",
+      "type": "action",
+      "label": "Making The Bed",
+      "prompt": "making the bed",
+      "tags": [
+        "sleep_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.reaching_for_the_alarm",
+      "type": "action",
+      "label": "Reaching For The Alarm",
+      "prompt": "reaching for the alarm",
+      "tags": [
+        "sleep_space",
+        "resting",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.lying_down_scrolling",
+      "type": "action",
+      "label": "Lying Down Scrolling",
+      "prompt": "lying on her stomach scrolling",
+      "tags": [
+        "sleep_space",
+        "browsing",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "browsing",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.pulling_on_a_jumper",
+      "type": "action",
+      "label": "Pulling On A Jumper",
+      "prompt": "pulling on a jumper",
+      "tags": [
+        "sleep_space",
+        "threshold_space",
+        "dressing",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "dressing",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sorting_unpacked_laundry",
+      "type": "action",
+      "label": "Sorting Unpacked Laundry",
+      "prompt": "sitting among unfolded laundry",
+      "tags": [
+        "sleep_space",
+        "wash_space",
+        "cleaning",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.leaning_toward_the_mirror",
+      "type": "action",
+      "label": "Leaning Toward The Mirror",
+      "prompt": "leaning toward the mirror",
+      "tags": [
+        "wash_space",
+        "grooming",
+        "standing"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.brushing_her_teeth",
+      "type": "action",
+      "label": "Brushing Her Teeth",
+      "prompt": "brushing her teeth",
+      "tags": [
+        "wash_space",
+        "grooming",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.applying_mascara",
+      "type": "action",
+      "label": "Applying Mascara",
+      "prompt": "applying mascara",
+      "tags": [
+        "wash_space",
+        "grooming",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.rinsing_her_face",
+      "type": "action",
+      "label": "Rinsing Her Face",
+      "prompt": "rinsing her face at the sink",
+      "tags": [
+        "wash_space",
+        "grooming",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.wrapped_in_a_towel",
+      "type": "action",
+      "label": "Wrapped In A Towel",
+      "prompt": "wrapped in a towel, steam on the glass",
+      "tags": [
+        "wash_space",
+        "grooming",
+        "standing"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.folding_laundry",
+      "type": "action",
+      "label": "Folding Laundry",
+      "prompt": "folding laundry",
+      "tags": [
+        "wash_space",
+        "utility_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.loading_the_machine",
+      "type": "action",
+      "label": "Loading The Machine",
+      "prompt": "loading the washing machine",
+      "tags": [
+        "wash_space",
+        "utility_space",
+        "cleaning",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.typing_at_a_laptop",
+      "type": "action",
+      "label": "Typing At A Laptop",
+      "prompt": "typing at a laptop",
+      "tags": [
+        "desk_space",
+        "working",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "action_family": "working",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.taking_notes_on_a_call",
+      "type": "action",
+      "label": "Taking Notes On A Call",
+      "prompt": "taking notes during a call",
+      "tags": [
+        "desk_space",
+        "working",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "working",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.leaning_back_from_the_desk",
+      "type": "action",
+      "label": "Leaning Back From The Desk",
+      "prompt": "leaning back from the desk, hands behind her head",
+      "tags": [
+        "desk_space",
+        "resting",
+        "seated"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "seated",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.sketching_on_a_tablet",
+      "type": "action",
+      "label": "Sketching On A Tablet",
+      "prompt": "sketching on a tablet",
+      "tags": [
+        "desk_space",
+        "creating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sorting_printed_pages",
+      "type": "action",
+      "label": "Sorting Printed Pages",
+      "prompt": "sorting through printed pages",
+      "tags": [
+        "desk_space",
+        "working",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "working",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sticking_notes_on_a_board",
+      "type": "action",
+      "label": "Sticking Notes On A Board",
+      "prompt": "sticking notes on a board",
+      "tags": [
+        "desk_space",
+        "working",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "working",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.rubbing_her_eyes_at_the_screen",
+      "type": "action",
+      "label": "Rubbing Her Eyes At The Screen",
+      "prompt": "rubbing her eyes at the screen",
+      "tags": [
+        "desk_space",
+        "working",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "working",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.talking_through_a_diagram",
+      "type": "action",
+      "label": "Talking Through A Diagram",
+      "prompt": "talking through a diagram",
+      "tags": [
+        "desk_space",
+        "working",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "working",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.packing_up_her_bag",
+      "type": "action",
+      "label": "Packing Up Her Bag",
+      "prompt": "packing up her bag at the end of the day",
+      "tags": [
+        "desk_space",
+        "threshold_space",
+        "working",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "working",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.waiting_for_her_order",
+      "type": "action",
+      "label": "Waiting For Her Order",
+      "prompt": "waiting for her order",
+      "tags": [
+        "counter_space",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.paying_at_the_till",
+      "type": "action",
+      "label": "Paying At The Till",
+      "prompt": "paying at the till",
+      "tags": [
+        "counter_space",
+        "retail_space",
+        "shopping",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.collecting_a_coffee",
+      "type": "action",
+      "label": "Collecting A Coffee",
+      "prompt": "collecting a coffee from the counter",
+      "tags": [
+        "counter_space",
+        "shopping",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.chatting_over_the_counter",
+      "type": "action",
+      "label": "Chatting Over The Counter",
+      "prompt": "leaning on the counter, chatting",
+      "tags": [
+        "counter_space",
+        "socializing",
+        "standing"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.steaming_milk",
+      "type": "action",
+      "label": "Steaming Milk",
+      "prompt": "steaming milk",
+      "tags": [
+        "counter_space",
+        "cooking_space",
+        "working",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "working",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.pulling_on_her_coat",
+      "type": "action",
+      "label": "Pulling On Her Coat",
+      "prompt": "pulling on her coat by the door",
+      "tags": [
+        "threshold_space",
+        "dressing",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "dressing",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.searching_her_bag_for_keys",
+      "type": "action",
+      "label": "Searching Her Bag For Keys",
+      "prompt": "searching her bag for keys",
+      "tags": [
+        "threshold_space",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.dropping_keys_in_a_bowl",
+      "type": "action",
+      "label": "Dropping Keys In A Bowl",
+      "prompt": "dropping her keys in a bowl",
+      "tags": [
+        "threshold_space",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.taking_off_her_shoes",
+      "type": "action",
+      "label": "Taking Off Her Shoes",
+      "prompt": "taking off her shoes",
+      "tags": [
+        "threshold_space",
+        "dressing",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "dressing",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.waiting_for_the_lift",
+      "type": "action",
+      "label": "Waiting For The Lift",
+      "prompt": "waiting for the lift",
+      "tags": [
+        "threshold_space",
+        "commuting",
+        "standing"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.climbing_the_stairs",
+      "type": "action",
+      "label": "Climbing The Stairs",
+      "prompt": "climbing the stairs, phone in hand",
+      "tags": [
+        "threshold_space",
+        "commuting",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sorting_boxes",
+      "type": "action",
+      "label": "Sorting Boxes",
+      "prompt": "sorting through boxes",
+      "tags": [
+        "utility_space",
+        "cleaning",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.wheeling_a_bike_out",
+      "type": "action",
+      "label": "Wheeling A Bike Out",
+      "prompt": "wheeling a bike out",
+      "tags": [
+        "utility_space",
+        "vehicle_exterior",
+        "commuting",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.digging_through_a_shelf",
+      "type": "action",
+      "label": "Digging Through A Shelf",
+      "prompt": "digging through a shelf of old things",
+      "tags": [
+        "utility_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.hauling_a_laundry_basket",
+      "type": "action",
+      "label": "Hauling A Laundry Basket",
+      "prompt": "hauling a laundry basket",
+      "tags": [
+        "utility_space",
+        "wash_space",
+        "cleaning",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.hanging_washing_on_the_line",
+      "type": "action",
+      "label": "Hanging Washing On The Line",
+      "prompt": "hanging washing on the line",
+      "tags": [
+        "outdoor_space",
+        "cleaning",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "cleaning",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.coffee_outside_in_the_cold",
+      "type": "action",
+      "label": "Coffee Outside In The Cold",
+      "prompt": "drinking coffee outside in the cold",
+      "tags": [
+        "outdoor_space",
+        "resting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.tending_potted_plants",
+      "type": "action",
+      "label": "Tending Potted Plants",
+      "prompt": "tending to potted plants",
+      "tags": [
+        "outdoor_space",
+        "creating",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sitting_on_the_steps",
+      "type": "action",
+      "label": "Sitting On The Steps",
+      "prompt": "sitting on the steps in the sun",
+      "tags": [
+        "outdoor_space",
+        "resting",
+        "seated"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "seated",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.lighting_a_barbecue",
+      "type": "action",
+      "label": "Lighting A Barbecue",
+      "prompt": "lighting a barbecue",
+      "tags": [
+        "outdoor_space",
+        "cooking",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "cooking",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.stretching_before_a_run",
+      "type": "action",
+      "label": "Stretching Before A Run",
+      "prompt": "stretching before a run",
+      "tags": [
+        "outdoor_space",
+        "exercising",
+        "standing"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.reading_in_a_deck_chair",
+      "type": "action",
+      "label": "Reading In A Deck Chair",
+      "prompt": "reading in a deck chair",
+      "tags": [
+        "outdoor_space",
+        "resting",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.walking_with_purpose",
+      "type": "action",
+      "label": "Walking With Purpose",
+      "prompt": "walking with purpose, bag on her shoulder",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.waiting_at_the_kerb",
+      "type": "action",
+      "label": "Waiting At The Kerb",
+      "prompt": "waiting at the kerb",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "standing"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.checking_directions",
+      "type": "action",
+      "label": "Checking Directions",
+      "prompt": "checking directions on her phone",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.hailing_a_car",
+      "type": "action",
+      "label": "Hailing A Car",
+      "prompt": "hailing a car",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.window_shopping",
+      "type": "action",
+      "label": "Window Shopping",
+      "prompt": "window shopping",
+      "tags": [
+        "transit_space",
+        "retail_space",
+        "shopping",
+        "standing"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.carrying_shopping_bags",
+      "type": "action",
+      "label": "Carrying Shopping Bags",
+      "prompt": "carrying shopping bags",
+      "tags": [
+        "transit_space",
+        "retail_space",
+        "shopping",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.crossing_with_the_crowd",
+      "type": "action",
+      "label": "Crossing With The Crowd",
+      "prompt": "crossing with the crowd",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "moving"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "moving",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.sheltering_from_the_rain",
+      "type": "action",
+      "label": "Sheltering From The Rain",
+      "prompt": "sheltering from the rain",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "standing"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.running_for_it",
+      "type": "action",
+      "label": "Running For It",
+      "prompt": "running for it",
+      "tags": [
+        "transit_space",
+        "commuting",
+        "moving"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "moving",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.driving_one_hand",
+      "type": "action",
+      "label": "Driving One Hand",
+      "prompt": "driving, one hand on the wheel",
+      "tags": [
+        "vehicle_seat",
+        "commuting",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.reversing_arm_over_the_seat",
+      "type": "action",
+      "label": "Reversing Arm Over The Seat",
+      "prompt": "reversing, arm over the passenger seat",
+      "tags": [
+        "vehicle_seat",
+        "commuting",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.sitting_in_traffic",
+      "type": "action",
+      "label": "Sitting In Traffic",
+      "prompt": "sitting in traffic",
+      "tags": [
+        "vehicle_seat",
+        "commuting",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.feet_on_the_dash",
+      "type": "action",
+      "label": "Feet On The Dash",
+      "prompt": "riding as a passenger, feet on the dash",
+      "tags": [
+        "vehicle_seat",
+        "resting",
+        "reclining"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.asleep_against_the_window",
+      "type": "action",
+      "label": "Asleep Against The Window",
+      "prompt": "asleep against the window",
+      "tags": [
+        "vehicle_seat",
+        "resting",
+        "reclining"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "reclining",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.holding_the_rail",
+      "type": "action",
+      "label": "Holding The Rail",
+      "prompt": "holding the rail as it moves",
+      "tags": [
+        "vehicle_seat",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.headphones_in_scrolling",
+      "type": "action",
+      "label": "Headphones In Scrolling",
+      "prompt": "checking her phone with headphones in",
+      "tags": [
+        "vehicle_seat",
+        "browsing",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "browsing",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.leaning_on_the_hood",
+      "type": "action",
+      "label": "Leaning On The Hood",
+      "prompt": "leaning on the hood",
+      "tags": [
+        "vehicle_exterior",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.loading_the_boot",
+      "type": "action",
+      "label": "Loading The Boot",
+      "prompt": "loading bags into the boot",
+      "tags": [
+        "vehicle_exterior",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.filling_the_tank",
+      "type": "action",
+      "label": "Filling The Tank",
+      "prompt": "filling the tank",
+      "tags": [
+        "vehicle_exterior",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.astride_the_saddle",
+      "type": "action",
+      "label": "Astride The Saddle",
+      "prompt": "astride the saddle, helmet under her arm",
+      "tags": [
+        "vehicle_exterior",
+        "commuting",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.browsing_a_rail",
+      "type": "action",
+      "label": "Browsing A Rail",
+      "prompt": "browsing a rail of clothes",
+      "tags": [
+        "retail_space",
+        "shopping",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.queueing_to_pay",
+      "type": "action",
+      "label": "Queueing To Pay",
+      "prompt": "queueing to pay",
+      "tags": [
+        "retail_space",
+        "counter_space",
+        "shopping",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "shopping",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.checking_her_phone",
+      "type": "action",
+      "label": "Checking Her Phone",
+      "prompt": "checking her phone",
+      "tags": [
+        "universal_indoor",
+        "browsing",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "browsing",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.laughing_off_camera",
+      "type": "action",
+      "label": "Laughing Off Camera",
+      "prompt": "laughing at something off-camera",
+      "tags": [
+        "universal_indoor",
+        "socializing",
+        "standing"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.stretching_arms_overhead",
+      "type": "action",
+      "label": "Stretching Arms Overhead",
+      "prompt": "stretching, arms overhead",
+      "tags": [
+        "universal_indoor",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.glancing_over_her_shoulder",
+      "type": "action",
+      "label": "Glancing Over Her Shoulder",
+      "prompt": "glancing over her shoulder",
+      "tags": [
+        "universal_indoor",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.lost_in_thought",
+      "type": "action",
+      "label": "Lost In Thought",
+      "prompt": "lost in thought",
+      "tags": [
+        "universal_indoor",
+        "resting",
+        "seated"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "seated",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.adjusting_her_sleeve",
+      "type": "action",
+      "label": "Adjusting Her Sleeve",
+      "prompt": "adjusting her sleeve",
+      "tags": [
+        "universal",
+        "grooming",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "grooming",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.taking_a_photo_on_her_phone",
+      "type": "action",
+      "label": "Taking A Photo On Her Phone",
+      "prompt": "taking a photo on her phone",
+      "tags": [
+        "universal",
+        "creating",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.drinking_from_a_takeaway_cup",
+      "type": "action",
+      "label": "Drinking From A Takeaway Cup",
+      "prompt": "drinking from a takeaway cup",
+      "tags": [
+        "universal",
+        "eating",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "eating",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.tying_her_laces",
+      "type": "action",
+      "label": "Tying Her Laces",
+      "prompt": "tying her laces",
+      "tags": [
+        "universal",
+        "dressing",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "dressing",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.squinting_into_the_sun",
+      "type": "action",
+      "label": "Squinting Into The Sun",
+      "prompt": "squinting into the sun",
+      "tags": [
+        "universal_outdoor",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.pulling_her_collar_up",
+      "type": "action",
+      "label": "Pulling Her Collar Up",
+      "prompt": "pulling her collar up against the wind",
+      "tags": [
+        "universal_outdoor",
+        "commuting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "commuting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.looking_out_at_the_view",
+      "type": "action",
+      "label": "Looking Out At The View",
+      "prompt": "looking out at the view",
+      "tags": [
+        "universal_outdoor",
+        "resting",
+        "standing"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.shielding_her_eyes",
+      "type": "action",
+      "label": "Shielding Her Eyes",
+      "prompt": "shielding her eyes with one hand",
+      "tags": [
+        "universal_outdoor",
+        "resting",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.walking_and_talking",
+      "type": "action",
+      "label": "Walking And Talking",
+      "prompt": "walking and talking on the phone",
+      "tags": [
+        "universal_outdoor",
+        "socializing",
+        "moving",
+        "hands_busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "socializing",
+        "posture": "moving",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.mid_run",
+      "type": "action",
+      "label": "Mid Run",
+      "prompt": "mid-run, breathing hard",
+      "tags": [
+        "outdoor_space",
+        "transit_space",
+        "exercising",
+        "moving"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "moving",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.lacing_up_trainers",
+      "type": "action",
+      "label": "Lacing Up Trainers",
+      "prompt": "lacing up her trainers",
+      "tags": [
+        "outdoor_space",
+        "threshold_space",
+        "exercising",
+        "crouching",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "crouching",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.stretching_against_a_wall",
+      "type": "action",
+      "label": "Stretching Against A Wall",
+      "prompt": "stretching a calf against a wall",
+      "tags": [
+        "outdoor_space",
+        "transit_space",
+        "exercising",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.catching_her_breath",
+      "type": "action",
+      "label": "Catching Her Breath",
+      "prompt": "catching her breath, hands on her knees",
+      "tags": [
+        "outdoor_space",
+        "transit_space",
+        "exercising",
+        "crouching"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "crouching",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.yoga_on_the_floor",
+      "type": "action",
+      "label": "Yoga On The Floor",
+      "prompt": "holding a yoga pose on the floor",
+      "tags": [
+        "lounge_space",
+        "outdoor_space",
+        "exercising",
+        "reclining"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "reclining",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.lifting_a_kettlebell",
+      "type": "action",
+      "label": "Lifting A Kettlebell",
+      "prompt": "lifting a kettlebell",
+      "tags": [
+        "lounge_space",
+        "utility_space",
+        "exercising",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.cooling_down_with_water",
+      "type": "action",
+      "label": "Cooling Down With Water",
+      "prompt": "cooling down, drinking water",
+      "tags": [
+        "outdoor_space",
+        "universal_outdoor",
+        "exercising",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "exercising",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.painting_at_an_easel",
+      "type": "action",
+      "label": "Painting At An Easel",
+      "prompt": "painting at an easel",
+      "tags": [
+        "desk_space",
+        "lounge_space",
+        "creating",
+        "standing",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "standing",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.tuning_a_guitar",
+      "type": "action",
+      "label": "Tuning A Guitar",
+      "prompt": "tuning a guitar",
+      "tags": [
+        "lounge_space",
+        "sleep_space",
+        "creating",
+        "seated",
+        "hands_busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "seated",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.filming_herself_on_a_tripod",
+      "type": "action",
+      "label": "Filming Herself On A Tripod",
+      "prompt": "filming herself on a phone tripod",
+      "tags": [
+        "universal_indoor",
+        "creating",
+        "standing"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "creating",
+        "posture": "standing",
+        "hands": "free"
+      }
+    },
+    {
+      "id": "brkn_base.action.scrolling_in_bed_late",
+      "type": "action",
+      "label": "Scrolling In Bed Late",
+      "prompt": "scrolling in the dark, screen lighting her face",
+      "tags": [
+        "sleep_space",
+        "lounge_space",
+        "browsing",
+        "reclining",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "browsing",
+        "posture": "reclining",
+        "hands": "busy"
+      }
+    },
+    {
+      "id": "brkn_base.action.holding_phone_arms_length",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "selfie",
+        "universal"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 6.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.action.mirror_selfie",
+      "type": "action",
+      "label": "Taking a mirror selfie",
+      "prompt": "taking a mirror selfie",
+      "tags": [
+        "standing",
+        "hands_busy",
+        "selfie",
+        "mirror_selfie",
+        "universal_indoor"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "action_family": "creating"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 6.0
+        }
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

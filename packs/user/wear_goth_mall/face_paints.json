@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth_mall.face_paint.raccoon_liner",
+      "type": "face_paint",
+      "label": "Black liner smudged all the way around both eyes",
+      "prompt": "black liner smudged all the way around both eyes",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_mall.face_paint.black_lipstick",
+      "type": "face_paint",
+      "label": "Flat black lipstick",
+      "prompt": "flat black lipstick",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_mall.face_paint.glitter_black",
+      "type": "face_paint",
+      "label": "Black liner with a smear of glitter",
+      "prompt": "black liner with a smear of glitter",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_mall.face_paint.smudged_slept_in",
+      "type": "face_paint",
+      "label": "Yesterday's liner, slept in",
+      "prompt": "yesterday's liner, slept in",
+      "tags": [
+        "natural"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "coverage": "natural"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_car_911",
+  "selection_role": "modifier",
+  "selection_category": "transportation",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/transportation",
+  "cover_image": {
+    "path": "porshe__thumbnail_512.webp",
+    "label": "place_car_911 cover thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

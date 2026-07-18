@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "look_cinematic",
+  "selection_role": "modifier",
+  "selection_category": "camera_lighting",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "cinematic__thumbnail_512.webp",
+    "label": "Cinematic style thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

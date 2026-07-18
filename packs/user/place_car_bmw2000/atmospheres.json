@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_car_bmw2000.atmosphere.chrome_low_sun",
+      "type": "atmosphere",
+      "label": "Low sun catching the chrome",
+      "prompt": "low sun catching the chrome",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.atmosphere.wet_cobbles",
+      "type": "atmosphere",
+      "label": "Wet cobbles throwing the light back up",
+      "prompt": "wet cobbles throwing the light back up",
+      "tags": [
+        "weather_rain",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "weather": "rain",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.atmosphere.night_bmw",
+      "type": "atmosphere",
+      "label": "Full dark, only the streetlights",
+      "prompt": "full dark, only the streetlights",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "night"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.atmosphere.autumn_bmw",
+      "type": "atmosphere",
+      "label": "Flat grey autumn light",
+      "prompt": "flat grey autumn light",
+      "tags": [
+        "weather_overcast",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "weather": "overcast",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

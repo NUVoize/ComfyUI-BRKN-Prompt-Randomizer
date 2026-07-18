@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_goth_classic2",
+  "name": "BRKN Goth - Classic 2",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Structured club-goth. Corsetry, pleats, towering platforms, O-rings, black lips. Cold, elegant, doll-like, commanding.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "accessories",
+    "face_paints",
+    "outerwear",
+    "body_arts",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "capsule",
+    "layerable"
+  ]
+}

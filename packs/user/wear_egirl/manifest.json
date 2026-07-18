@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_egirl",
+  "name": "BRKN Wardrobe - E-Girl",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "E-girl wardrobe set. Clothes only. Layer on brkn_chassis + any place pack.",
+  "content_types": [
+    "outfits",
+    "footwear",
+    "outerwear",
+    "accessories",
+    "eyewear",
+    "headwear",
+    "face_paints",
+    "body_arts",
+    "hair_colors",
+    "hair_styles"
+  ],
+  "enabled_by_default": false,
+  "priority": 400,
+  "dependencies": [],
+  "tags": [
+    "wardrobe",
+    "layerable",
+    "set"
+  ]
+}

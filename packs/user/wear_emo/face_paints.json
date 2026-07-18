@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_emo.face_paint.raccoon_liner",
+      "type": "face_paint",
+      "label": "Heavy black liner smudged all around the eye",
+      "prompt": "heavy black liner smudged all around the eye",
+      "tags": [
+        "glam",
+        "emo"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_emo.face_paint.black_liner_lash",
+      "type": "face_paint",
+      "label": "Thick black liner and heavy lashes",
+      "prompt": "thick black liner and heavy lashes",
+      "tags": [
+        "glam",
+        "emo"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_emo.face_paint.pale_dark_eye",
+      "type": "face_paint",
+      "label": "Pale skin, a dark eye, a bare lip",
+      "prompt": "pale skin, a dark eye, a bare lip",
+      "tags": [
+        "glam",
+        "emo"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_emo.face_paint.smudged_yesterday",
+      "type": "face_paint",
+      "label": "Yesterday's liner, smudged",
+      "prompt": "yesterday's liner, smudged",
+      "tags": [
+        "natural",
+        "emo"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_emo.face_paint.bare_emo",
+      "type": "face_paint",
+      "label": "Bare skin, dark brows, nothing else",
+      "prompt": "bare skin, dark brows, nothing else",
+      "tags": [
+        "bare",
+        "emo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "bare"
+      }
+    }
+  ]
+}

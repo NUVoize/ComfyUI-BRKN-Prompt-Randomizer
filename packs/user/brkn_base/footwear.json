@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "brkn_base.footwear.white_converse",
+      "type": "footwear",
+      "label": "White Converse",
+      "prompt": "scuffed white Converse",
+      "tags": [
+        "casual",
+        "street",
+        "flat"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "footwear_category": "trainers"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.black_high_top_converse",
+      "type": "footwear",
+      "label": "Black High Top Converse",
+      "prompt": "black high-top Converse",
+      "tags": [
+        "casual",
+        "street",
+        "alt",
+        "flat"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "trainers"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.vans_slip_ons",
+      "type": "footwear",
+      "label": "Vans Slip Ons",
+      "prompt": "Vans slip-ons",
+      "tags": [
+        "casual",
+        "street",
+        "flat"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "trainers"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.chunky_white_trainers",
+      "type": "footwear",
+      "label": "Chunky White Trainers",
+      "prompt": "chunky white trainers",
+      "tags": [
+        "casual",
+        "street",
+        "flat"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "trainers"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.running_trainers",
+      "type": "footwear",
+      "label": "Running Trainers",
+      "prompt": "running trainers",
+      "tags": [
+        "sporty",
+        "flat"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "footwear_category": "trainers"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.black_ankle_boots",
+      "type": "footwear",
+      "label": "Black Ankle Boots",
+      "prompt": "black leather ankle boots",
+      "tags": [
+        "smart_casual",
+        "heel_low"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.tan_cowboy_boots",
+      "type": "footwear",
+      "label": "Tan Cowboy Boots",
+      "prompt": "tan cowboy boots",
+      "tags": [
+        "casual",
+        "bohemian",
+        "heel_low"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.knee_high_boots",
+      "type": "footwear",
+      "label": "Knee High Boots",
+      "prompt": "knee-high leather boots",
+      "tags": [
+        "glam",
+        "heel_high"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "exercising"
+        ],
+        "outfit_tags_any": [
+          "loungewear"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.footwear.chelsea_boots",
+      "type": "footwear",
+      "label": "Chelsea Boots",
+      "prompt": "black Chelsea boots",
+      "tags": [
+        "smart_casual",
+        "flat"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.combat_boots",
+      "type": "footwear",
+      "label": "Combat Boots",
+      "prompt": "chunky combat boots",
+      "tags": [
+        "edgy",
+        "alt",
+        "street",
+        "flat"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.hiking_boots",
+      "type": "footwear",
+      "label": "Hiking Boots",
+      "prompt": "worn hiking boots",
+      "tags": [
+        "utility",
+        "flat"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.wellingtons",
+      "type": "footwear",
+      "label": "Wellingtons",
+      "prompt": "rubber wellington boots",
+      "tags": [
+        "utility",
+        "flat"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "footwear_category": "boots"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.strappy_heeled_sandals",
+      "type": "footwear",
+      "label": "Strappy Heeled Sandals",
+      "prompt": "strappy heeled sandals",
+      "tags": [
+        "glam",
+        "evening",
+        "heel_high"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "exercising"
+        ],
+        "outfit_tags_any": [
+          "loungewear"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "footwear_category": "heels"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.black_stilettos",
+      "type": "footwear",
+      "label": "Black Stilettos",
+      "prompt": "black stiletto heels",
+      "tags": [
+        "glam",
+        "evening",
+        "formal",
+        "heel_high"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "exercising"
+        ],
+        "outfit_tags_any": [
+          "loungewear"
+        ]
+      },
+      "metadata": {
+        "footwear_category": "heels"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.block_heel_pumps",
+      "type": "footwear",
+      "label": "Block Heel Pumps",
+      "prompt": "block-heel pumps",
+      "tags": [
+        "formal",
+        "office",
+        "heel_low"
+      ],
+      "weight": 1.1,
+      "excludes": {
+        "action_tags_any": [
+          "exercising"
+        ]
+      },
+      "metadata": {
+        "footwear_category": "heels"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.pointed_loafers",
+      "type": "footwear",
+      "label": "Pointed Loafers",
+      "prompt": "pointed leather loafers",
+      "tags": [
+        "formal",
+        "office",
+        "minimal",
+        "flat"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.ballet_flats",
+      "type": "footwear",
+      "label": "Ballet Flats",
+      "prompt": "ballet flats",
+      "tags": [
+        "soft_feminine",
+        "minimal",
+        "flat"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "footwear_category": "flats"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.cork_sandals",
+      "type": "footwear",
+      "label": "Cork Sandals",
+      "prompt": "cork-soled sandals",
+      "tags": [
+        "casual",
+        "bohemian",
+        "flat"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "winter"
+        ]
+      },
+      "metadata": {
+        "footwear_category": "sandals"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.flip_flops",
+      "type": "footwear",
+      "label": "Flip Flops",
+      "prompt": "flip flops",
+      "tags": [
+        "casual",
+        "flat"
+      ],
+      "weight": 0.6,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "winter"
+        ]
+      },
+      "metadata": {
+        "footwear_category": "sandals"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.espadrilles",
+      "type": "footwear",
+      "label": "Espadrilles",
+      "prompt": "espadrilles",
+      "tags": [
+        "summer",
+        "bohemian",
+        "flat"
+      ],
+      "weight": 0.7,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "footwear_category": "sandals"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.fluffy_slippers",
+      "type": "footwear",
+      "label": "Fluffy Slippers",
+      "prompt": "fluffy slippers",
+      "tags": [
+        "loungewear",
+        "flat"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "prefers": {
+        "outfit_tags_any": {
+          "values": [
+            "loungewear"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "metadata": {
+        "footwear_category": "indoor"
+      }
+    },
+    {
+      "id": "brkn_base.footwear.barefoot",
+      "type": "footwear",
+      "label": "Barefoot",
+      "prompt": "barefoot",
+      "tags": [
+        "loungewear",
+        "flat"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "prefers": {
+        "outfit_tags_any": {
+          "values": [
+            "loungewear"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "metadata": {
+        "footwear_category": "indoor"
+      }
+    }
+  ]
+}

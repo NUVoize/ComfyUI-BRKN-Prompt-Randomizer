@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_home.location.bedroom",
+      "type": "location",
+      "label": "In a bedroom with unmade linen",
+      "prompt": "in a bedroom with unmade linen",
+      "tags": [
+        "indoor",
+        "mirror",
+        "bedroom"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "sleep_space",
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.bathroom",
+      "type": "location",
+      "label": "In a bright bathroom",
+      "prompt": "in a bright bathroom",
+      "tags": [
+        "indoor",
+        "mirror",
+        "bathroom"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "wash_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.kitchen",
+      "type": "location",
+      "label": "In a small kitchen",
+      "prompt": "in a small kitchen",
+      "tags": [
+        "indoor"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "cooking_space",
+          "counter_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.living_room",
+      "type": "location",
+      "label": "In a sunlit living room",
+      "prompt": "in a sunlit living room",
+      "tags": [
+        "indoor",
+        "lounge"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.hallway",
+      "type": "location",
+      "label": "In a narrow hallway",
+      "prompt": "in a narrow hallway",
+      "tags": [
+        "indoor",
+        "mirror"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.closet",
+      "type": "location",
+      "label": "In a walk-in closet lined with clothes",
+      "prompt": "in a walk-in closet lined with clothes",
+      "tags": [
+        "indoor",
+        "mirror",
+        "closet"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.desk",
+      "type": "location",
+      "label": "In a cluttered desk in the corner",
+      "prompt": "in a cluttered desk in the corner",
+      "tags": [
+        "indoor"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "desk_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.sofa",
+      "type": "location",
+      "label": "On the corner of a low sofa",
+      "prompt": "on the corner of a low sofa",
+      "tags": [
+        "indoor",
+        "lounge"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.floor_rug",
+      "type": "location",
+      "label": "On a rug on the floor",
+      "prompt": "on a rug on the floor",
+      "tags": [
+        "indoor",
+        "lounge"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.window_seat",
+      "type": "location",
+      "label": "In a window seat",
+      "prompt": "in a window seat",
+      "tags": [
+        "indoor"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "lounge_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.stairs",
+      "type": "location",
+      "label": "On a flight of stairs",
+      "prompt": "on a flight of stairs",
+      "tags": [
+        "indoor"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.balcony",
+      "type": "location",
+      "label": "On a small balcony above the street",
+      "prompt": "on a small balcony above the street",
+      "tags": [
+        "outdoor"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "outdoor_space",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "place_home.location.front_door",
+      "type": "location",
+      "label": "In a half-open front door",
+      "prompt": "in a half-open front door",
+      "tags": [
+        "threshold"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "threshold_space",
+          "universal_outdoor"
+        ]
+      }
+    }
+  ]
+}

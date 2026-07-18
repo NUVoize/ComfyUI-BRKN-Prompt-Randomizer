@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "content_type": "bags",
+  "entries": [
+    {
+      "id": "brkn_instagram.bag.mini_shoulder",
+      "type": "bag",
+      "label": "A mini shoulder bag",
+      "prompt": "a mini shoulder bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "brkn_instagram.bag.canvas_tote",
+      "type": "bag",
+      "label": "A canvas tote",
+      "prompt": "a canvas tote",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "brkn_instagram.bag.nylon_crossbody",
+      "type": "bag",
+      "label": "A nylon crossbody bag",
+      "prompt": "a nylon crossbody bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "brkn_instagram.bag.gym_duffel",
+      "type": "bag",
+      "label": "A gym duffel",
+      "prompt": "a gym duffel",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "brkn_instagram.bag.unspecified",
+      "type": "bag",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 14.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

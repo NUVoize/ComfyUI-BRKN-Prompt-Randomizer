@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_yacht.atmosphere.med_blue_sky",
+      "type": "atmosphere",
+      "label": "A clear blue mediterranean sky",
+      "prompt": "a clear blue Mediterranean sky",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.crisp_sun_water",
+      "type": "atmosphere",
+      "label": "Crisp sunlight coming back off the water",
+      "prompt": "crisp sunlight coming back off the water",
+      "tags": [
+        "weather_clear",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "weather": "clear",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.sea_haze",
+      "type": "atmosphere",
+      "label": "Soft sea haze softening the distance",
+      "prompt": "soft sea haze softening the distance",
+      "tags": [
+        "weather_haze",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "weather": "haze",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.golden_teak",
+      "type": "atmosphere",
+      "label": "Late golden light warming the teak",
+      "prompt": "late golden light warming the teak",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.still_water",
+      "type": "atmosphere",
+      "label": "The water dead calm",
+      "prompt": "the water dead calm",
+      "tags": [
+        "weather_clear",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "weather": "clear",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.marina_lights",
+      "type": "atmosphere",
+      "label": "The marina lit up after dark",
+      "prompt": "the marina lit up after dark",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "night"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      }
+    },
+    {
+      "id": "place_yacht.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

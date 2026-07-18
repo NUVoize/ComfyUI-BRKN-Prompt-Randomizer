@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "place_yacht.handheld.champagne_flute",
+      "type": "handheld",
+      "label": "A champagne flute",
+      "prompt": "a champagne flute",
+      "tags": [
+        "luxury"
+      ],
+      "weight": 2.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.handheld.cold_drink",
+      "type": "handheld",
+      "label": "A tall cold drink beading with condensation",
+      "prompt": "a tall cold drink beading with condensation",
+      "tags": [
+        "luxury"
+      ],
+      "weight": 1.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.handheld.sunglasses_in_hand",
+      "type": "handheld",
+      "label": "Her sunglasses held in one hand",
+      "prompt": "her sunglasses held in one hand",
+      "tags": [
+        "everyday"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.handheld.straw_hat_held",
+      "type": "handheld",
+      "label": "A wide straw hat held at her side",
+      "prompt": "a wide straw hat held at her side",
+      "tags": [
+        "summer"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.handheld.towel",
+      "type": "handheld",
+      "label": "A rolled white towel",
+      "prompt": "a rolled white towel",
+      "tags": [
+        "everyday"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_yacht.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 7.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

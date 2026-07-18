@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "content_type": "figures",
+  "entries": [
+    {
+      "id": "brkn_base.figure.slim_waist_full_bust",
+      "type": "figure",
+      "label": "A slim waist and a fuller bust",
+      "prompt": "a slim waist and a fuller bust",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.narrow_waist_full_hips",
+      "type": "figure",
+      "label": "A narrow waist and full hips",
+      "prompt": "a narrow waist and full hips",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.5,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.hourglass",
+      "type": "figure",
+      "label": "An hourglass shape, waist narrow, hips and bust full",
+      "prompt": "an hourglass shape, waist narrow, hips and bust full",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.flat_stomach_toned",
+      "type": "figure",
+      "label": "A flat stomach and a toned midsection",
+      "prompt": "a flat stomach and a toned midsection",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.visible_abs",
+      "type": "figure",
+      "label": "Visible abs and a tight waist",
+      "prompt": "visible abs and a tight waist",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.soft_stomach",
+      "type": "figure",
+      "label": "A soft stomach and gentle curves",
+      "prompt": "a soft stomach and gentle curves",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.long_legs_narrow_hips",
+      "type": "figure",
+      "label": "Long legs and narrow hips",
+      "prompt": "long legs and narrow hips",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.strong_thighs",
+      "type": "figure",
+      "label": "Strong thighs and a rounded seat",
+      "prompt": "strong thighs and a rounded seat",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.lean_all_over",
+      "type": "figure",
+      "label": "Lean everywhere, very little softness",
+      "prompt": "lean everywhere, very little softness",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.small_bust_lean",
+      "type": "figure",
+      "label": "A small bust and a lean frame",
+      "prompt": "a small bust and a lean frame",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.broad_shoulders_narrow_hips",
+      "type": "figure",
+      "label": "Broad shoulders tapering to narrow hips",
+      "prompt": "broad shoulders tapering to narrow hips",
+      "tags": [
+        "figure"
+      ],
+      "weight": 0.8,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.full_figure",
+      "type": "figure",
+      "label": "Full through the bust, waist and hips alike",
+      "prompt": "full through the bust, waist and hips alike",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.athletic_flat",
+      "type": "figure",
+      "label": "An athletic build, flat and hard through the middle",
+      "prompt": "an athletic build, flat and hard through the middle",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.wide_hips_slim_waist",
+      "type": "figure",
+      "label": "Wide hips and a very slim waist",
+      "prompt": "wide hips and a very slim waist",
+      "tags": [
+        "figure"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.petite_curves",
+      "type": "figure",
+      "label": "Small but curved, the proportions compact",
+      "prompt": "small but curved, the proportions compact",
+      "tags": [
+        "figure"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "character_tags_any": [
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.figure.unspecified",
+      "type": "figure",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 24.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

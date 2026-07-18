@@ -1,0 +1,1084 @@
+{
+  "schema_version": "1.0",
+  "content_type": "eyewear",
+  "entries": [
+    {
+      "id": "brkn_base.eyewear.oversized_black_sunglasses",
+      "type": "eyewear",
+      "label": "Oversized black sunglasses",
+      "prompt": "oversized black sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.oversized_square_sunglasses",
+      "type": "eyewear",
+      "label": "Oversized square sunglasses",
+      "prompt": "oversized square sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.oversized_round_sunglasses",
+      "type": "eyewear",
+      "label": "Oversized round sunglasses",
+      "prompt": "oversized round sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.oversized_cat_eye_sunglasses",
+      "type": "eyewear",
+      "label": "Oversized cat-eye sunglasses",
+      "prompt": "oversized cat-eye sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.narrow_rectangular_sunglasses",
+      "type": "eyewear",
+      "label": "Narrow rectangular sunglasses",
+      "prompt": "narrow rectangular sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.slim_oval_sunglasses",
+      "type": "eyewear",
+      "label": "Slim oval sunglasses",
+      "prompt": "slim oval sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tiny_retro_sunglasses",
+      "type": "eyewear",
+      "label": "Tiny retro sunglasses",
+      "prompt": "tiny retro sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.futuristic_visor_sunglasses",
+      "type": "eyewear",
+      "label": "Futuristic visor sunglasses",
+      "prompt": "futuristic visor sunglasses",
+      "tags": [
+        "sunglasses",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.wraparound_sport_sunglasses",
+      "type": "eyewear",
+      "label": "Wraparound sport sunglasses",
+      "prompt": "wraparound sport sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.angular_geometric_sunglasses",
+      "type": "eyewear",
+      "label": "Angular geometric sunglasses",
+      "prompt": "angular geometric sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.shield_sunglasses",
+      "type": "eyewear",
+      "label": "Shield sunglasses",
+      "prompt": "shield sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.aviator_sunglasses",
+      "type": "eyewear",
+      "label": "Aviator sunglasses",
+      "prompt": "aviator sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.mirrored_aviator_sunglasses",
+      "type": "eyewear",
+      "label": "Mirrored aviator sunglasses",
+      "prompt": "mirrored aviator sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.gradient_lens_sunglasses",
+      "type": "eyewear",
+      "label": "Gradient-lens sunglasses",
+      "prompt": "gradient-lens sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tinted_round_sunglasses",
+      "type": "eyewear",
+      "label": "Tinted round sunglasses",
+      "prompt": "tinted round sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tinted_pink_sunglasses",
+      "type": "eyewear",
+      "label": "Tinted pink sunglasses",
+      "prompt": "tinted pink sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tinted_blue_sunglasses",
+      "type": "eyewear",
+      "label": "Tinted blue sunglasses",
+      "prompt": "tinted blue sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tinted_amber_sunglasses",
+      "type": "eyewear",
+      "label": "Tinted amber sunglasses",
+      "prompt": "tinted amber sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tinted_green_sunglasses",
+      "type": "eyewear",
+      "label": "Tinted green sunglasses",
+      "prompt": "tinted green sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.translucent_frame_sunglasses",
+      "type": "eyewear",
+      "label": "Translucent frame sunglasses",
+      "prompt": "translucent frame sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.white_framed_sunglasses",
+      "type": "eyewear",
+      "label": "White-framed sunglasses",
+      "prompt": "white-framed sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.black_glossy_sunglasses",
+      "type": "eyewear",
+      "label": "Black glossy sunglasses",
+      "prompt": "black glossy sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.matte_black_sunglasses",
+      "type": "eyewear",
+      "label": "Matte black sunglasses",
+      "prompt": "matte black sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.tortoiseshell_sunglasses",
+      "type": "eyewear",
+      "label": "Tortoiseshell sunglasses",
+      "prompt": "tortoiseshell sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.gold_frame_sunglasses",
+      "type": "eyewear",
+      "label": "Gold-frame sunglasses",
+      "prompt": "gold-frame sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.silver_frame_sunglasses",
+      "type": "eyewear",
+      "label": "Silver-frame sunglasses",
+      "prompt": "silver-frame sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.rimless_sunglasses",
+      "type": "eyewear",
+      "label": "Rimless sunglasses",
+      "prompt": "rimless sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.embellished_sunglasses",
+      "type": "eyewear",
+      "label": "Embellished sunglasses",
+      "prompt": "embellished sunglasses",
+      "tags": [
+        "sunglasses",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.jewel_studded_sunglasses",
+      "type": "eyewear",
+      "label": "Jewel-studded sunglasses",
+      "prompt": "jewel-studded sunglasses",
+      "tags": [
+        "sunglasses",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.fashion_runway_sunglasses",
+      "type": "eyewear",
+      "label": "Fashion runway sunglasses",
+      "prompt": "fashion runway sunglasses",
+      "tags": [
+        "sunglasses",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.dramatic_oversized_visor",
+      "type": "eyewear",
+      "label": "Dramatic oversized visor",
+      "prompt": "dramatic oversized visor",
+      "tags": [
+        "sunglasses",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.retro_cat_eye_sunglasses",
+      "type": "eyewear",
+      "label": "Retro cat-eye sunglasses",
+      "prompt": "retro cat-eye sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.thick_acetate_sunglasses",
+      "type": "eyewear",
+      "label": "Thick acetate sunglasses",
+      "prompt": "thick acetate sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.slim_metal_sunglasses",
+      "type": "eyewear",
+      "label": "Slim metal sunglasses",
+      "prompt": "slim metal sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.colored_lens_sunglasses",
+      "type": "eyewear",
+      "label": "Colored lens sunglasses",
+      "prompt": "colored lens sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.heart_shaped_sunglasses",
+      "type": "eyewear",
+      "label": "Heart-shaped sunglasses",
+      "prompt": "heart-shaped sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.hexagonal_sunglasses",
+      "type": "eyewear",
+      "label": "Hexagonal sunglasses",
+      "prompt": "hexagonal sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.butterfly_sunglasses",
+      "type": "eyewear",
+      "label": "Butterfly sunglasses",
+      "prompt": "butterfly sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.sporty_shield_visor",
+      "type": "eyewear",
+      "label": "Sporty shield visor",
+      "prompt": "sporty shield visor",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.minimalist_luxury_sunglasses",
+      "type": "eyewear",
+      "label": "Minimalist luxury sunglasses",
+      "prompt": "minimalist luxury sunglasses",
+      "tags": [
+        "sunglasses"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.0
+        }
+      }
+    },
+    {
+      "id": "brkn_base.eyewear.clear_lens_fashion_glasses",
+      "type": "eyewear",
+      "label": "Clear-lens fashion glasses",
+      "prompt": "clear-lens fashion glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.thin_wire_frame_glasses",
+      "type": "eyewear",
+      "label": "Thin wire-frame glasses",
+      "prompt": "thin wire-frame glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.thick_black_optical_glasses",
+      "type": "eyewear",
+      "label": "Thick black optical glasses",
+      "prompt": "thick black optical glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.oversized_optical_glasses",
+      "type": "eyewear",
+      "label": "Oversized optical glasses",
+      "prompt": "oversized optical glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.round_wire_glasses",
+      "type": "eyewear",
+      "label": "Round wire glasses",
+      "prompt": "round wire glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.square_fashion_glasses",
+      "type": "eyewear",
+      "label": "Square fashion glasses",
+      "prompt": "square fashion glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.rimless_optical_glasses",
+      "type": "eyewear",
+      "label": "Rimless optical glasses",
+      "prompt": "rimless optical glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.lightly_tinted_reading_glasses",
+      "type": "eyewear",
+      "label": "Lightly tinted reading glasses",
+      "prompt": "lightly tinted reading glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.gold_rim_glasses",
+      "type": "eyewear",
+      "label": "Gold-rim glasses",
+      "prompt": "gold-rim glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.clear_acetate_glasses",
+      "type": "eyewear",
+      "label": "Clear acetate glasses",
+      "prompt": "clear acetate glasses",
+      "tags": [
+        "glasses"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.eyewear.unspecified",
+      "type": "eyewear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 34.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_goth_mall.outerwear.denim_patches",
+      "type": "outerwear",
+      "label": "A black denim jacket covered in band patches",
+      "prompt": "a black denim jacket covered in band patches",
+      "tags": [
+        "outer"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_mall.outerwear.puffer_black_mall",
+      "type": "outerwear",
+      "label": "A shiny black puffer",
+      "prompt": "a shiny black puffer",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_goth_mall.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

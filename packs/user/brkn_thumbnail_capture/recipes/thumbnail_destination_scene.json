@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "recipe_id": "thumbnail_destination_scene",
+  "label": "Destination Scene",
+  "purpose": "Location and destination collection thumbnails.",
+  "subject_mode": "optional_abby",
+  "prompt": "clear destination mood shot, recognizable architecture or environment, uncluttered composition, bright readable scene, Abby optional and secondary, no selfie framing",
+  "priority": [
+    "location identity",
+    "atmosphere",
+    "architecture",
+    "travel mood"
+  ],
+  "restrictions": [
+    "no crowded environment",
+    "no selfie framing",
+    "no busy background"
+  ],
+  "negative_prompt": "selfie, phone visible, camera visible, arm extended toward camera, mirror selfie, walking, running, dancing, lying down, crouching, action pose, extreme perspective, dutch angle, crowded environment, busy background, cropped feet, hands covering face, duplicate person"
+}

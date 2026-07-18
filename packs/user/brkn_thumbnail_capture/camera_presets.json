@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_beauty_close",
+      "type": "camera_preset",
+      "label": "Thumbnail Beauty Close-Up",
+      "prompt": "close-up face portrait, front or slight three-quarter view, shoulders visible",
+      "tags": ["thumbnail", "beauty", "close", "face", "hair", "makeup"],
+      "weight": 2.0,
+      "metadata": {
+        "framing": "close-up face portrait, shoulders visible",
+        "camera_angle": "front or slight three-quarter view"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_halfbody_style",
+      "type": "camera_preset",
+      "label": "Thumbnail Half-Body Style",
+      "prompt": "half-body portrait, body slightly angled, face toward camera",
+      "tags": ["thumbnail", "halfbody", "style", "upper_outfit"],
+      "weight": 3.0,
+      "metadata": {
+        "framing": "half-body portrait",
+        "camera_angle": "slight three-quarter catalog view"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_threequarter_fashion",
+      "type": "camera_preset",
+      "label": "Thumbnail Three-Quarter Fashion",
+      "prompt": "three-quarter body fashion portrait, complete outfit clearly visible",
+      "tags": ["thumbnail", "threequarter", "fashion", "wardrobe"],
+      "weight": 6.0,
+      "metadata": {
+        "framing": "three-quarter body fashion portrait, complete outfit clearly visible",
+        "camera_angle": "front or slight three-quarter catalog view"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_fullbody_wardrobe",
+      "type": "camera_preset",
+      "label": "Thumbnail Full-Body Wardrobe",
+      "prompt": "full-body catalog portrait, complete outfit and footwear visible",
+      "tags": ["thumbnail", "fullbody", "wardrobe", "footwear"],
+      "weight": 4.0,
+      "metadata": {
+        "framing": "full-body catalog portrait, complete outfit and footwear visible",
+        "camera_angle": "front or slight three-quarter catalog view"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_vehicle_hero",
+      "type": "camera_preset",
+      "label": "Thumbnail Vehicle Hero",
+      "prompt": "single hero vehicle, clean front three-quarter view, readable silhouette",
+      "tags": ["thumbnail", "vehicle", "hero"],
+      "weight": 3.0,
+      "metadata": {
+        "framing": "single hero vehicle, readable silhouette",
+        "camera_angle": "clean front three-quarter view"
+      }
+    },
+    {
+      "id": "brkn_thumbnail_capture.camera_preset.thumbnail_destination_scene",
+      "type": "camera_preset",
+      "label": "Thumbnail Destination Scene",
+      "prompt": "clear destination mood shot, recognizable architecture or environment",
+      "tags": ["thumbnail", "destination", "travel"],
+      "weight": 3.0,
+      "metadata": {
+        "framing": "clear destination mood shot with readable environment",
+        "camera_angle": "controlled travel catalog view"
+      }
+    }
+  ]
+}

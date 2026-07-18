@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "content_type": "brows",
+  "entries": [
+    {
+      "id": "brkn_base.brows.thick",
+      "type": "brows",
+      "label": "Thick",
+      "prompt": "thick eyebrows",
+      "tags": [
+        "thick"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.brows.thin",
+      "type": "brows",
+      "label": "Thin",
+      "prompt": "thin eyebrows",
+      "tags": [
+        "thin"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_base.brows.dark",
+      "type": "brows",
+      "label": "Dark",
+      "prompt": "dark eyebrows",
+      "tags": [
+        "dark"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_base.brows.pale",
+      "type": "brows",
+      "label": "Pale",
+      "prompt": "pale eyebrows",
+      "tags": [
+        "pale"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "brkn_base.brows.straight_bold",
+      "type": "brows",
+      "label": "Straight Bold",
+      "prompt": "straight bold eyebrows",
+      "tags": [
+        "thick",
+        "strong"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.brows.arched",
+      "type": "brows",
+      "label": "Arched",
+      "prompt": "arched eyebrows",
+      "tags": [
+        "arched"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_base.brows.unspecified",
+      "type": "brows",
+      "label": "— unspecified —",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 12.83,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

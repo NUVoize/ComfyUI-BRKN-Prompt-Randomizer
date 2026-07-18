@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "look_y2k",
+  "name": "BRKN Look - Y2K Digicam",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "2002 on a cheap digital camera. Hot flash, noisy sensor, green cast, 4:3.",
+  "content_types": [
+    "visual_styles",
+    "camera_presets",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 500,
+  "dependencies": [],
+  "tags": [
+    "look",
+    "layerable",
+    "set"
+  ]
+}

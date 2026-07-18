@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "place_car_gto.location.drivers_seat_open",
+      "type": "location",
+      "label": "In the driver's seat of an open convertible",
+      "prompt": "in the driver's seat of an open convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "convertible",
+        "part_seat"
+      ],
+      "weight": 2.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.passenger_seat_open",
+      "type": "location",
+      "label": "In the passenger seat of an open convertible",
+      "prompt": "in the passenger seat of an open convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "convertible",
+        "part_seat"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.up_on_seat_back",
+      "type": "location",
+      "label": "In the top of the seat back of an open convertible",
+      "prompt": "in the top of the seat back of an open convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "convertible",
+        "part_seat"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.standing_in_footwell",
+      "type": "location",
+      "label": "In the footwell of an open convertible, standing",
+      "prompt": "in the footwell of an open convertible, standing",
+      "tags": [
+        "outdoor",
+        "car",
+        "convertible",
+        "part_seat"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.legs_over_door",
+      "type": "location",
+      "label": "In the door sill of an open convertible",
+      "prompt": "in the door sill of an open convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "convertible",
+        "part_door",
+        "part_seat",
+        "part_sill"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.long_hood_gto",
+      "type": "location",
+      "label": "In the long white hood of a muscle convertible",
+      "prompt": "in the long white hood of a muscle convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_hood"
+      ],
+      "weight": 2.4,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.rear_quarter",
+      "type": "location",
+      "label": "In the wide rear quarter of a muscle car",
+      "prompt": "in the wide rear quarter of a muscle car",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wing",
+        "part_quarter"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.beside_gto",
+      "type": "location",
+      "label": "In the side of a long white convertible",
+      "prompt": "in the side of a long white convertible",
+      "tags": [
+        "outdoor",
+        "car"
+      ],
+      "weight": 2.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.boot_lid",
+      "type": "location",
+      "label": "In the boot lid of a muscle convertible",
+      "prompt": "in the boot lid of a muscle convertible",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_boot"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.top_up_seat",
+      "type": "location",
+      "label": "In the driver's seat with the soft top raised",
+      "prompt": "in the driver's seat with the soft top raised",
+      "tags": [
+        "indoor",
+        "car",
+        "part_seat"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_seat"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.location.chrome_wheel_gto",
+      "type": "location",
+      "label": "On the chrome wheel of a muscle car",
+      "prompt": "on the chrome wheel of a muscle car",
+      "tags": [
+        "outdoor",
+        "car",
+        "part_wheel"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "environment_tags_any": [
+          "vehicle"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "vehicle_exterior",
+          "outdoor_space"
+        ]
+      }
+    }
+  ]
+}

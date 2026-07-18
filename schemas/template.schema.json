@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/template.schema.json",
+  "title": "Prompt Template",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "template_id",
+    "name",
+    "supported_lengths",
+    "positive_templates",
+    "negative_template"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "supported_lengths": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "compact",
+          "standard",
+          "detailed"
+        ]
+      }
+    },
+    "separator": {
+      "type": "string",
+      "maxLength": 8
+    },
+    "positive_templates": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "enum": [
+          "compact",
+          "standard",
+          "detailed"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 4096
+      }
+    },
+    "negative_template": {
+      "type": "string",
+      "maxLength": 2048
+    },
+    "omit_empty_sections": {
+      "type": "boolean",
+      "default": true
+    },
+    "sentence_case": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

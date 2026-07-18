@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_home",
+  "name": "BRKN Place - Home",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "The house. Rooms, actions, weather at the window, the light she lives in. Ships NO clothes -- that is the wardrobe's job. enabled_packs = brkn_chassis, wear_goth, place_home",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "home",
+    "layerable",
+    "set"
+  ]
+}

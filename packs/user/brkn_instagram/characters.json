@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "content_type": "characters",
+  "entries": [
+    {
+      "id": "brkn_instagram.character.sporty_glam_brunette",
+      "type": "character",
+      "label": "Sporty Glam Brunette",
+      "prompt": "a young woman in her mid twenties, long dark brunette hair in a high sleek ponytail, striking arched brows, bright eyes, a slim curvy toned hourglass figure with a narrow waist and defined abs",
+      "tags": [
+        "adult",
+        "woman",
+        "sporty",
+        "glam",
+        "brunette",
+        "curvy",
+        "nightlife"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "sporty_glam_brunette"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.soft_blonde_natural",
+      "type": "character",
+      "label": "Soft Blonde Natural",
+      "prompt": "a young woman in her early twenties, long wavy blonde hair softly sunlit, pale glowing skin, light blue-green eyes, full natural brows, delicate features, a slender feminine frame with narrow shoulders",
+      "tags": [
+        "adult",
+        "woman",
+        "natural",
+        "soft",
+        "blonde",
+        "slim",
+        "daylight"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties",
+        "archetype": "soft_blonde_natural"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.dark_lounge_beauty",
+      "type": "character",
+      "label": "Dark Lounge Beauty",
+      "prompt": "a young woman in her mid twenties, long dark hair, piercing light eyes, softly sculpted cheekbones, a slim-curvy soft hourglass figure with a narrow waist",
+      "tags": [
+        "adult",
+        "woman",
+        "cosy",
+        "lounge",
+        "brunette",
+        "curvy",
+        "bedroom"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "dark_lounge_beauty"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.tattooed_alt",
+      "type": "character",
+      "label": "Tattooed Alt",
+      "prompt": "a young woman in her mid twenties, shoulder-length hair with dark roots and lighter ends, sharp eyes, defined brows, a pouty mouth, tattooed arms and shoulders, a compact curvy figure with a slim waist",
+      "tags": [
+        "adult",
+        "woman",
+        "alt",
+        "edgy",
+        "tattooed",
+        "curvy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "tattooed_alt"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.blonde_bombshell",
+      "type": "character",
+      "label": "Blonde Bombshell",
+      "prompt": "a young woman in her mid twenties, shoulder-length blonde hair in loose polished waves, tanned glowing skin, sharp cheekbones, a very lean athletic figure with long legs, a tiny waist and visible abs",
+      "tags": [
+        "adult",
+        "woman",
+        "luxury",
+        "blonde",
+        "athletic",
+        "poolside",
+        "bold"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "blonde_bombshell"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.beach_party_platinum",
+      "type": "character",
+      "label": "Beach Party Platinum",
+      "prompt": "a young woman in her early twenties, platinum blonde hair in soft loose waves, fair skin, a straight delicate nose, soft lips, a slim-curvy figure with a toned waist and lean legs",
+      "tags": [
+        "adult",
+        "woman",
+        "beach",
+        "festival",
+        "blonde",
+        "carefree"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties",
+        "archetype": "beach_party_platinum"
+      }
+    },
+    {
+      "id": "brkn_instagram.character.american_blue_eyed",
+      "type": "character",
+      "label": "American Blue-Eyed",
+      "prompt": "a young woman in her early twenties, American, pale blue eyes, a slim figure with a slim waist",
+      "tags": [
+        "adult",
+        "woman",
+        "american",
+        "slim",
+        "natural"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "early_twenties",
+        "archetype": "american_blue_eyed"
+      }
+    }
+  ]
+}

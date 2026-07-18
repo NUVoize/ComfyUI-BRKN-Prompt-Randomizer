@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "brkn_portraits.face_paint.bare",
+      "type": "face_paint",
+      "label": "Bare skin, no makeup",
+      "prompt": "bare skin, no makeup",
+      "tags": [
+        "bare"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.bare_gloss",
+      "type": "face_paint",
+      "label": "Bare skin and a slick of clear gloss",
+      "prompt": "bare skin and a slick of clear gloss",
+      "tags": [
+        "bare"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.natural",
+      "type": "face_paint",
+      "label": "Soft natural makeup, skin still visible through it",
+      "prompt": "soft natural makeup, skin still visible through it",
+      "tags": [
+        "natural"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.no_foundation",
+      "type": "face_paint",
+      "label": "No foundation, freckles and texture showing through",
+      "prompt": "no foundation, freckles and texture showing through",
+      "tags": [
+        "bare"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.mascara_only",
+      "type": "face_paint",
+      "label": "Mascara and nothing else",
+      "prompt": "mascara and nothing else",
+      "tags": [
+        "bare"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "bare"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.soft_flush",
+      "type": "face_paint",
+      "label": "A soft flush across the cheeks, a nude lip",
+      "prompt": "a soft flush across the cheeks, a nude lip",
+      "tags": [
+        "natural"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.smoky",
+      "type": "face_paint",
+      "label": "A smudged smoky eye",
+      "prompt": "a smudged smoky eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "glam"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "hyper_realistic"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.bold_lip",
+      "type": "face_paint",
+      "label": "A bold red lip against bare skin",
+      "prompt": "a bold red lip against bare skin",
+      "tags": [
+        "glam"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "coverage": "glam"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "hyper_realistic"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.editorial_graphic",
+      "type": "face_paint",
+      "label": "A graphic editorial eye in bold colour",
+      "prompt": "a graphic editorial eye in bold colour",
+      "tags": [
+        "glam",
+        "editorial"
+      ],
+      "weight": 0.4,
+      "metadata": {
+        "coverage": "glam"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "hyper_realistic"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.face_paint.glossy_glam",
+      "type": "face_paint",
+      "label": "Glossy skin, sharp liner and a defined lip",
+      "prompt": "glossy skin, sharp liner and a defined lip",
+      "tags": [
+        "glam"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "coverage": "glam"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "hyper_realistic"
+        ]
+      }
+    }
+  ]
+}

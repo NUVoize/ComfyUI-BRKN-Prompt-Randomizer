@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "wear_goth_trad.body_art.none",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "none"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "wear_goth_trad.body_art.blackwork_arms",
+      "type": "body_art",
+      "label": "Heavy blackwork down both arms",
+      "prompt": "heavy blackwork down both arms",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth_trad.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 5.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

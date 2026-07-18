@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.outfit.laceup_corset_pleated",
+      "type": "outfit",
+      "label": "A fitted black long-sleeve top with a lace-up corset fro",
+      "prompt": "a fitted black long-sleeve top with a lace-up corset front, and a short black pleated skirt over thigh-high stockings",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_classic2.outfit.mockneck_panelled_pleated",
+      "type": "outfit",
+      "label": "A high mock-neck black top with structured panelling, an",
+      "prompt": "a high mock-neck black top with structured panelling, and a pleated mini skirt over sheer black tights",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic2.outfit.corset_oring_skirt",
+      "type": "outfit",
+      "label": "A boned black corset top with silver o-rings, and a stru",
+      "prompt": "a boned black corset top with silver O-rings, and a structured mini skirt over lace tights",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_classic2.outfit.victorian_high_neck",
+      "type": "outfit",
+      "label": "A high-necked black top with decorative seams, and a ple",
+      "prompt": "a high-necked black top with decorative seams, and a pleated skirt over black thigh-highs",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic2.outfit.laceup_sleeve_chain_skirt",
+      "type": "outfit",
+      "label": "A laced black long-sleeve and a skirt hung with fine cha",
+      "prompt": "a laced black long-sleeve and a skirt hung with fine chains, over sheer tights",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_classic2.outfit.panelled_dress_thighs",
+      "type": "outfit",
+      "label": "A short structured black dress with corset panelling, ov",
+      "prompt": "a short structured black dress with corset panelling, over thigh-high stockings",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic2.outfit.mockneck_oring_belt",
+      "type": "outfit",
+      "label": "A fitted black mock-neck and a pleated skirt belted with",
+      "prompt": "a fitted black mock-neck and a pleated skirt belted with O-rings, over patterned stockings",
+      "tags": [
+        "goth_classic2",
+        "dressy"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_classic2.outfit.laceup_shorts_sheer",
+      "type": "outfit",
+      "label": "A lace-up black top and high-waisted structured shorts o",
+      "prompt": "a lace-up black top and high-waisted structured shorts over sheer black tights",
+      "tags": [
+        "goth_classic2",
+        "casual"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

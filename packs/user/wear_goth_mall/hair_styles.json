@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_goth_mall.hair_style.choppy_layers",
+      "type": "hair_style",
+      "label": "In choppy layers with a long fringe",
+      "prompt": "in choppy layers with a long fringe",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_mall.hair_style.straightened_flat",
+      "type": "hair_style",
+      "label": "Straightened flat with a side fringe",
+      "prompt": "straightened flat with a side fringe",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_mall.hair_style.scene_teased",
+      "type": "hair_style",
+      "label": "Teased high at the crown",
+      "prompt": "teased high at the crown",
+      "tags": [
+        "goth_mall"
+      ],
+      "weight": 1.4
+    }
+  ]
+}

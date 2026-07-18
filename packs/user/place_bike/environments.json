@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_bike.environment.hayabusa_named",
+      "type": "environment",
+      "label": "A black suzuki hayabusa",
+      "prompt": "a black Suzuki Hayabusa",
+      "tags": [
+        "bike",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_bike.environment.hayabusa_named_full",
+      "type": "environment",
+      "label": "A glossy black suzuki hayabusa with dark grey graphics a",
+      "prompt": "a glossy black Suzuki Hayabusa with dark grey graphics and a silver exhaust",
+      "tags": [
+        "bike",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_bike.environment.hyperbike_described",
+      "type": "environment",
+      "label": "A long low black japanese hyperbike, fully faired, with ",
+      "prompt": "a long low black Japanese hyperbike, fully faired, with a sculpted tank, a wide aerodynamic nose and a tinted screen",
+      "tags": [
+        "bike",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_bike.environment.hyperbike_described_full",
+      "type": "environment",
+      "label": "A glossy black fully-faired superbike with dark metallic",
+      "prompt": "a glossy black fully-faired superbike with dark metallic grey graphics, black alloy wheels, dual front discs and a brushed-silver side exhaust",
+      "tags": [
+        "bike",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_bike.environment.bike_night_street",
+      "type": "environment",
+      "label": "A black superbike under streetlights",
+      "prompt": "a black superbike under streetlights",
+      "tags": [
+        "bike",
+        "night_env",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_bike.environment.bike_garage",
+      "type": "environment",
+      "label": "A black superbike in a concrete garage",
+      "prompt": "a black superbike in a concrete garage",
+      "tags": [
+        "bike",
+        "garage",
+        "indoor_env"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.footwear.victorian_boots",
+      "type": "footwear",
+      "label": "Black lace-up victorian ankle boots",
+      "prompt": "black lace-up Victorian ankle boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_romantic.footwear.velvet_heels",
+      "type": "footwear",
+      "label": "Black velvet heels",
+      "prompt": "black velvet heels",
+      "tags": [
+        "heels"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "heels"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_romantic.footwear.barefoot_romantic",
+      "type": "footwear",
+      "label": "Barefoot on the boards",
+      "prompt": "barefoot on the boards",
+      "tags": [
+        "flats"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "footwear_category": "flats"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_riviera.hair_color.sun_bleached_brown",
+      "type": "hair_color",
+      "label": "Sun-bleached brown",
+      "prompt": "sun-bleached brown",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_riviera.hair_color.dark_brunette",
+      "type": "hair_color",
+      "label": "Dark brunette",
+      "prompt": "dark brunette",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_riviera.hair_color.honey_blonde_no",
+      "type": "hair_color",
+      "label": "Warm blonde",
+      "prompt": "warm blonde",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.hair_color.jet_black_riviera",
+      "type": "hair_color",
+      "label": "Jet black",
+      "prompt": "jet black",
+      "tags": [
+        "riviera"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "brkn_instagram.outfit.white_crop_high_jeans",
+      "type": "outfit",
+      "label": "A fitted white crop top and high-waisted white jeans",
+      "prompt": "a fitted white crop top and high-waisted white jeans",
+      "tags": [
+        "glam",
+        "nightlife",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_instagram.outfit.strappy_white_top",
+      "type": "outfit",
+      "label": "A delicate strappy white top",
+      "prompt": "a delicate strappy white top",
+      "tags": [
+        "soft",
+        "natural",
+        "casual"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "brkn_instagram.outfit.neutral_bodycon",
+      "type": "outfit",
+      "label": "A fitted neutral-toned dress",
+      "prompt": "a fitted neutral-toned dress",
+      "tags": [
+        "polished",
+        "lounge",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_instagram.outfit.grey_bralette_lounge",
+      "type": "outfit",
+      "label": "A fitted grey bralette and soft lounge shorts",
+      "prompt": "a fitted grey bralette and soft lounge shorts",
+      "tags": [
+        "lounge",
+        "alt"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.cropped_tee_bikini",
+      "type": "outfit",
+      "label": "A cropped fitted tee over bikini bottoms",
+      "prompt": "a cropped fitted tee over bikini bottoms",
+      "tags": [
+        "summer",
+        "poolside",
+        "swim"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 3.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.strapless_denim_shorts",
+      "type": "outfit",
+      "label": "A tight strapless top and distressed denim shorts",
+      "prompt": "a tight strapless top and distressed denim shorts",
+      "tags": [
+        "summer",
+        "festival",
+        "casual"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 3.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.oversized_hoodie",
+      "type": "outfit",
+      "label": "An oversized hoodie and bike shorts",
+      "prompt": "an oversized hoodie and bike shorts",
+      "tags": [
+        "casual",
+        "lounge"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "brkn_instagram.outfit.matching_set",
+      "type": "outfit",
+      "label": "A matching ribbed knit set",
+      "prompt": "a matching ribbed knit set",
+      "tags": [
+        "polished",
+        "lounge",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_instagram.outfit.athleisure_set",
+      "type": "outfit",
+      "label": "A cropped sports bra and high-waisted leggings",
+      "prompt": "a cropped sports bra and high-waisted leggings",
+      "tags": [
+        "sporty",
+        "gym"
+      ],
+      "weight": 1.5
+    },
+    {
+      "id": "brkn_instagram.outfit.gym_shorts_tank",
+      "type": "outfit",
+      "label": "A fitted tank and running shorts",
+      "prompt": "a fitted tank and running shorts",
+      "tags": [
+        "sporty",
+        "gym"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_instagram.outfit.slip_dress",
+      "type": "outfit",
+      "label": "A satin slip dress",
+      "prompt": "a satin slip dress",
+      "tags": [
+        "nightlife",
+        "glam",
+        "dressy"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_instagram.outfit.blazer_bralette",
+      "type": "outfit",
+      "label": "An oversized blazer over a bralette",
+      "prompt": "an oversized blazer over a bralette",
+      "tags": [
+        "nightlife",
+        "glam",
+        "dressy"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "brkn_instagram.outfit.mom_jeans_tank",
+      "type": "outfit",
+      "label": "Straight mom jeans and a ribbed tank",
+      "prompt": "straight mom jeans and a ribbed tank",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_instagram.outfit.linen_shirt_shorts",
+      "type": "outfit",
+      "label": "An open linen shirt over a bikini top",
+      "prompt": "an open linen shirt over a bikini top",
+      "tags": [
+        "summer",
+        "beach",
+        "swim"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 3.0
+        }
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.cargo_crop",
+      "type": "outfit",
+      "label": "Cargo trousers and a cropped tee",
+      "prompt": "cargo trousers and a cropped tee",
+      "tags": [
+        "street",
+        "casual"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_instagram.outfit.oversized_tee",
+      "type": "outfit",
+      "label": "An oversized tee and nothing much else",
+      "prompt": "an oversized tee and nothing much else",
+      "tags": [
+        "lounge",
+        "bedroom"
+      ],
+      "weight": 1.1,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.silk_pyjama_set",
+      "type": "outfit",
+      "label": "A silk pyjama set",
+      "prompt": "a silk pyjama set",
+      "tags": [
+        "lounge",
+        "bedroom"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.outfit.mini_skirt_knit",
+      "type": "outfit",
+      "label": "A knit top and a mini skirt",
+      "prompt": "a knit top and a mini skirt",
+      "tags": [
+        "nightlife",
+        "casual"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_instagram.outfit.leather_jacket_tee",
+      "type": "outfit",
+      "label": "A leather jacket over a plain tee",
+      "prompt": "a leather jacket over a plain tee",
+      "tags": [
+        "edgy",
+        "street",
+        "casual"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_instagram.outfit.swimsuit_onepiece",
+      "type": "outfit",
+      "label": "A sculpted one-piece swimsuit",
+      "prompt": "a sculpted one-piece swimsuit",
+      "tags": [
+        "summer",
+        "poolside",
+        "swim"
+      ],
+      "weight": 0.9,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 3.0
+        }
+      }
+    }
+  ]
+}

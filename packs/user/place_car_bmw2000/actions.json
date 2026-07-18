@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_car_bmw2000.action.driving_bmw",
+      "type": "action",
+      "label": "Driving, one hand loose on a thin wheel",
+      "prompt": "driving, one hand loose on a thin wheel",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.arm_out_window_bmw",
+      "type": "action",
+      "label": "Hanging one arm out of the open window",
+      "prompt": "hanging one arm out of the open window",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.looking_back_bmw",
+      "type": "action",
+      "label": "Twisting back over her shoulder",
+      "prompt": "twisting back over her shoulder",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.leg_out_bmw",
+      "type": "action",
+      "label": "Swinging one leg out of the open door",
+      "prompt": "swinging one leg out of the open door",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.selfie_bmw",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.sitting_on_hood_bmw",
+      "type": "action",
+      "label": "Sitting up on the long hood",
+      "prompt": "sitting up on the long hood",
+      "tags": [
+        "seated",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.leaning_on_wing_bmw",
+      "type": "action",
+      "label": "Leaning back against the front wing",
+      "prompt": "leaning back against the front wing",
+      "tags": [
+        "standing",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wing"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.arms_on_roof_bmw",
+      "type": "action",
+      "label": "Resting both arms on the slim roof",
+      "prompt": "resting both arms on the slim roof",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_roof"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.stretched_on_hood_bmw",
+      "type": "action",
+      "label": "Lying back across the long hood",
+      "prompt": "lying back across the long hood",
+      "tags": [
+        "reclining",
+        "vehicle_exterior"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.crouched_grille",
+      "type": "action",
+      "label": "Crouched at the chrome grille",
+      "prompt": "crouched at the chrome grille",
+      "tags": [
+        "crouching",
+        "vehicle_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_grille",
+          "part_wheel"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.walking_away_bmw",
+      "type": "action",
+      "label": "Walking away, glancing back",
+      "prompt": "walking away, glancing back",
+      "tags": [
+        "moving",
+        "vehicle_exterior"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_bmw2000.action.selfie_by_bmw",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_car_911",
+  "name": "BRKN Place - Vintage 911",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "1960s Porsche 911. Low, compact, chrome, elegant. Named and described at equal weight so you can A/B whether the model knows it.",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "handhelds",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "vehicle",
+    "layerable",
+    "set"
+  ]
+}

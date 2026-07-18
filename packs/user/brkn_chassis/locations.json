@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "content_type": "locations",
+  "entries": [
+    {
+      "id": "brkn_chassis.location.plain_indoor",
+      "type": "location",
+      "label": "In a plain interior",
+      "prompt": "in a plain interior",
+      "tags": [
+        "indoor",
+        "neutral"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "environment_tags_any": [
+          "neutral"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "universal_outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.location.plain_outdoor",
+      "type": "location",
+      "label": "In a plain exterior",
+      "prompt": "in a plain exterior",
+      "tags": [
+        "outdoor",
+        "neutral"
+      ],
+      "weight": 0.4,
+      "requires": {
+        "environment_tags_any": [
+          "neutral"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_outdoor",
+          "universal_indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.location.doorway",
+      "type": "location",
+      "label": "In a doorway",
+      "prompt": "in a doorway",
+      "tags": [
+        "threshold",
+        "neutral"
+      ],
+      "weight": 0.3,
+      "requires": {
+        "environment_tags_any": [
+          "neutral"
+        ]
+      },
+      "allows": {
+        "action_tags_any": [
+          "universal_indoor",
+          "universal_outdoor",
+          "threshold_space"
+        ]
+      }
+    }
+  ]
+}

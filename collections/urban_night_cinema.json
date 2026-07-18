@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "collection_id": "urban_night_cinema",
+  "name": "Urban Night Cinema",
+  "description": "Cinematic BRKN look with city-adjacent wardrobe and place packs for moody night-style browsing.",
+  "thumbnail": "",
+  "search_terms": [
+    "urban",
+    "night",
+    "cinematic",
+    "streetwear",
+    "moody",
+    "city"
+  ],
+  "referenced_pack_ids": [
+    "look_cinematic",
+    "wear_goth",
+    "wear_emo",
+    "brkn_chassis",
+    "brkn_base"
+  ],
+  "recommended_weights": {
+    "look_cinematic": 1.4,
+    "wear_goth": 1.0,
+    "wear_emo": 0.9,
+    "brkn_chassis": 1.0,
+    "brkn_base": 0.8
+  }
+}

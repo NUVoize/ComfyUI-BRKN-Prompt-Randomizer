@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/lighting-preset.schema.json",
+  "title": "Lighting Preset",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "lighting_preset"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "intensity": {
+          "enum": [
+            "soft",
+            "medium",
+            "hard"
+          ]
+        }
+      }
+    }
+  }
+}

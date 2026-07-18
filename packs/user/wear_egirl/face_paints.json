@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_egirl.face_paint.blush_nose",
+      "type": "face_paint",
+      "label": "Heavy blush across the nose and cheeks",
+      "prompt": "heavy blush across the nose and cheeks",
+      "tags": [
+        "glam",
+        "egirl"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl.face_paint.winged_liner_sharp",
+      "type": "face_paint",
+      "label": "Sharp winged liner and heavy blush",
+      "prompt": "sharp winged liner and heavy blush",
+      "tags": [
+        "glam",
+        "egirl"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl.face_paint.heart_stamps",
+      "type": "face_paint",
+      "label": "Small drawn hearts under one eye",
+      "prompt": "small drawn hearts under one eye",
+      "tags": [
+        "glam",
+        "egirl"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_egirl.face_paint.faux_freckles",
+      "type": "face_paint",
+      "label": "Drawn-on freckles across the nose",
+      "prompt": "drawn-on freckles across the nose",
+      "tags": [
+        "natural",
+        "egirl"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_egirl.face_paint.gloss_blush",
+      "type": "face_paint",
+      "label": "Clear gloss and a flushed face",
+      "prompt": "clear gloss and a flushed face",
+      "tags": [
+        "natural",
+        "egirl"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_egirl.face_paint.bare_egirl",
+      "type": "face_paint",
+      "label": "Bare skin, a little blush",
+      "prompt": "bare skin, a little blush",
+      "tags": [
+        "bare",
+        "egirl"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "bare"
+      }
+    }
+  ]
+}

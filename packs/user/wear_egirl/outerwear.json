@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_egirl.outerwear.puffer_black",
+      "type": "outerwear",
+      "label": "A cropped black puffer",
+      "prompt": "a cropped black puffer",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl.outerwear.varsity",
+      "type": "outerwear",
+      "label": "An oversized varsity jacket",
+      "prompt": "an oversized varsity jacket",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl.outerwear.denim_oversized",
+      "type": "outerwear",
+      "label": "An oversized denim jacket",
+      "prompt": "an oversized denim jacket",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl.outerwear.leather_crop",
+      "type": "outerwear",
+      "label": "A cropped leather jacket",
+      "prompt": "a cropped leather jacket",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_egirl.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

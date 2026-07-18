@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "brkn_portraits.action.holding_still",
+      "type": "action",
+      "label": "Holding still for the camera",
+      "prompt": "holding still for the camera",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.between_expressions",
+      "type": "action",
+      "label": "Caught between expressions",
+      "prompt": "caught between expressions",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.breath_held",
+      "type": "action",
+      "label": "A breath held",
+      "prompt": "a breath held",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_inward"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.about_to_speak",
+      "type": "action",
+      "label": "Just about to speak",
+      "prompt": "just about to speak",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_attentive"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.just_spoken",
+      "type": "action",
+      "label": "Just having spoken",
+      "prompt": "just having spoken",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_attentive"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.mid_thought",
+      "type": "action",
+      "label": "Caught mid-thought",
+      "prompt": "caught mid-thought",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_inward"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.listening",
+      "type": "action",
+      "label": "Listening to someone off camera",
+      "prompt": "listening to someone off camera",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_attentive"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.looking_up_slowly",
+      "type": "action",
+      "label": "Lifting her eyes to the lens",
+      "prompt": "lifting her eyes to the lens",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.turning_toward",
+      "type": "action",
+      "label": "Turning her head toward the camera",
+      "prompt": "turning her head toward the camera",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.looking_away_slowly",
+      "type": "action",
+      "label": "Letting her gaze drift off",
+      "prompt": "letting her gaze drift off",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_inward"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.laughing_quietly",
+      "type": "action",
+      "label": "Laughing quietly",
+      "prompt": "laughing quietly",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_amused"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.about_to_laugh",
+      "type": "action",
+      "label": "On the edge of laughing",
+      "prompt": "on the edge of laughing",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_amused"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.suppressing",
+      "type": "action",
+      "label": "Holding something back",
+      "prompt": "holding something back",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_amused"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.exhaling",
+      "type": "action",
+      "label": "Breathing out slowly",
+      "prompt": "breathing out slowly",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "mood_inward"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.blinking",
+      "type": "action",
+      "label": "Caught mid-blink",
+      "prompt": "caught mid-blink",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.touching_her_face",
+      "type": "action",
+      "label": "A hand resting against her jaw",
+      "prompt": "a hand resting against her jaw",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.hand_in_hair",
+      "type": "action",
+      "label": "A hand pushed into her hair",
+      "prompt": "a hand pushed into her hair",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "hands_busy"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "resting"
+      }
+    },
+    {
+      "id": "brkn_portraits.action.chin_on_hand",
+      "type": "action",
+      "label": "Her chin resting on her hand",
+      "prompt": "her chin resting on her hand",
+      "tags": [
+        "standing",
+        "still",
+        "universal_indoor",
+        "universal_outdoor",
+        "hands_busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "action_family": "resting"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/character.schema.json",
+  "title": "Character",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "character"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "adult": {
+          "const": true
+        },
+        "build": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "hair": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "self_contained": {
+          "type": "boolean",
+          "description": "True when the prompt already describes hair, face and body. The facet sections go quiet rather than contradicting it."
+        }
+      },
+      "required": [
+        "adult"
+      ]
+    }
+  }
+}

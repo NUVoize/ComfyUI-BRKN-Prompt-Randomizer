@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_riviera.outfit.white_linen_shirt_bikini",
+      "type": "outfit",
+      "label": "An open white linen shirt over a plain black bikini top ",
+      "prompt": "an open white linen shirt over a plain black bikini top and briefs",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.8
+    },
+    {
+      "id": "wear_riviera.outfit.black_onepiece",
+      "type": "outfit",
+      "label": "A sculpted black one-piece swimsuit",
+      "prompt": "a sculpted black one-piece swimsuit",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_riviera.outfit.white_bikini_sarong",
+      "type": "outfit",
+      "label": "A white bikini with a silk sarong knotted at the hip",
+      "prompt": "a white bikini with a silk sarong knotted at the hip",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_riviera.outfit.silk_slip_dress",
+      "type": "outfit",
+      "label": "A long ivory silk slip dress",
+      "prompt": "a long ivory silk slip dress",
+      "tags": [
+        "riviera",
+        "dressy"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_riviera.outfit.linen_shirt_shorts",
+      "type": "outfit",
+      "label": "A loose linen shirt and tailored white shorts",
+      "prompt": "a loose linen shirt and tailored white shorts",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_riviera.outfit.crochet_cover_up",
+      "type": "outfit",
+      "label": "A fine crochet cover-up over a bikini",
+      "prompt": "a fine crochet cover-up over a bikini",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.outfit.halter_maxi",
+      "type": "outfit",
+      "label": "A backless halter maxi dress in cream",
+      "prompt": "a backless halter maxi dress in cream",
+      "tags": [
+        "riviera",
+        "dressy"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.outfit.striped_shirt_briefs",
+      "type": "outfit",
+      "label": "An oversized striped shirt and high-cut swim briefs",
+      "prompt": "an oversized striped shirt and high-cut swim briefs",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_riviera.outfit.black_bikini_gold",
+      "type": "outfit",
+      "label": "A plain black bikini and nothing else",
+      "prompt": "a plain black bikini and nothing else",
+      "tags": [
+        "riviera",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_riviera.outfit.linen_lounge",
+      "type": "outfit",
+      "label": "Loose linen trousers and a cropped vest",
+      "prompt": "loose linen trousers and a cropped vest",
+      "tags": [
+        "riviera",
+        "lounge"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

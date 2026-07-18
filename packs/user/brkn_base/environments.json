@@ -1,0 +1,1286 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "brkn_base.environment.suburban_house",
+      "type": "environment",
+      "label": "Suburban House",
+      "prompt": "a suburban family house with a tidy lawn",
+      "tags": [
+        "home",
+        "detached",
+        "suburban",
+        "modest"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.colonial_house",
+      "type": "environment",
+      "label": "Colonial House",
+      "prompt": "a two-storey colonial house with white trim",
+      "tags": [
+        "home",
+        "detached",
+        "suburban",
+        "traditional",
+        "upscale"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.country_farmhouse",
+      "type": "environment",
+      "label": "Country Farmhouse",
+      "prompt": "a weathered farmhouse surrounded by open fields",
+      "tags": [
+        "home",
+        "detached",
+        "rural",
+        "rustic"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.lakeside_cabin",
+      "type": "environment",
+      "label": "Lakeside Cabin",
+      "prompt": "a timber cabin at the edge of a still lake",
+      "tags": [
+        "home",
+        "detached",
+        "rural",
+        "rustic",
+        "cosy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.mid_century_house",
+      "type": "environment",
+      "label": "Mid Century House",
+      "prompt": "a mid-century modern house with wide glass walls",
+      "tags": [
+        "home",
+        "detached",
+        "suburban",
+        "modern",
+        "upscale"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.beach_house",
+      "type": "environment",
+      "label": "Beach House",
+      "prompt": "a bright beach house with salt-worn wood siding",
+      "tags": [
+        "home",
+        "detached",
+        "coastal",
+        "airy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.mountain_chalet",
+      "type": "environment",
+      "label": "Mountain Chalet",
+      "prompt": "a wooden chalet with a steep pitched roof",
+      "tags": [
+        "home",
+        "detached",
+        "rural",
+        "rustic",
+        "cosy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.brownstone",
+      "type": "environment",
+      "label": "Brownstone",
+      "prompt": "a brownstone townhouse on a leafy city block",
+      "tags": [
+        "home",
+        "detached",
+        "urban",
+        "traditional"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.city_apartment",
+      "type": "environment",
+      "label": "City Apartment",
+      "prompt": "a compact city apartment above a busy street",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "modest"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.downtown_loft",
+      "type": "environment",
+      "label": "Downtown Loft",
+      "prompt": "a converted loft with exposed brick and tall windows",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "industrial",
+        "upscale"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.studio_apartment",
+      "type": "environment",
+      "label": "Studio Apartment",
+      "prompt": "a small studio apartment where everything shares one room",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "modest",
+        "cramped"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.modern_condo",
+      "type": "environment",
+      "label": "Modern Condo",
+      "prompt": "a clean modern condo with floor-to-ceiling windows",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "modern",
+        "upscale"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.shared_flat",
+      "type": "environment",
+      "label": "Shared Flat",
+      "prompt": "a shared flat with mismatched furniture and too many mugs",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "modest",
+        "cluttered"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.high_rise_penthouse",
+      "type": "environment",
+      "label": "High Rise Penthouse",
+      "prompt": "a high-rise penthouse looking out over the city",
+      "tags": [
+        "home",
+        "apartment",
+        "urban",
+        "luxury",
+        "upscale"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "home"
+      }
+    },
+    {
+      "id": "brkn_base.environment.corporate_tower_office",
+      "type": "environment",
+      "label": "Corporate Tower Office",
+      "prompt": "a corporate office floor high in a glass tower",
+      "tags": [
+        "work",
+        "corporate",
+        "formal",
+        "modern"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.startup_office",
+      "type": "environment",
+      "label": "Startup Office",
+      "prompt": "an open startup office with whiteboards and cheap chairs",
+      "tags": [
+        "work",
+        "casual",
+        "modern"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.coworking_space",
+      "type": "environment",
+      "label": "Coworking Space",
+      "prompt": "a coworking space of shared desks and strangers",
+      "tags": [
+        "work",
+        "casual",
+        "modern"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.boutique_agency_office",
+      "type": "environment",
+      "label": "Boutique Agency Office",
+      "prompt": "a small agency office with mood boards on the walls",
+      "tags": [
+        "work",
+        "creative",
+        "upscale"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.photo_studio",
+      "type": "environment",
+      "label": "Photo Studio",
+      "prompt": "a photo studio with seamless backdrops and light stands",
+      "tags": [
+        "work",
+        "creative",
+        "industrial"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.warehouse_office",
+      "type": "environment",
+      "label": "Warehouse Office",
+      "prompt": "a converted warehouse office with concrete floors",
+      "tags": [
+        "work",
+        "industrial",
+        "casual"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.small_business_backroom",
+      "type": "environment",
+      "label": "Small Business Backroom",
+      "prompt": "the cramped back room of a small family business",
+      "tags": [
+        "work",
+        "modest",
+        "cluttered"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.executive_corner_suite",
+      "type": "environment",
+      "label": "Executive Corner Suite",
+      "prompt": "an executive corner suite with a long empty desk",
+      "tags": [
+        "work",
+        "corporate",
+        "formal",
+        "luxury"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.newsroom",
+      "type": "environment",
+      "label": "Newsroom",
+      "prompt": "a newsroom of packed desks and live screens",
+      "tags": [
+        "work",
+        "corporate",
+        "busy"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.recording_studio",
+      "type": "environment",
+      "label": "Recording Studio",
+      "prompt": "a recording studio behind soundproof glass",
+      "tags": [
+        "work",
+        "creative",
+        "industrial"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.home_office",
+      "type": "environment",
+      "label": "Home Office",
+      "prompt": "a home office carved out of a spare room",
+      "tags": [
+        "home",
+        "casual",
+        "domestic"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "work"
+      }
+    },
+    {
+      "id": "brkn_base.environment.specialty_coffee_shop",
+      "type": "environment",
+      "label": "Specialty Coffee Shop",
+      "prompt": "a specialty coffee shop with a long communal table",
+      "tags": [
+        "cafe",
+        "casual",
+        "modern"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.chain_coffee_shop",
+      "type": "environment",
+      "label": "Chain Coffee Shop",
+      "prompt": "a chain coffee shop, bright and anonymous",
+      "tags": [
+        "cafe",
+        "casual",
+        "generic"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.bakery_cafe",
+      "type": "environment",
+      "label": "Bakery Cafe",
+      "prompt": "a bakery café with flour dust and glass cabinets",
+      "tags": [
+        "cafe",
+        "casual",
+        "warm"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.bookshop_cafe",
+      "type": "environment",
+      "label": "Bookshop Cafe",
+      "prompt": "a café tucked into the back of a bookshop",
+      "tags": [
+        "cafe",
+        "cosy",
+        "artsy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.coffee_roastery",
+      "type": "environment",
+      "label": "Coffee Roastery",
+      "prompt": "a coffee roastery, sacks stacked against the wall",
+      "tags": [
+        "cafe",
+        "industrial",
+        "casual"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.corner_espresso_bar",
+      "type": "environment",
+      "label": "Corner Espresso Bar",
+      "prompt": "a narrow corner espresso bar with standing room only",
+      "tags": [
+        "cafe",
+        "urban",
+        "cramped"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.hotel_lobby_cafe",
+      "type": "environment",
+      "label": "Hotel Lobby Cafe",
+      "prompt": "a hotel lobby café with low armchairs",
+      "tags": [
+        "cafe",
+        "upscale",
+        "formal"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.campus_cafe",
+      "type": "environment",
+      "label": "Campus Cafe",
+      "prompt": "a campus café full of laptops",
+      "tags": [
+        "cafe",
+        "casual",
+        "busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "cafe"
+      }
+    },
+    {
+      "id": "brkn_base.environment.casual_bistro",
+      "type": "environment",
+      "label": "Casual Bistro",
+      "prompt": "a casual bistro with paper menus and small tables",
+      "tags": [
+        "restaurant",
+        "casual",
+        "warm"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.fine_dining",
+      "type": "environment",
+      "label": "Fine Dining",
+      "prompt": "a fine dining room, low light and heavy linen",
+      "tags": [
+        "restaurant",
+        "formal",
+        "luxury",
+        "upscale"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.retro_american_diner",
+      "type": "environment",
+      "label": "Retro American Diner",
+      "prompt": "a retro American diner with chrome stools and red vinyl booths",
+      "tags": [
+        "restaurant",
+        "casual",
+        "retro"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.ramen_bar",
+      "type": "environment",
+      "label": "Ramen Bar",
+      "prompt": "a cramped ramen bar with steam on the windows",
+      "tags": [
+        "restaurant",
+        "casual",
+        "cosy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.pizzeria",
+      "type": "environment",
+      "label": "Pizzeria",
+      "prompt": "a pizzeria with a wood-fired oven glowing at the back",
+      "tags": [
+        "restaurant",
+        "casual",
+        "warm"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.sushi_counter",
+      "type": "environment",
+      "label": "Sushi Counter",
+      "prompt": "a quiet sushi counter of pale wood",
+      "tags": [
+        "restaurant",
+        "formal",
+        "minimal",
+        "upscale"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.wine_bar",
+      "type": "environment",
+      "label": "Wine Bar",
+      "prompt": "a dim wine bar with bottles to the ceiling",
+      "tags": [
+        "restaurant",
+        "upscale",
+        "cosy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.food_hall",
+      "type": "environment",
+      "label": "Food Hall",
+      "prompt": "a busy food hall under industrial lighting",
+      "tags": [
+        "restaurant",
+        "casual",
+        "busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.steakhouse",
+      "type": "environment",
+      "label": "Steakhouse",
+      "prompt": "a dark steakhouse of leather booths and brass",
+      "tags": [
+        "restaurant",
+        "formal",
+        "upscale"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.rooftop_restaurant",
+      "type": "environment",
+      "label": "Rooftop Restaurant",
+      "prompt": "a rooftop restaurant above the skyline",
+      "tags": [
+        "restaurant",
+        "upscale",
+        "airy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.trattoria",
+      "type": "environment",
+      "label": "Trattoria",
+      "prompt": "a small trattoria with checked cloths",
+      "tags": [
+        "restaurant",
+        "casual",
+        "warm"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.seafood_shack",
+      "type": "environment",
+      "label": "Seafood Shack",
+      "prompt": "a weatherboard seafood shack by the water",
+      "tags": [
+        "restaurant",
+        "casual",
+        "coastal"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "environment_category": "restaurant"
+      }
+    },
+    {
+      "id": "brkn_base.environment.residential_street",
+      "type": "environment",
+      "label": "Residential Street",
+      "prompt": "a quiet residential street of parked cars and hedges",
+      "tags": [
+        "street",
+        "suburban",
+        "calm"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.downtown_street",
+      "type": "environment",
+      "label": "Downtown Street",
+      "prompt": "a downtown street between tall buildings",
+      "tags": [
+        "street",
+        "urban",
+        "busy"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.shopping_street",
+      "type": "environment",
+      "label": "Shopping Street",
+      "prompt": "a shopping street of lit windows and awnings",
+      "tags": [
+        "street",
+        "urban",
+        "busy"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.tree_lined_boulevard",
+      "type": "environment",
+      "label": "Tree Lined Boulevard",
+      "prompt": "a wide tree-lined boulevard",
+      "tags": [
+        "street",
+        "urban",
+        "calm"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.market_street",
+      "type": "environment",
+      "label": "Market Street",
+      "prompt": "a market street of stalls and crates",
+      "tags": [
+        "street",
+        "urban",
+        "busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.waterfront_promenade",
+      "type": "environment",
+      "label": "Waterfront Promenade",
+      "prompt": "a waterfront promenade with railings and gulls",
+      "tags": [
+        "street",
+        "coastal",
+        "calm"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.back_alley",
+      "type": "environment",
+      "label": "Back Alley",
+      "prompt": "a narrow back alley of fire escapes and wet brick",
+      "tags": [
+        "street",
+        "urban",
+        "gritty"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.industrial_district",
+      "type": "environment",
+      "label": "Industrial District",
+      "prompt": "an industrial district of shutters and chain link",
+      "tags": [
+        "street",
+        "industrial",
+        "gritty"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.parking_lot",
+      "type": "environment",
+      "label": "Parking Lot",
+      "prompt": "a wide empty parking lot",
+      "tags": [
+        "street",
+        "urban",
+        "bleak"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.crosswalk_intersection",
+      "type": "environment",
+      "label": "Crosswalk Intersection",
+      "prompt": "a busy crosswalk intersection",
+      "tags": [
+        "street",
+        "urban",
+        "busy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "street"
+      }
+    },
+    {
+      "id": "brkn_base.environment.clothing_boutique",
+      "type": "environment",
+      "label": "Clothing Boutique",
+      "prompt": "a small clothing boutique with a single rail down the middle",
+      "tags": [
+        "retail",
+        "upscale",
+        "calm"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "retail"
+      }
+    },
+    {
+      "id": "brkn_base.environment.thrift_store",
+      "type": "environment",
+      "label": "Thrift Store",
+      "prompt": "a thrift store packed rail to rail",
+      "tags": [
+        "retail",
+        "casual",
+        "cluttered"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "retail"
+      }
+    },
+    {
+      "id": "brkn_base.environment.supermarket",
+      "type": "environment",
+      "label": "Supermarket",
+      "prompt": "a supermarket aisle under flat lighting",
+      "tags": [
+        "retail",
+        "generic",
+        "busy"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "retail"
+      }
+    },
+    {
+      "id": "brkn_base.environment.record_shop",
+      "type": "environment",
+      "label": "Record Shop",
+      "prompt": "a record shop with crates and posters",
+      "tags": [
+        "retail",
+        "artsy",
+        "casual"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "retail"
+      }
+    },
+    {
+      "id": "brkn_base.environment.compact_car",
+      "type": "environment",
+      "label": "Compact Car",
+      "prompt": "a compact car",
+      "tags": [
+        "transport",
+        "enclosed",
+        "modest"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.rideshare_sedan",
+      "type": "environment",
+      "label": "Rideshare Sedan",
+      "prompt": "a rideshare sedan",
+      "tags": [
+        "transport",
+        "enclosed",
+        "modest"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.luxury_sedan",
+      "type": "environment",
+      "label": "Luxury Sedan",
+      "prompt": "a luxury sedan with a leather interior",
+      "tags": [
+        "transport",
+        "enclosed",
+        "luxury",
+        "upscale"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.sports_car",
+      "type": "environment",
+      "label": "Sports Car",
+      "prompt": "a low-slung sports car",
+      "tags": [
+        "transport",
+        "enclosed",
+        "luxury",
+        "fast"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.luxury_suv",
+      "type": "environment",
+      "label": "Luxury Suv",
+      "prompt": "a luxury SUV",
+      "tags": [
+        "transport",
+        "enclosed",
+        "luxury",
+        "upscale"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.family_suv",
+      "type": "environment",
+      "label": "Family Suv",
+      "prompt": "a family SUV with clutter in the back",
+      "tags": [
+        "transport",
+        "enclosed",
+        "modest"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.pickup_truck",
+      "type": "environment",
+      "label": "Pickup Truck",
+      "prompt": "a dusty pickup truck",
+      "tags": [
+        "transport",
+        "enclosed",
+        "rural",
+        "rugged"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.vintage_coupe",
+      "type": "environment",
+      "label": "Vintage Coupe",
+      "prompt": "a vintage coupé with chrome trim",
+      "tags": [
+        "transport",
+        "enclosed",
+        "retro"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.convertible",
+      "type": "environment",
+      "label": "Convertible",
+      "prompt": "a convertible with the roof down",
+      "tags": [
+        "transport",
+        "enclosed",
+        "open_air"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.camper_van",
+      "type": "environment",
+      "label": "Camper Van",
+      "prompt": "a camper van fitted out for living",
+      "tags": [
+        "transport",
+        "enclosed",
+        "rustic"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.sport_motorcycle",
+      "type": "environment",
+      "label": "Sport Motorcycle",
+      "prompt": "a sport motorcycle",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "fast"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.vintage_cafe_racer",
+      "type": "environment",
+      "label": "Vintage Cafe Racer",
+      "prompt": "a vintage café racer motorcycle",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "retro"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.cruiser_motorcycle",
+      "type": "environment",
+      "label": "Cruiser Motorcycle",
+      "prompt": "a heavy cruiser motorcycle",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "rugged"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.city_bicycle",
+      "type": "environment",
+      "label": "City Bicycle",
+      "prompt": "a city bicycle with a basket",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "calm"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.electric_bike",
+      "type": "environment",
+      "label": "Electric Bike",
+      "prompt": "an electric bike",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "modern"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.electric_scooter",
+      "type": "environment",
+      "label": "Electric Scooter",
+      "prompt": "an electric scooter",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "modern"
+      ],
+      "weight": 0.7,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.vespa_scooter",
+      "type": "environment",
+      "label": "Vespa Scooter",
+      "prompt": "a Vespa scooter",
+      "tags": [
+        "transport",
+        "open_vehicle",
+        "retro"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.city_bus",
+      "type": "environment",
+      "label": "City Bus",
+      "prompt": "a city bus",
+      "tags": [
+        "transport",
+        "transit",
+        "public"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.subway_car",
+      "type": "environment",
+      "label": "Subway Car",
+      "prompt": "a graffiti-scuffed subway car under fluorescent light",
+      "tags": [
+        "transport",
+        "transit",
+        "public",
+        "gritty"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.commuter_train",
+      "type": "environment",
+      "label": "Commuter Train",
+      "prompt": "a commuter train with wide windows",
+      "tags": [
+        "transport",
+        "transit",
+        "public"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.streetcar_tram",
+      "type": "environment",
+      "label": "Streetcar Tram",
+      "prompt": "a streetcar rattling along its rails",
+      "tags": [
+        "transport",
+        "transit",
+        "public",
+        "retro"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.race_car",
+      "type": "environment",
+      "label": "Race Car",
+      "prompt": "a race car in the pit lane",
+      "tags": [
+        "transport",
+        "motorsport",
+        "fast"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.drift_car",
+      "type": "environment",
+      "label": "Drift Car",
+      "prompt": "a drift car trailing tyre smoke at a Sunday cup",
+      "tags": [
+        "transport",
+        "motorsport",
+        "fast",
+        "gritty"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    },
+    {
+      "id": "brkn_base.environment.rally_car",
+      "type": "environment",
+      "label": "Rally Car",
+      "prompt": "a mud-spattered rally car",
+      "tags": [
+        "transport",
+        "motorsport",
+        "fast",
+        "rugged"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "environment_category": "transport"
+      }
+    }
+  ]
+}

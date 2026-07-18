@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.hair_color.split_black_pink",
+      "type": "hair_color",
+      "label": "Split-dyed jet black and pastel pink",
+      "prompt": "split-dyed jet black and pastel pink",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 3.6
+    },
+    {
+      "id": "wear_egirl_classic.hair_color.split_black_lavender",
+      "type": "hair_color",
+      "label": "Split-dyed jet black and lavender",
+      "prompt": "split-dyed jet black and lavender",
+      "tags": [
+        "egirl_classic"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_bike.action.hands_on_bars",
+      "type": "action",
+      "label": "Hands on the bars",
+      "prompt": "hands on the bars",
+      "tags": [
+        "seated",
+        "bike_seat",
+        "hands_busy"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.leaned_over_tank",
+      "type": "action",
+      "label": "Leaned down low over the tank",
+      "prompt": "leaned down low over the tank",
+      "tags": [
+        "seated",
+        "bike_seat",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.upright_astride",
+      "type": "action",
+      "label": "Sitting upright astride it",
+      "prompt": "sitting upright astride it",
+      "tags": [
+        "seated",
+        "bike_seat"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.looking_back_astride",
+      "type": "action",
+      "label": "Twisting back over her shoulder",
+      "prompt": "twisting back over her shoulder",
+      "tags": [
+        "seated",
+        "bike_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.boot_on_peg",
+      "type": "action",
+      "label": "One boot up on the peg",
+      "prompt": "one boot up on the peg",
+      "tags": [
+        "seated",
+        "bike_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.helmet_in_lap",
+      "type": "action",
+      "label": "The helmet resting in her lap",
+      "prompt": "the helmet resting in her lap",
+      "tags": [
+        "seated",
+        "bike_seat",
+        "hands_busy"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.selfie_astride",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "bike_seat",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_bike.action.leaning_on_seat",
+      "type": "action",
+      "label": "Leaning back against the seat",
+      "prompt": "leaning back against the seat",
+      "tags": [
+        "standing",
+        "bike_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.hand_on_tank",
+      "type": "action",
+      "label": "One hand flat on the tank",
+      "prompt": "one hand flat on the tank",
+      "tags": [
+        "standing",
+        "bike_exterior",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.helmet_under_arm",
+      "type": "action",
+      "label": "The helmet under one arm",
+      "prompt": "the helmet under one arm",
+      "tags": [
+        "standing",
+        "bike_exterior",
+        "hands_busy"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.pulling_gloves",
+      "type": "action",
+      "label": "Pulling a glove on",
+      "prompt": "pulling a glove on",
+      "tags": [
+        "standing",
+        "bike_exterior",
+        "hands_busy"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.swinging_leg_over",
+      "type": "action",
+      "label": "Swinging one leg over the seat",
+      "prompt": "swinging one leg over the seat",
+      "tags": [
+        "standing",
+        "bike_exterior"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.walking_away_bike",
+      "type": "action",
+      "label": "Walking away from it",
+      "prompt": "walking away from it",
+      "tags": [
+        "moving",
+        "bike_exterior"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.crouched_wheel",
+      "type": "action",
+      "label": "Crouched at the front wheel",
+      "prompt": "crouched at the front wheel",
+      "tags": [
+        "crouching",
+        "bike_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wheel"
+        ]
+      }
+    },
+    {
+      "id": "place_bike.action.sitting_on_ground",
+      "type": "action",
+      "label": "Sitting on the ground beside it",
+      "prompt": "sitting on the ground beside it",
+      "tags": [
+        "seated",
+        "bike_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_bike.action.selfie_beside",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "bike_exterior",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

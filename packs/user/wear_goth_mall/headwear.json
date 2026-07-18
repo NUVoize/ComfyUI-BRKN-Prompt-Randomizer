@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_goth_mall.headwear.beanie_mall",
+      "type": "headwear",
+      "label": "A black beanie pulled low",
+      "prompt": "a black beanie pulled low",
+      "tags": [
+        "hat"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_mall.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

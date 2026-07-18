@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth_classic.face_paint.winged_smoke",
+      "type": "face_paint",
+      "label": "Heavy black winged liner and a smoked charcoal eye",
+      "prompt": "heavy black winged liner and a smoked charcoal eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic.face_paint.black_lip",
+      "type": "face_paint",
+      "label": "A flat black lip and hard sharp brows",
+      "prompt": "a flat black lip and hard sharp brows",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic.face_paint.wine_lip",
+      "type": "face_paint",
+      "label": "A deep wine-red lip against a pale matte face",
+      "prompt": "a deep wine-red lip against a pale matte face",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic.face_paint.plum_lip",
+      "type": "face_paint",
+      "label": "A dark plum lip and a smudged black eye",
+      "prompt": "a dark plum lip and a smudged black eye",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_classic.face_paint.liner_only",
+      "type": "face_paint",
+      "label": "Black liner, bare mouth",
+      "prompt": "black liner, bare mouth",
+      "tags": [
+        "natural"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "natural"
+      }
+    }
+  ]
+}

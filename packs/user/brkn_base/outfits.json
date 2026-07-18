@@ -1,0 +1,1388 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "brkn_base.outfit.cropped_tee_blue_jeans",
+      "type": "outfit",
+      "label": "Cropped Tee Blue Jeans",
+      "prompt": "a cropped white tee and high-waisted blue jeans",
+      "tags": [
+        "casual",
+        "street",
+        "summer_ok"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.band_tee_baggy_jeans",
+      "type": "outfit",
+      "label": "Band Tee Baggy Jeans",
+      "prompt": "an oversized band tee and baggy carpenter jeans",
+      "tags": [
+        "casual",
+        "street",
+        "alt"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.cutoff_tee_cargo_shorts",
+      "type": "outfit",
+      "label": "Cutoff Tee Cargo Shorts",
+      "prompt": "a cut-off tee and cargo shorts",
+      "tags": [
+        "casual",
+        "street",
+        "summer_ok"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.ribbed_tank_wide_denim",
+      "type": "outfit",
+      "label": "Ribbed Tank Wide Denim",
+      "prompt": "a ribbed tank top and wide-leg denim",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.vintage_sweatshirt_bike_shorts",
+      "type": "outfit",
+      "label": "Vintage Sweatshirt Bike Shorts",
+      "prompt": "a faded vintage sweatshirt and bike shorts",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.flannel_tied_straight_jeans",
+      "type": "outfit",
+      "label": "Flannel Tied Straight Jeans",
+      "prompt": "a flannel shirt tied at the waist over a tee, straight jeans",
+      "tags": [
+        "casual",
+        "street",
+        "alt"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.striped_longsleeve_mom_jeans",
+      "type": "outfit",
+      "label": "Striped Longsleeve Mom Jeans",
+      "prompt": "a striped long-sleeve top and mom jeans",
+      "tags": [
+        "casual"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.hoodie_track_pants",
+      "type": "outfit",
+      "label": "Hoodie Track Pants",
+      "prompt": "an oversized hoodie and track pants",
+      "tags": [
+        "casual",
+        "street",
+        "loungewear"
+      ],
+      "weight": 1.3,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "casual"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.shirt_over_bralette_jeans",
+      "type": "outfit",
+      "label": "Shirt Over Bralette Jeans",
+      "prompt": "an open shirt over a bralette, straight jeans",
+      "tags": [
+        "casual",
+        "street",
+        "alt"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.corduroy_overalls",
+      "type": "outfit",
+      "label": "Corduroy Overalls",
+      "prompt": "corduroy dungarees over a plain tee",
+      "tags": [
+        "casual",
+        "artsy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.graphic_tee_mini_skirt",
+      "type": "outfit",
+      "label": "Graphic Tee Mini Skirt",
+      "prompt": "a graphic tee and a pleated mini skirt",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.tank_cargo_trousers",
+      "type": "outfit",
+      "label": "Tank Cargo Trousers",
+      "prompt": "a fitted tank and baggy cargo trousers",
+      "tags": [
+        "casual",
+        "street"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.crop_hoodie_biker_shorts",
+      "type": "outfit",
+      "label": "Crop Hoodie Biker Shorts",
+      "prompt": "a cropped hoodie and biker shorts",
+      "tags": [
+        "casual",
+        "street",
+        "sporty"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.boyfriend_shirt_shorts",
+      "type": "outfit",
+      "label": "Boyfriend Shirt Shorts",
+      "prompt": "an oversized button-down and denim shorts",
+      "tags": [
+        "casual",
+        "summer_ok"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.navy_blazer_suit",
+      "type": "outfit",
+      "label": "Navy Blazer Suit",
+      "prompt": "a tailored navy blazer and matching trousers",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 1.3,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.charcoal_pinstripe_suit",
+      "type": "outfit",
+      "label": "Charcoal Pinstripe Suit",
+      "prompt": "a charcoal pinstripe suit, sharply cut",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.poplin_shirt_black_trousers",
+      "type": "outfit",
+      "label": "Poplin Shirt Black Trousers",
+      "prompt": "a crisp white poplin shirt and high-waisted black trousers",
+      "tags": [
+        "formal",
+        "office",
+        "minimal"
+      ],
+      "weight": 1.3,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.knit_shell_pencil_skirt",
+      "type": "outfit",
+      "label": "Knit Shell Pencil Skirt",
+      "prompt": "a knit shell top and a pencil skirt",
+      "tags": [
+        "formal",
+        "office"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.silk_blouse_wide_trousers",
+      "type": "outfit",
+      "label": "Silk Blouse Wide Trousers",
+      "prompt": "a silk blouse and wide-leg tailored trousers",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.sheath_dress",
+      "type": "outfit",
+      "label": "Sheath Dress",
+      "prompt": "a fitted sheath dress",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.blazer_over_tee",
+      "type": "outfit",
+      "label": "Blazer Over Tee",
+      "prompt": "a structured blazer over a plain tee, straight trousers",
+      "tags": [
+        "formal",
+        "smart_casual",
+        "office"
+      ],
+      "weight": 1.3,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.offwhite_trouser_suit",
+      "type": "outfit",
+      "label": "Offwhite Trouser Suit",
+      "prompt": "an off-white trouser suit",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.belted_shirt_dress",
+      "type": "outfit",
+      "label": "Belted Shirt Dress",
+      "prompt": "a belted shirt dress",
+      "tags": [
+        "smart_casual",
+        "office"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.turtleneck_tailored_skirt",
+      "type": "outfit",
+      "label": "Turtleneck Tailored Skirt",
+      "prompt": "a black turtleneck and a tailored skirt",
+      "tags": [
+        "formal",
+        "office",
+        "minimal"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.pinstripe_waistcoat",
+      "type": "outfit",
+      "label": "Pinstripe Waistcoat",
+      "prompt": "a pinstripe waistcoat and matching trousers",
+      "tags": [
+        "formal",
+        "office",
+        "edgy"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.striped_blazer_bespoke_pins",
+      "type": "outfit",
+      "label": "Striped Blazer Bespoke Pins",
+      "prompt": "a striped blazer with bespoke lapel pins, tailored trousers",
+      "tags": [
+        "formal",
+        "office",
+        "polished"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "work"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "formal"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.knit_cardigan_tee_leggings",
+      "type": "outfit",
+      "label": "Knit Cardigan Tee Leggings",
+      "prompt": "an oversized knit cardigan over a cotton tee, leggings",
+      "tags": [
+        "loungewear",
+        "casual",
+        "soft"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.ribbed_lounge_set",
+      "type": "outfit",
+      "label": "Ribbed Lounge Set",
+      "prompt": "a matching ribbed loungewear set",
+      "tags": [
+        "loungewear",
+        "soft"
+      ],
+      "weight": 1.3,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.old_sweatshirt_boxers",
+      "type": "outfit",
+      "label": "Old Sweatshirt Boxers",
+      "prompt": "an old sweatshirt and boxer shorts",
+      "tags": [
+        "loungewear",
+        "casual"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.silk_pyjama_set",
+      "type": "outfit",
+      "label": "Silk Pyjama Set",
+      "prompt": "a silk pyjama set",
+      "tags": [
+        "loungewear",
+        "glam"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.towelling_robe",
+      "type": "outfit",
+      "label": "Towelling Robe",
+      "prompt": "a towelling robe",
+      "tags": [
+        "loungewear"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.thermal_wool_socks",
+      "type": "outfit",
+      "label": "Thermal Wool Socks",
+      "prompt": "a long-sleeve thermal top and thick wool socks",
+      "tags": [
+        "loungewear",
+        "winter_ok"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.slip_dress_lounge",
+      "type": "outfit",
+      "label": "Slip Dress Lounge",
+      "prompt": "a plain slip dress worn around the house",
+      "tags": [
+        "loungewear",
+        "soft"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.cropped_sweatshirt_sweatpants",
+      "type": "outfit",
+      "label": "Cropped Sweatshirt Sweatpants",
+      "prompt": "a cropped sweatshirt and sweatpants",
+      "tags": [
+        "loungewear",
+        "casual",
+        "sporty"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "home"
+          ],
+          "bonus": 1.0
+        }
+      },
+      "metadata": {
+        "fashion_category": "loungewear"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.outfit.floral_sundress",
+      "type": "outfit",
+      "label": "Floral Sundress",
+      "prompt": "a floral sundress",
+      "tags": [
+        "summer",
+        "soft_feminine",
+        "summer_ok"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "avoids": {
+        "season_tags_any": {
+          "values": [
+            "winter"
+          ],
+          "penalty": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.linen_slip_dress",
+      "type": "outfit",
+      "label": "Linen Slip Dress",
+      "prompt": "a linen slip dress",
+      "tags": [
+        "summer",
+        "minimal",
+        "summer_ok"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.broderie_mini_dress",
+      "type": "outfit",
+      "label": "Broderie Mini Dress",
+      "prompt": "a white broderie mini dress",
+      "tags": [
+        "summer",
+        "soft_feminine"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.gingham_summer_dress",
+      "type": "outfit",
+      "label": "Gingham Summer Dress",
+      "prompt": "a gingham summer dress",
+      "tags": [
+        "summer",
+        "soft_feminine"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.cotton_midi_straps",
+      "type": "outfit",
+      "label": "Cotton Midi Straps",
+      "prompt": "a white cotton midi dress with thin straps",
+      "tags": [
+        "summer",
+        "minimal"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.halterneck_maxi",
+      "type": "outfit",
+      "label": "Halterneck Maxi",
+      "prompt": "a halterneck maxi dress",
+      "tags": [
+        "summer",
+        "bohemian"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.denim_pinafore_tee",
+      "type": "outfit",
+      "label": "Denim Pinafore Tee",
+      "prompt": "a denim pinafore over a tee",
+      "tags": [
+        "casual",
+        "summer"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.linen_shorts_boxy_tee",
+      "type": "outfit",
+      "label": "Linen Shorts Boxy Tee",
+      "prompt": "linen shorts and a boxy tee",
+      "tags": [
+        "summer",
+        "minimal"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.crochet_top_linen_trousers",
+      "type": "outfit",
+      "label": "Crochet Top Linen Trousers",
+      "prompt": "a crochet top and loose linen trousers",
+      "tags": [
+        "summer",
+        "bohemian"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.swimsuit_open_shirt",
+      "type": "outfit",
+      "label": "Swimsuit Open Shirt",
+      "prompt": "a swimsuit under an open linen shirt",
+      "tags": [
+        "summer",
+        "bohemian"
+      ],
+      "weight": 0.8,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "summer"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "winter"
+        ]
+      },
+      "metadata": {
+        "fashion_category": "summer"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.sports_bra_leggings",
+      "type": "outfit",
+      "label": "Sports Bra Leggings",
+      "prompt": "a sports bra and high-waisted leggings",
+      "tags": [
+        "sporty",
+        "athleisure"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "fashion_category": "athleisure"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.running_shorts_tank",
+      "type": "outfit",
+      "label": "Running Shorts Tank",
+      "prompt": "running shorts and a technical tank",
+      "tags": [
+        "sporty",
+        "athleisure"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "fashion_category": "athleisure"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.oversized_tee_cycling_shorts",
+      "type": "outfit",
+      "label": "Oversized Tee Cycling Shorts",
+      "prompt": "an oversized tee and cycling shorts",
+      "tags": [
+        "sporty",
+        "athleisure",
+        "casual"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "fashion_category": "athleisure"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.track_top_joggers",
+      "type": "outfit",
+      "label": "Track Top Joggers",
+      "prompt": "a zip-up track top and joggers",
+      "tags": [
+        "sporty",
+        "athleisure",
+        "street"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "fashion_category": "athleisure"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.yoga_set",
+      "type": "outfit",
+      "label": "Yoga Set",
+      "prompt": "a fitted yoga set",
+      "tags": [
+        "sporty",
+        "athleisure"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "action_tags_any": {
+          "values": [
+            "exercising"
+          ],
+          "bonus": 1.8
+        }
+      },
+      "metadata": {
+        "fashion_category": "athleisure"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.little_black_dress",
+      "type": "outfit",
+      "label": "Little Black Dress",
+      "prompt": "a little black dress",
+      "tags": [
+        "glam",
+        "evening"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.sequinned_mini",
+      "type": "outfit",
+      "label": "Sequinned Mini",
+      "prompt": "a sequinned mini dress",
+      "tags": [
+        "glam",
+        "evening"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.satin_slip_dress",
+      "type": "outfit",
+      "label": "Satin Slip Dress",
+      "prompt": "a satin slip dress",
+      "tags": [
+        "glam",
+        "evening",
+        "minimal"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.corset_top_wide_trousers",
+      "type": "outfit",
+      "label": "Corset Top Wide Trousers",
+      "prompt": "a corset top and wide-leg trousers",
+      "tags": [
+        "glam",
+        "evening",
+        "edgy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.leather_trousers_knit",
+      "type": "outfit",
+      "label": "Leather Trousers Knit",
+      "prompt": "leather trousers and a fitted knit",
+      "tags": [
+        "edgy",
+        "evening",
+        "street"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.backless_halter_trousers",
+      "type": "outfit",
+      "label": "Backless Halter Trousers",
+      "prompt": "a backless halter top and tailored trousers",
+      "tags": [
+        "glam",
+        "evening"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.red_midi_dress",
+      "type": "outfit",
+      "label": "Red Midi Dress",
+      "prompt": "a deep red midi dress",
+      "tags": [
+        "glam",
+        "evening"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "evening"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.knit_polo_tailored_shorts",
+      "type": "outfit",
+      "label": "Knit Polo Tailored Shorts",
+      "prompt": "a knit polo and tailored shorts",
+      "tags": [
+        "smart_casual",
+        "minimal"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.rollneck_pleated_midi",
+      "type": "outfit",
+      "label": "Rollneck Pleated Midi",
+      "prompt": "a roll-neck and a pleated midi skirt",
+      "tags": [
+        "smart_casual",
+        "polished"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.chunky_knit_straight_jeans",
+      "type": "outfit",
+      "label": "Chunky Knit Straight Jeans",
+      "prompt": "a chunky knit jumper and straight jeans",
+      "tags": [
+        "smart_casual",
+        "casual",
+        "winter_ok"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.blouse_straight_jeans",
+      "type": "outfit",
+      "label": "Blouse Straight Jeans",
+      "prompt": "a soft blouse and straight jeans",
+      "tags": [
+        "smart_casual",
+        "casual"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.cashmere_wool_trousers",
+      "type": "outfit",
+      "label": "Cashmere Wool Trousers",
+      "prompt": "a cashmere jumper and wool trousers",
+      "tags": [
+        "smart_casual",
+        "polished",
+        "winter_ok"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "metadata": {
+        "fashion_category": "smart_casual"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.cable_knit_thermal_leggings",
+      "type": "outfit",
+      "label": "Cable Knit Thermal Leggings",
+      "prompt": "a chunky cable-knit jumper and thermal leggings",
+      "tags": [
+        "winter_ok",
+        "casual"
+      ],
+      "weight": 1.1,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "metadata": {
+        "fashion_category": "winter"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.fair_isle_jeans",
+      "type": "outfit",
+      "label": "Fair Isle Jeans",
+      "prompt": "a patterned fair isle jumper and jeans",
+      "tags": [
+        "winter_ok",
+        "casual"
+      ],
+      "weight": 0.9,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "metadata": {
+        "fashion_category": "winter"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.thick_rollneck_corduroy",
+      "type": "outfit",
+      "label": "Thick Rollneck Corduroy",
+      "prompt": "a thick roll-neck and corduroy trousers",
+      "tags": [
+        "winter_ok",
+        "casual"
+      ],
+      "weight": 1.0,
+      "prefers": {
+        "season_tags_any": {
+          "values": [
+            "winter",
+            "autumn"
+          ],
+          "bonus": 1.2
+        }
+      },
+      "excludes": {
+        "season_tags_any": [
+          "summer"
+        ]
+      },
+      "metadata": {
+        "fashion_category": "winter"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.boiler_suit",
+      "type": "outfit",
+      "label": "Boiler Suit",
+      "prompt": "a boiler suit, sleeves pushed up",
+      "tags": [
+        "utility",
+        "edgy",
+        "alt"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "fashion_category": "utility"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.utility_jumpsuit",
+      "type": "outfit",
+      "label": "Utility Jumpsuit",
+      "prompt": "a utility jumpsuit",
+      "tags": [
+        "utility",
+        "casual"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "fashion_category": "utility"
+      }
+    },
+    {
+      "id": "brkn_base.outfit.painters_dungarees",
+      "type": "outfit",
+      "label": "Painters Dungarees",
+      "prompt": "paint-flecked dungarees",
+      "tags": [
+        "utility",
+        "artsy"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "fashion_category": "utility"
+      }
+    }
+  ]
+}

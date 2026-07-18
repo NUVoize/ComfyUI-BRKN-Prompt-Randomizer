@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "brkn_portraits.lighting_preset.window_side",
+      "type": "lighting_preset",
+      "label": "Soft daylight falling across one side of her face",
+      "prompt": "soft daylight falling across one side of her face",
+      "tags": [
+        "soft",
+        "natural",
+        "window",
+        "portrait"
+      ],
+      "weight": 3.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.window_flat",
+      "type": "lighting_preset",
+      "label": "Flat even daylight from a large window",
+      "prompt": "flat even daylight from a large window",
+      "tags": [
+        "soft",
+        "natural",
+        "window",
+        "portrait"
+      ],
+      "weight": 2.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.rembrandt",
+      "type": "lighting_preset",
+      "label": "Rembrandt lighting, a small triangle of light on one che",
+      "prompt": "Rembrandt lighting, a small triangle of light on one cheek",
+      "tags": [
+        "portrait",
+        "dramatic",
+        "studio"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.butterfly",
+      "type": "lighting_preset",
+      "label": "Butterfly lighting, a small shadow beneath the nose",
+      "prompt": "butterfly lighting, a small shadow beneath the nose",
+      "tags": [
+        "portrait",
+        "beauty",
+        "soft",
+        "studio"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.split",
+      "type": "lighting_preset",
+      "label": "Split lighting, one half of her face in shadow",
+      "prompt": "split lighting, one half of her face in shadow",
+      "tags": [
+        "portrait",
+        "dramatic",
+        "studio",
+        "hard"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.clamshell",
+      "type": "lighting_preset",
+      "label": "Clamshell beauty lighting, soft and even from the front",
+      "prompt": "clamshell beauty lighting, soft and even from the front",
+      "tags": [
+        "portrait",
+        "beauty",
+        "soft",
+        "studio"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.loop",
+      "type": "lighting_preset",
+      "label": "A soft key just off-axis, a small loop shadow at the nos",
+      "prompt": "a soft key just off-axis, a small loop shadow at the nose",
+      "tags": [
+        "portrait",
+        "soft",
+        "studio"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.hard_key",
+      "type": "lighting_preset",
+      "label": "A single hard light, shadow edges crisp",
+      "prompt": "a single hard light, shadow edges crisp",
+      "tags": [
+        "hard",
+        "dramatic",
+        "studio"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.rim_only",
+      "type": "lighting_preset",
+      "label": "A bright rim tracing her jaw, the front barely lit",
+      "prompt": "a bright rim tracing her jaw, the front barely lit",
+      "tags": [
+        "rim",
+        "dramatic",
+        "low_key"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.backlit_haze",
+      "type": "lighting_preset",
+      "label": "Backlight blowing out behind her, her face in soft shado",
+      "prompt": "backlight blowing out behind her, her face in soft shadow",
+      "tags": [
+        "backlit",
+        "soft"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.open_shade",
+      "type": "lighting_preset",
+      "label": "The soft open shade of an overcast day",
+      "prompt": "the soft open shade of an overcast day",
+      "tags": [
+        "soft",
+        "natural",
+        "portrait"
+      ],
+      "weight": 1.8,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.hard_sun",
+      "type": "lighting_preset",
+      "label": "Hard direct sun, shadows carved across her face",
+      "prompt": "hard direct sun, shadows carved across her face",
+      "tags": [
+        "hard",
+        "natural",
+        "dramatic"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.golden_low",
+      "type": "lighting_preset",
+      "label": "Warm low sun raking across her cheekbone",
+      "prompt": "warm low sun raking across her cheekbone",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.phone_flash",
+      "type": "lighting_preset",
+      "label": "Harsh direct on-camera flash",
+      "prompt": "harsh direct on-camera flash",
+      "tags": [
+        "flash",
+        "hard"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "brkn_portraits.lighting_preset.practical_warm",
+      "type": "lighting_preset",
+      "label": "Warm light from a lamp beside her",
+      "prompt": "warm light from a lamp beside her",
+      "tags": [
+        "warm",
+        "soft",
+        "practical"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

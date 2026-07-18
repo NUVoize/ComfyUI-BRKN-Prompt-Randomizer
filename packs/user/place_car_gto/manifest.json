@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "place_car_gto",
+  "name": "BRKN Place - GTO Convertible",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Late-60s Pontiac GTO convertible. White, tan interior, top down. THE SEAT IS OUTDOORS -- sunglasses roll, the sun lands on her, and she can stand up in it.",
+  "content_types": [
+    "environments",
+    "locations",
+    "actions",
+    "camera_presets",
+    "handhelds",
+    "atmospheres",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 300,
+  "dependencies": [],
+  "tags": [
+    "place",
+    "vehicle",
+    "layerable",
+    "set"
+  ]
+}

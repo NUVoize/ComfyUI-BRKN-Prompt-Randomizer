@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "place_car_gto.handheld.sunglasses_gto",
+      "type": "handheld",
+      "label": "Her sunglasses in one hand",
+      "prompt": "her sunglasses in one hand",
+      "tags": [
+        "everyday"
+      ],
+      "weight": 1.8,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.handheld.keys_gto",
+      "type": "handheld",
+      "label": "The car key spun on one finger",
+      "prompt": "the car key spun on one finger",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.handheld.takeaway_cup_gto",
+      "type": "handheld",
+      "label": "A takeaway coffee",
+      "prompt": "a takeaway coffee",
+      "tags": [
+        "everyday"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 7.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

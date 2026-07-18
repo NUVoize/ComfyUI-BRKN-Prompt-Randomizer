@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_car_gto.action.driving_gto",
+      "type": "action",
+      "label": "Driving with one hand, hair going everywhere",
+      "prompt": "driving with one hand, hair going everywhere",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.perched_on_seatback",
+      "type": "action",
+      "label": "Perched up on the back of the seat",
+      "prompt": "perched up on the back of the seat",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.standing_in_car",
+      "type": "action",
+      "label": "Standing up in the footwell, head above the screen",
+      "prompt": "standing up in the footwell, head above the screen",
+      "tags": [
+        "standing",
+        "vehicle_seat"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.legs_over_the_door",
+      "type": "action",
+      "label": "Hanging her legs out over the door",
+      "prompt": "hanging her legs out over the door",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.arms_wide_on_seat",
+      "type": "action",
+      "label": "Both arms stretched along the seat back",
+      "prompt": "both arms stretched along the seat back",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.head_back_sun",
+      "type": "action",
+      "label": "Head tipped back into the sun",
+      "prompt": "head tipped back into the sun",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.selfie_gto",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_car_gto.action.looking_back_gto",
+      "type": "action",
+      "label": "Twisting back over the seat",
+      "prompt": "twisting back over the seat",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.sitting_on_hood_gto",
+      "type": "action",
+      "label": "Sitting up on the long hood",
+      "prompt": "sitting up on the long hood",
+      "tags": [
+        "seated",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.action.leaning_rear_quarter",
+      "type": "action",
+      "label": "Leaning back against the rear quarter",
+      "prompt": "leaning back against the rear quarter",
+      "tags": [
+        "standing",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_quarter",
+          "part_wing"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.action.stretched_on_hood_gto",
+      "type": "action",
+      "label": "Lying back across the white hood",
+      "prompt": "lying back across the white hood",
+      "tags": [
+        "reclining",
+        "vehicle_exterior"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.action.sitting_on_boot",
+      "type": "action",
+      "label": "Sitting up on the boot lid",
+      "prompt": "sitting up on the boot lid",
+      "tags": [
+        "seated",
+        "vehicle_exterior"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_boot"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.action.crouched_by_chrome",
+      "type": "action",
+      "label": "Crouched at the chrome wheel",
+      "prompt": "crouched at the chrome wheel",
+      "tags": [
+        "crouching",
+        "vehicle_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wheel"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.action.walking_away_gto",
+      "type": "action",
+      "label": "Walking away, glancing back",
+      "prompt": "walking away, glancing back",
+      "tags": [
+        "moving",
+        "vehicle_exterior"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_gto.action.selfie_by_gto",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_goth.headwear.black_beret",
+      "type": "headwear",
+      "label": "A black beret",
+      "prompt": "a black beret",
+      "tags": [
+        "goth"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "wear_goth.headwear.lace_veil",
+      "type": "headwear",
+      "label": "A short black lace veil",
+      "prompt": "a short black lace veil",
+      "tags": [
+        "goth"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "wear_goth.headwear.black_bandana",
+      "type": "headwear",
+      "label": "A black bandana",
+      "prompt": "a black bandana",
+      "tags": [
+        "goth"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "wear_goth.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 14.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

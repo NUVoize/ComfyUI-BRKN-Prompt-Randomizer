@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.hair_style.long_loose",
+      "type": "hair_style",
+      "label": "Worn long and loose",
+      "prompt": "worn long and loose",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_romantic.hair_style.half_pinned",
+      "type": "hair_style",
+      "label": "Half pinned up, the rest falling",
+      "prompt": "half pinned up, the rest falling",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_romantic.hair_style.waved_long",
+      "type": "hair_style",
+      "label": "In long soft waves",
+      "prompt": "in long soft waves",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 1.8
+    }
+  ]
+}

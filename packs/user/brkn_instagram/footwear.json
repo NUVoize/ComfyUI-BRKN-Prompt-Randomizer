@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "brkn_instagram.footwear.white_trainers",
+      "type": "footwear",
+      "label": "Clean white trainers",
+      "prompt": "clean white trainers",
+      "tags": [
+        "casual",
+        "sporty"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "casual"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.chunky_trainers",
+      "type": "footwear",
+      "label": "Chunky white trainers",
+      "prompt": "chunky white trainers",
+      "tags": [
+        "street"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "footwear_category": "street"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy",
+          "swim"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.running_shoes",
+      "type": "footwear",
+      "label": "Running shoes",
+      "prompt": "running shoes",
+      "tags": [
+        "sporty"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "footwear_category": "sporty"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy",
+          "swim"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.barefoot",
+      "type": "footwear",
+      "label": "Barefoot",
+      "prompt": "barefoot",
+      "tags": [
+        "lounge"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "footwear_category": "lounge"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy",
+          "sporty"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.fluffy_slippers",
+      "type": "footwear",
+      "label": "Fluffy slippers",
+      "prompt": "fluffy slippers",
+      "tags": [
+        "lounge"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "footwear_category": "lounge"
+      },
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy",
+          "sporty",
+          "swim"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.strappy_heels",
+      "type": "footwear",
+      "label": "Strappy heels",
+      "prompt": "strappy heels",
+      "tags": [
+        "nightlife",
+        "glam"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "footwear_category": "nightlife"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "exercising",
+          "moving"
+        ],
+        "outfit_tags_any": [
+          "sporty",
+          "lounge",
+          "swim"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.black_ankle_boots",
+      "type": "footwear",
+      "label": "Black ankle boots",
+      "prompt": "black ankle boots",
+      "tags": [
+        "street"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "footwear_category": "street"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "exercising",
+          "moving"
+        ],
+        "outfit_tags_any": [
+          "sporty",
+          "lounge",
+          "swim"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.slides",
+      "type": "footwear",
+      "label": "Pool slides",
+      "prompt": "pool slides",
+      "tags": [
+        "summer"
+      ],
+      "weight": 0.9,
+      "metadata": {
+        "footwear_category": "summer"
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.flip_flops",
+      "type": "footwear",
+      "label": "Flip flops",
+      "prompt": "flip flops",
+      "tags": [
+        "summer"
+      ],
+      "weight": 0.6,
+      "metadata": {
+        "footwear_category": "summer"
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "dressy",
+          "sporty"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.footwear.sandals",
+      "type": "footwear",
+      "label": "Flat leather sandals",
+      "prompt": "flat leather sandals",
+      "tags": [
+        "summer",
+        "casual"
+      ],
+      "weight": 0.8,
+      "metadata": {
+        "footwear_category": "summer"
+      },
+      "prefers": {
+        "environment_tags_any": {
+          "values": [
+            "poolside",
+            "beach"
+          ],
+          "bonus": 2.0
+        }
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "sporty"
+        ]
+      }
+    }
+  ]
+}

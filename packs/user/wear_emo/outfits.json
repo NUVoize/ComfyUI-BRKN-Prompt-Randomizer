@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_emo.outfit.band_tee_skinny",
+      "type": "outfit",
+      "label": "A faded band tee and black skinny jeans",
+      "prompt": "a faded band tee and black skinny jeans",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_emo.outfit.studded_belt_jeans",
+      "type": "outfit",
+      "label": "Black skinny jeans with a studded belt",
+      "prompt": "black skinny jeans with a studded belt",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_emo.outfit.hoodie_stripes",
+      "type": "outfit",
+      "label": "A black hoodie over a striped long-sleeve",
+      "prompt": "a black hoodie over a striped long-sleeve",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_emo.outfit.plaid_skirt_tights",
+      "type": "outfit",
+      "label": "A plaid skirt over torn black tights",
+      "prompt": "a plaid skirt over torn black tights",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_emo.outfit.layered_tees",
+      "type": "outfit",
+      "label": "Two tees layered, sleeves pushed up",
+      "prompt": "two tees layered, sleeves pushed up",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_emo.outfit.black_tank_arms",
+      "type": "outfit",
+      "label": "A black tank and studded wristbands",
+      "prompt": "a black tank and studded wristbands",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_emo.outfit.oversized_hoodie",
+      "type": "outfit",
+      "label": "An oversized black hoodie, hood up",
+      "prompt": "an oversized black hoodie, hood up",
+      "tags": [
+        "emo",
+        "lounge"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_emo.outfit.skinny_black_crop",
+      "type": "outfit",
+      "label": "Black skinny jeans and a cropped black top",
+      "prompt": "black skinny jeans and a cropped black top",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_emo.outfit.checkerboard",
+      "type": "outfit",
+      "label": "A checkerboard print top",
+      "prompt": "a checkerboard print top",
+      "tags": [
+        "emo",
+        "casual"
+      ],
+      "weight": 1.0
+    },
+    {
+      "id": "wear_emo.outfit.emo_lounge",
+      "type": "outfit",
+      "label": "A band tee and black shorts",
+      "prompt": "a band tee and black shorts",
+      "tags": [
+        "emo",
+        "lounge"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

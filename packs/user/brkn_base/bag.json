@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0",
+  "content_type": "bags",
+  "entries": [
+    {
+      "id": "brkn_base.bag.small_leather_shoulder_bag",
+      "type": "bag",
+      "label": "Small leather shoulder bag",
+      "prompt": "small leather shoulder bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.structured_leather_handbag",
+      "type": "bag",
+      "label": "Structured leather handbag",
+      "prompt": "structured leather handbag",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.soft_slouchy_handbag",
+      "type": "bag",
+      "label": "Soft slouchy handbag",
+      "prompt": "soft slouchy handbag",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.mini_handbag",
+      "type": "bag",
+      "label": "Mini handbag",
+      "prompt": "mini handbag",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.top_handle_purse",
+      "type": "bag",
+      "label": "Top-handle purse",
+      "prompt": "top-handle purse",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.boxy_purse",
+      "type": "bag",
+      "label": "Boxy purse",
+      "prompt": "boxy purse",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.quilted_handbag",
+      "type": "bag",
+      "label": "Quilted handbag",
+      "prompt": "quilted handbag",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.chain_strap_purse",
+      "type": "bag",
+      "label": "Chain-strap purse",
+      "prompt": "chain-strap purse",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.luxury_flap_bag",
+      "type": "bag",
+      "label": "Luxury flap bag",
+      "prompt": "luxury flap bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.crescent_shoulder_bag",
+      "type": "bag",
+      "label": "Crescent shoulder bag",
+      "prompt": "crescent shoulder bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.underarm_shoulder_bag",
+      "type": "bag",
+      "label": "Underarm shoulder bag",
+      "prompt": "underarm shoulder bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.baguette_bag",
+      "type": "bag",
+      "label": "Baguette bag",
+      "prompt": "baguette bag",
+      "tags": [
+        "bag",
+        "held"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.half_moon_bag",
+      "type": "bag",
+      "label": "Half-moon bag",
+      "prompt": "half-moon bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.hobo_bag",
+      "type": "bag",
+      "label": "Hobo bag",
+      "prompt": "hobo bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.oversized_tote_bag",
+      "type": "bag",
+      "label": "Oversized tote bag",
+      "prompt": "oversized tote bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.minimalist_tote_bag",
+      "type": "bag",
+      "label": "Minimalist tote bag",
+      "prompt": "minimalist tote bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.canvas_tote_bag",
+      "type": "bag",
+      "label": "Canvas tote bag",
+      "prompt": "canvas tote bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.woven_tote_bag",
+      "type": "bag",
+      "label": "Woven tote bag",
+      "prompt": "woven tote bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.market_tote",
+      "type": "bag",
+      "label": "Market tote",
+      "prompt": "market tote",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.satchel_bag",
+      "type": "bag",
+      "label": "Satchel bag",
+      "prompt": "satchel bag",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.sleek_evening_clutch",
+      "type": "bag",
+      "label": "Sleek evening clutch",
+      "prompt": "sleek evening clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.envelope_clutch",
+      "type": "bag",
+      "label": "Envelope clutch",
+      "prompt": "envelope clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.metallic_clutch",
+      "type": "bag",
+      "label": "Metallic clutch",
+      "prompt": "metallic clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.jeweled_clutch",
+      "type": "bag",
+      "label": "Jeweled clutch",
+      "prompt": "jeweled clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.satin_clutch",
+      "type": "bag",
+      "label": "Satin clutch",
+      "prompt": "satin clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.hard_shell_minaudi_re",
+      "type": "bag",
+      "label": "Hard-shell minaudi\u00e8re",
+      "prompt": "hard-shell minaudi\u00e8re",
+      "tags": [
+        "bag",
+        "evening",
+        "held"
+      ],
+      "weight": 0.5,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.pearl_embellished_clutch",
+      "type": "bag",
+      "label": "Pearl-embellished clutch",
+      "prompt": "pearl-embellished clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.acrylic_statement_clutch",
+      "type": "bag",
+      "label": "Acrylic statement clutch",
+      "prompt": "acrylic statement clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.sculptural_fashion_clutch",
+      "type": "bag",
+      "label": "Sculptural fashion clutch",
+      "prompt": "sculptural fashion clutch",
+      "tags": [
+        "bag",
+        "evening",
+        "held",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "carry": "held"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ],
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.runway_evening_bag",
+      "type": "bag",
+      "label": "Runway evening bag",
+      "prompt": "runway evening bag",
+      "tags": [
+        "bag",
+        "evening",
+        "worn",
+        "editorial"
+      ],
+      "weight": 0.3,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.compact_crossbody_bag",
+      "type": "bag",
+      "label": "Compact crossbody bag",
+      "prompt": "compact crossbody bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.leather_crossbody_bag",
+      "type": "bag",
+      "label": "Leather crossbody bag",
+      "prompt": "leather crossbody bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.sporty_crossbody_bag",
+      "type": "bag",
+      "label": "Sporty crossbody bag",
+      "prompt": "sporty crossbody bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.belt_bag_worn_crossbody",
+      "type": "bag",
+      "label": "Belt bag worn crossbody",
+      "prompt": "belt bag worn crossbody",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.messenger_bag",
+      "type": "bag",
+      "label": "Messenger bag",
+      "prompt": "messenger bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.mini_backpack",
+      "type": "bag",
+      "label": "Mini backpack",
+      "prompt": "mini backpack",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.structured_backpack",
+      "type": "bag",
+      "label": "Structured backpack",
+      "prompt": "structured backpack",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.nylon_utility_bag",
+      "type": "bag",
+      "label": "Nylon utility bag",
+      "prompt": "nylon utility bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.camera_bag",
+      "type": "bag",
+      "label": "Camera bag",
+      "prompt": "camera bag",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.phone_pouch_with_strap",
+      "type": "bag",
+      "label": "Phone pouch with strap",
+      "prompt": "phone pouch with strap",
+      "tags": [
+        "bag",
+        "practical",
+        "worn"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "carry": "worn"
+      },
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      }
+    },
+    {
+      "id": "brkn_base.bag.unspecified",
+      "type": "bag",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 42.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

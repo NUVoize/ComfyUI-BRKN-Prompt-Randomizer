@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_colors",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.hair_color.jet_black",
+      "type": "hair_color",
+      "label": "Jet black",
+      "prompt": "jet black",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_romantic.hair_color.deep_burgundy",
+      "type": "hair_color",
+      "label": "Deep burgundy",
+      "prompt": "deep burgundy",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_goth_romantic.hair_color.very_dark_brown",
+      "type": "hair_color",
+      "label": "Very dark brown",
+      "prompt": "very dark brown",
+      "tags": [
+        "goth_romantic"
+      ],
+      "weight": 1.6
+    }
+  ]
+}

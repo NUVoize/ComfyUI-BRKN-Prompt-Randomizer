@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "content_type": "environments",
+  "entries": [
+    {
+      "id": "place_car_911.environment.p911_named",
+      "type": "environment",
+      "label": "A classic 1960s porsche 911 coupe in glossy black",
+      "prompt": "a classic 1960s Porsche 911 coupe in glossy black",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_911.environment.p911_named_blue",
+      "type": "environment",
+      "label": "A classic 1960s porsche 911 in midnight blue, chrome bum",
+      "prompt": "a classic 1960s Porsche 911 in midnight blue, chrome bumpers and polished hubcaps",
+      "tags": [
+        "vehicle",
+        "named",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_911.environment.p911_desc",
+      "type": "environment",
+      "label": "A small rounded 1960s european sports coupe in glossy bl",
+      "prompt": "a small rounded 1960s European sports coupe in glossy black, circular chrome-trimmed headlights, slim chrome bumpers and polished steel wheels",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_911.environment.p911_desc_low",
+      "type": "environment",
+      "label": "A low compact vintage coupe with a curved windscreen, na",
+      "prompt": "a low compact vintage coupe with a curved windscreen, narrow tyres, chrome hubcaps and an elegant sixties stance",
+      "tags": [
+        "vehicle",
+        "described",
+        "indoor_env"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "place_car_911.environment.p911_coast",
+      "type": "environment",
+      "label": "A vintage black coupe on a coast road",
+      "prompt": "a vintage black coupe on a coast road",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_car_911.environment.p911_night",
+      "type": "environment",
+      "label": "A vintage coupe under streetlights",
+      "prompt": "a vintage coupe under streetlights",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "place_car_911.environment.p911_garage",
+      "type": "environment",
+      "label": "A vintage coupe in an old garage",
+      "prompt": "a vintage coupe in an old garage",
+      "tags": [
+        "vehicle",
+        "context",
+        "indoor_env"
+      ],
+      "weight": 1.0
+    }
+  ]
+}

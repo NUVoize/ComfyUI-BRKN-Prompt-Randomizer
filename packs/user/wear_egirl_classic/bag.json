@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "bags",
+  "entries": [
+    {
+      "id": "wear_egirl_classic.bag.mini_backpack",
+      "type": "bag",
+      "label": "A tiny black mini backpack",
+      "prompt": "a tiny black mini backpack",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 2.0,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.bag.chain_bag",
+      "type": "bag",
+      "label": "A small bag on a silver chain",
+      "prompt": "a small bag on a silver chain",
+      "tags": [
+        "bag",
+        "worn"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "environment_tags_any": [
+          "home"
+        ]
+      },
+      "metadata": {
+        "carry": "worn"
+      }
+    },
+    {
+      "id": "wear_egirl_classic.bag.unspecified",
+      "type": "bag",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 10.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

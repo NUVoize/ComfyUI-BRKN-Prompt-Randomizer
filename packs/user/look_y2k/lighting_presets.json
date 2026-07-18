@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "look_y2k.lighting_preset.hot_flash",
+      "type": "lighting_preset",
+      "label": "A hot direct flash, everything behind her black",
+      "prompt": "a hot direct flash, everything behind her black",
+      "tags": [
+        "flash",
+        "hard"
+      ],
+      "weight": 3.0
+    },
+    {
+      "id": "look_y2k.lighting_preset.flash_daylight",
+      "type": "lighting_preset",
+      "label": "A flash fired in daylight, flat and hard",
+      "prompt": "a flash fired in daylight, flat and hard",
+      "tags": [
+        "flash",
+        "hard"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "look_y2k.lighting_preset.bad_indoor",
+      "type": "lighting_preset",
+      "label": "Yellow indoor light and a flash",
+      "prompt": "yellow indoor light and a flash",
+      "tags": [
+        "flash",
+        "warm"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

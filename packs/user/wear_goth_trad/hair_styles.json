@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_goth_trad.hair_style.teased",
+      "type": "hair_style",
+      "label": "Teased out and backcombed",
+      "prompt": "teased out and backcombed",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_trad.hair_style.crimped_long",
+      "type": "hair_style",
+      "label": "Crimped and long",
+      "prompt": "crimped and long",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_trad.hair_style.spiked_short",
+      "type": "hair_style",
+      "label": "Cropped and spiked",
+      "prompt": "cropped and spiked",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_goth_trad.hair_style.long_straight_black",
+      "type": "hair_style",
+      "label": "Worn long and dead straight",
+      "prompt": "worn long and dead straight",
+      "tags": [
+        "goth_trad"
+      ],
+      "weight": 1.8
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "brkn_chassis.lighting_preset.plain_soft",
+      "type": "lighting_preset",
+      "label": "Soft even light",
+      "prompt": "soft even light",
+      "tags": [
+        "soft",
+        "neutral"
+      ],
+      "weight": 0.3
+    },
+    {
+      "id": "brkn_chassis.lighting_preset.plain_daylight",
+      "type": "lighting_preset",
+      "label": "Plain daylight",
+      "prompt": "plain daylight",
+      "tags": [
+        "natural",
+        "neutral"
+      ],
+      "weight": 0.3,
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    }
+  ]
+}

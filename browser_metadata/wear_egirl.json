@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "wear_egirl",
+  "selection_role": "modifier",
+  "selection_category": "wardrobe_makeup",
+  "is_complete_pack": false,
+  "thumbnail_base": "thumbnails/wardrobe-style",
+  "cover_image": {
+    "path": "wear_egirl_cover_thumbnail_512.webp",
+    "label": "wear_egirl cover thumbnail",
+    "role": "cover"
+  },
+  "preview_images": [
+    {
+      "path": "wear_egirl_close-up_thumbnail_512.webp",
+      "label": "wear_egirl preview 1",
+      "role": "detail"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "content_type": "headwear",
+  "entries": [
+    {
+      "id": "wear_egirl.headwear.beanie",
+      "type": "headwear",
+      "label": "A black beanie pushed back",
+      "prompt": "a black beanie pushed back",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "wear_egirl.headwear.bucket_hat",
+      "type": "headwear",
+      "label": "A black bucket hat",
+      "prompt": "a black bucket hat",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "wear_egirl.headwear.headphones",
+      "type": "headwear",
+      "label": "Headphones around her neck",
+      "prompt": "headphones around her neck",
+      "tags": [
+        "egirl"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "wear_egirl.headwear.unspecified",
+      "type": "headwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 14.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "content_type": "visual_styles",
+  "entries": [
+    {
+      "id": "brkn_portraits.visual_style.skin_forward",
+      "type": "visual_style",
+      "label": "A hyper-detailed portrait photograph",
+      "prompt": "a hyper-detailed portrait photograph",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 2.6,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "soft",
+            "portrait",
+            "natural",
+            "window"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "visible skin texture, fine pores, individual eyelashes, every stray hair held",
+        "color_treatment": "true skin tone, nothing smoothed",
+        "camera_behavior": "a still, locked-off framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.raw_daylight",
+      "type": "visual_style",
+      "label": "A raw daylight portrait",
+      "prompt": "a raw daylight portrait",
+      "tags": [
+        "hyper_realistic",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 2.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "window",
+            "soft"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "hyper_realistic",
+        "finish": "unretouched skin, texture and flaws left in",
+        "color_treatment": "honest colour, nothing corrected",
+        "camera_behavior": "a still framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.editorial_beauty",
+      "type": "visual_style",
+      "label": "An editorial beauty portrait",
+      "prompt": "an editorial beauty portrait",
+      "tags": [
+        "editorial",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.6,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "studio",
+            "beauty",
+            "hard",
+            "rim"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "editorial",
+        "finish": "high-resolution medium-format skin detail, pores held, gloss on the lip",
+        "color_treatment": "controlled colour, deliberate contrast",
+        "camera_behavior": "a considered framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.film_portrait",
+      "type": "visual_style",
+      "label": "A 35mm film portrait",
+      "prompt": "a 35mm film portrait",
+      "tags": [
+        "photographic",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.6,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "window",
+            "soft"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "fine film grain sitting over the skin",
+        "color_treatment": "warm highlights, soft creamy tone",
+        "camera_behavior": "a quiet handheld framing",
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.bw_portrait",
+      "type": "visual_style",
+      "label": "A black and white portrait",
+      "prompt": "a black and white portrait",
+      "tags": [
+        "photographic",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "hard",
+            "dramatic",
+            "window"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "photographic",
+        "finish": "coarse grain, every line of the face held",
+        "color_treatment": "black and white, no colour at all",
+        "camera_behavior": "a still framing",
+        "aspect_ratio": "3:2"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.low_key_portrait",
+      "type": "visual_style",
+      "label": "A low-key portrait",
+      "prompt": "a low-key portrait",
+      "tags": [
+        "cinematic",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "dramatic",
+            "rim",
+            "hard"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "cinematic",
+        "finish": "deep shadow, skin lit only where the light finds it",
+        "color_treatment": "the background fallen to black",
+        "camera_behavior": "a still framing",
+        "aspect_ratio": "4:5"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.clinical_beauty",
+      "type": "visual_style",
+      "label": "A clean beauty portrait",
+      "prompt": "a clean beauty portrait",
+      "tags": [
+        "commercial",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "beauty",
+            "studio",
+            "soft"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "commercial",
+        "finish": "clean, lightly retouched skin, texture still present",
+        "color_treatment": "bright even colour",
+        "camera_behavior": "a locked-off framing",
+        "aspect_ratio": "1:1"
+      }
+    },
+    {
+      "id": "brkn_portraits.visual_style.phone_intimate",
+      "type": "visual_style",
+      "label": "A close phone photograph",
+      "prompt": "a close phone photograph",
+      "tags": [
+        "social_media",
+        "photoreal",
+        "portrait"
+      ],
+      "weight": 1.4,
+      "prefers": {
+        "lighting_tags_any": {
+          "values": [
+            "natural",
+            "flash"
+          ],
+          "bonus": 2.0
+        },
+        "camera_tags_any": {
+          "values": [
+            "close",
+            "extreme_close",
+            "portrait"
+          ],
+          "bonus": 1.6
+        }
+      },
+      "metadata": {
+        "visual_category": "social_media",
+        "finish": "the lightly compressed look of a phone camera, skin a little soft",
+        "color_treatment": "punchy contrast",
+        "camera_behavior": "a loose handheld framing",
+        "aspect_ratio": "4:5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "wear_emo.body_art.none",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "none"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "wear_emo.body_art.wrist_small",
+      "type": "body_art",
+      "label": "A small tattoo on her wrist",
+      "prompt": "a small tattoo on her wrist",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_emo.body_art.forearm_script",
+      "type": "body_art",
+      "label": "Script down one forearm",
+      "prompt": "script down one forearm",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_emo.body_art.stick_poke",
+      "type": "body_art",
+      "label": "Scattered stick-and-poke tattoos",
+      "prompt": "scattered stick-and-poke tattoos",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_emo.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

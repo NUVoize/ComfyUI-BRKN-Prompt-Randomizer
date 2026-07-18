@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "content_type": "camera_presets",
+  "entries": [
+    {
+      "id": "brkn_chassis.camera_preset.selfie",
+      "type": "camera_preset",
+      "label": "A selfie",
+      "prompt": "a selfie",
+      "tags": [
+        "selfie",
+        "phone",
+        "close"
+      ],
+      "weight": 3.0,
+      "metadata": {
+        "framing": "a selfie"
+      },
+      "requires": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      },
+      "excludes": {
+        "action_tags_any": [
+          "mirror_selfie"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.camera_preset.close_up",
+      "type": "camera_preset",
+      "label": "A close-up",
+      "prompt": "a close-up",
+      "tags": [
+        "close",
+        "portrait"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "a close-up",
+        "camera_angle": "an eye-level angle"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.camera_preset.medium",
+      "type": "camera_preset",
+      "label": "A medium shot",
+      "prompt": "a medium shot",
+      "tags": [
+        "medium"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "framing": "a medium shot",
+        "camera_angle": "an eye-level angle"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.camera_preset.full_body",
+      "type": "camera_preset",
+      "label": "A full-body shot",
+      "prompt": "a full-body shot",
+      "tags": [
+        "wide"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "framing": "a full-body shot",
+        "camera_angle": "an eye-level angle"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      }
+    },
+    {
+      "id": "brkn_chassis.camera_preset.low_flattering",
+      "type": "camera_preset",
+      "label": "A low three-quarter shot",
+      "prompt": "a low three-quarter shot",
+      "tags": [
+        "medium"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "framing": "a three-quarter shot",
+        "camera_angle": "a slightly low angle"
+      },
+      "excludes": {
+        "action_tags_any": [
+          "selfie"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_home.atmosphere.rain_window",
+      "type": "atmosphere",
+      "label": "Rain streaking the window behind her",
+      "prompt": "rain streaking the window behind her",
+      "tags": [
+        "scope_visible",
+        "weather_rain",
+        "daylit"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "visible",
+        "weather": "rain",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_home.atmosphere.grey_window",
+      "type": "atmosphere",
+      "label": "Flat grey light at the window",
+      "prompt": "flat grey light at the window",
+      "tags": [
+        "scope_visible",
+        "weather_overcast",
+        "daylit"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "visible",
+        "weather": "overcast",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_home.atmosphere.sun_through",
+      "type": "atmosphere",
+      "label": "Hard sun cutting in through the glass",
+      "prompt": "hard sun cutting in through the glass",
+      "tags": [
+        "scope_visible",
+        "weather_clear",
+        "daylit"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "visible",
+        "weather": "clear",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_home.atmosphere.night_outside",
+      "type": "atmosphere",
+      "label": "Full dark outside the window",
+      "prompt": "full dark outside the window",
+      "tags": [
+        "scope_visible",
+        "weather_clear",
+        "night"
+      ],
+      "weight": 1.0,
+      "requires": {
+        "location_tags_any": [
+          "indoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "scope": "visible",
+        "weather": "clear",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_home.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 12.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

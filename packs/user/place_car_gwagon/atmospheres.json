@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_car_gwagon.atmosphere.desert_heat",
+      "type": "atmosphere",
+      "label": "Heat shimmering off the road",
+      "prompt": "heat shimmering off the road",
+      "tags": [
+        "weather_hot",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "weather": "hot",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.atmosphere.hard_sun_g",
+      "type": "atmosphere",
+      "label": "Hard open sun, short black shadows",
+      "prompt": "hard open sun, short black shadows",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.atmosphere.wet_city_g",
+      "type": "atmosphere",
+      "label": "Wet asphalt throwing the streetlights back up",
+      "prompt": "wet asphalt throwing the streetlights back up",
+      "tags": [
+        "weather_rain",
+        "scope_outdoor",
+        "night"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "weather": "rain",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.atmosphere.night_city_g",
+      "type": "atmosphere",
+      "label": "Full dark, only the streetlights",
+      "prompt": "full dark, only the streetlights",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "night"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.atmosphere.dust_road",
+      "type": "atmosphere",
+      "label": "Fine dust hanging in the air",
+      "prompt": "fine dust hanging in the air",
+      "tags": [
+        "weather_haze",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "weather": "haze",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gwagon.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

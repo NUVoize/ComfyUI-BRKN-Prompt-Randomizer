@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outerwear",
+  "entries": [
+    {
+      "id": "wear_riviera.outerwear.linen_blazer",
+      "type": "outerwear",
+      "label": "An unstructured cream linen blazer",
+      "prompt": "an unstructured cream linen blazer",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.4,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_riviera.outerwear.silk_kimono",
+      "type": "outerwear",
+      "label": "A silk kimono left open",
+      "prompt": "a silk kimono left open",
+      "tags": [
+        "outer"
+      ],
+      "weight": 1.6,
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "metadata": {
+        "outerwear_category": "jacket"
+      }
+    },
+    {
+      "id": "wear_riviera.outerwear.unspecified",
+      "type": "outerwear",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 6.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

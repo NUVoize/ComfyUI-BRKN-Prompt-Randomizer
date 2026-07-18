@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_emo.hair_style.side_fringe",
+      "type": "hair_style",
+      "label": "With a long side fringe over one eye",
+      "prompt": "with a long side fringe over one eye",
+      "tags": [
+        "emo"
+      ],
+      "weight": 3.0
+    },
+    {
+      "id": "wear_emo.hair_style.choppy_layered",
+      "type": "hair_style",
+      "label": "In choppy layers",
+      "prompt": "in choppy layers",
+      "tags": [
+        "emo"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_emo.hair_style.straightened",
+      "type": "hair_style",
+      "label": "Straightened flat",
+      "prompt": "straightened flat",
+      "tags": [
+        "emo"
+      ],
+      "weight": 1.8
+    }
+  ]
+}

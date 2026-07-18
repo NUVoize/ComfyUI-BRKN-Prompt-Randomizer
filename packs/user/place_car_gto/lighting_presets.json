@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "content_type": "lighting_presets",
+  "entries": [
+    {
+      "id": "place_car_gto.lighting_preset.golden_gto",
+      "type": "lighting_preset",
+      "label": "Low golden sun straight down the road",
+      "prompt": "low golden sun straight down the road",
+      "tags": [
+        "warm",
+        "natural",
+        "soft"
+      ],
+      "weight": 2.8,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.lighting_preset.hard_sun_white",
+      "type": "lighting_preset",
+      "label": "Hard sun bouncing off the white paint",
+      "prompt": "hard sun bouncing off the white paint",
+      "tags": [
+        "natural",
+        "hard"
+      ],
+      "weight": 2.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night",
+          "weather_fog",
+          "weather_overcast",
+          "weather_rain"
+        ],
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.lighting_preset.open_shade_gto",
+      "type": "lighting_preset",
+      "label": "Open shade, soft and even",
+      "prompt": "open shade, soft and even",
+      "tags": [
+        "soft",
+        "natural"
+      ],
+      "weight": 1.6,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "night"
+        ]
+      }
+    },
+    {
+      "id": "place_car_gto.lighting_preset.streetlight_gto",
+      "type": "lighting_preset",
+      "label": "Hard streetlight from above",
+      "prompt": "hard streetlight from above",
+      "tags": [
+        "hard",
+        "night",
+        "practical"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "atmosphere_tags_any": [
+          "daylit"
+        ],
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    }
+  ]
+}

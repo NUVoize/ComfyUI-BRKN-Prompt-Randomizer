@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "content_type": "body_arts",
+  "entries": [
+    {
+      "id": "wear_goth_classic.body_art.none",
+      "type": "body_art",
+      "label": "No visible tattoos",
+      "prompt": "no visible tattoos",
+      "tags": [
+        "none"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "none"
+      }
+    },
+    {
+      "id": "wear_goth_classic.body_art.fine_black_arms",
+      "type": "body_art",
+      "label": "Fine black linework down one arm",
+      "prompt": "fine black linework down one arm",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth_classic.body_art.small_hand",
+      "type": "body_art",
+      "label": "Small black tattoos on her hands",
+      "prompt": "small black tattoos on her hands",
+      "tags": [
+        "tattoo"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "coverage": "some"
+      }
+    },
+    {
+      "id": "wear_goth_classic.body_art.unspecified",
+      "type": "body_art",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 5.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

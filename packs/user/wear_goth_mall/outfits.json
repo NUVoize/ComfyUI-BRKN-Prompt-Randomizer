@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "content_type": "outfits",
+  "entries": [
+    {
+      "id": "wear_goth_mall.outfit.band_tee_baggy",
+      "type": "outfit",
+      "label": "A faded band tee and enormously baggy black trousers",
+      "prompt": "a faded band tee and enormously baggy black trousers",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 2.4
+    },
+    {
+      "id": "wear_goth_mall.outfit.studded_belt_jeans",
+      "type": "outfit",
+      "label": "Black jeans slung low with a double studded belt",
+      "prompt": "black jeans slung low with a double studded belt",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_mall.outfit.hoodie_baggy",
+      "type": "outfit",
+      "label": "A huge black hoodie, hood up, sleeves past her hands",
+      "prompt": "a huge black hoodie, hood up, sleeves past her hands",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_mall.outfit.mesh_over_tee",
+      "type": "outfit",
+      "label": "A black mesh top over a band tee",
+      "prompt": "a black mesh top over a band tee",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_mall.outfit.plaid_bondage_pants",
+      "type": "outfit",
+      "label": "Black plaid bondage trousers with straps and chains",
+      "prompt": "black plaid bondage trousers with straps and chains",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 2.0
+    },
+    {
+      "id": "wear_goth_mall.outfit.crop_hoodie_baggy",
+      "type": "outfit",
+      "label": "A cropped black hoodie and baggy cargo trousers",
+      "prompt": "a cropped black hoodie and baggy cargo trousers",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 1.8
+    },
+    {
+      "id": "wear_goth_mall.outfit.tank_arm_warmers",
+      "type": "outfit",
+      "label": "A black tank top and long striped arm warmers",
+      "prompt": "a black tank top and long striped arm warmers",
+      "tags": [
+        "goth_mall",
+        "casual"
+      ],
+      "weight": 1.6
+    },
+    {
+      "id": "wear_goth_mall.outfit.black_lounge_mall",
+      "type": "outfit",
+      "label": "An oversized band tee and nothing else",
+      "prompt": "an oversized band tee and nothing else",
+      "tags": [
+        "goth_mall",
+        "lounge"
+      ],
+      "weight": 1.2,
+      "requires": {
+        "location_tags_any": [
+          "indoor"
+        ]
+      }
+    }
+  ]
+}

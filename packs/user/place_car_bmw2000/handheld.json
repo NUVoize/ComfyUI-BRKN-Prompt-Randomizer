@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "place_car_bmw2000.handheld.keys_bmw",
+      "type": "handheld",
+      "label": "A small key on a leather fob",
+      "prompt": "a small key on a leather fob",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.handheld.driving_gloves_bmw",
+      "type": "handheld",
+      "label": "Leather driving gloves held in one hand",
+      "prompt": "leather driving gloves held in one hand",
+      "tags": [
+        "gear"
+      ],
+      "weight": 1.2,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.handheld.cigarette",
+      "type": "handheld",
+      "label": "A cigarette held loosely",
+      "prompt": "a cigarette held loosely",
+      "tags": [
+        "everyday"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "place_car_bmw2000.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 7.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

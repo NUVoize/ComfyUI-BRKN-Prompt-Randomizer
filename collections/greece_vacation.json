@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "collection_id": "greece_vacation",
+  "name": "Greece Vacation",
+  "description": "Mediterranean travel styling using currently installed BRKN Riviera, yacht, cinematic, and bike/location packs. Placeholder Greece-specific packs can be added later without changing the browser.",
+  "thumbnail": "",
+  "search_terms": [
+    "greece",
+    "greek islands",
+    "mediterranean",
+    "vacation",
+    "travel",
+    "summer",
+    "riviera",
+    "yacht"
+  ],
+  "referenced_pack_ids": [
+    "wear_riviera",
+    "place_yacht",
+    "place_bike",
+    "look_cinematic",
+    "greece_locations"
+  ],
+  "recommended_weights": {
+    "wear_riviera": 1.2,
+    "place_yacht": 1.3,
+    "place_bike": 0.6,
+    "look_cinematic": 1.0,
+    "greece_locations": 1.5
+  }
+}

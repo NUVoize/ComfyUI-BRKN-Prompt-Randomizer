@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0",
+  "content_type": "characters",
+  "entries": [
+    {
+      "id": "brkn_chassis.character.sporty_glam_brunette",
+      "type": "character",
+      "label": "A young woman in her mid twenties, striking arched brows",
+      "prompt": "a young woman in her mid twenties, striking arched brows, bright eyes, a slim curvy toned hourglass figure with a narrow waist and defined abs",
+      "tags": [
+        "adult",
+        "woman",
+        "sporty",
+        "glam",
+        "brunette",
+        "curvy",
+        "nightlife"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "sporty_glam_brunette"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.soft_blonde_natural",
+      "type": "character",
+      "label": "A young woman in her early twenties, pale glowing skin, ",
+      "prompt": "a young woman in her early twenties, pale glowing skin, light blue-green eyes, full natural brows, delicate features, a slender feminine frame with narrow shoulders",
+      "tags": [
+        "adult",
+        "woman",
+        "natural",
+        "soft",
+        "blonde",
+        "slim",
+        "daylight"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties",
+        "archetype": "soft_blonde_natural"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.dark_lounge_beauty",
+      "type": "character",
+      "label": "A young woman in her mid twenties, piercing light eyes, ",
+      "prompt": "a young woman in her mid twenties, piercing light eyes, softly sculpted cheekbones, a slim-curvy soft hourglass figure with a narrow waist",
+      "tags": [
+        "adult",
+        "woman",
+        "cosy",
+        "lounge",
+        "brunette",
+        "curvy",
+        "bedroom"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "dark_lounge_beauty"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.tattooed_alt",
+      "type": "character",
+      "label": "A young woman in her mid twenties, sharp eyes, defined b",
+      "prompt": "a young woman in her mid twenties, sharp eyes, defined brows, a pouty mouth, tattooed arms and shoulders, a compact curvy figure with a slim waist",
+      "tags": [
+        "adult",
+        "woman",
+        "alt",
+        "edgy",
+        "tattooed",
+        "curvy"
+      ],
+      "weight": 1.0,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "tattooed_alt"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.blonde_bombshell",
+      "type": "character",
+      "label": "A young woman in her mid twenties, tanned glowing skin, ",
+      "prompt": "a young woman in her mid twenties, tanned glowing skin, sharp cheekbones, a very lean athletic figure with long legs, a tiny waist and visible abs",
+      "tags": [
+        "adult",
+        "woman",
+        "luxury",
+        "blonde",
+        "athletic",
+        "poolside",
+        "bold"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties",
+        "archetype": "blonde_bombshell"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.beach_party_platinum",
+      "type": "character",
+      "label": "A young woman in her early twenties, fair skin, a straig",
+      "prompt": "a young woman in her early twenties, fair skin, a straight delicate nose, soft lips, a slim-curvy figure with a toned waist and lean legs",
+      "tags": [
+        "adult",
+        "woman",
+        "beach",
+        "festival",
+        "blonde",
+        "carefree"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties",
+        "archetype": "beach_party_platinum"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.american_blue_eyed",
+      "type": "character",
+      "label": "A young woman in her early twenties, american, pale blue",
+      "prompt": "a young woman in her early twenties, American, pale blue eyes, a slim figure with a slim waist",
+      "tags": [
+        "adult",
+        "woman",
+        "american",
+        "slim",
+        "natural"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "european",
+        "age_band": "early_twenties",
+        "archetype": "american_blue_eyed"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.freckled_auburn",
+      "type": "character",
+      "label": "A young woman in her mid twenties, pale skin densely fre",
+      "prompt": "a young woman in her mid twenties, pale skin densely freckled across the nose and cheeks, green-grey eyes, pale lashes, a soft mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "freckled",
+        "redhead"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.olive_dark_lash",
+      "type": "character",
+      "label": "A young woman in her mid twenties, warm olive skin, deep",
+      "prompt": "a young woman in her mid twenties, warm olive skin, deep brown eyes under heavy dark lashes, thick natural brows, a full mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "olive",
+        "brunette"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.porcelain_grey",
+      "type": "character",
+      "label": "A young woman in her early twenties, very pale porcelain",
+      "prompt": "a young woman in her early twenties, very pale porcelain skin, grey eyes, fine pale brows, a small pink mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "pale",
+        "dark_hair"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.deep_skin_gold",
+      "type": "character",
+      "label": "A young black woman in her mid twenties, deep rich skin ",
+      "prompt": "a young Black woman in her mid twenties, deep rich skin with a warm sheen, dark almond eyes, sharp cheekbones, a full mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "deep",
+        "black"
+      ],
+      "weight": 1.5,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.sun_worn_blonde",
+      "type": "character",
+      "label": "A young woman in her late twenties, tanned skin with fai",
+      "prompt": "a young woman in her late twenties, tanned skin with faint sun damage across the cheekbones, pale blue eyes, a dry mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "tan",
+        "blonde"
+      ],
+      "weight": 1.1,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "late_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.weathered_brunette",
+      "type": "character",
+      "label": "A young woman in her late twenties, fair skin with visib",
+      "prompt": "a young woman in her late twenties, fair skin with visible texture and a faint scatter of freckles, hazel eyes, strong brows",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "fair",
+        "brunette"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "late_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.east_asian_clear",
+      "type": "character",
+      "label": "A young woman in her mid twenties, clear even skin, dark",
+      "prompt": "a young woman in her mid twenties, clear even skin, dark monolid eyes, straight brows, a soft mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "east_asian"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.south_asian_warm",
+      "type": "character",
+      "label": "A young woman in her mid twenties, warm brown skin, larg",
+      "prompt": "a young woman in her mid twenties, warm brown skin, large dark eyes with long lashes, thick brows, a full mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "south_asian"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.latina_glow",
+      "type": "character",
+      "label": "A young woman in her early twenties, golden skin with a ",
+      "prompt": "a young woman in her early twenties, golden skin with a natural glow, dark eyes, defined brows, a full mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "latina"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "early_twenties"
+      }
+    },
+    {
+      "id": "brkn_chassis.character.mixed_curls",
+      "type": "character",
+      "label": "A young woman in her mid twenties of mixed heritage, war",
+      "prompt": "a young woman in her mid twenties of mixed heritage, warm brown skin, light hazel eyes, a wide mouth",
+      "tags": [
+        "adult",
+        "woman",
+        "portrait_native",
+        "mixed"
+      ],
+      "weight": 1.3,
+      "metadata": {
+        "adult": true,
+        "descent": "unspecified",
+        "age_band": "mid_twenties"
+      }
+    }
+  ]
+}

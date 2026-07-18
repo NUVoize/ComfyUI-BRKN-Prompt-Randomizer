@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "content_type": "hair_styles",
+  "entries": [
+    {
+      "id": "wear_goth_classic.hair_style.blunt_bangs_bob",
+      "type": "hair_style",
+      "label": "In a shaggy bob with blunt bangs",
+      "prompt": "in a shaggy bob with blunt bangs",
+      "tags": [
+        "goth_classic"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_classic.hair_style.choppy_bangs_shoulder",
+      "type": "hair_style",
+      "label": "In shoulder-length layers with choppy bangs",
+      "prompt": "in shoulder-length layers with choppy bangs",
+      "tags": [
+        "goth_classic"
+      ],
+      "weight": 2.6
+    },
+    {
+      "id": "wear_goth_classic.hair_style.teased_tousled",
+      "type": "hair_style",
+      "label": "Teased and tousled",
+      "prompt": "teased and tousled",
+      "tags": [
+        "goth_classic"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.hair_style.long_straight_bangs",
+      "type": "hair_style",
+      "label": "Worn long and straight with a blunt fringe",
+      "prompt": "worn long and straight with a blunt fringe",
+      "tags": [
+        "goth_classic"
+      ],
+      "weight": 2.2
+    },
+    {
+      "id": "wear_goth_classic.hair_style.messy_layers",
+      "type": "hair_style",
+      "label": "In messy layers",
+      "prompt": "in messy layers",
+      "tags": [
+        "goth_classic"
+      ],
+      "weight": 1.8
+    }
+  ]
+}

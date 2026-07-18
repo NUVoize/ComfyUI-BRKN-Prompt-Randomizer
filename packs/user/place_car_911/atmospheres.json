@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "content_type": "atmospheres",
+  "entries": [
+    {
+      "id": "place_car_911.atmosphere.low_sun_chrome",
+      "type": "atmosphere",
+      "label": "Low sun catching the chrome",
+      "prompt": "low sun catching the chrome",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "daylit"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.atmosphere.wet_road_911",
+      "type": "atmosphere",
+      "label": "Wet road, the car throwing back the light",
+      "prompt": "wet road, the car throwing back the light",
+      "tags": [
+        "weather_rain",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "weather": "rain",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.atmosphere.night_streetlights",
+      "type": "atmosphere",
+      "label": "Full dark, only the streetlights",
+      "prompt": "full dark, only the streetlights",
+      "tags": [
+        "weather_clear",
+        "scope_any",
+        "night"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "weather": "clear",
+        "scope": "any",
+        "season": "any"
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "day_ok"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.atmosphere.sea_haze",
+      "type": "atmosphere",
+      "label": "Sea haze softening the light",
+      "prompt": "sea haze softening the light",
+      "tags": [
+        "weather_fog",
+        "scope_outdoor",
+        "daylit"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "weather": "fog",
+        "scope": "outdoor",
+        "season": "any"
+      },
+      "requires": {
+        "location_tags_any": [
+          "outdoor",
+          "threshold"
+        ]
+      },
+      "excludes": {
+        "visual_style_tags_any": [
+          "night_style"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.atmosphere.unspecified",
+      "type": "atmosphere",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 9.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

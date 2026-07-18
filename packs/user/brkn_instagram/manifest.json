@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_instagram",
+  "name": "BRKN Instagram Girls",
+  "version": "1.0.0",
+  "author": "BRKN",
+  "description": "Closed-world Instagram pack. Selfie-heavy, hyper-real, candid. Ships composed characters and NO facet types: the look stays whole. Use with enabled_packs=brkn_instagram, alone.",
+  "content_types": [
+    "characters",
+    "environments",
+    "locations",
+    "actions",
+    "poses",
+    "outfits",
+    "footwear",
+    "accessories",
+    "eyewear",
+    "headwear",
+    "bags",
+    "handhelds",
+    "head_positions",
+    "gazes",
+    "expressions",
+    "visual_styles",
+    "camera_presets",
+    "lighting_presets"
+  ],
+  "enabled_by_default": false,
+  "priority": 200,
+  "dependencies": [],
+  "tags": [
+    "instagram",
+    "selfie",
+    "influencer",
+    "closed_world"
+  ]
+}

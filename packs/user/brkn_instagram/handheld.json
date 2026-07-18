@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "handhelds",
+  "entries": [
+    {
+      "id": "brkn_instagram.handheld.iced_coffee",
+      "type": "handheld",
+      "label": "An iced coffee",
+      "prompt": "an iced coffee",
+      "tags": [
+        "handheld"
+      ],
+      "weight": 1.4,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.handheld.water_bottle",
+      "type": "handheld",
+      "label": "A water bottle",
+      "prompt": "a water bottle",
+      "tags": [
+        "handheld"
+      ],
+      "weight": 1.0,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.handheld.shopping_bags",
+      "type": "handheld",
+      "label": "Shopping bags",
+      "prompt": "shopping bags",
+      "tags": [
+        "handheld"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.handheld.sunglasses_in_hand",
+      "type": "handheld",
+      "label": "Her sunglasses in one hand",
+      "prompt": "her sunglasses in one hand",
+      "tags": [
+        "handheld"
+      ],
+      "weight": 0.6,
+      "excludes": {
+        "action_tags_any": [
+          "hands_busy"
+        ]
+      }
+    },
+    {
+      "id": "brkn_instagram.handheld.unspecified",
+      "type": "handheld",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 8.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

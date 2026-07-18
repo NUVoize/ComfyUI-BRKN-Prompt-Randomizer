@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-modular-prompt-composer"
+version = "0.1.0"
+description = "Structured, seeded, rule-aware prompt composition for ComfyUI from drop-in JSON content packs."
+requires-python = ">=3.10"
+dependencies = ["jsonschema>=4.18"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.comfy]
+PublisherId = "brkn"
+DisplayName = "Modular Prompt Composer"

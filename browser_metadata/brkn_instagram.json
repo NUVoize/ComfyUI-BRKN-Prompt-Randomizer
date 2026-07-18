@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "pack_id": "brkn_instagram",
+  "selection_role": "base",
+  "selection_category": "base_pack",
+  "is_complete_pack": true,
+  "thumbnail_base": "thumbnails/style",
+  "cover_image": {
+    "path": "instagram__thumbnail_512.webp",
+    "label": "BRKN Instagram thumbnail",
+    "role": "cover"
+  },
+  "preview_images": []
+}

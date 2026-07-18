@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "content_type": "accessories",
+  "entries": [
+    {
+      "id": "brkn_instagram.accessory.gold_hoops",
+      "type": "accessory",
+      "label": "Gold hoop earrings",
+      "prompt": "gold hoop earrings",
+      "tags": [
+        "jewellery",
+        "gold"
+      ],
+      "weight": 1.5
+    },
+    {
+      "id": "brkn_instagram.accessory.thin_gold_chain",
+      "type": "accessory",
+      "label": "A thin gold chain",
+      "prompt": "a thin gold chain",
+      "tags": [
+        "jewellery",
+        "minimal"
+      ],
+      "weight": 1.4
+    },
+    {
+      "id": "brkn_instagram.accessory.layered_chains",
+      "type": "accessory",
+      "label": "Layered gold chains",
+      "prompt": "layered gold chains",
+      "tags": [
+        "jewellery"
+      ],
+      "weight": 1.2
+    },
+    {
+      "id": "brkn_instagram.accessory.stacked_rings",
+      "type": "accessory",
+      "label": "Stacked gold rings",
+      "prompt": "stacked gold rings",
+      "tags": [
+        "jewellery"
+      ],
+      "weight": 1.1
+    },
+    {
+      "id": "brkn_instagram.accessory.tennis_bracelet",
+      "type": "accessory",
+      "label": "A tennis bracelet",
+      "prompt": "a tennis bracelet",
+      "tags": [
+        "jewellery",
+        "glam"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "brkn_instagram.accessory.bare",
+      "type": "accessory",
+      "label": "No jewellery",
+      "prompt": "no jewellery",
+      "tags": [
+        "minimal"
+      ],
+      "weight": 1.3
+    },
+    {
+      "id": "brkn_instagram.accessory.anklet",
+      "type": "accessory",
+      "label": "A fine anklet",
+      "prompt": "a fine anklet",
+      "tags": [
+        "jewellery",
+        "summer"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "brkn_instagram.accessory.silk_hair_scarf",
+      "type": "accessory",
+      "label": "A silk scarf tied in her hair",
+      "prompt": "a silk scarf tied in her hair",
+      "tags": [
+        "styling"
+      ],
+      "weight": 0.6
+    },
+    {
+      "id": "brkn_instagram.accessory.unspecified",
+      "type": "accessory",
+      "label": "- unspecified -",
+      "prompt": "",
+      "tags": [
+        "unspecified"
+      ],
+      "weight": 5.0,
+      "metadata": {
+        "unspecified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "content_type": "footwear",
+  "entries": [
+    {
+      "id": "wear_goth_classic2.footwear.thigh_platforms",
+      "type": "footwear",
+      "label": "Towering black platform boots to the thigh, laced and bu",
+      "prompt": "towering black platform boots to the thigh, laced and buckled",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.8,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic2.footwear.knee_platforms",
+      "type": "footwear",
+      "label": "Huge knee-high black platform boots with heavy buckles",
+      "prompt": "huge knee-high black platform boots with heavy buckles",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.6,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic2.footwear.chunky_laceup",
+      "type": "footwear",
+      "label": "Chunky black lace-up platform boots",
+      "prompt": "chunky black lace-up platform boots",
+      "tags": [
+        "boots"
+      ],
+      "weight": 2.2,
+      "metadata": {
+        "footwear_category": "boots"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge"
+        ]
+      }
+    },
+    {
+      "id": "wear_goth_classic2.footwear.platform_heel_boots",
+      "type": "footwear",
+      "label": "Tall black platform heel boots",
+      "prompt": "tall black platform heel boots",
+      "tags": [
+        "heels"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "footwear_category": "heels"
+      },
+      "excludes": {
+        "outfit_tags_any": [
+          "lounge",
+          "sporty"
+        ]
+      }
+    }
+  ]
+}

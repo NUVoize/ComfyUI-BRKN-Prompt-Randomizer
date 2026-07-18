@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "content_type": "face_paints",
+  "entries": [
+    {
+      "id": "wear_goth_romantic.face_paint.deep_red_lip",
+      "type": "face_paint",
+      "label": "A deep blood-red lip against pale skin",
+      "prompt": "a deep blood-red lip against pale skin",
+      "tags": [
+        "glam"
+      ],
+      "weight": 3.2,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_romantic.face_paint.soft_smoke_red",
+      "type": "face_paint",
+      "label": "A soft smoked eye and a dark red mouth",
+      "prompt": "a soft smoked eye and a dark red mouth",
+      "tags": [
+        "glam"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "coverage": "glam"
+      }
+    },
+    {
+      "id": "wear_goth_romantic.face_paint.pale_bare_red",
+      "type": "face_paint",
+      "label": "Bare pale skin and only a red lip",
+      "prompt": "bare pale skin and only a red lip",
+      "tags": [
+        "natural"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "coverage": "natural"
+      }
+    },
+    {
+      "id": "wear_goth_romantic.face_paint.no_makeup_pale",
+      "type": "face_paint",
+      "label": "No makeup at all, skin very pale",
+      "prompt": "no makeup at all, skin very pale",
+      "tags": [
+        "bare"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "coverage": "bare"
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "content_type": "actions",
+  "entries": [
+    {
+      "id": "place_car_911.action.driving_911",
+      "type": "action",
+      "label": "Driving, both hands on a thin wooden wheel",
+      "prompt": "driving, both hands on a thin wooden wheel",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_911.action.hand_on_gearstick",
+      "type": "action",
+      "label": "Resting a hand on the gearstick",
+      "prompt": "resting a hand on the gearstick",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_911.action.looking_back_911",
+      "type": "action",
+      "label": "Twisting back over her shoulder",
+      "prompt": "twisting back over her shoulder",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_911.action.leg_out_of_door",
+      "type": "action",
+      "label": "Swinging one leg out of the open door",
+      "prompt": "swinging one leg out of the open door",
+      "tags": [
+        "seated",
+        "vehicle_seat"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_911.action.selfie_911",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "seated",
+        "vehicle_seat",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.8,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    },
+    {
+      "id": "place_car_911.action.sitting_on_bonnet",
+      "type": "action",
+      "label": "Sitting up on the low bonnet",
+      "prompt": "sitting up on the low bonnet",
+      "tags": [
+        "seated",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.action.leaning_on_wing",
+      "type": "action",
+      "label": "Leaning back against the front wing",
+      "prompt": "leaning back against the front wing",
+      "tags": [
+        "standing",
+        "vehicle_exterior"
+      ],
+      "weight": 2.4,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wing"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.action.arms_on_roof",
+      "type": "action",
+      "label": "Resting both arms on the low roof",
+      "prompt": "resting both arms on the low roof",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy"
+      ],
+      "weight": 2.0,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_roof"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.action.stretched_on_bonnet",
+      "type": "action",
+      "label": "Lying back across the bonnet",
+      "prompt": "lying back across the bonnet",
+      "tags": [
+        "reclining",
+        "vehicle_exterior"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_hood"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.action.crouched_by_wheel_911",
+      "type": "action",
+      "label": "Crouched at the front wheel",
+      "prompt": "crouched at the front wheel",
+      "tags": [
+        "crouching",
+        "vehicle_exterior"
+      ],
+      "weight": 1.2,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "requires": {
+        "location_tags_any": [
+          "part_wheel"
+        ]
+      }
+    },
+    {
+      "id": "place_car_911.action.walking_away_911",
+      "type": "action",
+      "label": "Walking away, glancing back",
+      "prompt": "walking away, glancing back",
+      "tags": [
+        "moving",
+        "vehicle_exterior"
+      ],
+      "weight": 1.4,
+      "metadata": {
+        "action_family": "commuting"
+      }
+    },
+    {
+      "id": "place_car_911.action.selfie_by_911",
+      "type": "action",
+      "label": "Taking a selfie",
+      "prompt": "taking a selfie",
+      "tags": [
+        "standing",
+        "vehicle_exterior",
+        "hands_busy",
+        "selfie"
+      ],
+      "weight": 1.6,
+      "metadata": {
+        "action_family": "commuting"
+      },
+      "prefers": {
+        "camera_tags_any": {
+          "values": [
+            "selfie"
+          ],
+          "bonus": 8.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brkn.local/prompt-composer/schemas/head_position.schema.json",
+  "title": "Head Position",
+  "allOf": [
+    {
+      "$ref": "entry-base.schema.json"
+    }
+  ],
+  "properties": {
+    "type": {
+      "const": "head_position"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "unspecified": {
+          "type": "boolean"
+        },
+        "eye_state": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "facing": {
+          "type": "string",
+          "maxLength": 32
+        }
+      }
+    }
+  }
+}
