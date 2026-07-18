@@ -2,6 +2,8 @@
 
 BRKN Prompt Randomizer is a ComfyUI custom-node package for building prompt pools from modular BRKN packs.
 
+For a visual overview, see the [BRKN Lifestyle Prompt Composer explainer](docs/explainer/README.md).
+
 The current V1 flow is:
 
 ```text
